@@ -14,7 +14,7 @@ Authoritative, practical, calm. You are briefing a busy director who wants to **
 - **Name the trade-off.** Health economics is the study of trade-offs; a paragraph that presents a practice with no cost, tension, or loser is probably hiding something. Say who pays and what is given up.
 - **No hype.** Avoid "revolutionary", "game-changing", "cutting-edge", "seamless". If a claim needs an adjective to sound true, it needs a citation instead.
 
-**Person.** Second person for guidance to the reader ("your organisation", "before you commission an evaluation, decide the perspective"). Third person when describing how practice works in the world ("commissioners weigh the incremental cost against the threshold"). Do not slip into first person ("I", "we") except in the preface.
+**Person.** Second person for guidance to the reader ("your organization", "before you commission an evaluation, decide the perspective"). Third person when describing how practice works in the world ("commissioners weigh the incremental cost against the threshold"). Do not slip into first person ("I", "we") except in the preface.
 
 ---
 
@@ -30,7 +30,7 @@ The book is **worldwide** (spec §1). Do not assume the reader works in any one 
 
 ## 3. Spelling, terms, and mechanics
 
-- **UK spelling** is the house style (organis*e*, prioritis*e*, behaviour, programme, centre), consistent with World Health Organization usage. This is a style choice, not a statement of scope. Exception: "program" only for a software program; "programme" for a delivery construct or a health programme.
+- **Oxford spelling** is the house style: British spelling with `-ize`/`-ization` endings for Greek-derived verbs (organize, prioritize, standardize, realize), keeping British forms everywhere else (behaviour, centre, licence, programme, modelling, judgement, ageing) and the British `-yse` (**analyse**, paralyse — never analyze). This matches World Health Organization and UN usage. The full contract, with word lists, is **[`spec/oxford-spelling.md`](spec/oxford-spelling.md)** — read it before drafting. Exception: "program" only for a software program; "programme" for a delivery construct or a health programme. Never re-spell a proper name, a citation/title, or text inside a URL.
 - **Acronyms:** expand on first use **in each chapter**, with the acronym in parentheses: "quality-adjusted life year (QALY)". After that, use the acronym. Re-expand in the next chapter — chapters are read standalone.
 - **Numbers:** words for one to nine in prose, numerals for 10 and above and for all figures with units, percentages, and money (£20,000, 7%, 3.5 million). Use a non-breaking sense of "per cent" or "%" consistently within a chapter.
 - **Em dashes** for parenthetical breaks — like this — with spaces. En dashes for ranges (5–12, 2003–2008).
@@ -77,11 +77,11 @@ Every chapter has exactly these sections, in this order (spec §3). Notes and mi
 
 **7. `## In practice: a health economics example`** — one concrete, realistic, **fictional** worked scenario. Give it a named (fictional) setting that varies by chapter and rotates around the world. Walk through the decision and the economics; show the method doing work, including where it is uncomfortable.
 
-**8. `## Four sector lenses`** — four `###` subsections in this fixed order: `### Startup`, `### Small business`, `### Enterprise`, `### Government`. Each 3–6 sentences. Show how the same topic changes with scale, funding model, risk appetite, and accountability. "Startup" = an early-stage venture (a digital health start-up, a pilot); "Small business" = a small but established provider or practice (a GP partnership, a single clinic, a care home, a small supplier); "Enterprise" = a large provider, insurer, or payer organisation; "Government" = a ministry, national payer, or regulator. Keep Startup and Small business genuinely distinct — early-stage/venture-funded/uncertain versus established/self-funded/steady-state.
+**8. `## Four sector lenses`** — four `###` subsections in this fixed order: `### Startup`, `### Small business`, `### Enterprise`, `### Government`. Each 3–6 sentences. Show how the same topic changes with scale, funding model, risk appetite, and accountability. "Startup" = an early-stage venture (a digital health start-up, a pilot); "Small business" = a small but established provider or practice (a GP partnership, a single clinic, a care home, a small supplier); "Enterprise" = a large provider, insurer, or payer organization; "Government" = a ministry, national payer, or regulator. Keep Startup and Small business genuinely distinct — early-stage/venture-funded/uncertain versus established/self-funded/steady-state.
 
 **9. `## Common failure modes`** — anti-patterns and how to avoid each. A bulleted or short-numbered list; name the failure, then the fix.
 
-**10. `## Maturity model`** — a table with exactly five level columns — **Initiate / Develop / Standardise / Manage / Orchestrate** — and **3–5 rows** of observable characteristics. Cells describe what you would actually see at that level, not aspirations. The progression: ad hoc first steps (Initiate) → building capability (Develop) → consistent standard practice (Standardise) → active management by data (Manage) → orchestrating across the whole system and partners (Orchestrate). Keep the five headings verbatim (UK spelling, e.g. "Standardise") as fixed house vocabulary.
+**10. `## Maturity model`** — a table with exactly five level columns — **Initiate / Develop / Standardize / Manage / Orchestrate** — and **3–5 rows** of observable characteristics. Cells describe what you would actually see at that level, not aspirations. The progression: ad hoc first steps (Initiate) → building capability (Develop) → consistent standard practice (Standardize) → active management by data (Manage) → orchestrating across the whole system and partners (Orchestrate). Keep the five headings verbatim (Oxford spelling — note the `-ize` in "Standardize") as fixed house vocabulary.
 
 **11. `## Checklist`** — **6–12** actionable `- [ ]` items a reader can take away and use.
 
@@ -110,9 +110,9 @@ Target **~3,000–3,500 words of substantive prose** (spec §5). Reach it by **d
 - [ ] Best practices numbered, 8–12, bold lead-ins.
 - [ ] Exactly six discussion questions, each with a briefing, before the worked example.
 - [ ] Sector lenses in order: Startup, Small business, Enterprise, Government.
-- [ ] Maturity table: five columns (Initiate/Develop/Standardise/Manage/Orchestrate), 3–5 rows.
+- [ ] Maturity table: five columns (Initiate/Develop/Standardize/Manage/Orchestrate), 3–5 rows.
 - [ ] Checklist: 6–12 `- [ ]` items.
 - [ ] 5–12 verified Wikipedia links; every one also in `## References`.
 - [ ] No invented sources, figures, or quotations.
-- [ ] UK spelling; acronyms expanded on first use; ~3,000–3,500 words.
+- [ ] Oxford spelling (see `spec/oxford-spelling.md`); acronyms expanded on first use; ~3,000–3,500 words.
 - [ ] Cross-references carry number and title.

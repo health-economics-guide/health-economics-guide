@@ -24,7 +24,7 @@ This repository is a book: the *Health Economics Guide*, 17 Markdown chapters in
 4. **One writer per file.** Never let two agents edit the same file concurrently. Fan out across *distinct* chapters only.
 5. **Consistency updates travel together.** A change that adds or renames terms/chapters updates `README.md`, `GLOSSARY.md`, and `INDEX.md` in the same change (spec §7).
 6. **Cross-references carry number *and* title** — "(see Chapter 2.1 — Economic Evaluation)" — never a bare number.
-7. **UK spelling; expand acronyms on first use in each chapter; ~3,000–3,500 words of substantive prose per chapter** — reached by depth, never filler.
+7. **Oxford spelling (see `spec/oxford-spelling.md`); expand acronyms on first use in each chapter; ~3,000–3,500 words of substantive prose per chapter** — reached by depth, never filler.
 8. **Chapter scope is assigned.** The manifest's scope notes (spec §4) give every contested concept exactly one home chapter. Cross-reference; don't re-teach.
 
 ## Roles

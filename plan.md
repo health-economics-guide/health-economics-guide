@@ -12,7 +12,7 @@ The chapter list derives from the Economics Network's health economics curriculu
 
 - **Economics Network — Health Economics for Teachers** (https://economicsnetwork.ac.uk/health/teachers): the 14-module curriculum this book's chapter list is built on, with per-topic sub-pages.
 - **Wikipedia — Health economics** (https://en.wikipedia.org/wiki/Health_economics): Arrow's 1963 framing, Williams' eight-area "plumbing diagram", the Grossman model, market failures, evaluation methods, subfields.
-- **GOV.UK — Health economics: a guide for public health teams** (https://www.gov.uk/guidance/health-economics-a-guide-for-public-health-teams): ROI tools, prioritisation frameworks, SPOT/HEER resources — one national exemplar of the practitioner's view this book must serve; WHO, OECD, and World Bank materials balance it internationally (spec §6).
+- **GOV.UK — Health economics: a guide for public health teams** (https://www.gov.uk/guidance/health-economics-a-guide-for-public-health-teams): ROI tools, prioritization frameworks, SPOT/HEER resources — one national exemplar of the practitioner's view this book must serve; WHO, OECD, and World Bank materials balance it internationally (spec §6).
 
 Distilled notes live in `_sources/research-notes.md`. Chapter authors should start there, then verify sources directly.
 
@@ -49,7 +49,7 @@ Run the four gates from spec §10 across the whole book:
 - **Structural gate** — 13 sections, correct order and names, per chapter (scriptable).
 - **Link gate** — every Wikipedia link resolves and appears in `## References`; 5–12 per chapter (scriptable: extract links, HEAD-check each).
 - **Source gate** — no invented citations, figures, or quotations (human/agent review).
-- **Consistency gate** — headings match filenames match manifest; cross-references carry correct number *and* title; UK spelling; acronyms expanded (partly scriptable).
+- **Consistency gate** — headings match filenames match manifest; cross-references carry correct number *and* title; Oxford spelling (see `spec/oxford-spelling.md`); acronyms expanded (partly scriptable).
 
 Fix everything the gates surface, then a final read-through of README → preface → one chapter per part for voice consistency.
 

@@ -109,7 +109,7 @@ Spec §3/§8/§10 and STYLE_GUIDE updated, then every chapter retrofitted:
 
 - [x] Discussion questions: 3 → **6** (three new distinct briefed questions per chapter)
 - [x] Sector lenses: 3 → **4** (added `### Small business` after Startup: Startup, Small business, Enterprise, Government)
-- [x] Maturity model: 4-level → **5-level** (Initiate / Develop / Standardise / Manage / Orchestrate — fixed house vocabulary, UK spelling)
+- [x] Maturity model: 4-level → **5-level** (Initiate / Develop / Standardize / Manage / Orchestrate — fixed house vocabulary; Oxford spelling, `-ize`)
 - [x] Structural gate re-run: all 29 pass (6 questions, 4 ordered lenses, 5-level table, 13-section sequence)
 - [x] Link gate: all 29 chapters 5–12 links, every inline link in References, all 292 unique Wikipedia URLs resolve 200
 - [x] Reference matter rebuilt for 29 chapters — glossary **352 terms**, index **325 concepts**; re-validated (pointers match manifest, index numbers valid, all links resolve)
@@ -124,3 +124,15 @@ Spec §3/§8/§10 and STYLE_GUIDE updated, then every chapter retrofitted:
 - [x] Fix everything the gates surface
 - [x] Final read-through: chapter 1.1 read in full; structure of all 17 validated for voice/format consistency
 - [x] `git init` + initial commit
+
+## Phase 7 — Adopt Oxford spelling as the house standard
+
+The house spelling standard is **Oxford spelling** (British spelling with `-ize`/`-ization` for Greek-derived verbs; British otherwise, incl. `-yse` in *analyse*), matching World Health Organization / UN-system usage.
+
+- [x] `spec/oxford-spelling.md` written (the spelling contract, with word lists and boundaries)
+- [x] Spelling rule updated in spec §5, STYLE_GUIDE §3, AGENTS.md, AGENTS role cards, plan.md to reference Oxford spelling
+- [x] Whole-book conversion `-ise → -ize` for Greek-derived verbs across all 29 chapters + front/reference matter, applied with three safeguards: **URLs protected** (no Wikipedia slug altered), **`## Key sources` / `## References` sections skipped** (citations/titles unchanged), and the **OECD's official name** ("Organisation for Economic Co-operation and Development") preserved
+- [x] Preserved British forms: `-yse` (analyse, paralyse), `-our`, `-re`, licence/defence, programme, modelling, judgement, ageing, grey, anaesthetic
+- [x] Maturity header now "Standardize" (Oxford `-ize`) across all 29 chapters
+- [x] Verified: all 292 Wikipedia URLs still resolve 200; body residual `-ise` misses (organizational, unrecognized, etc.) fixed; analyse untouched
+- [x] `git commit` the Oxford spelling adoption

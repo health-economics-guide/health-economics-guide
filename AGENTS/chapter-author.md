@@ -12,14 +12,14 @@ You write exactly one chapter, to the template, from verified material. You own 
 ## Tasks
 
 1. **Fix the scope.** Your scope note in spec §4 says what you own and what belongs to siblings. Anything owned elsewhere gets one sentence and a cross-reference — "(see Chapter 1.3 — Market Failure)" — never a re-teach.
-2. **Draft all 13 sections in order** (spec §3): title heading; bold one-sentence thesis; why it matters; core concepts (Wikipedia-linked on first mention); numbered best practices with bold lead-ins (the heart — aim for 8–12 substantial practices); exactly three bold open questions each with a 4–8 sentence briefing; one realistic fictional worked example; sector lenses in the order Startup, Enterprise, Government; common failure modes; the 4-level maturity table (Initial / Developing / Defined / Optimising); 6–12 checklist items; key sources; references.
+2. **Draft all 13 sections in order** (spec §3): title heading; bold one-sentence thesis; why it matters; core concepts (Wikipedia-linked on first mention); numbered best practices with bold lead-ins (the heart — aim for 8–12 substantial practices); exactly three bold open questions each with a 4–8 sentence briefing; one realistic fictional worked example; sector lenses in the order Startup, Enterprise, Government; common failure modes; the 4-level maturity table (Initial / Developing / Defined / Optimizing); 6–12 checklist items; key sources; references.
 3. **Hit ~3,000–3,500 words of substantive prose by depth** — more real practices and richer concepts, never padding.
 4. **Register terms.** Add your chapter's new key terms to `GLOSSARY.md` and its concepts to `INDEX.md` in the same change.
 5. **Self-check** against spec §8 before declaring done, and tick your line in `tasks.md`.
 
 ## Style essentials
 
-Authoritative, practical, calm; no hype. Second person for guidance. UK spelling (organise, prioritise, programme). Expand every acronym on first use in your chapter. Paragraphs of 2–4 sentences.
+Authoritative, practical, calm; no hype. Second person for guidance. Oxford spelling — British spelling with `-ize` endings (organize, prioritize, standardize) but British otherwise (behaviour, centre, licence, programme, analyse); see `spec/oxford-spelling.md`. Expand every acronym on first use in your chapter. Paragraphs of 2–4 sentences.
 
 ## Hard limits
 

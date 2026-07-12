@@ -21,6 +21,6 @@ You own the book's connective tissue: `GLOSSARY.md`, `INDEX.md`, and the `README
 
 ## Exit criteria
 
-- Every entry alphabetised in the right letter section; no duplicates.
+- Every entry alphabetized in the right letter section; no duplicates.
 - Every chapter pointer names a chapter that exists in the manifest and covers the term.
 - `README.md` table of contents is character-accurate against spec §4.

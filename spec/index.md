@@ -8,7 +8,7 @@
 
 ## 1. Product definition
 
-A practical handbook of best practices for understanding and applying health economics in real health and care organisations.
+A practical handbook of best practices for understanding and applying health economics in real health and care organizations.
 
 - **Working title:** *Health Economics Guide
 - **Subtitle:** A practical handbook of best practices for health economics.
@@ -50,7 +50,7 @@ Every chapter uses these headings, in this order. This is the contract the matur
 7. `## In practice: a health economics example` — one concrete, realistic, fictional worked scenario (e.g. a regional health system deciding whether to fund a new screening programme). Vary the setting across chapters — different countries, system types, and income levels — so the book reads as genuinely worldwide.
 8. `## Four sector lenses` — the same topic across four `###` subsections **in this order**: `### Startup`, `### Small business`, `### Enterprise`, `### Government`. Each 3–6 sentences, showing how the practice changes with scale, funding model, risk appetite, and accountability. "Startup" is an early-stage venture; "Small business" is a small but established provider or practice; "Enterprise" is a large provider, insurer, or payer; "Government" is a ministry, national payer, or regulator.
 9. `## Common failure modes` — anti-patterns and how to avoid them.
-10. `## Maturity model` — a **5-level** table with columns **Initiate / Develop / Standardise / Manage / Orchestrate** and 3–5 rows of observable characteristics. These five level names are a fixed house vocabulary; keep them verbatim (UK spelling, e.g. "Standardise").
+10. `## Maturity model` — a **5-level** table with columns **Initiate / Develop / Standardize / Manage / Orchestrate** and 3–5 rows of observable characteristics. These five level names are a fixed house vocabulary; keep them verbatim (Oxford spelling — note the `-ize` in "Standardize").
 11. `## Checklist` — 6–12 actionable `- [ ]` items.
 12. `## Key sources` — bulleted, real and verifiable; cite frameworks by name.
 13. `## References` — a numbered list combining (a) Wikipedia articles for the key concepts named in the chapter and (b) authoritative sources. Format each: *title — publisher/author — URL*.
@@ -85,7 +85,7 @@ Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 2.6 | Evidence Synthesis and Meta-Analysis | `02-06-evidence-synthesis-and-meta-analysis.md` |
 
 ### Part 3 — Systems, Policy and Priorities
-*How societies organise, fund, and share out healthcare.*
+*How societies organize, fund, and share out healthcare.*
 
 | # | Title | Filename |
 |---|---|---|
@@ -141,7 +141,7 @@ Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 - **3.10 Mental Health Economics** owns the distinctive economics of mental illness: why standard outcome measures fit poorly, human-capital and productivity effects (absenteeism, presenteeism), parity of esteem in funding, the treatment gap, and the economics of prevention and early intervention. Capability and wellbeing measurement belongs to 3.5 (cross-reference); general evaluation to 2.1; behavioural mechanisms to 4.1.
 - **4.5 Climate and Planetary Health Economics** owns the environmental externalities of health systems (the carbon footprint of care), the health co-benefits of climate action, valuing health within climate policy (where the social cost of carbon meets health), the cost-effectiveness of low-carbon/sustainable care, and climate change as a driver of future health costs. General externality theory belongs to 1.3 (cross-reference); global and pandemic externalities to 3.6; evaluation methods to 2.1.
 - **1.5 Determinants of Health** owns what *produces* health beyond healthcare (Williams' "box A"): the socioeconomic gradient in health, the social, commercial, and environmental determinants as *causes*, the limited marginal contribution of medical care to population health, "health in all policies", and the causation-versus-correlation challenge in determinants evidence. The *distribution* of health and the measurement of inequity belong to 3.4 Equity (cross-reference — determinants are the causes, equity is the fairness of the result); the demand-side production of health by individuals (Grossman) belongs to 1.2; behavioural mechanisms to 4.1; environmental/climate determinants to 4.5.
-- **2.6 Evidence Synthesis and Meta-Analysis** owns how a body of studies is pooled into the evidence that feeds evaluation and health technology assessment: systematic review, meta-analysis, network (indirect-comparison) meta-analysis, evidence hierarchies and GRADE, heterogeneity, publication bias, and living evidence. Single-study causal inference belongs to 2.3 Health Econometrics (cross-reference); the decision model that consumes the synthesised inputs belongs to 2.2 Modelling; the evaluation itself to 2.1. This is the "where the numbers in the model come from" chapter.
+- **2.6 Evidence Synthesis and Meta-Analysis** owns how a body of studies is pooled into the evidence that feeds evaluation and health technology assessment: systematic review, meta-analysis, network (indirect-comparison) meta-analysis, evidence hierarchies and GRADE, heterogeneity, publication bias, and living evidence. Single-study causal inference belongs to 2.3 Health Econometrics (cross-reference); the decision model that consumes the synthesized inputs belongs to 2.2 Modelling; the evaluation itself to 2.1. This is the "where the numbers in the model come from" chapter.
 - **3.11 Strategic Purchasing and Commissioning** owns the active discipline of *buying* care to get value: strategic purchasing, the commissioning cycle (assess, plan, procure, monitor), selective and value-based contracting, provider selection, make-or-buy, and outcome-based contracts. The payment *mechanisms* (capitation, fee-for-service, diagnosis-related groups) as system design belong to 3.1 Health Systems (cross-reference); insurance benefit design to 3.8; priority-setting and disinvestment to 3.3. This is "how a payer purchases"; 3.1 is "how the system is structured".
 - **3.12 Quality and Safety Economics** owns the economics of quality and patient safety: the cost of poor quality and of harm (adverse events, healthcare-associated infection), the business case for safety, pay-for-performance for quality and its unintended effects, value-based purchasing for quality, and the measurement of quality. Payment mechanisms in general belong to 3.1 (cross-reference); outcome measurement to 2.1; AI-specific safety to 4.4.
 - **4.6 Pandemic and Emergency Preparedness Economics** owns the economics of preparing for rare, catastrophic events: low-probability/high-consequence appraisal and tail risk, the option value of preparedness (stockpiles, surge capacity, standing vaccine platforms), why markets and annual budgets systematically under-provide preparedness, and the value of preventing catastrophe. Pandemics as global externalities and public goods belong to 3.6 Global Health and Trade (cross-reference); climate resilience to 4.5; antimicrobial resistance to 1.3 and 4.2.
@@ -152,9 +152,9 @@ Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 ## 5. Voice, style & formatting rules
 
 - **Voice:** authoritative, practical, calm. No hype. Name trade-offs honestly; evidence over assertion.
-- **Person:** second person ("you", "your organisation") for guidance; third person when describing practice.
+- **Person:** second person ("you", "your organization") for guidance; third person when describing practice.
 - **Acronyms:** expand every acronym on first use **in each chapter**.
-- **Spelling:** UK spelling as the house style (organis*e*, prioritis*e*, programme), consistent with WHO usage — a style choice, not a scope statement; the book's content is worldwide. Exception: keep "program" only for a software program; use "programme" for the delivery construct. Be consistent within a chapter.
+- **Spelling:** **Oxford spelling** as the house style — British spelling with `-ize`/`-ization` endings for Greek-derived verbs (organize, prioritize, standardize, realize), while keeping British forms elsewhere (behaviour, centre, licence, programme, modelling, judgement, ageing, and **analyse**/paralyse with `-yse`). This matches World Health Organization and UN-system usage; it is a style choice, not a scope statement. The full contract is in **[`spec/oxford-spelling.md`](oxford-spelling.md)**. Exception: keep "program" only for a software program; use "programme" for the delivery construct. Never change the spelling of a proper name, citation, or the text inside a URL. Be consistent within a chapter.
 - **Paragraphs:** 2–4 sentences. Markdown only. Use tables for comparisons and maturity models.
 - **Length:** target **~3,000–3,500 words of substantive prose per chapter** (most run ~3,000–4,000 words including tables and references). Deepen rather than pad; never invent filler. No chapter should fall below ~3,000 words.
 - **Cross-references:** reference sibling chapters by number and title — e.g. "(see Chapter 8.1 — Change Management)". Always include the title, not just the number, so references survive renumbering.
@@ -191,11 +191,11 @@ A chapter is complete when all are true:
 - [ ] `## Best practices` is numbered with bold lead-ins.
 - [ ] Exactly **six** open discussion questions, each with a 4–8 sentence briefing, placed before the worked example.
 - [ ] Four sector lenses in order: Startup, Small business, Enterprise, Government.
-- [ ] Maturity model is a 5-level table (Initiate / Develop / Standardise / Manage / Orchestrate).
+- [ ] Maturity model is a 5-level table (Initiate / Develop / Standardize / Manage / Orchestrate).
 - [ ] Checklist has 6–12 `- [ ]` items.
 - [ ] 5–12 verified Wikipedia links; every inline link also in `## References`.
 - [ ] Every citation is real and checkable; no invented facts, URLs, or numbers.
-- [ ] UK spelling; acronyms expanded on first use; ~2,500–3,500 words.
+- [ ] Oxford spelling (see `spec/oxford-spelling.md`); acronyms expanded on first use; ~2,500–3,500 words.
 - [ ] `README.md`, `GLOSSARY.md`, and `INDEX.md` updated for any new terms/structure (§7).
 
 ---
@@ -216,10 +216,10 @@ A chapter can be written from scratch, regenerated, or deepened by a human or an
 
 Before a chapter or a change is considered complete, it passes four gates. Automate them wherever possible; a failure in any gate blocks "done".
 
-- **Structural gate.** Thirteen sections present and correctly named; a bold one-sentence thesis; numbered best practices with bold lead-ins; exactly six discussion questions before the example; four sector lenses in the order Startup, Small business, Enterprise, Government; a five-column maturity table (Initiate / Develop / Standardise / Manage / Orchestrate); a checklist of 6–12 `- [ ]` items.
+- **Structural gate.** Thirteen sections present and correctly named; a bold one-sentence thesis; numbered best practices with bold lead-ins; exactly six discussion questions before the example; four sector lenses in the order Startup, Small business, Enterprise, Government; a five-column maturity table (Initiate / Develop / Standardize / Manage / Orchestrate); a checklist of 6–12 `- [ ]` items.
 - **Link gate.** Every inline Wikipedia link resolves to a real article and also appears in `## References`; no invented or guessed slugs; 5–12 links per chapter.
 - **Source gate.** No invented citations, URLs, statistics, or quotations. Figures are either real and checkable or described qualitatively.
-- **Consistency gate.** The `# Chapter N — Title` heading matches the filename and the manifest; every `Chapter N — Title` cross-reference names the chapter that actually holds that number; UK spelling; acronyms expanded on first use.
+- **Consistency gate.** The `# Chapter N — Title` heading matches the filename and the manifest; every `Chapter N — Title` cross-reference names the chapter that actually holds that number; Oxford spelling (see `spec/oxford-spelling.md`); acronyms expanded on first use.
 
 ## 11. Structural change & renumbering procedure
 
@@ -246,7 +246,7 @@ Adding, removing, splitting, merging, or reordering chapters is the highest-risk
 
 ## 14. Versioning & change control
 
-Treat structural changes — chapters added, removed, split, merged, renumbered, or reorganised into new parts — as versioned events. Make each such change as a single, self-contained commit that updates **every** artifact in §7 together, so the repository is never left half-renumbered between commits. Where the repository and this manifest disagree, the manifest expresses the intended structure and the repository must be corrected to match it, not the other way around. Keep this spec current in the same change: it is only a source of truth if it describes the book as it actually is.
+Treat structural changes — chapters added, removed, split, merged, renumbered, or reorganized into new parts — as versioned events. Make each such change as a single, self-contained commit that updates **every** artifact in §7 together, so the repository is never left half-renumbered between commits. Where the repository and this manifest disagree, the manifest expresses the intended structure and the repository must be corrected to match it, not the other way around. Keep this spec current in the same change: it is only a source of truth if it describes the book as it actually is.
 
 
 ## 15. Non-goals & scope boundaries

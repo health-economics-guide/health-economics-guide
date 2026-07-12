@@ -12,7 +12,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Accountability for reasonableness** — A framework (Daniels and Sabin) for making priority-setting legitimate through four conditions: publicity, relevant reasons, revisability, and enforcement. — See Chapter 3.3 — Rationing.
 
-**Accountable care organisation** — A provider group given a budget and a stake in the outcomes and total cost of a defined population, aligning payment with the coverage an insurer is trying to deliver. *[Wikipedia](https://en.wikipedia.org/wiki/Accountable_care_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Accountable care organization** — A provider group given a budget and a stake in the outcomes and total cost of a defined population, aligning payment with the coverage an insurer is trying to deliver. *[Wikipedia](https://en.wikipedia.org/wiki/Accountable_care_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Activities of daily living (ADLs)** — The basic self-care tasks — bathing, dressing, toileting, transferring, continence, feeding — whose limitation grades dependency and drives the cost of long-term care. *[Wikipedia](https://en.wikipedia.org/wiki/Activities_of_daily_living)* — See Chapter 3.9 — Long-Term and Social Care Economics.
 
@@ -26,7 +26,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Adverse selection** — The unravelling of a voluntary insurance pool when those who expect to claim are keenest to buy, raising premiums and driving out the healthy. *[Wikipedia](https://en.wikipedia.org/wiki/Adverse_selection)* — See Chapter 1.3 — Market Failure.
 
-**Advance market commitment (AMC)** — A binding promise by funders to subsidise the future purchase of a product at a pre-agreed price and quality, used to pull private research towards diseases whose market is otherwise too small. *[Wikipedia](https://en.wikipedia.org/wiki/Advance_market_commitments)* — See Chapter 4.2 — Innovation Health Economics.
+**Advance market commitment (AMC)** — A binding promise by funders to subsidize the future purchase of a product at a pre-agreed price and quality, used to pull private research towards diseases whose market is otherwise too small. *[Wikipedia](https://en.wikipedia.org/wiki/Advance_market_commitments)* — See Chapter 4.2 — Innovation Health Economics.
 
 **Affordability versus value** — The distinction between whether an intervention is good value per patient (cost-effectiveness) and whether a payer can fund it across everyone eligible in the years the bill falls due (affordability). — See Chapter 2.5 — Budget Impact and Affordability.
 
@@ -70,7 +70,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Block contract** — A contract paying a provider a fixed sum for a broadly defined service; the purchaser bears demand risk cheaply but the contract only weakly rewards activity. — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
-**Bounded rationality** — Herbert Simon's insight that real decision-makers have limited attention and information, so they satisfice rather than optimise. *[Wikipedia](https://en.wikipedia.org/wiki/Bounded_rationality)* — See Chapter 4.1 — Behavioural Economics.
+**Bounded rationality** — Herbert Simon's insight that real decision-makers have limited attention and information, so they satisfice rather than optimize. *[Wikipedia](https://en.wikipedia.org/wiki/Bounded_rationality)* — See Chapter 4.1 — Behavioural Economics.
 
 **Budget impact analysis (BIA)** — An estimate of the total, year-by-year financial consequences of adopting an intervention for a whole eligible population against a specific budget, distinct from and complementary to cost-effectiveness. — See Chapter 2.5 — Budget Impact and Affordability.
 
@@ -80,7 +80,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Capability approach** — Sen's and Nussbaum's framework valuing the real freedoms a person has to do and be what they value, rather than resources, utility, or health states alone. *[Wikipedia](https://en.wikipedia.org/wiki/Capability_approach)* — See Chapter 3.5 — Capabilities.
 
-**Capacity utilisation** — How fully a provider's fixed plant is used; central to cost per case, with an optimum that is deliberately below full because standing ready has value. *[Wikipedia](https://en.wikipedia.org/wiki/Capacity_utilization)* — See Chapter 1.4 — Supply of Healthcare.
+**Capacity utilization** — How fully a provider's fixed plant is used; central to cost per case, with an optimum that is deliberately below full because standing ready has value. *[Wikipedia](https://en.wikipedia.org/wiki/Capacity_utilization)* — See Chapter 1.4 — Supply of Healthcare.
 
 **Capitation** — Paying a provider a fixed sum per enrolled person per period regardless of activity; rewards prevention and restraint but risks under-provision. *[Wikipedia](https://en.wikipedia.org/wiki/Capitation_(healthcare))* — See Chapter 3.1 — Health Systems.
 
@@ -94,7 +94,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Choice architecture** — The design of the environment in which people make decisions; whoever shapes it is the choice architect. *[Wikipedia](https://en.wikipedia.org/wiki/Choice_architecture)* — See Chapter 4.1 — Behavioural Economics.
 
-**Climate change mitigation** — Action to cut greenhouse-gas emissions — including decarbonising health estates, supply chains, and care models — as distinct from adaptation to climate impacts. *[Wikipedia](https://en.wikipedia.org/wiki/Climate_change_mitigation)* — See Chapter 4.5 — Climate and Planetary Health Economics.
+**Climate change mitigation** — Action to cut greenhouse-gas emissions — including decarbonizing health estates, supply chains, and care models — as distinct from adaptation to climate impacts. *[Wikipedia](https://en.wikipedia.org/wiki/Climate_change_mitigation)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
 **Clinical decision support system** — Software that recommends, ranks, or flags information to a human clinician rather than deciding autonomously. *[Wikipedia](https://en.wikipedia.org/wiki/Clinical_decision_support_system)* — See Chapter 4.4 — AI Health Economics.
 
@@ -108,21 +108,21 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Coinsurance** — A form of cost-sharing in which the insured pays a fixed percentage of each bill, so their exposure rises with the cost of care. *[Wikipedia](https://en.wikipedia.org/wiki/Coinsurance)* — See Chapter 3.8 — Insurance and Risk Protection.
 
-**Commercial determinants of health** — The ways private-sector products, marketing, supply chains, and lobbying — in tobacco, alcohol, ultra-processed food, and gambling — shape health, often adversely and at a profit that is privatised while the harm is socialised. *[Wikipedia](https://en.wikipedia.org/wiki/Commercial_determinants_of_health)* — See Chapter 1.5 — Determinants of Health.
+**Commercial determinants of health** — The ways private-sector products, marketing, supply chains, and lobbying — in tobacco, alcohol, ultra-processed food, and gambling — shape health, often adversely and at a profit that is privatized while the harm is socialized. *[Wikipedia](https://en.wikipedia.org/wiki/Commercial_determinants_of_health)* — See Chapter 1.5 — Determinants of Health.
 
 **Commissioning** — The practical expression of strategic purchasing: assessing a population's needs, planning and procuring services, and monitoring what is delivered. *[Wikipedia](https://en.wikipedia.org/wiki/Commissioning)* — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
-**Commissioning cycle** — The continuous loop of assess, plan and prioritise, procure and contract, then monitor and review — the discipline that makes purchasing ongoing rather than a one-off tender. — See Chapter 3.11 — Strategic Purchasing and Commissioning.
+**Commissioning cycle** — The continuous loop of assess, plan and prioritize, procure and contract, then monitor and review — the discipline that makes purchasing ongoing rather than a one-off tender. — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
-**Community rating** — Charging everyone in a pool the same premium regardless of individual health risk, so the healthy subsidise the sick and coverage stays affordable for those most likely to need it. *[Wikipedia](https://en.wikipedia.org/wiki/Community_rating)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Community rating** — Charging everyone in a pool the same premium regardless of individual health risk, so the healthy subsidize the sick and coverage stays affordable for those most likely to need it. *[Wikipedia](https://en.wikipedia.org/wiki/Community_rating)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Companion diagnostic** — A test that identifies which patients should receive a particular treatment, so the two are evaluated and used together. — See Chapter 4.2 — Innovation Health Economics.
 
 **Compensating differential** — The extra pay a worker requires to accept worse conditions — night shifts, danger, an unpopular rural posting; unpaid, it yields a predictable shortage. *[Wikipedia](https://en.wikipedia.org/wiki/Compensating_differential)* — See Chapter 3.7 — Health Workforce and Labour Markets.
 
-**Compulsory licence** — A lawful override of a patent letting a country authorise a generic version of a medicine, affirmed for public-health need by the Doha Declaration. *[Wikipedia](https://en.wikipedia.org/wiki/Compulsory_license)* — See Chapter 3.6 — Global Health and Trade.
+**Compulsory licence** — A lawful override of a patent letting a country authorize a generic version of a medicine, affirmed for public-health need by the Doha Declaration. *[Wikipedia](https://en.wikipedia.org/wiki/Compulsory_license)* — See Chapter 3.6 — Global Health and Trade.
 
-**Concentration index and curve** — Tools that rank a population from poorest to richest and summarise how far health, illness, or care use is concentrated among rich or poor. — See Chapter 3.4 — Equity.
+**Concentration index and curve** — Tools that rank a population from poorest to richest and summarize how far health, illness, or care use is concentrated among rich or poor. — See Chapter 3.4 — Equity.
 
 **Concept drift** — The silent decay of a model's performance as the population or practice it meets diverges from its training data. *[Wikipedia](https://en.wikipedia.org/wiki/Concept_drift)* — See Chapter 4.4 — AI Health Economics.
 
@@ -174,7 +174,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Default effect** — The strong influence of whatever happens when a person does nothing, exploited (for example) by opt-out organ-donation registration. *[Wikipedia](https://en.wikipedia.org/wiki/Default_effect)* — See Chapter 4.1 — Behavioural Economics.
 
-**Deinstitutionalisation** — The twentieth-century shift from asylums to community mental-health care; a saving where the promised community funding followed the patients, and a cost-shift where it did not. *[Wikipedia](https://en.wikipedia.org/wiki/Deinstitutionalisation)* — See Chapter 3.10 — Mental Health Economics.
+**Deinstitutionalization** — The twentieth-century shift from asylums to community mental-health care; a saving where the promised community funding followed the patients, and a cost-shift where it did not. *[Wikipedia](https://en.wikipedia.org/wiki/Deinstitutionalisation)* — See Chapter 3.10 — Mental Health Economics.
 
 **Dementia** — The single largest driver of high-intensity, long-duration long-term-care need, blending cognitive and physical dependency and falling heavily on families. *[Wikipedia](https://en.wikipedia.org/wiki/Dementia)* — See Chapter 3.9 — Long-Term and Social Care Economics.
 
@@ -238,7 +238,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Early intervention in psychosis** — Services that intervene early in psychotic illness to change a lifetime trajectory, a mental-health investment whose returns are real but back-loaded. *[Wikipedia](https://en.wikipedia.org/wiki/Early_intervention_in_psychosis)* — See Chapter 3.10 — Mental Health Economics.
 
-**Egalitarianism** — A distributive view that seeks to equalise health or access across people. *[Wikipedia](https://en.wikipedia.org/wiki/Egalitarianism)* — See Chapter 3.4 — Equity.
+**Egalitarianism** — A distributive view that seeks to equalize health or access across people. *[Wikipedia](https://en.wikipedia.org/wiki/Egalitarianism)* — See Chapter 3.4 — Equity.
 
 **Environmental determinants of health** — The physical environment — air and water quality, the built environment, green space, housing, and neighbourhood safety — as a cause of current health in its own right. — See Chapter 1.5 — Determinants of Health.
 
@@ -272,7 +272,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Financial headroom** — The space a budget holder actually has to absorb new spending after existing commitments — almost always far smaller than the total budget. — See Chapter 2.5 — Budget Impact and Affordability.
 
-**Fiscal space** — The room a government has to raise health spending without endangering the sustainability of the public finances; WHO names growth, re-prioritisation, earmarked taxes, aid, and efficiency as its sources, each with a ceiling. *[Wikipedia](https://en.wikipedia.org/wiki/Fiscal_space)* — See Chapter 3.1 — Health Systems.
+**Fiscal space** — The room a government has to raise health spending without endangering the sustainability of the public finances; WHO names growth, re-prioritization, earmarked taxes, aid, and efficiency as its sources, each with a ceiling. *[Wikipedia](https://en.wikipedia.org/wiki/Fiscal_space)* — See Chapter 3.1 — Health Systems.
 
 **Fixed cost** — A cost that does not vary with the number of patients in the short run (the building, the core establishment, the scanner). *[Wikipedia](https://en.wikipedia.org/wiki/Fixed_cost)* — See Chapter 1.4 — Supply of Healthcare.
 
@@ -288,7 +288,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## G
 
-**Gavi** — A vaccine alliance that subsidises immunisation and shapes markets with tools such as advance market commitments and co-financing requirements. *[Wikipedia](https://en.wikipedia.org/wiki/Gavi)* — See Chapter 3.6 — Global Health and Trade.
+**Gavi** — A vaccine alliance that subsidizes immunization and shapes markets with tools such as advance market commitments and co-financing requirements. *[Wikipedia](https://en.wikipedia.org/wiki/Gavi)* — See Chapter 3.6 — Global Health and Trade.
 
 **Generic drug** — A chemically identical copy of a small-molecule medicine, marketable once patents lapse; entry typically collapses price towards manufacturing cost. *[Wikipedia](https://en.wikipedia.org/wiki/Generic_drug)* — See Chapter 2.4 — Pharmacoeconomics.
 
@@ -332,11 +332,11 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Health insurance** — The trade of a small certain premium for protection against a large uncertain loss; a rational demand for financial protection in every system. *[Wikipedia](https://en.wikipedia.org/wiki/Health_insurance)* — See Chapter 1.2 — Demand for Health and Healthcare.
 
-**Health maintenance organization (HMO)** — A managed-care organisation that combines insurance and provision and channels members to a defined network of providers. *[Wikipedia](https://en.wikipedia.org/wiki/Health_maintenance_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Health maintenance organization (HMO)** — A managed-care organization that combines insurance and provision and channels members to a defined network of providers. *[Wikipedia](https://en.wikipedia.org/wiki/Health_maintenance_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Health policy** — The decisions, plans, and actions a government takes to pursue population-health goals and correct market failures. *[Wikipedia](https://en.wikipedia.org/wiki/Health_policy)* — See Chapter 3.2 — Health Policy.
 
-**Health system** — The whole set of organisations, people, and resources whose primary purpose is to promote, restore, or maintain health. *[Wikipedia](https://en.wikipedia.org/wiki/Health_system)* — See Chapter 3.1 — Health Systems.
+**Health system** — The whole set of organizations, people, and resources whose primary purpose is to promote, restore, or maintain health. *[Wikipedia](https://en.wikipedia.org/wiki/Health_system)* — See Chapter 3.1 — Health Systems.
 
 **Health technology assessment (HTA)** — The systematic appraisal of a technology's costs, benefits, and consequences, run by bodies such as NICE and IQWiG to inform coverage and pricing. *[Wikipedia](https://en.wikipedia.org/wiki/Health_technology_assessment)* — See Chapter 2.1 — Economic Evaluation.
 
@@ -376,9 +376,9 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Integrated care** — Knitting providers together so that a single accountable entity manages a whole pathway, an alternative to buying fragmented services piecemeal. *[Wikipedia](https://en.wikipedia.org/wiki/Integrated_care)* — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
-**Integration (health and social care)** — Pooling budgets, aligning assessment, and organising services around the person to overcome cost-shifting at the health–social-care boundary; better coordination rather than quick savings. — See Chapter 3.9 — Long-Term and Social Care Economics.
+**Integration (health and social care)** — Pooling budgets, aligning assessment, and organizing services around the person to overcome cost-shifting at the health–social-care boundary; better coordination rather than quick savings. — See Chapter 3.9 — Long-Term and Social Care Economics.
 
-**Intention-to-treat analysis** — Analysing trial participants in the group they were randomised to, to stop selection bias creeping back in. *[Wikipedia](https://en.wikipedia.org/wiki/Intention-to-treat_analysis)* — See Chapter 2.3 — Health Econometrics.
+**Intention-to-treat analysis** — Analysing trial participants in the group they were randomized to, to stop selection bias creeping back in. *[Wikipedia](https://en.wikipedia.org/wiki/Intention-to-treat_analysis)* — See Chapter 2.3 — Health Econometrics.
 
 **Inverse care law** — Tudor Hart's observation that the availability of good medical care tends to vary inversely with the need of the population served. *[Wikipedia](https://en.wikipedia.org/wiki/Inverse_care_law)* — See Chapter 3.4 — Equity.
 
@@ -416,7 +416,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Make-or-buy decision** — The purchaser's choice whether to commission a service from an external provider, deliver it in-house, or integrate providers around a pathway. — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
-**Managed care** — Techniques — networks, gatekeeping, utilisation management, prior authorisation — by which an insurer actively influences the care members receive, a response to moral hazard. *[Wikipedia](https://en.wikipedia.org/wiki/Managed_care)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Managed care** — Techniques — networks, gatekeeping, utilization management, prior authorization — by which an insurer actively influences the care members receive, a response to moral hazard. *[Wikipedia](https://en.wikipedia.org/wiki/Managed_care)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Managed entry agreement** — A contract granting access to a medicine on conditions — a confidential discount, a spend cap, a refund, or coverage while data are collected. — See Chapter 2.4 — Pharmacoeconomics.
 
@@ -428,7 +428,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Market failure** — Any situation in which a market, left to itself, allocates resources inefficiently; health care is the textbook case. *[Wikipedia](https://en.wikipedia.org/wiki/Market_failure)* — See Chapter 1.3 — Market Failure.
 
-**Market structure** — How providers compete — from monopolistic competition to oligopoly to natural monopoly — which shapes how supply is organised. *[Wikipedia](https://en.wikipedia.org/wiki/Market_structure)* — See Chapter 1.4 — Supply of Healthcare.
+**Market structure** — How providers compete — from monopolistic competition to oligopoly to natural monopoly — which shapes how supply is organized. *[Wikipedia](https://en.wikipedia.org/wiki/Market_structure)* — See Chapter 1.4 — Supply of Healthcare.
 
 **Markov model** — A model representing a disease as mutually exclusive health states with cohorts moving between them in fixed cycles; the workhorse for chronic disease. *[Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)* — See Chapter 2.2 — Modelling.
 
@@ -470,7 +470,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Natural monopoly** — A market where scale economies and limited demand make a single provider efficient, so competition cannot discipline price or quality and regulation must. *[Wikipedia](https://en.wikipedia.org/wiki/Natural_monopoly)* — See Chapter 1.4 — Supply of Healthcare.
 
-**Net zero emissions** — A state in which emissions are balanced by removals; the target framing for decarbonising a health system, credible only with a dated trajectory. *[Wikipedia](https://en.wikipedia.org/wiki/Net_zero_emissions)* — See Chapter 4.5 — Climate and Planetary Health Economics.
+**Net zero emissions** — A state in which emissions are balanced by removals; the target framing for decarbonizing a health system, credible only with a dated trajectory. *[Wikipedia](https://en.wikipedia.org/wiki/Net_zero_emissions)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
 **Network effect** — The way a platform grows more valuable as more people use it, which can entrench a single vendor and raise long-run cost. *[Wikipedia](https://en.wikipedia.org/wiki/Network_effect)* — See Chapter 4.3 — Digital Health Economics.
 
@@ -488,7 +488,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Occupational burnout** — Exhaustion and disengagement from chronic workplace stress; an economic variable that raises turnover, absence, and error and lowers effective labour supply. *[Wikipedia](https://en.wikipedia.org/wiki/Occupational_burnout)* — See Chapter 3.7 — Health Workforce and Labour Markets.
 
-**Occupational licensing** — Making it illegal to practise without a state-recognised credential; protects patients but restricts entry and raises insider incomes. *[Wikipedia](https://en.wikipedia.org/wiki/Occupational_licensing)* — See Chapter 3.7 — Health Workforce and Labour Markets.
+**Occupational licensing** — Making it illegal to practise without a state-recognized credential; protects patients but restricts entry and raises insider incomes. *[Wikipedia](https://en.wikipedia.org/wiki/Occupational_licensing)* — See Chapter 3.7 — Health Workforce and Labour Markets.
 
 **One Health** — The framing that links human, animal, and environmental health, important for emerging infectious disease. *[Wikipedia](https://en.wikipedia.org/wiki/One_Health)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
@@ -524,7 +524,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Patient safety** — Freedom from preventable harm during health care; the goal that the economics of quality and safety serves. *[Wikipedia](https://en.wikipedia.org/wiki/Patient_safety)* — See Chapter 3.12 — Quality and Safety Economics.
 
-**Patient-reported outcome measures (PROMs)** — Standardised questionnaires patients complete about their own symptoms, functioning, and quality of life; increasingly the raw material from which outcome values and QALYs are built. *[Wikipedia](https://en.wikipedia.org/wiki/Patient-reported_outcome)* — See Chapter 2.1 — Economic Evaluation.
+**Patient-reported outcome measures (PROMs)** — Standardized questionnaires patients complete about their own symptoms, functioning, and quality of life; increasingly the raw material from which outcome values and QALYs are built. *[Wikipedia](https://en.wikipedia.org/wiki/Patient-reported_outcome)* — See Chapter 2.1 — Economic Evaluation.
 
 **Patient values versus public values** — The contested question of whose preferences should set health-state weights: the public who fund the system but have not lived the state, or the patients who have adapted to it. — See Chapter 3.5 — Capabilities.
 
@@ -532,7 +532,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Pharmacoeconomics** — The branch of health economics studying the costs and consequences of pharmaceutical products and the systems that pay for them. *[Wikipedia](https://en.wikipedia.org/wiki/Pharmacoeconomics)* — See Chapter 2.4 — Pharmacoeconomics.
 
-**Phased (managed) adoption** — Introducing a valuable but unaffordable intervention in stages — prioritising the highest-need first, capping volumes, or spreading the cash — to fund something real within available headroom. — See Chapter 2.5 — Budget Impact and Affordability.
+**Phased (managed) adoption** — Introducing a valuable but unaffordable intervention in stages — prioritizing the highest-need first, capping volumes, or spreading the cash — to fund something real within available headroom. — See Chapter 2.5 — Budget Impact and Affordability.
 
 **Physician supply** — The stock of doctors, set by a training pipeline whose long lags mean today's intake decisions determine supply a decade hence. *[Wikipedia](https://en.wikipedia.org/wiki/Physician_supply)* — See Chapter 3.7 — Health Workforce and Labour Markets.
 
@@ -548,7 +548,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Precautionary principle** — The rule that, where a threat is potentially irreversible and catastrophic, protective action is warranted even under deep uncertainty about its probability — shifting the burden of proof, not licensing unlimited spend. *[Wikipedia](https://en.wikipedia.org/wiki/Precautionary_principle)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
 
-**Precision medicine (stratified / personalised medicine)** — Using biological information, often genomic, to target a therapy at the subgroup likely to benefit rather than treating an average patient. — See Chapter 4.2 — Innovation Health Economics.
+**Precision medicine (stratified / personalized medicine)** — Using biological information, often genomic, to target a therapy at the subgroup likely to benefit rather than treating an average patient. — See Chapter 4.2 — Innovation Health Economics.
 
 **Preferred provider organization (PPO)** — A managed-care arrangement offering wider provider choice at higher cost than an HMO. *[Wikipedia](https://en.wikipedia.org/wiki/Preferred_provider_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
 
@@ -566,7 +566,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Price elasticity of demand** — The percentage change in the quantity of care used for a percentage change in the price the user faces. *[Wikipedia](https://en.wikipedia.org/wiki/Price_elasticity_of_demand)* — See Chapter 1.2 — Demand for Health and Healthcare.
 
-**Prior authorisation** — A managed-care tool requiring an insurer's approval before certain expensive services are delivered; useful against overuse, corrosive when it rations by hassle. *[Wikipedia](https://en.wikipedia.org/wiki/Prior_authorization)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Prior authorization** — A managed-care tool requiring an insurer's approval before certain expensive services are delivered; useful against overuse, corrosive when it rations by hassle. *[Wikipedia](https://en.wikipedia.org/wiki/Prior_authorization)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Prioritarianism** — A distributive-justice view that seeks more health overall but gives extra moral weight to gains for the worse-off; the ethical basis of equity weights. *[Wikipedia](https://en.wikipedia.org/wiki/Prioritarianism)* — See Chapter 3.4 — Equity.
 
@@ -586,7 +586,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Public good (economics)** — A good that is non-rival and non-excludable (e.g. disease surveillance, research knowledge), under-produced by an unaided market. *[Wikipedia](https://en.wikipedia.org/wiki/Public_good_(economics))* — See Chapter 1.3 — Market Failure.
 
-**Public health** — The organised effort to protect and improve the health of populations, supplying much of policy's rationale. *[Wikipedia](https://en.wikipedia.org/wiki/Public_health)* — See Chapter 3.2 — Health Policy.
+**Public health** — The organized effort to protect and improve the health of populations, supplying much of policy's rationale. *[Wikipedia](https://en.wikipedia.org/wiki/Public_health)* — See Chapter 3.2 — Health Policy.
 
 **Public-health return on investment (ROI) tools** — Practitioner calculators (e.g. GOV.UK / Public Health England) that estimate a prevention programme's payback over realistic multi-year horizons and by population group. — See Chapter 3.2 — Health Policy.
 
@@ -604,15 +604,15 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## R
 
-**RAND Health Insurance Experiment** — The landmark randomised study showing cost-sharing reduces care used, mostly without average harm but with harm to the poorest and sickest. *[Wikipedia](https://en.wikipedia.org/wiki/RAND_Health_Insurance_Experiment)* — See Chapter 1.3 — Market Failure.
+**RAND Health Insurance Experiment** — The landmark randomized study showing cost-sharing reduces care used, mostly without average harm but with harm to the poorest and sickest. *[Wikipedia](https://en.wikipedia.org/wiki/RAND_Health_Insurance_Experiment)* — See Chapter 1.3 — Market Failure.
 
 **Random-effects model** — A meta-analysis model that assumes the true effect genuinely varies across studies and estimates the average of that distribution, giving wider, more honest uncertainty than a fixed-effect model. *[Wikipedia](https://en.wikipedia.org/wiki/Random_effects_model)* — See Chapter 2.6 — Evidence Synthesis and Meta-Analysis.
 
-**Randomised controlled trial (RCT)** — A study allocating participants to treatment or control by chance, balancing known and unknown confounders. *[Wikipedia](https://en.wikipedia.org/wiki/Randomized_controlled_trial)* — See Chapter 2.3 — Health Econometrics.
+**Randomized controlled trial (RCT)** — A study allocating participants to treatment or control by chance, balancing known and unknown confounders. *[Wikipedia](https://en.wikipedia.org/wiki/Randomized_controlled_trial)* — See Chapter 2.3 — Health Econometrics.
 
 **Rationing** — The allocation of a scarce resource among competing claims; in health, a permanent condition to be managed openly and fairly. *[Wikipedia](https://en.wikipedia.org/wiki/Rationing)* — See Chapter 3.3 — Rationing.
 
-**Rawlsian maximin ("just health")** — The view (John Rawls, extended by Norman Daniels) that prioritises the worst-off and grounds a right to health care in fair equality of opportunity. — See Chapter 3.4 — Equity.
+**Rawlsian maximin ("just health")** — The view (John Rawls, extended by Norman Daniels) that prioritizes the worst-off and grounds a right to health care in fair equality of opportunity. — See Chapter 3.4 — Equity.
 
 **Real option** — An asset whose worth lies in the flexibility to act if circumstances demand it; preparedness — stockpiles, surge capacity, standing platforms — is valued this way, not by conventional net-present-value arithmetic. *[Wikipedia](https://en.wikipedia.org/wiki/Real_options_valuation)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
 
@@ -622,7 +622,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Regulatory capture** — The tendency for the industries a regulator oversees to shape its rules in their own favour. *[Wikipedia](https://en.wikipedia.org/wiki/Regulatory_capture)* — See Chapter 3.2 — Health Policy.
 
-**Reinsurance** — Insurance for insurers, by which a scheme covers itself against extreme individual claims, stabilising a pool without narrowing coverage. *[Wikipedia](https://en.wikipedia.org/wiki/Reinsurance)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Reinsurance** — Insurance for insurers, by which a scheme covers itself against extreme individual claims, stabilizing a pool without narrowing coverage. *[Wikipedia](https://en.wikipedia.org/wiki/Reinsurance)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Remote patient monitoring** — Using devices such as blood-pressure cuffs and glucose sensors to collect data outside a clinical setting and route it to a care team. *[Wikipedia](https://en.wikipedia.org/wiki/Remote_patient_monitoring)* — See Chapter 4.3 — Digital Health Economics.
 
@@ -632,9 +632,9 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Returns to scale** — How output responds when all inputs are scaled together — rising more than, in step with, or less than proportionately. *[Wikipedia](https://en.wikipedia.org/wiki/Returns_to_scale)* — See Chapter 1.4 — Supply of Healthcare.
 
-**Return on investment (ROI / SROI)** — The ratio of monetised benefit to cost used in public-health business cases; SROI widens the lens to social and wellbeing value. — See Chapter 2.1 — Economic Evaluation.
+**Return on investment (ROI / SROI)** — The ratio of monetized benefit to cost used in public-health business cases; SROI widens the lens to social and wellbeing value. — See Chapter 2.1 — Economic Evaluation.
 
-**Risk equalisation** — Transferring funds towards payers that enrol sicker members, so competition between insurers is about efficiency rather than risk-selection. *[Wikipedia](https://en.wikipedia.org/wiki/Risk_equalization)* — See Chapter 3.1 — Health Systems.
+**Risk equalization** — Transferring funds towards payers that enrol sicker members, so competition between insurers is about efficiency rather than risk-selection. *[Wikipedia](https://en.wikipedia.org/wiki/Risk_equalization)* — See Chapter 3.1 — Health Systems.
 
 **Risk pool** — A group large and mixed enough that the healthy majority cover the sick minority, so predictable contributions can finance the group's cost. *[Wikipedia](https://en.wikipedia.org/wiki/Risk_pool)* — See Chapter 3.8 — Insurance and Risk Protection.
 
@@ -664,7 +664,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Social care** — Personal and practical support with daily living, as distinct from medical treatment, though the two constantly overlap. *[Wikipedia](https://en.wikipedia.org/wiki/Social_care)* — See Chapter 3.9 — Long-Term and Social Care Economics.
 
-**Social cost of carbon** — The estimated economic damage, including health damage, from emitting one additional tonne of carbon dioxide; used to monetise a footprint in appraisal. *[Wikipedia](https://en.wikipedia.org/wiki/Social_cost_of_carbon)* — See Chapter 4.5 — Climate and Planetary Health Economics.
+**Social cost of carbon** — The estimated economic damage, including health damage, from emitting one additional tonne of carbon dioxide; used to monetize a footprint in appraisal. *[Wikipedia](https://en.wikipedia.org/wiki/Social_cost_of_carbon)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
 **Social determinants of health** — The conditions of daily life — income, education, employment, housing, food, early-childhood experience — together with the structural drivers that shape them; for a population, the principal production inputs of health. *[Wikipedia](https://en.wikipedia.org/wiki/Social_determinants_of_health)* — See Chapter 1.5 — Determinants of Health.
 
@@ -686,11 +686,11 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Supplier-induced demand** — Care generated by the provider's interest rather than the patient's need, opened up by imperfect agency. *[Wikipedia](https://en.wikipedia.org/wiki/Supplier-induced_demand)* — See Chapter 1.3 — Market Failure.
 
-**Surge capacity** — A health system's ability to expand rapidly beyond normal capacity in an emergency — beds, staff, ventilators, laboratory throughput; deliberately slack capacity justified on option-value rather than utilisation grounds. *[Wikipedia](https://en.wikipedia.org/wiki/Surge_capacity)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Surge capacity** — A health system's ability to expand rapidly beyond normal capacity in an emergency — beds, staff, ventilators, laboratory throughput; deliberately slack capacity justified on option-value rather than utilization grounds. *[Wikipedia](https://en.wikipedia.org/wiki/Surge_capacity)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
 
-**Sustainable healthcare** — Care delivered so as to decarbonise estates, supply chains, and models toward net zero while remaining clinically effective. *[Wikipedia](https://en.wikipedia.org/wiki/Sustainable_healthcare)* — See Chapter 4.5 — Climate and Planetary Health Economics.
+**Sustainable healthcare** — Care delivered so as to decarbonize estates, supply chains, and models toward net zero while remaining clinically effective. *[Wikipedia](https://en.wikipedia.org/wiki/Sustainable_healthcare)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
-**Systematic review** — A structured method for locating, appraising, and summarising all the studies bearing on a question, using a pre-registered protocol so it is reproducible and resistant to bias. *[Wikipedia](https://en.wikipedia.org/wiki/Systematic_review)* — See Chapter 2.6 — Evidence Synthesis and Meta-Analysis.
+**Systematic review** — A structured method for locating, appraising, and summarizing all the studies bearing on a question, using a pre-registered protocol so it is reproducible and resistant to bias. *[Wikipedia](https://en.wikipedia.org/wiki/Systematic_review)* — See Chapter 2.6 — Evidence Synthesis and Meta-Analysis.
 
 ## T
 
@@ -716,15 +716,15 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Universal health care** — Coverage for everyone who needs care, with financial protection so that using it does not cause hardship. *[Wikipedia](https://en.wikipedia.org/wiki/Universal_health_care)* — See Chapter 3.1 — Health Systems.
 
-**Universal health coverage (UHC)** — The goal that all people obtain the services they need without financial hardship, the organising aim of global health policy. *[Wikipedia](https://en.wikipedia.org/wiki/Universal_health_coverage)* — See Chapter 3.6 — Global Health and Trade.
+**Universal health coverage (UHC)** — The goal that all people obtain the services they need without financial hardship, the organizing aim of global health policy. *[Wikipedia](https://en.wikipedia.org/wiki/Universal_health_coverage)* — See Chapter 3.6 — Global Health and Trade.
 
-**Utilisation management** — Reviewing whether requested care is appropriate, a managed-care technique whose friction must be weighed against the value it protects. *[Wikipedia](https://en.wikipedia.org/wiki/Utilization_management)* — See Chapter 3.8 — Insurance and Risk Protection.
+**Utilization management** — Reviewing whether requested care is appropriate, a managed-care technique whose friction must be weighed against the value it protects. *[Wikipedia](https://en.wikipedia.org/wiki/Utilization_management)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Utilitarianism** — The tradition, underlying strict welfarism, that builds social value from the satisfaction of individual preferences. *[Wikipedia](https://en.wikipedia.org/wiki/Utilitarianism)* — See Chapter 3.5 — Capabilities.
 
 ## V
 
-**Value-based health care** — Porter's framing of maximising the health outcomes achieved per unit of cost, the organising idea behind value-based purchasing and outcome-based contracts. *[Wikipedia](https://en.wikipedia.org/wiki/Value-based_health_care)* — See Chapter 3.11 — Strategic Purchasing and Commissioning.
+**Value-based health care** — Porter's framing of maximizing the health outcomes achieved per unit of cost, the organizing idea behind value-based purchasing and outcome-based contracts. *[Wikipedia](https://en.wikipedia.org/wiki/Value-based_health_care)* — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
 **Value-based insurance design** — Tuning cost-sharing to the clinical value of each service — removing charges for high-value care, retaining them for low-value care — rather than to price. *[Wikipedia](https://en.wikipedia.org/wiki/Value-based_insurance_design)* — See Chapter 3.8 — Insurance and Risk Protection.
 
@@ -732,7 +732,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Value-based purchasing** — Buying care on measured quality and outcomes rather than volume alone; a quality overlay on the underlying payment mechanism, exposed to Goodhart's law. *[Wikipedia](https://en.wikipedia.org/wiki/Value-based_purchasing)* — See Chapter 3.12 — Quality and Safety Economics.
 
-**Value of a statistical life (VSL)** — The marginal rate of substitution between money and fatality risk, used across transport, environmental, and health appraisal to monetise avoided deaths. *[Wikipedia](https://en.wikipedia.org/wiki/Value_of_life)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Value of a statistical life (VSL)** — The marginal rate of substitution between money and fatality risk, used across transport, environmental, and health appraisal to monetize avoided deaths. *[Wikipedia](https://en.wikipedia.org/wiki/Value_of_life)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
 
 **Value of information** — An analysis estimating what it would be worth to reduce uncertainty before deciding, turning "we're not sure" into a number a research budget can act on. *[Wikipedia](https://en.wikipedia.org/wiki/Value_of_information)* — See Chapter 2.2 — Modelling.
 
@@ -750,7 +750,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Whitehall studies** — Studies of British civil servants showing a smooth social gradient in mortality, not merely a gap at the bottom. *[Wikipedia](https://en.wikipedia.org/wiki/Whitehall_Study)* — See Chapter 1.5 — Determinants of Health.
 
-**Willingness to pay** — A stated-preference basis for monetising health benefit in cost–benefit analysis. *[Wikipedia](https://en.wikipedia.org/wiki/Willingness_to_pay)* — See Chapter 2.1 — Economic Evaluation.
+**Willingness to pay** — A stated-preference basis for monetizing health benefit in cost–benefit analysis. *[Wikipedia](https://en.wikipedia.org/wiki/Willingness_to_pay)* — See Chapter 2.1 — Economic Evaluation.
 
 **World Bank** — A multilateral bank that is a major channel of development assistance for health and sets the income classifications governing donor transition. *[Wikipedia](https://en.wikipedia.org/wiki/World_Bank)* — See Chapter 3.6 — Global Health and Trade.
 

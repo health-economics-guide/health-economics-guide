@@ -2,7 +2,7 @@
 
 **A practical handbook of best practices for health economics.**
 
-This guide is for the people who run health and care organisations — chief executives and senior leaders, directors of digital and transformation, product and programme leads, clinical and care professionals, and operational managers. Its premise: in health, economics provides the frameworks for strategy, resourcing, equity, and public trust — not merely efficiency.
+This guide is for the people who run health and care organizations — chief executives and senior leaders, directors of digital and transformation, product and programme leads, clinical and care professionals, and operational managers. Its premise: in health, economics provides the frameworks for strategy, resourcing, equity, and public trust — not merely efficiency.
 
 The scope is worldwide. Tax-funded, social-insurance, private-insurance, and mixed systems — in low-, middle-, and high-income settings — are all first-class citizens here; named systems (the NHS, Medicare, Germany's social insurance, Ayushman Bharat) appear as exemplars of patterns, not as defaults.
 
@@ -10,7 +10,7 @@ Every chapter follows the same structure — core concepts, numbered best practi
 
 ## How to read this book
 
-Read Part 1 first if you are new to the field; it explains why healthcare defies ordinary market logic. Part 2 is the analyst's toolkit for valuing outcomes and testing claims. Part 3 covers how systems organise, fund, and share out care. Part 4 looks at where the discipline is moving. Each chapter stands alone and cross-references its siblings.
+Read Part 1 first if you are new to the field; it explains why healthcare defies ordinary market logic. Part 2 is the analyst's toolkit for valuing outcomes and testing claims. Part 3 covers how systems organize, fund, and share out care. Part 4 looks at where the discipline is moving. Each chapter stands alone and cross-references its siblings.
 
 ## Table of contents
 
@@ -35,7 +35,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 2.5 — [Budget Impact and Affordability](02-05-budget-impact-and-affordability.md)
 - Chapter 2.6 — [Evidence Synthesis and Meta-Analysis](02-06-evidence-synthesis-and-meta-analysis.md)
 
-**Part 3 — Systems, Policy and Priorities** — *how societies organise, fund, and share out healthcare*
+**Part 3 — Systems, Policy and Priorities** — *how societies organize, fund, and share out healthcare*
 
 - Chapter 3.1 — [Health Systems](03-01-health-systems.md)
 - Chapter 3.2 — [Health Policy](03-02-health-policy.md)
