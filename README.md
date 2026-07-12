@@ -24,6 +24,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 1.2 — [Demand for Health and Healthcare](01-02-demand-for-health-and-healthcare.md)
 - Chapter 1.3 — [Market Failure](01-03-market-failure.md)
 - Chapter 1.4 — [Supply of Healthcare](01-04-supply-of-healthcare.md)
+- Chapter 1.5 — [Determinants of Health](01-05-determinants-of-health.md)
 
 **Part 2 — Evaluation and Evidence** — *the analyst's toolkit: valuing outcomes, building models, testing claims*
 
@@ -32,6 +33,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 2.3 — [Health Econometrics](02-03-health-econometrics.md)
 - Chapter 2.4 — [Pharmacoeconomics](02-04-pharmacoeconomics.md)
 - Chapter 2.5 — [Budget Impact and Affordability](02-05-budget-impact-and-affordability.md)
+- Chapter 2.6 — [Evidence Synthesis and Meta-Analysis](02-06-evidence-synthesis-and-meta-analysis.md)
 
 **Part 3 — Systems, Policy and Priorities** — *how societies organise, fund, and share out healthcare*
 
@@ -45,6 +47,8 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 3.8 — [Insurance and Risk Protection](03-08-insurance-and-risk-protection.md)
 - Chapter 3.9 — [Long-Term and Social Care Economics](03-09-long-term-and-social-care-economics.md)
 - Chapter 3.10 — [Mental Health Economics](03-10-mental-health-economics.md)
+- Chapter 3.11 — [Strategic Purchasing and Commissioning](03-11-strategic-purchasing-and-commissioning.md)
+- Chapter 3.12 — [Quality and Safety Economics](03-12-quality-and-safety-economics.md)
 
 **Part 4 — Frontiers** — *where the discipline is moving: behaviour, innovation, digital, AI, and the planet*
 
@@ -53,6 +57,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 4.3 — [Digital Health Economics](04-03-digital-health-economics.md)
 - Chapter 4.4 — [AI Health Economics](04-04-ai-health-economics.md)
 - Chapter 4.5 — [Climate and Planetary Health Economics](04-05-climate-and-planetary-health-economics.md)
+- Chapter 4.6 — [Pandemic and Emergency Preparedness Economics](04-06-pandemic-and-emergency-preparedness-economics.md)
 
 **Reference**
 

@@ -65,6 +65,15 @@ Demand also behaves oddly because the person choosing the care is rarely the per
 3. **How well is our agency relationship working, and whose interest does our payment model make the clinician serve?**
    Patients trust clinicians to choose for them, and the incentives around the clinician quietly shape what gets recommended. Ask what your payment method rewards — volume under fee-for-service, restraint under capitation, adherence to a pathway under bundled payment — and where that pulls advice away from what an informed patient would choose. Look for the tell-tale signs of weak agency: unexplained variation between clinicians, care that patients would decline if fully informed, or reluctance to offer watchful waiting. An honest answer accepts that no payment model produces a perfect agent, and asks what combination of guidelines, decision aids, and incentives keeps recommended care closest to informed choice.
 
+4. **Do we defend our prevention budget as an investment in health capital, or as a good deed that is first to be cut?**
+   Prevention pays off in the future, often to a different budget than the one that funds it, which is exactly why it loses when acute pressures bite. The Grossman lens reframes it: prevention is investment in a depreciating stock of health capital that yields returns in healthy, productive time, and that language is one finance directors and treasuries respect. The honest discussion admits the horizons are long and the returns partly accrue elsewhere, rather than overselling a quick cash saving that will not materialise. Name a prevention programme you fund and ask whether its business case is written in the language of investment returns or of sentiment. A good answer commits to quantifying the health-capital return where the evidence allows and to being candid where it does not — and it resists the reflex to raid prevention the moment an acute ward is under strain. The pay-off is a defensible case that survives the next budget round instead of being sacrificed to it.
+
+5. **When we expand coverage or add a benefit, do we model the demand it will unleash before we commit — or discover the bill afterwards?**
+   Every widening of coverage, new benefit, or subsidy lowers the price patients face at the point of use, and lower prices raise the quantity of care demanded; this is expected, often desirable, and frequently un-budgeted. The tension is that expanding financial protection is welfare-improving in its own right, yet the induced demand can overwhelm capacity and blow the budget if its size is not estimated in advance. An honest discussion separates the two questions — is the protection worth providing, and can we afford the demand response it will trigger — and refuses to let enthusiasm for the first answer the second. Ask, for a coverage change you are contemplating, who newly faces a zero or near-zero price and how elastic their use of that service is. A good answer models the demand response as carefully as the coverage itself, distinguishes the care you wanted to unlock from care merely made free, and plans the capacity and money to meet it rather than being surprised.
+
+6. **Are we planning demand around Grossman's far-sighted investor, or around the impatient, unequally-resourced people we actually serve?**
+   The standard model assumes a rational, consistent investor who weighs future health against present cost; real people discount the future steeply, procrastinate, and vary enormously in the income, time, and education they can bring to producing their own health. Where a plan leans on sustained behaviour — quitting smoking, adhering to medication, attending screening — the rational model will over-predict uptake, and exhortation alone will disappoint. The discussion should also ask whether demand is being segmented by the *other* inputs to health, not only by diagnosis: two patients with the same condition can generate very different demand depending on their circumstances, and targeting the social and behavioural inputs often cuts costly care more effectively than expanding it (see Chapter 3.4 — Equity). An honest answer names where your forecasts assume more foresight than your population has, pairs the standard model with behavioural insight and, where evidence supports it, well-designed incentives (see Chapter 4.1 — Behavioural Economics), and accepts that improving equity and reducing demand can be the same move.
+
 ## In practice: a health economics example
 
 *Scenario: a fictional province in a middle-income country with a national social health insurance scheme, modelled on the kind of expanding coverage seen in South-East Asia.*
@@ -77,11 +86,15 @@ To weigh these, she looks at where the growth sits. Emergency and inpatient care
 
 The economics now reframes the decision. Two new outpatient blocks would meet the demand but treat a means as an end, locking in capital to serve visits that a stronger primary-care gatekeeping arrangement and a small, well-exempted co-payment for non-referred hospital outpatient use might prevent — while protecting the inelastic, genuinely-needed care that must never face a barrier. She models three options: build; introduce demand-side management with equity exemptions; or invest the capital in primary care and community prevention, treating health as capital to be maintained upstream. She is explicit about the trade-offs: gatekeeping risks deterring some real need and is unpopular; building is simplest but costliest and may induce yet more demand. The recommendation is to strengthen primary care and referral first, hold the capital in reserve, and re-measure — resisting the reflex to build capacity for demand whose origin she has not yet fully understood.
 
-## Three sector lenses
+## Four sector lenses
 
 ### Startup
 
 A digital health start-up — say, a telemedicine or symptom-checker app — lives or dies by understanding derived demand. Its users do not want the app; they want health, and will abandon it the moment it fails to produce that more cheaply in time and money than the alternatives. A start-up should segment demand tightly, target the inputs to health it can genuinely improve (access, triage, adherence), and be brutally honest that lowering the effective price of a consultation will raise demand, including from the "worried well". Its risk appetite lets it experiment with demand at small scale, but it must resist selling volume as if volume were the goal.
+
+### Small business
+
+An established small provider — a GP partnership, a single clinic, or a community pharmacy that has served the same patients for years — reads demand from close, patient knowledge rather than from experiment. Its list is largely known, so the practical questions are how much of the daily demand reflects genuine need versus habit, anxiety, or access barriers it could ease, and where a small charge or a longer wait quietly deters the patients who most need to be seen. Unlike a start-up, it cannot pivot away from unprofitable demand; its accountability is to a settled community and often to a capitation or contract that rewards keeping people well rather than churning visits. It manages demand with the levers it actually controls — triage, continuity of care, signposting to prevention and social support — and it lives with the tension that time spent steering demand upstream is time not billed today.
 
 ### Enterprise
 
@@ -107,13 +120,13 @@ A ministry or national payer manages demand for a whole population and carries t
 
 ## Maturity model
 
-| Capability | Initial | Developing | Defined | Optimising |
-|---|---|---|---|---|
-| Demand concept | Utilisation treated as need; care demanded for its own sake | Awareness that access and price affect use | Derived demand distinguished from demand for health in planning | Every demand forecast decomposes need, access, price, and agency |
-| Use of elasticities | None; charges set by revenue or politics | Ad hoc reference to "some people are put off" | Price and income elasticities estimated for key services | Elasticities segmented by group and service; equity impact modelled |
-| Agency management | Payment and information left to chance | Guidelines exist but incentives unexamined | Payment method and decision aids chosen deliberately | Agency actively monitored via variation; levers tuned to informed choice |
-| Prevention framing | Prevention seen as cost or charity | Prevention valued but first to be cut | Prevention argued as investment in health capital | Health-capital returns quantified and defended against acute raids |
-| Insurance and coverage | Coverage changes made without demand modelling | Demand response acknowledged after the fact | Demand response to coverage modelled in advance | Coverage, demand response, and distortions modelled and monitored together |
+| Capability | Initiate | Develop | Standardize | Manage | Orchestrate |
+|---|---|---|---|---|---|
+| Demand concept | Utilisation treated as need; care demanded for its own sake | Awareness that access and price affect use | Derived demand distinguished from demand for health in planning | Every demand forecast decomposes need, access, price, and agency | Demand for health, not care, drives investment across the whole care pathway and its upstream inputs |
+| Use of elasticities | None; charges set by revenue or politics | Ad hoc reference to "some people are put off" | Price and income elasticities estimated for key services | Elasticities segmented by group and service; equity impact modelled | Segmented elasticities feed live demand and equity management across services and partners |
+| Agency management | Payment and information left to chance | Guidelines exist but incentives unexamined | Payment method and decision aids chosen deliberately | Agency actively monitored via variation; levers tuned to informed choice | Payment, guidelines, and decision support aligned system-wide so recommended care tracks informed choice |
+| Prevention framing | Prevention seen as cost or charity | Prevention valued but first to be cut | Prevention argued as investment in health capital | Health-capital returns quantified and defended against acute raids | Prevention funded as a protected, cross-budget investment in health capital across the system |
+| Insurance and coverage | Coverage changes made without demand modelling | Demand response acknowledged after the fact | Demand response to coverage modelled in advance | Coverage, demand response, and distortions modelled and monitored together | Coverage, demand, capacity, and distortions co-managed dynamically with providers and payers |
 
 ## Checklist
 

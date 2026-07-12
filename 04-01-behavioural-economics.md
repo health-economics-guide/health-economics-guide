@@ -65,6 +65,15 @@ For a director, this matters in two directions. First, as a *critique*: it tells
 3. **What would make us confident a nudge or incentive actually worked, and are we willing to find out it did not?**
    Nudges are cheap, popular, and easy to claim credit for, which makes them dangerously easy to adopt on faith. Ask what evidence would convince you: a randomised pilot with a real control, a pre-registered outcome, a follow-up after the incentive stops to check the effect does not evaporate or reverse. The tension is that rigorous evaluation is slower and risks embarrassing a favoured scheme, while acting on untested behavioural intuition is fast and flattering. An honest answer commits to measuring against a counterfactual and to reporting null results, and it separates the behaviours where a small nudge is plausibly enough from those that need structural policy instead. It also budgets for the ethical review that asks whether the intervention would survive being described openly to those it targets.
 
+4. **How do we frame the health messages we already send — and would we be comfortable if patients saw the reasoning behind the wording?**
+   Every recall letter, screening invitation, and consent leaflet already frames a choice, usually by accident and often badly, defaulting to abstract benefit ("screening keeps you healthy") when a concrete, near-term, loss-framed message might move more people. The tension is that the frames that shift behaviour most are precisely the ones that edge closest to manipulation, so the discussion has to hold effectiveness and honesty together rather than trading one for the other. A serious answer asks whether the frame informs a real risk or merely exploits a fear, and it commits to testing frames rather than assuming, because effect sizes are modest and context-dependent. It also confronts the reading-age and language question, since a frame that lands with a confident professional may bewilder or frighten someone else. The honest test is Thaler and Sunstein's: would this wording survive being explained openly to the person receiving it, alongside the evidence for why we chose it?
+
+5. **When is a nudge honestly the right tool, and when are we reaching for it because the real fix is harder and costlier?**
+   Nudges are cheap, quick, and politically flattering, which makes them tempting exactly when the problem is too big for them — moving a population off tobacco or reshaping a food environment needs tax, regulation, and reformulation, not a better leaflet. The tension is between doing something visible now and doing the structural thing that works but costs political capital and money. An honest answer sizes the problem before choosing the tool, treats behavioural design as a complement to structural policy rather than a substitute for it, and names openly when a nudge is being used as a fig-leaf for inaction (see Chapter 3.2 — Health Policy). It also asks who benefits from the cheaper option being chosen, because "we nudged" can let a system avoid a fight it should have had. The equity angle matters too: structural levers tend to reach everyone, while nudges can widen gaps if they work best for the already-advantaged.
+
+6. **Before we attach money to a behaviour, have we checked we are not paying people to do what they would have done anyway?**
+   Financial incentives for attendance, adherence, or healthy behaviour can work, but the behavioural literature warns that paying for an act done from intrinsic or moral motivation can crowd that motivation out and leave you worse off once the money stops. The tension is that incentives are easy to authorise and easy to measure, while the motivation they might erode is invisible until it is gone — as documented with blood donation and some healthy-behaviour schemes. A candid discussion asks first whether the target population is already motivated, prefers feedback, recognition, or a friction change where it is, and turns to cash only where the barrier is genuinely material. If you do pay, the design questions follow: small, frequent, near-certain rewards to counter present bias, a plan for what sustains the behaviour after the incentive ends, and honesty that effects are often modest and can fade or reverse. It also weighs the signal the payment sends, because putting a price on a health act quietly reframes it as a transaction.
+
 ## In practice: a health economics example
 
 *Scenario: a fictional national health service in a middle-income Latin American country, "Costa Verde", tackling poor adherence to hypertension and diabetes medication.*
@@ -77,11 +86,15 @@ The team designs a bundle and, importantly, insists on testing it. For the forge
 
 They roll it out as a randomised pilot across matched districts, with a genuine control arm, and pre-commit to measuring collection rates, clinical outcomes where feasible, and cost per additional adherent patient (see Chapter 2.3 — Health Econometrics). The Ministry's health economist is explicit about the trade-offs and the uncertainty: three-monthly dispensing raises wastage if patients stop, the default change must be paired with clear opt-out so it does not become a trap, and the behavioural literature warns that effects may be modest and may fade. The recommendation is therefore not "nudges instead of clinical care" but a tested, low-cost behavioural layer on top of it, scaled only where the pilot shows a real effect against the control — and paired with the harder structural conversation about salt regulation and food environments that no reminder can substitute for (see Chapter 3.2 — Health Policy).
 
-## Three sector lenses
+## Four sector lenses
 
 ### Startup
 
 A digital health start-up — an adherence app, a symptom tracker, a behaviour-change coach — is choice architecture made of code, and every screen is a nudge whether the founders admit it or not. Its agility lets it A/B test framings, defaults, and reminder timings at a speed no ministry can match, which is a genuine strength for finding what works. The danger is that the same tools that improve health can become engagement dark patterns that serve retention metrics over the user's stated goals, and investors reward the former. A responsible start-up sets its defaults to the user's health interest, keeps opt-out one tap away, and resists the temptation to confuse a behaviour it can move with a behaviour worth moving.
+
+### Small business
+
+A small but established provider — a general-practice partnership, a single community pharmacy, a care home, a specialist clinic — already shapes patient behaviour through the everyday architecture of its front desk, its recall letters, and how its staff frame advice. Unlike a start-up, it is not chasing growth or A/B testing at scale; its strength is a steady relationship with a known population and the standing to make a small default change and keep it. The practical levers are modest but reliable: switching repeat-prescription authorisation and appointment recall to opt-out, timing reminders to the moment of action, simplifying a confusing form, and placing the healthy option in the path of least resistance. It rarely has an evaluation budget, so it should borrow tested designs from national behavioural units rather than invent its own, and watch that a small incentive or a stern letter does not sour the trust that is its main asset.
 
 ### Enterprise
 
@@ -107,13 +120,13 @@ A ministry or national payer is the largest choice architect of all, and its def
 
 ## Maturity model
 
-| Capability | Initial | Developing | Defined | Optimising |
-|---|---|---|---|---|
-| View of the decision-maker | Assumes rational chooser; non-adherence blamed on the individual | Aware people behave "irrationally" but no framework | Behavioural biases named and used to explain patterns | Behavioural realism built into every demand, prevention, and insurance model |
-| Use of defaults | Defaults inherited by accident | Some defaults noticed but not chosen | Key defaults deliberately set to serve health, with easy opt-out | Defaults systematically audited and optimised across the system |
-| Evidence and evaluation | Nudges adopted on intuition | Before-and-after claims without controls | Interventions piloted against a control before scaling | Randomised, pre-registered evaluation routine; null results reported |
-| Incentive design | Flat cash payments or none | Incentives used but not tuned to behaviour | Incentives designed for present bias and loss aversion, with exit plan | Incentives monitored for fade, backfire, and crowding-out |
-| Ethics and transparency | Manipulation risk unconsidered | Ethics discussed ad hoc | Transparency-and-easy-exit test applied to each intervention | Public justification, opt-out, and equity impact standard practice |
+| Capability | Initiate | Develop | Standardize | Manage | Orchestrate |
+|---|---|---|---|---|---|
+| View of the decision-maker | Assumes rational chooser; non-adherence blamed on the individual | Aware people behave "irrationally" but with no framework to name why | Behavioural biases named and used to explain patterns in specific services | Behavioural realism routinely built into demand, prevention, and insurance models | Behavioural realism is the default assumption across the system, and partners are held to it too |
+| Use of defaults | Defaults inherited by accident | Some defaults noticed but not deliberately chosen | Key defaults deliberately set to serve health, with easy opt-out | Defaults tracked with data and adjusted as their effects are measured | Defaults systematically audited and optimised across the whole system and its suppliers |
+| Evidence and evaluation | Nudges adopted on intuition | Before-and-after claims made without controls | Interventions piloted against a control before scaling | Randomised, pre-registered evaluation is routine and null results are reported | A standing evaluation capability shares evidence across services and with external partners |
+| Incentive design | Flat cash payments, or none at all | Incentives used but not tuned to how people respond | Incentives designed for present bias and loss aversion, with an exit plan | Incentives monitored in-life for fade, backfire, and crowding-out | Incentive design coordinated across programmes so schemes reinforce rather than undercut each other |
+| Ethics and transparency | Manipulation risk unconsidered | Ethics discussed ad hoc, case by case | Transparency-and-easy-exit test applied to each intervention | Public justification, opt-out, and equity impact are standard practice | Ethical and equity review is embedded in governance and applied to partners and vendors alike |
 
 ## Checklist
 

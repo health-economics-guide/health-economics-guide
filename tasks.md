@@ -29,6 +29,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 1.2 Demand for Health and Healthcare — `01-02-demand-for-health-and-healthcare.md`
 - [x] 1.3 Market Failure — `01-03-market-failure.md`
 - [x] 1.4 Supply of Healthcare — `01-04-supply-of-healthcare.md` *(expansion)*
+- [x] 1.5 Determinants of Health — `01-05-determinants-of-health.md` *(expansion 2)*
 
 ### Part 2 — Evaluation and Evidence
 
@@ -37,6 +38,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 2.3 Health Econometrics — `02-03-health-econometrics.md`
 - [x] 2.4 Pharmacoeconomics — `02-04-pharmacoeconomics.md`
 - [x] 2.5 Budget Impact and Affordability — `02-05-budget-impact-and-affordability.md` *(expansion)*
+- [x] 2.6 Evidence Synthesis and Meta-Analysis — `02-06-evidence-synthesis-and-meta-analysis.md` *(expansion 2)*
 
 ### Part 3 — Systems, Policy and Priorities
 
@@ -50,6 +52,8 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 3.8 Insurance and Risk Protection — `03-08-insurance-and-risk-protection.md` *(expansion)*
 - [x] 3.9 Long-Term and Social Care Economics — `03-09-long-term-and-social-care-economics.md` *(expansion)*
 - [x] 3.10 Mental Health Economics — `03-10-mental-health-economics.md` *(expansion)*
+- [x] 3.11 Strategic Purchasing and Commissioning — `03-11-strategic-purchasing-and-commissioning.md` *(expansion 2)*
+- [x] 3.12 Quality and Safety Economics — `03-12-quality-and-safety-economics.md` *(expansion 2)*
 
 ### Part 4 — Frontiers
 
@@ -58,6 +62,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 4.3 Digital Health Economics — `04-03-digital-health-economics.md`
 - [x] 4.4 AI Health Economics — `04-04-ai-health-economics.md`
 - [x] 4.5 Climate and Planetary Health Economics — `04-05-climate-and-planetary-health-economics.md` *(expansion)*
+- [x] 4.6 Pandemic and Emergency Preparedness Economics — `04-06-pandemic-and-emergency-preparedness-economics.md` *(expansion 2)*
 
 ## Phase 3 — Reference matter
 
@@ -90,6 +95,25 @@ Rather than add thin new chapters for prevention, ethics, and genomics, deepen t
 - [x] Gates re-run on the 4 deepened chapters — all 12 links, all resolve, gates intact; new DOIs (Rose 1985, Sprangers & Schwartz 1999) Crossref-verified
 - [x] Reference matter updated with the new named concepts (glossary 265→281, index +17); glossary/index re-validated — all pointers match manifest, all numbers valid, all links resolve
 - [x] `git commit` the deepening
+
+## Phase 6 — Second expansion (24 → 29 chapters) + template change
+
+### 6a — Five new chapters (appended within parts; spec manifest, README, preface updated to 29)
+
+- [x] 1.5 Determinants of Health; 2.6 Evidence Synthesis and Meta-Analysis; 3.11 Strategic Purchasing and Commissioning; 3.12 Quality and Safety Economics; 4.6 Pandemic and Emergency Preparedness Economics
+- [x] Deepened 2.1 Economic Evaluation (outcome measurement, PROMs) and 3.1 Health Systems (fiscal sustainability, fiscal space)
+
+### 6b — Template change applied to ALL 29 chapters (per user request)
+
+Spec §3/§8/§10 and STYLE_GUIDE updated, then every chapter retrofitted:
+
+- [x] Discussion questions: 3 → **6** (three new distinct briefed questions per chapter)
+- [x] Sector lenses: 3 → **4** (added `### Small business` after Startup: Startup, Small business, Enterprise, Government)
+- [x] Maturity model: 4-level → **5-level** (Initiate / Develop / Standardize / Manage / Orchestrate — house vocabulary, US spelling kept verbatim)
+- [x] Structural gate re-run: all 29 pass (6 questions, 4 ordered lenses, 5-level table, 13-section sequence)
+- [x] Link gate: all 29 chapters 5–12 links, every inline link in References, all 292 unique Wikipedia URLs resolve 200
+- [x] Reference matter rebuilt for 29 chapters — glossary **352 terms**, index **325 concepts**; re-validated (pointers match manifest, index numbers valid, all links resolve)
+- [x] `git commit` the second expansion + template change
 
 ## Phase 4 — Quality gates and release
 

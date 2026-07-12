@@ -73,15 +73,15 @@ Every chapter has exactly these sections, in this order (spec §3). Notes and mi
 
 > 3. **Fix the perspective before you count a single cost.** Whether you take a health-system, payer, or societal perspective decides which costs and benefits are in scope, and it can flip a conclusion. Agree it with decision-makers up front and state it prominently; a "cost-effective" result is meaningless until the reader knows from whose standpoint.
 
-**6. `## Questions to discuss with your team`** — **exactly three**, numbered, each question in **bold** and open (not yes/no). Each is followed by a 4–8 sentence briefing that names the real tension, gives concrete angles, and says what an honest answer looks like. Workshop-ready. Placed **before** the worked example.
+**6. `## Questions to discuss with your team`** — **exactly six**, numbered, each question in **bold** and open (not yes/no). Each is followed by a 4–8 sentence briefing that names the real tension, gives concrete angles, and says what an honest answer looks like. Workshop-ready. Placed **before** the worked example. Make the six genuinely distinct — cover different facets of the topic; do not pad with restatements.
 
 **7. `## In practice: a health economics example`** — one concrete, realistic, **fictional** worked scenario. Give it a named (fictional) setting that varies by chapter and rotates around the world. Walk through the decision and the economics; show the method doing work, including where it is uncomfortable.
 
-**8. `## Three sector lenses`** — three `###` subsections in this fixed order: `### Startup`, `### Enterprise`, `### Government`. Each 3–6 sentences. Show how the same topic changes with scale, funding model, risk appetite, and accountability. "Startup" = a small/early venture (a digital health start-up, a pilot); "Enterprise" = a large provider or insurer/payer organisation; "Government" = a ministry, national payer, or regulator.
+**8. `## Four sector lenses`** — four `###` subsections in this fixed order: `### Startup`, `### Small business`, `### Enterprise`, `### Government`. Each 3–6 sentences. Show how the same topic changes with scale, funding model, risk appetite, and accountability. "Startup" = an early-stage venture (a digital health start-up, a pilot); "Small business" = a small but established provider or practice (a GP partnership, a single clinic, a care home, a small supplier); "Enterprise" = a large provider, insurer, or payer organisation; "Government" = a ministry, national payer, or regulator. Keep Startup and Small business genuinely distinct — early-stage/venture-funded/uncertain versus established/self-funded/steady-state.
 
 **9. `## Common failure modes`** — anti-patterns and how to avoid each. A bulleted or short-numbered list; name the failure, then the fix.
 
-**10. `## Maturity model`** — a table with exactly four level columns — **Initial / Developing / Defined / Optimising** — and **3–5 rows** of observable characteristics. Cells describe what you would actually see at that level, not aspirations.
+**10. `## Maturity model`** — a table with exactly five level columns — **Initiate / Develop / Standardize / Manage / Orchestrate** — and **3–5 rows** of observable characteristics. Cells describe what you would actually see at that level, not aspirations. The progression: ad hoc first steps (Initiate) → building capability (Develop) → consistent standard practice (Standardize) → active management by data (Manage) → orchestrating across the whole system and partners (Orchestrate). Keep the five headings verbatim, including the US spelling of "Standardize" and "Orchestrate", as fixed house vocabulary.
 
 **11. `## Checklist`** — **6–12** actionable `- [ ]` items a reader can take away and use.
 
@@ -108,9 +108,9 @@ Target **~3,000–3,500 words of substantive prose** (spec §5). Reach it by **d
 - [ ] All 13 sections present, correctly named, in order.
 - [ ] Bold one-sentence thesis as the first body line.
 - [ ] Best practices numbered, 8–12, bold lead-ins.
-- [ ] Exactly three discussion questions, each with a briefing, before the worked example.
-- [ ] Sector lenses in order: Startup, Enterprise, Government.
-- [ ] Maturity table: four columns (Initial/Developing/Defined/Optimising), 3–5 rows.
+- [ ] Exactly six discussion questions, each with a briefing, before the worked example.
+- [ ] Sector lenses in order: Startup, Small business, Enterprise, Government.
+- [ ] Maturity table: five columns (Initiate/Develop/Standardize/Manage/Orchestrate), 3–5 rows.
 - [ ] Checklist: 6–12 `- [ ]` items.
 - [ ] 5–12 verified Wikipedia links; every one also in `## References`.
 - [ ] No invented sources, figures, or quotations.

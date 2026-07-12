@@ -46,11 +46,11 @@ Every chapter uses these headings, in this order. This is the contract the matur
 3. `## Why this matters in health economics` — the domain-specific stakes: safety, equity, statutory duties, public money.
 4. `## Core concepts` — definitions and mental models. First mention of each key named concept is hyperlinked to its English Wikipedia article.
 5. `## Best practices` — **numbered**; each item a **bold lead-in** + 2–4 sentences. This is the heart of the chapter.
-6. `## Questions to discuss with your team` — **exactly three** numbered, open (non-yes/no) questions, each in **bold**, each followed by a 4–8 sentence briefing that names the real tensions, concrete angles, and what an honest answer looks like. Placed **before** the worked example. Must be workshop-ready.
+6. `## Questions to discuss with your team` — **exactly six** numbered, open (non-yes/no) questions, each in **bold**, each followed by a 4–8 sentence briefing that names the real tensions, concrete angles, and what an honest answer looks like. Placed **before** the worked example. Must be workshop-ready.
 7. `## In practice: a health economics example` — one concrete, realistic, fictional worked scenario (e.g. a regional health system deciding whether to fund a new screening programme). Vary the setting across chapters — different countries, system types, and income levels — so the book reads as genuinely worldwide.
-8. `## Three sector lenses` — the same topic across three `###` subsections **in this order**: `### Startup`, `### Enterprise`, `### Government`. Each 3–6 sentences, showing how the practice changes with scale, funding model, risk appetite, and accountability.
+8. `## Four sector lenses` — the same topic across four `###` subsections **in this order**: `### Startup`, `### Small business`, `### Enterprise`, `### Government`. Each 3–6 sentences, showing how the practice changes with scale, funding model, risk appetite, and accountability. "Startup" is an early-stage venture; "Small business" is a small but established provider or practice; "Enterprise" is a large provider, insurer, or payer; "Government" is a ministry, national payer, or regulator.
 9. `## Common failure modes` — anti-patterns and how to avoid them.
-10. `## Maturity model` — a 4-level table with columns **Initial / Developing / Defined / Optimising** and 3–5 rows of observable characteristics.
+10. `## Maturity model` — a **5-level** table with columns **Initiate / Develop / Standardize / Manage / Orchestrate** and 3–5 rows of observable characteristics. (These five level names are a fixed house vocabulary; keep them verbatim, including the spelling of "Standardize" and "Orchestrate", even though the book is otherwise UK-spelled.)
 11. `## Checklist` — 6–12 actionable `- [ ]` items.
 12. `## Key sources` — bulleted, real and verifiable; cite frameworks by name.
 13. `## References` — a numbered list combining (a) Wikipedia articles for the key concepts named in the chapter and (b) authoritative sources. Format each: *title — publisher/author — URL*.
@@ -59,7 +59,7 @@ Every chapter uses these headings, in this order. This is the contract the matur
 
 ## 4. Chapter manifest
 
-Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chapter 2.3 — Health Econometrics"); filenames are the zero-padded equivalents. New chapters are **appended within their part** (e.g. Supply is 1.4, after Market Failure) so that existing chapter numbers never move — a deliberate choice to avoid the renumbering risk of §11. Reading order within a part is the table order; where a later-numbered chapter is a logical sibling of an earlier one (Supply 1.4 beside Demand 1.2), the cross-references make the link.
+Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chapter 2.3 — Health Econometrics"); filenames are the zero-padded equivalents. New chapters are **appended within their part** (e.g. Supply is 1.4, after Market Failure) so that existing chapter numbers never move — a deliberate choice to avoid the renumbering risk of §11. Reading order within a part is the table order; where a later-numbered chapter is a logical sibling of an earlier one (Supply 1.4 beside Demand 1.2), the cross-references make the link.
 
 ### Part 1 — Foundations
 *Why health is economically different, and the models that explain it.*
@@ -70,6 +70,7 @@ Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 1.2 | Demand for Health and Healthcare | `01-02-demand-for-health-and-healthcare.md` |
 | 1.3 | Market Failure | `01-03-market-failure.md` |
 | 1.4 | Supply of Healthcare | `01-04-supply-of-healthcare.md` |
+| 1.5 | Determinants of Health | `01-05-determinants-of-health.md` |
 
 ### Part 2 — Evaluation and Evidence
 *The analyst's toolkit: valuing outcomes, building models, testing claims.*
@@ -81,6 +82,7 @@ Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 2.3 | Health Econometrics | `02-03-health-econometrics.md` |
 | 2.4 | Pharmacoeconomics | `02-04-pharmacoeconomics.md` |
 | 2.5 | Budget Impact and Affordability | `02-05-budget-impact-and-affordability.md` |
+| 2.6 | Evidence Synthesis and Meta-Analysis | `02-06-evidence-synthesis-and-meta-analysis.md` |
 
 ### Part 3 — Systems, Policy and Priorities
 *How societies organise, fund, and share out healthcare.*
@@ -97,6 +99,8 @@ Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 3.8 | Insurance and Risk Protection | `03-08-insurance-and-risk-protection.md` |
 | 3.9 | Long-Term and Social Care Economics | `03-09-long-term-and-social-care-economics.md` |
 | 3.10 | Mental Health Economics | `03-10-mental-health-economics.md` |
+| 3.11 | Strategic Purchasing and Commissioning | `03-11-strategic-purchasing-and-commissioning.md` |
+| 3.12 | Quality and Safety Economics | `03-12-quality-and-safety-economics.md` |
 
 ### Part 4 — Frontiers
 *Where the discipline is moving: behaviour, innovation, digital, AI, and the planet.*
@@ -108,6 +112,7 @@ Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 4.3 | Digital Health Economics | `04-03-digital-health-economics.md` |
 | 4.4 | AI Health Economics | `04-04-ai-health-economics.md` |
 | 4.5 | Climate and Planetary Health Economics | `04-05-climate-and-planetary-health-economics.md` |
+| 4.6 | Pandemic and Emergency Preparedness Economics | `04-06-pandemic-and-emergency-preparedness-economics.md` |
 
 ### Chapter scope notes (boundaries, to prevent silent overlap)
 
@@ -135,6 +140,11 @@ Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 - **3.9 Long-Term and Social Care Economics** owns the economics of ageing and dependency, long-term-care financing models (social LTC insurance, means-testing, private LTC insurance and its market failure), the valuation of informal/unpaid care, the health–social-care boundary and cost-shifting, and integration. General equity belongs to 3.4; capability/wellbeing measures for older people belong to 3.5 (cross-reference ICECAP-O); mental health belongs to 3.10.
 - **3.10 Mental Health Economics** owns the distinctive economics of mental illness: why standard outcome measures fit poorly, human-capital and productivity effects (absenteeism, presenteeism), parity of esteem in funding, the treatment gap, and the economics of prevention and early intervention. Capability and wellbeing measurement belongs to 3.5 (cross-reference); general evaluation to 2.1; behavioural mechanisms to 4.1.
 - **4.5 Climate and Planetary Health Economics** owns the environmental externalities of health systems (the carbon footprint of care), the health co-benefits of climate action, valuing health within climate policy (where the social cost of carbon meets health), the cost-effectiveness of low-carbon/sustainable care, and climate change as a driver of future health costs. General externality theory belongs to 1.3 (cross-reference); global and pandemic externalities to 3.6; evaluation methods to 2.1.
+- **1.5 Determinants of Health** owns what *produces* health beyond healthcare (Williams' "box A"): the socioeconomic gradient in health, the social, commercial, and environmental determinants as *causes*, the limited marginal contribution of medical care to population health, "health in all policies", and the causation-versus-correlation challenge in determinants evidence. The *distribution* of health and the measurement of inequity belong to 3.4 Equity (cross-reference — determinants are the causes, equity is the fairness of the result); the demand-side production of health by individuals (Grossman) belongs to 1.2; behavioural mechanisms to 4.1; environmental/climate determinants to 4.5.
+- **2.6 Evidence Synthesis and Meta-Analysis** owns how a body of studies is pooled into the evidence that feeds evaluation and health technology assessment: systematic review, meta-analysis, network (indirect-comparison) meta-analysis, evidence hierarchies and GRADE, heterogeneity, publication bias, and living evidence. Single-study causal inference belongs to 2.3 Health Econometrics (cross-reference); the decision model that consumes the synthesised inputs belongs to 2.2 Modelling; the evaluation itself to 2.1. This is the "where the numbers in the model come from" chapter.
+- **3.11 Strategic Purchasing and Commissioning** owns the active discipline of *buying* care to get value: strategic purchasing, the commissioning cycle (assess, plan, procure, monitor), selective and value-based contracting, provider selection, make-or-buy, and outcome-based contracts. The payment *mechanisms* (capitation, fee-for-service, diagnosis-related groups) as system design belong to 3.1 Health Systems (cross-reference); insurance benefit design to 3.8; priority-setting and disinvestment to 3.3. This is "how a payer purchases"; 3.1 is "how the system is structured".
+- **3.12 Quality and Safety Economics** owns the economics of quality and patient safety: the cost of poor quality and of harm (adverse events, healthcare-associated infection), the business case for safety, pay-for-performance for quality and its unintended effects, value-based purchasing for quality, and the measurement of quality. Payment mechanisms in general belong to 3.1 (cross-reference); outcome measurement to 2.1; AI-specific safety to 4.4.
+- **4.6 Pandemic and Emergency Preparedness Economics** owns the economics of preparing for rare, catastrophic events: low-probability/high-consequence appraisal and tail risk, the option value of preparedness (stockpiles, surge capacity, standing vaccine platforms), why markets and annual budgets systematically under-provide preparedness, and the value of preventing catastrophe. Pandemics as global externalities and public goods belong to 3.6 Global Health and Trade (cross-reference); climate resilience to 4.5; antimicrobial resistance to 1.3 and 4.2.
 
 **Front matter:** Preface — `00-preface.md`
 **Reference:** Glossary — `GLOSSARY.md` · Index — `INDEX.md`
@@ -179,9 +189,9 @@ A chapter is complete when all are true:
 - [ ] All 13 template sections (§3) present, correctly ordered and named.
 - [ ] Opens with a single **bold** one-sentence thesis.
 - [ ] `## Best practices` is numbered with bold lead-ins.
-- [ ] Exactly **three** open discussion questions, each with a 4–8 sentence briefing, placed before the worked example.
-- [ ] Three sector lenses in order: Startup, Enterprise, Government.
-- [ ] Maturity model is a 4-level table (Initial / Developing / Defined / Optimising).
+- [ ] Exactly **six** open discussion questions, each with a 4–8 sentence briefing, placed before the worked example.
+- [ ] Four sector lenses in order: Startup, Small business, Enterprise, Government.
+- [ ] Maturity model is a 5-level table (Initiate / Develop / Standardize / Manage / Orchestrate).
 - [ ] Checklist has 6–12 `- [ ]` items.
 - [ ] 5–12 verified Wikipedia links; every inline link also in `## References`.
 - [ ] Every citation is real and checkable; no invented facts, URLs, or numbers.
@@ -206,7 +216,7 @@ A chapter can be written from scratch, regenerated, or deepened by a human or an
 
 Before a chapter or a change is considered complete, it passes four gates. Automate them wherever possible; a failure in any gate blocks "done".
 
-- **Structural gate.** Thirteen sections present and correctly named; a bold one-sentence thesis; numbered best practices with bold lead-ins; exactly three discussion questions before the example; three sector lenses in the order Startup, Enterprise, Government; a four-column maturity table; a checklist of 6–12 `- [ ]` items.
+- **Structural gate.** Thirteen sections present and correctly named; a bold one-sentence thesis; numbered best practices with bold lead-ins; exactly six discussion questions before the example; four sector lenses in the order Startup, Small business, Enterprise, Government; a five-column maturity table (Initiate / Develop / Standardize / Manage / Orchestrate); a checklist of 6–12 `- [ ]` items.
 - **Link gate.** Every inline Wikipedia link resolves to a real article and also appears in `## References`; no invented or guessed slugs; 5–12 links per chapter.
 - **Source gate.** No invented citations, URLs, statistics, or quotations. Figures are either real and checkable or described qualitatively.
 - **Consistency gate.** The `# Chapter N — Title` heading matches the filename and the manifest; every `Chapter N — Title` cross-reference names the chapter that actually holds that number; UK spelling; acronyms expanded on first use.
