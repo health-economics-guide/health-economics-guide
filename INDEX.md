@@ -8,11 +8,13 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## A
 
+**"A QALY is a QALY is a QALY"** — 3.5
 **Accountability for reasonableness** — 3.3, 3.4
 **Accountable care organisations** — 3.8
 **Activities of daily living** — 3.9
 **Active travel** — 4.5
 **Actuarial science** — 3.8
+**Adaptation (hedonic adaptation)** — 3.5
 **Adverse selection** — 1.3, 3.1, 3.8, 3.9
 **Advance market commitment** — 3.6, 4.2
 **Affordability versus value** — 2.5
@@ -50,7 +52,9 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Climate change as a driver of health cost** — 4.5
 **Clinical decision support systems** — 4.4
 **Co-benefits of climate action** — 4.5
+**Co-dependent technology** — 4.2
 **Community rating** — 3.8
+**Companion diagnostic** — 4.2
 **Comparator, choice of** — 2.1, 2.2, 2.4, 4.4
 **Compensating differentials** — 3.7
 **Compulsory licensing** — 3.6
@@ -101,6 +105,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Eligibility thresholds and cliff-edges** — 3.9
 **EQ-5D** — 2.1, 3.5, 3.10
 **Equity** — 1.1, 2.1, 2.5, 3.2, 3.3, 3.4, 3.6, 3.7, 3.8, 3.9, 3.10, 4.1, 4.3, 4.4, 4.5
+**Equity weights** — 3.4, 3.5
 **Equity–efficiency trade-off** — 1.1, 2.1, 3.4
 **Evidence-based policy** — 3.2
 **Evidence standards for digital and AI tools** — 4.3, 4.4
@@ -112,6 +117,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## F
 
+**Fair innings argument** — 3.4
 **Fee-for-service** — 1.2, 1.3, 3.1
 **Financial headroom** — 2.5
 **Financial protection and catastrophic spending** — 3.1, 3.4, 3.6, 3.8
@@ -142,6 +148,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Health–social-care boundary** — 3.9
 **Health-worker migration (brain drain)** — 3.6, 3.7
 **Heuristics and biases** — 4.1
+**High-risk strategy (prevention)** — 3.2
 **Horizontal and vertical equity** — 3.4
 **Human capital** — 1.1, 1.2, 3.7
 **Human Development Index** — 3.5
@@ -170,6 +177,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## L
 
 **Labour markets in health** — 3.7
+**Levels of prevention (primary, secondary, tertiary)** — 3.2
 **Libertarian paternalism** — 4.1
 **Life-cycle assessment** — 4.5
 **Long-term care financing** — 3.9
@@ -219,6 +227,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Panel data methods** — 2.3
 **Parity of esteem** — 3.10
 **Patents** — 2.4, 3.6, 4.2
+**Patient values versus public values** — 3.5
 **Perspective (analytic)** — 2.1, 2.2, 3.6, 3.9, 3.10, 4.5
 **Pharmacoeconomics** — 2.4
 **Phased and managed adoption** — 2.5
@@ -226,11 +235,15 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Planetary health** — 4.5
 **Plumbing diagram (Williams)** — 1.1, 1.2
 **Pooling and prepayment** — 1.3, 3.1, 3.8, 3.9
+**Population strategy (prevention)** — 3.2
+**Precision medicine (stratified / personalised)** — 4.2
 **Present bias** — 3.2, 4.1
 **Presenteeism and productivity loss** — 3.10
 **Prevention economics** — 1.2, 2.1, 3.2, 3.10, 4.3
+**Prevention paradox** — 3.2
 **Price discrimination** — 2.4
 **Price elasticity of demand** — 1.2
+**Prioritarianism** — 3.4
 **Priority-setting** — 1.1, 3.3, 3.6
 **Prior authorisation and utilisation management** — 3.8
 **Procedural justice** — 3.3, 3.4
@@ -251,6 +264,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **RAND Health Insurance Experiment** — 1.3, 3.1, 3.8
 **Randomised controlled trials** — 2.2, 2.3, 4.1
 **Rationing** — 1.1, 2.5, 3.3, 3.4, 3.6
+**Rawlsian maximin ("just health")** — 3.4
 **Real-world evidence** — 2.4, 4.3, 4.4
 **Regression discontinuity design** — 2.3
 **Regulation** — 1.3, 3.2, 4.4
@@ -258,6 +272,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Reinsurance** — 3.8
 **Remote patient monitoring** — 4.3
 **Research and development economics** — 2.4, 4.2
+**Response shift** — 3.5
 **Return on investment (ROI and SROI)** — 2.1, 3.2, 4.3
 **Risk adjustment and risk equalisation** — 1.3, 3.1, 3.8
 **Risk pooling** — 1.3, 3.1, 3.8, 3.9
@@ -275,6 +290,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Social cost of carbon** — 4.5
 **Social determinants of health** — 3.4, 4.5
 **Subjective wellbeing** — 3.5
+**Sufficientarianism** — 3.4
 **Sugary drink taxes** — 3.2
 **Supplier-induced demand** — 1.2, 1.3, 3.1
 **Supply of healthcare** — 1.4
@@ -294,6 +310,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Uncertainty (parameter, structural, heterogeneity)** — 2.1, 2.2, 4.2
 **Universal health coverage** — 3.1, 3.4, 3.6, 3.8
 **Uptake curves and eligible populations** — 2.5
+**Utilitarianism** — 3.4, 3.5
 
 ## V
 

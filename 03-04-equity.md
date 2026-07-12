@@ -22,6 +22,10 @@ Two empirical regularities anchor the field. The [inverse care law](https://en.w
 
 Underlying every equity choice is a theory of [distributive justice](https://en.wikipedia.org/wiki/Distributive_justice). An [egalitarian](https://en.wikipedia.org/wiki/Egalitarianism) view seeks to equalise health or access; a maximin (Rawlsian) view prioritises the worst-off; a utilitarian view maximises total health regardless of distribution; and a needs-based view allocates by capacity to benefit or by severity. These are rival, not complementary — you cannot maximise total health and prioritise the worst-off at the same time when they conflict. The capability approach associated with [Amartya Sen](https://en.wikipedia.org/wiki/Amartya_Sen), which reframes fairness around what people are able to be and do rather than health states alone, is developed in Chapter 3.5 — Capabilities.
 
+It is worth naming these theories precisely, because each licenses a different equity weight and each can honestly claim the label "fair". Utilitarianism counts every unit of health gain equally and maximises the total — which is exactly what an unweighted quality-adjusted life year (QALY) does, making standard cost-effectiveness analysis quietly utilitarian rather than value-neutral. [Prioritarianism](https://en.wikipedia.org/wiki/Prioritarianism) keeps the goal of more health but gives extra moral weight to gains for the worse-off, so the same QALY counts for more when it accrues to someone sicker or poorer; a formal equity weight is prioritarianism turned into a number. Strict egalitarianism values equality of health in itself and, at the limit, can even favour levelling down. The maximin or Rawlsian view concentrates on the position of the worst-off, and Norman Daniels' "just health" extends John Rawls's principle of fair equality of opportunity to health care — grounding a right to care in the life chances that illness forecloses rather than in health as such.
+
+Two further positions matter in practice. Sufficientarianism holds that what justice requires is not equality but that everyone reach a threshold of "enough" — enough health, or enough access — after which residual inequality is less pressing; it underwrites benefit packages and minimum standards rather than gap-closing for its own sake. Alan Williams' "fair innings" argument holds that everyone is entitled to a normal span of health over a lifetime, so a young person facing early death has a stronger claim than an older person who has already had their innings — a view that can justify weighting health gains by age, and that pulls against the utilitarian instinct to fund whoever offers the most QALYs per pound. The practical lesson is that "equity" is not one thing: these are rival theories that give different, defensible answers to the same allocation, and an equity weight is only as legitimate as the theory of justice it silently encodes.
+
 Measurement gives these ideas teeth. The dominant tools are the concentration curve and concentration index, developed for health by Adam Wagstaff and Eddy van Doorslaer. The concentration curve ranks the population from poorest to richest along the horizontal axis and plots the cumulative share of health, illness, or health-care use on the vertical axis; if the curve lies above the diagonal, the variable is concentrated among the poor, and if below, among the rich. The concentration index summarises that curve in a single number between −1 and +1, where zero means no income-related inequality — conceptually the same family of tools as the [Gini coefficient](https://en.wikipedia.org/wiki/Gini_coefficient) and the Lorenz curve used for income inequality. Because sicker groups legitimately use more care, analysts apply need-standardisation to strip out variation that is warranted by need, leaving a horizontal inequity index that isolates the unfair part. For financing, the Kakwani index measures progressivity as the gap between how payments are distributed and how income is distributed. These methods let you say not just "that looks unfair" but "care is pro-rich by this much, after accounting for need."
 
 Finally, equity almost always trades off against efficiency. Reaching the last isolated household, or treating the sickest for whom care is least cost-effective, usually costs more per unit of health than concentrating resources where they go furthest. Naming that trade-off, rather than pretending it away, is the mark of honest analysis — and links directly to how systems ration (see Chapter 3.3 — Rationing) and evaluate (see Chapter 2.1 — Economic Evaluation).
@@ -93,6 +97,7 @@ A ministry or national payer owns equity as a statutory and political obligation
 - **Denying the trade-off.** Claiming an option is both most efficient and most equitable to avoid an uncomfortable choice. Fix: quantify the sacrifice and let accountable decision-makers own it.
 - **Health-care tunnel vision.** Trying to close outcome gaps with clinical services alone when most of the gradient is made upstream. Fix: act on the social determinants and partner across sectors.
 - **Equity-blind innovation.** Rolling out digital or market reforms that concentrate benefit on the advantaged. Fix: run an equity impact assessment before launch and monitor uptake by group during it.
+- **One theory of justice smuggled in as neutrality.** Presenting an unweighted cost-effectiveness result, or any single distributive rule, as the objective or the "fair" answer, when it is really one contested theory — usually utilitarianism — among several. Fix: name the theory of justice your method encodes, and show what a prioritarian, egalitarian, sufficientarian, or fair-innings view would decide instead.
 
 ## Maturity model
 
@@ -126,6 +131,9 @@ A ministry or national payer owns equity as a statutory and political obligation
 - OECD — *Health at a Glance*, for cross-country indicators of access and outcomes disaggregated by socioeconomic status.
 - Marmot et al. — reviews of health inequalities and the social determinants of health (the social gradient and proportionate universalism).
 - Anand, Peter & Sen (eds.), *Public Health, Ethics, and Equity* — on distributive justice and equity in health.
+- Daniels, *Just Health: Meeting Health Needs Fairly* — the Rawlsian case for grounding a right to health care in fair equality of opportunity.
+- Williams, "Intergenerational Equity: An Exploration of the 'Fair Innings' Argument" — the seminal statement of the fair-innings view and its implications for age weighting.
+- Parfit, "Equality and Priority" — the reference distinction between egalitarianism, prioritarianism, and sufficiency.
 - Cookson, Griffin, Norheim & Culyer (eds.), *Distributional Cost-Effectiveness Analysis* — methods for building equity into economic evaluation.
 
 ## References
@@ -141,9 +149,12 @@ A ministry or national payer owns equity as a statutory and political obligation
 9. Amartya Sen — Wikipedia — https://en.wikipedia.org/wiki/Amartya_Sen
 10. Universal health coverage — Wikipedia — https://en.wikipedia.org/wiki/Universal_health_coverage
 11. Gini coefficient — Wikipedia — https://en.wikipedia.org/wiki/Gini_coefficient
-12. Equity in the Finance and Delivery of Health Care: An International Perspective — van Doorslaer, Wagstaff & Rutten (eds.), Oxford University Press — https://global.oup.com/
-13. Distributional Cost-Effectiveness Analysis: Quantifying Health Equity Impacts and Trade-Offs — Cookson, Griffin, Norheim & Culyer (eds.), Oxford University Press — https://global.oup.com/
-14. Health at a Glance — OECD — https://www.oecd.org/health/health-at-a-glance/
-15. Tracking Universal Health Coverage: Global Monitoring Report — World Health Organization & World Bank — https://www.who.int/publications
+12. Prioritarianism — Wikipedia — https://en.wikipedia.org/wiki/Prioritarianism
+13. Equity in the Finance and Delivery of Health Care: An International Perspective — van Doorslaer, Wagstaff & Rutten (eds.), Oxford University Press — https://global.oup.com/
+14. Distributional Cost-Effectiveness Analysis: Quantifying Health Equity Impacts and Trade-Offs — Cookson, Griffin, Norheim & Culyer (eds.), Oxford University Press — https://global.oup.com/
+15. Just Health: Meeting Health Needs Fairly — Norman Daniels, Cambridge University Press — https://www.cambridge.org/
+16. Intergenerational Equity: An Exploration of the "Fair Innings" Argument — Alan Williams, Health Economics — https://onlinelibrary.wiley.com/journal/10991050
+17. Health at a Glance — OECD — https://www.oecd.org/health/health-at-a-glance/
+18. Tracking Universal Health Coverage: Global Monitoring Report — World Health Organization & World Bank — https://www.who.int/publications
 </content>
 </invoke>

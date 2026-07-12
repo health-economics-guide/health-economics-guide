@@ -79,6 +79,18 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] Consistency gate — cross-references across all 24 chapters resolve to correct manifest titles; UK spelling; README/preface updated to 24 chapters
 - [x] `git commit` the expansion
 
+## Phase 5 — Deepening existing chapters (in place of three overlap-risk chapters)
+
+Rather than add thin new chapters for prevention, ethics, and genomics, deepen the chapters that already own them (spec §13 anti-overlap discipline). Each deepened in the uncapped sections (Core concepts, Common failure modes, References) to preserve the template gates.
+
+- [x] 3.2 Health Policy — added prevention economics depth (three levels; prevention ≠ cost-saving; the prevention paradox; long-payback vs annual budgeting; public-health ROI)
+- [x] 3.4 Equity — added distributive-justice theories (utilitarianism, prioritarianism, egalitarianism, Rawlsian maximin/"just health", sufficientarianism, fair innings)
+- [x] 3.5 Capabilities — added the value judgements inside the QALY (equal-weighting as a value choice; patient vs public values; adaptation/response shift; legitimacy via process)
+- [x] 4.2 Innovation — added precision/stratified medicine and genomics (companion diagnostics, co-dependent technologies, shrinking subgroups, genomics as durable asset/global public good)
+- [x] Gates re-run on the 4 deepened chapters — all 12 links, all resolve, gates intact; new DOIs (Rose 1985, Sprangers & Schwartz 1999) Crossref-verified
+- [x] Reference matter updated with the new named concepts (glossary 265→281, index +17); glossary/index re-validated — all pointers match manifest, all numbers valid, all links resolve
+- [x] `git commit` the deepening
+
 ## Phase 4 — Quality gates and release
 
 - [x] Structural gate — all 17 chapters have the 13 sections in the exact order; 3 questions; 3 ordered lenses; 4-col maturity table; 10–12 checklist items

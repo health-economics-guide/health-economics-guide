@@ -8,6 +8,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## A
 
+**"A QALY is a QALY is a QALY"** — The convention that a quality-adjusted life year counts equally whoever receives it; an equal-weighting rule that is itself a distributive value judgement, not a neutral technical default. — See Chapter 3.5 — Capabilities.
+
 **Accountability for reasonableness** — A framework (Daniels and Sabin) for making priority-setting legitimate through four conditions: publicity, relevant reasons, revisability, and enforcement. — See Chapter 3.3 — Rationing.
 
 **Accountable care organisation** — A provider group given a budget and a stake in the outcomes and total cost of a defined population, aligning payment with the coverage an insurer is trying to deliver. *[Wikipedia](https://en.wikipedia.org/wiki/Accountable_care_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
@@ -17,6 +19,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Active travel** — Walking and cycling, a measure that cuts transport emissions and raises physical activity at once — a classic climate-and-health co-benefit. *[Wikipedia](https://en.wikipedia.org/wiki/Active_travel)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
 **Actuarial science** — The discipline of estimating the cost and risk of future claims, on which every viable insurance design ultimately rests. *[Wikipedia](https://en.wikipedia.org/wiki/Actuarial_science)* — See Chapter 3.8 — Insurance and Risk Protection.
+
+**Adaptation (hedonic adaptation)** — The tendency of people living with a health condition to adjust and recover much of their wellbeing, so patients often value a health state more highly than the public does. *[Wikipedia](https://en.wikipedia.org/wiki/Hedonic_treadmill)* — See Chapter 3.5 — Capabilities.
 
 **Adverse selection** — The unravelling of a voluntary insurance pool when those who expect to claim are keenest to buy, raising premiums and driving out the healthy. *[Wikipedia](https://en.wikipedia.org/wiki/Adverse_selection)* — See Chapter 1.3 — Market Failure.
 
@@ -90,9 +94,13 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Co-benefits (of climate action)** — Gains in more than one domain from a single measure, as when cleaner air or active travel cuts emissions and improves health at once. *[Wikipedia](https://en.wikipedia.org/wiki/Co-benefits_of_climate_change_mitigation)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
+**Co-dependent technology** — A drug and its selection test (or any linked pair) whose value cannot be assessed separately because neither delivers its benefit alone. — See Chapter 4.2 — Innovation Health Economics.
+
 **Coinsurance** — A form of cost-sharing in which the insured pays a fixed percentage of each bill, so their exposure rises with the cost of care. *[Wikipedia](https://en.wikipedia.org/wiki/Coinsurance)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Community rating** — Charging everyone in a pool the same premium regardless of individual health risk, so the healthy subsidise the sick and coverage stays affordable for those most likely to need it. *[Wikipedia](https://en.wikipedia.org/wiki/Community_rating)* — See Chapter 3.8 — Insurance and Risk Protection.
+
+**Companion diagnostic** — A test that identifies which patients should receive a particular treatment, so the two are evaluated and used together. — See Chapter 4.2 — Innovation Health Economics.
 
 **Compensating differential** — The extra pay a worker requires to accept worse conditions — night shifts, danger, an unpopular rural posting; unpaid, it yields a predictable shortage. *[Wikipedia](https://en.wikipedia.org/wiki/Compensating_differential)* — See Chapter 3.7 — Health Workforce and Labour Markets.
 
@@ -220,6 +228,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## F
 
+**Fair innings argument** — Alan Williams' claim that everyone is entitled to a normal lifetime span of health, giving the young sick a stronger claim than the old sick and justifying age weighting. — See Chapter 3.4 — Equity.
+
 **Fee-for-service** — Paying for each item of activity, which rewards volume and invites supplier-induced demand. *[Wikipedia](https://en.wikipedia.org/wiki/Fee-for-service)* — See Chapter 3.1 — Health Systems.
 
 **Financial headroom** — The space a budget holder actually has to absorb new spending after existing commitments — almost always far smaller than the total budget. — See Chapter 2.5 — Budget Impact and Affordability.
@@ -275,6 +285,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Health technology assessment (HTA)** — The systematic appraisal of a technology's costs, benefits, and consequences, run by bodies such as NICE and IQWiG to inform coverage and pricing. *[Wikipedia](https://en.wikipedia.org/wiki/Health_technology_assessment)* — See Chapter 2.1 — Economic Evaluation.
 
 **Hepatitis C** — The curative direct-acting antiviral for chronic hepatitis C is the canonical case of a highly cost-effective treatment whose aggregate budget impact forced staged access. *[Wikipedia](https://en.wikipedia.org/wiki/Hepatitis_C)* — See Chapter 2.5 — Budget Impact and Affordability.
+
+**High-risk strategy (prevention)** — Concentrating preventive effort on the minority at greatest risk; favourable benefit-to-cost per person but limited reach across total cases. — See Chapter 3.2 — Health Policy.
 
 **Human capital** — A stock, like education or skills, that yields returns over many years; the Grossman model treats health as one form of it. *[Wikipedia](https://en.wikipedia.org/wiki/Human_capital)* — See Chapter 1.2 — Demand for Health and Healthcare.
 
@@ -416,6 +428,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Patent** — A time-limited monopoly that lets an inventor charge above cost to recoup investment, trading dynamic incentive against static access. *[Wikipedia](https://en.wikipedia.org/wiki/Patent)* — See Chapter 4.2 — Innovation Health Economics.
 
+**Patient values versus public values** — The contested question of whose preferences should set health-state weights: the public who fund the system but have not lived the state, or the patients who have adapted to it. — See Chapter 3.5 — Capabilities.
+
 **Pharmacoeconomics** — The branch of health economics studying the costs and consequences of pharmaceutical products and the systems that pay for them. *[Wikipedia](https://en.wikipedia.org/wiki/Pharmacoeconomics)* — See Chapter 2.4 — Pharmacoeconomics.
 
 **Phased (managed) adoption** — Introducing a valuable but unaffordable intervention in stages — prioritising the highest-need first, capping volumes, or spreading the cash — to fund something real within available headroom. — See Chapter 2.5 — Budget Impact and Affordability.
@@ -428,11 +442,19 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Plumbing diagram** — Alan Williams' schematic dividing health economics into eight interconnected boxes, from determinants of health to planning. *[Wikipedia](https://en.wikipedia.org/wiki/Alan_Williams_(economist))* — See Chapter 1.1 — Introduction to Health Economics.
 
+**Population strategy (prevention)** — Shifting the whole population's risk distribution slightly (a tax, a reformulation target, a default) to prevent many cases in aggregate, with small individual benefit. — See Chapter 3.2 — Health Policy.
+
+**Precision medicine (stratified / personalised medicine)** — Using biological information, often genomic, to target a therapy at the subgroup likely to benefit rather than treating an average patient. — See Chapter 4.2 — Innovation Health Economics.
+
 **Preferred provider organization (PPO)** — A managed-care arrangement offering wider provider choice at higher cost than an HMO. *[Wikipedia](https://en.wikipedia.org/wiki/Preferred_provider_organization)* — See Chapter 3.8 — Insurance and Risk Protection.
 
 **Present bias** — The systematic over-weighting of the present against the future, the behavioural mechanism behind chronic under-investment in prevention. *[Wikipedia](https://en.wikipedia.org/wiki/Present_bias)* — See Chapter 4.1 — Behavioural Economics.
 
 **Presenteeism** — The productivity lost when people are present at work but impaired by illness; in mental illness usually the larger part of the productivity loss. *[Wikipedia](https://en.wikipedia.org/wiki/Presenteeism)* — See Chapter 3.10 — Mental Health Economics.
+
+**Prevention (primary, secondary, tertiary)** — The three levels of prevention — stopping disease arising; detecting and treating it early; limiting the damage of established disease — each with a distinct economics. — See Chapter 3.2 — Health Policy.
+
+**Prevention paradox** — A preventive measure that brings large benefit to a population may offer little to each participating individual (Geoffrey Rose). — See Chapter 3.2 — Health Policy.
 
 **Preventive healthcare** — Action to avert illness before it occurs; not automatically cheaper than cure, and to be appraised like any treatment. *[Wikipedia](https://en.wikipedia.org/wiki/Preventive_healthcare)* — See Chapter 3.2 — Health Policy.
 
@@ -441,6 +463,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Price elasticity of demand** — The percentage change in the quantity of care used for a percentage change in the price the user faces. *[Wikipedia](https://en.wikipedia.org/wiki/Price_elasticity_of_demand)* — See Chapter 1.2 — Demand for Health and Healthcare.
 
 **Prior authorisation** — A managed-care tool requiring an insurer's approval before certain expensive services are delivered; useful against overuse, corrosive when it rations by hassle. *[Wikipedia](https://en.wikipedia.org/wiki/Prior_authorization)* — See Chapter 3.8 — Insurance and Risk Protection.
+
+**Prioritarianism** — A distributive-justice view that seeks more health overall but gives extra moral weight to gains for the worse-off; the ethical basis of equity weights. *[Wikipedia](https://en.wikipedia.org/wiki/Prioritarianism)* — See Chapter 3.4 — Equity.
 
 **Procedural justice** — Fairness in how a decision is made; the source of legitimacy when people cannot agree on the right outcome. *[Wikipedia](https://en.wikipedia.org/wiki/Procedural_justice)* — See Chapter 3.3 — Rationing.
 
@@ -453,6 +477,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Public good (economics)** — A good that is non-rival and non-excludable (e.g. disease surveillance, research knowledge), under-produced by an unaided market. *[Wikipedia](https://en.wikipedia.org/wiki/Public_good_(economics))* — See Chapter 1.3 — Market Failure.
 
 **Public health** — The organised effort to protect and improve the health of populations, supplying much of policy's rationale. *[Wikipedia](https://en.wikipedia.org/wiki/Public_health)* — See Chapter 3.2 — Health Policy.
+
+**Public-health return on investment (ROI) tools** — Practitioner calculators (e.g. GOV.UK / Public Health England) that estimate a prevention programme's payback over realistic multi-year horizons and by population group. — See Chapter 3.2 — Health Policy.
 
 **Push and pull mechanisms** — Push funding pays for research inputs before success (grants, tax credits); pull funding rewards outputs after success (patents, prizes, AMCs). — See Chapter 4.2 — Innovation Health Economics.
 
@@ -468,6 +494,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Rationing** — The allocation of a scarce resource among competing claims; in health, a permanent condition to be managed openly and fairly. *[Wikipedia](https://en.wikipedia.org/wiki/Rationing)* — See Chapter 3.3 — Rationing.
 
+**Rawlsian maximin ("just health")** — The view (John Rawls, extended by Norman Daniels) that prioritises the worst-off and grounds a right to health care in fair equality of opportunity. — See Chapter 3.4 — Equity.
+
 **Regression discontinuity design** — A quasi-experimental method exploiting a sharp eligibility threshold to compare near-identical people just above and below the line. *[Wikipedia](https://en.wikipedia.org/wiki/Regression_discontinuity_design)* — See Chapter 2.3 — Health Econometrics.
 
 **Regulation** — Rules that mandate or prohibit, from licensing and safety standards to advertising bans, a heavier point on the coercion spectrum. *[Wikipedia](https://en.wikipedia.org/wiki/Regulation)* — See Chapter 3.2 — Health Policy.
@@ -479,6 +507,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Remote patient monitoring** — Using devices such as blood-pressure cuffs and glucose sensors to collect data outside a clinical setting and route it to a care team. *[Wikipedia](https://en.wikipedia.org/wiki/Remote_patient_monitoring)* — See Chapter 4.3 — Digital Health Economics.
 
 **Research and development (R&D)** — The production of new knowledge and its translation into usable products, running from basic science through development. *[Wikipedia](https://en.wikipedia.org/wiki/Research_and_development)* — See Chapter 4.2 — Innovation Health Economics.
+
+**Response shift** — Changes in a person's internal standards, values, or conception of quality of life over time; closely tied to adaptation. — See Chapter 3.5 — Capabilities.
 
 **Returns to scale** — How output responds when all inputs are scaled together — rising more than, in step with, or less than proportionately. *[Wikipedia](https://en.wikipedia.org/wiki/Returns_to_scale)* — See Chapter 1.4 — Supply of Healthcare.
 
@@ -517,6 +547,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Social insurance** — Mandatory contributory pooling of a risk, the model behind statutory long-term-care insurance in Germany and Japan. *[Wikipedia](https://en.wikipedia.org/wiki/Social_insurance)* — See Chapter 3.9 — Long-Term and Social Care Economics.
 
 **Subjective well-being** — How people rate their own lives; a tradition distinct from capability, which measures what people are free to do rather than how they feel. *[Wikipedia](https://en.wikipedia.org/wiki/Subjective_well-being)* — See Chapter 3.5 — Capabilities.
+
+**Sufficientarianism** — The view that justice requires everyone to reach a threshold of "enough" health or access, after which residual inequality is less pressing. — See Chapter 3.4 — Equity.
 
 **Sugary drink tax** — A levy on sugar-sweetened beverages, most effective when tiered on sugar content so it also rewards reformulation. *[Wikipedia](https://en.wikipedia.org/wiki/Sugary_drink_tax)* — See Chapter 3.2 — Health Policy.
 
