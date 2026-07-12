@@ -1,0 +1,134 @@
+# Chapter 3.5 — Capabilities
+
+**Health economics can measure what a health intervention lets people be and do — not only how long they live free of disease — and once you see that gap, some decisions look different.**
+
+## Why this matters in health economics
+
+Most health economic evaluation values outcomes as health, and health mostly as survival adjusted for a handful of functional dimensions. That is a powerful simplification, and it carries the workhorse chapter of this book (see Chapter 2.1 — Economic Evaluation). But it is a simplification, and in some services the thing that is being simplified away is exactly the thing the service exists to protect. A reablement programme for frail older people, a hospice, a mental-health peer-support service, a carer respite scheme — these are not primarily in the business of adding survival or removing symptoms. They are in the business of letting people keep control of their day, stay attached to others, and feel settled about the future.
+
+When the outcome measure cannot see those things, the evaluation cannot value them, and the service that produces them looks weak on paper next to one that shifts a clinical number. Directors feel this as a recurring frustration: the intervention everyone believes in scores badly, and no one can say why in the language the funder speaks. The capability approach gives you that language. It reframes the question from "how much health did we produce?" to "what range of valuable things is this person now able to do, and did we widen it?"
+
+The stakes are practical, not philosophical. Whole categories of spending — social care, palliative care, public health, services for people whose conditions will not improve — are systematically undervalued by outcome measures built for curative medicine. If your evaluation toolkit only rewards health gain, you will quietly disinvest from care that produces wellbeing rather than cure, and you will do it while believing you are being rigorous. Understanding capabilities is how you stop that from happening by accident. The equity dimension of who gets what — the fair distribution of these gains — is the subject of Chapter 3.4 — Equity; this chapter is about what we measure in the first place.
+
+## Core concepts
+
+The [capability approach](https://en.wikipedia.org/wiki/Capability_approach) was developed by the economist and philosopher [Amartya Sen](https://en.wikipedia.org/wiki/Amartya_Sen), and extended by the philosopher [Martha Nussbaum](https://en.wikipedia.org/wiki/Martha_Nussbaum). Its central move is to shift the focus of evaluation away from resources (what people have) and away from utility (how satisfied they feel) towards *capabilities*: the real freedoms a person has to achieve the kinds of life they have reason to value. Sen distinguishes *functionings* — the things a person actually is and does, such as being nourished, being mobile, taking part in community life — from *capabilities*, the set of functionings genuinely open to them. Two people who are both fasting have the same functioning; the one who is starving and the one who is dieting have very different capabilities. The approach was set out for a general audience in Sen's [*Development as Freedom*](https://en.wikipedia.org/wiki/Development_as_Freedom), and it underpins measures such as the [Human Development Index](https://en.wikipedia.org/wiki/Human_Development_Index), which values development as expanded human freedom rather than income alone.
+
+To see why this matters for health economics, you need the distinction between welfarism and extra-welfarism. [Welfare economics](https://en.wikipedia.org/wiki/Welfare_economics) in its standard form is *welfarist*: social value is built up entirely from individuals' utility, usually understood as preference satisfaction, in a tradition descended from [utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism). A strict welfarist counts only how much people's preferences are satisfied, and counts nothing else. **Extra-welfarism**, the framework within which most modern health technology assessment actually operates, breaks with this by admitting outcomes other than utility — most obviously health itself — and by allowing the analyst, rather than only the individual, to decide what counts and how it is weighted. There is no Wikipedia article for extra-welfarism; the foundational statement is Brouwer, Culyer, van Exel and Rutten's 2008 paper contrasting the two, and Coast, Smith and Lorgelly's companion argument that the capability approach offers extra-welfarism a firmer philosophical footing.
+
+The [quality-adjusted life year](https://en.wikipedia.org/wiki/Quality-adjusted_life_year) (QALY) is the practical expression of health-based extra-welfarism. It weights years of life by a health-related quality-of-life score, typically elicited with an instrument such as the [EQ-5D](https://en.wikipedia.org/wiki/EQ-5D), whose five dimensions are mobility, self-care, usual activities, pain or discomfort, and anxiety or depression. The QALY has enormous strengths: it is comparable across conditions, it has a rich valuation methodology, and it is the currency of priority-setting in many systems. But its dimensions are health functionings, and it says nothing directly about attachment, autonomy, security, or role. The QALY itself and the mechanics of its valuation belong to Chapter 2.1 — Economic Evaluation; here we are interested in what it leaves out.
+
+The **ICECAP** measures are the leading attempt to fill that gap by measuring capability directly. Developed by Joanna Coast and colleagues at the Universities of Birmingham and Bristol, ICECAP-O (the "O" for older people) captures five attributes — attachment (love and friendship), security (thinking about the future without concern), role (doing things that make you feel valued), enjoyment (pleasure), and control (independence). ICECAP-A, the adult version, uses stability, attachment, autonomy, achievement and enjoyment. Each measure asks not whether you *are* doing these things but the extent to which you are *able* to, and each was valued using a general-population survey so that scores can be combined into an index. There is no Wikipedia article for ICECAP; cite it to Coast and colleagues (see References). The broader field these instruments sit in is the measurement of [well-being](https://en.wikipedia.org/wiki/Well-being), including [subjective well-being](https://en.wikipedia.org/wiki/Subjective_well-being) — how people rate their own lives — which is a related but distinct tradition that asks how people feel rather than what they can do.
+
+## Best practices
+
+1. **Decide whether health is the right outcome space before you pick an instrument.** For a new cancer drug, health-related quality of life is plausibly the whole story, and a QALY is the right currency. For reablement, palliative care, or social care, the value lies substantially outside health, and a health measure will miss it by construction. Ask what this service is *for*; if the answer is largely about autonomy, attachment, or security, a capability measure belongs in your evaluation.
+
+2. **Name your normative framework out loud.** Whether you are welfarist, health-focused extra-welfarist, or capability-based is not a technicality — it determines what counts as a benefit and whose judgement decides. State it in the evaluation plan alongside the perspective and the time horizon, because a reviewer cannot interpret your results without it, and because burying the choice is how contestable value judgements pass as neutral method.
+
+3. **Reach for ICECAP when the point of the service is capability, not cure.** ICECAP-O and ICECAP-A were built precisely for interventions whose value is broader than health, and there is a growing body of applied use in older people's services, end-of-life care, mental health, and public health. Using them signals that you take the service's real objectives seriously, and it produces a number a funder can compare across programmes with the same aim.
+
+4. **Do not silently swap one measure for another between comparators.** If you measure a social-care intervention in capability and the alternative use of the money in QALYs, you cannot put them on the same page honestly. Either measure both in the same space, or run the two analyses side by side and be explicit that the comparison across them is a judgement, not an arithmetic. Mixing currencies and then adding them up is one of the fastest ways to mislead a committee.
+
+5. **Collect capability data prospectively, because you cannot reconstruct it later.** Unlike cost data, capability cannot be pulled from an administrative system after the fact; it has to be asked of the person while the study is running. Build ICECAP or an equivalent into the data collection from the start, at baseline and follow-up, or you will be left arguing qualitatively for value you could have measured.
+
+6. **Weight the index with population values, and say whose they are.** The strength of a valued measure like ICECAP is that scores reflect a general-population view of how much each attribute matters, not the analyst's guess. Use the published tariff for the population that resembles your setting where one exists, be clear that tariffs are jurisdiction-specific, and flag it as a limitation when you are borrowing values from another country.
+
+7. **Treat a "sufficient capability" logic as an option, not only an incremental one.** Capability thinking invites a different decision rule: rather than always maximising the index, you may care whether people reach a threshold of *enough* capability — enough security, enough attachment — especially near the end of life. This reframes some evaluations from "how much more" to "did we get people over the line", which can matter more to a palliative service than a marginal gain.
+
+8. **Use capability evidence to defend services the QALY undervalues, not to inflate every business case.** The honest use of a capability measure is to reveal value the standard toolkit cannot see; the dishonest use is to reach for whichever instrument makes your programme look best. Adopt a measure because it fits the outcome the service produces, decided before you see the results, not because it flatters the answer you want.
+
+9. **Keep subjective wellbeing separate from capability, and know which question you are asking.** A satisfaction score tells you how someone feels; a capability score tells you what they are free to do. These can move in opposite directions — an adapted, contented person may report high wellbeing on little capability — which is exactly Sen's warning about relying on satisfaction. Choose deliberately, and if you use both, interpret them as answers to different questions.
+
+10. **Triangulate the number with the account.** Capability measurement grew partly out of qualitative research into what people actually value, and the number is at its most persuasive when it sits beside the reasons behind it. Pair the ICECAP index with a short qualitative strand that explains *why* attachment or control shifted, so the committee sees both the size of the effect and its human content.
+
+11. **Be honest about the immature parts.** Capability measurement is real and usable but younger than QALY methodology: there is no single agreed cost-effectiveness threshold for a capability gain, cross-country tariffs are patchy, and reference cases in most HTA bodies still centre the QALY. Present capability evidence as a rigorous complement that fills a known gap, acknowledge what is not yet settled, and you will be trusted further than if you oversell it.
+
+## Questions to discuss with your team
+
+1. **What is this service actually trying to change in a person's life, and can our outcome measure see it?** This is the question capability thinking exists to force, and most teams have never asked it explicitly because the outcome measure was inherited, not chosen. Walk through what the service does for a real user — does it extend their life, relieve a symptom, or does it let them stay in their own home, keep seeing their family, feel settled about dying? If the honest answer is the second kind, and your measure is EQ-5D, you are systematically blind to your own effect. The tension is that the health measure is comparable, familiar, and accepted by your funder, while the capability measure is right but less established. An honest discussion names the specific dimensions of value your current measure cannot capture, and decides whether that blindness is tolerable for this particular service or fatal to evaluating it fairly.
+
+2. **Are we willing to let value that isn't health count, and who decides what counts?** Extra-welfarism and the capability approach both admit outcomes beyond individual utility, but they hand the analyst — or the population survey, or the committee — the power to say what matters. That is a genuine transfer of authority away from the patient's own preferences, and it deserves scrutiny rather than a shrug. Discuss where your organisation stands: are you a strict health-maximiser, because that is what your mandate funds, or do you accept that autonomy and attachment are legitimate objectives of care even when they add no QALYs? The real tension is accountability — spending public money on "wellbeing" invites the charge that you are funding vague goods with no discipline. An honest answer sets out which non-health outcomes you will count, on what evidence, and how you will stop the category from becoming a licence to fund anything.
+
+3. **Where might we be quietly disinvesting from good care because our metrics can't score it?** This turns the abstract point into a budget audit. Look across your portfolio for services that everyone clinically respects but that always struggle in the business case — palliative care, carer support, day services, mental-health recovery work — and ask whether the weakness is in the service or in the ruler. The danger is asymmetric: a curative programme with a clean QALY story wins funding rounds against a wellbeing programme whose value is real but unmeasured, year after year, until the second is gone. Naming the candidates is uncomfortable because it implies your past prioritisation may have been biased by measurement, not merit. An honest answer produces a short list of services to re-evaluate with a capability lens before the next round, and a recognition that "no evidence of benefit" and "benefit our evidence can't detect" are not the same finding.
+
+## In practice: a health economics example
+
+Waitematā District, a fictional health and aged-care planning body in New Zealand, has NZ$4 million of time-limited funding and two competing proposals for frail older people living at home. The first is a falls-prevention and strength-and-balance programme with a well-established evidence base: it reduces fractures, and its cost per QALY, modelled on EQ-5D data, comes in comfortably within the range the district usually funds. The second is a reablement-and-companionship service — short-term intensive support to help people relearn daily tasks after a hospital stay, paired with regular social contact — championed by clinicians and families but with a thin QALY story. On the standard evaluation, the falls programme wins easily and the reablement service is marked "insufficient evidence of cost-effectiveness".
+
+The district's health economist is uneasy, because the reablement service is plainly doing something the evaluation cannot see. She commissions a small prospective study that adds ICECAP-O alongside EQ-5D at baseline and at three months for users of the reablement service, and interviews a subset about what changed. The EQ-5D barely moves — these are people with stable long-term frailty whose health is not going to improve. But the ICECAP-O index rises meaningfully on three attributes: control (people regain independence in dressing, cooking, and getting out), attachment (the companionship strand reduces isolation), and security (users report worrying less about the future). The qualitative strand puts content behind the numbers: one theme is that people describe "getting my life back", not "getting better".
+
+Now the committee faces the harder, more honest decision. It cannot simply add the reablement service's capability gains to the falls programme's QALYs — they are measured in different currencies, and the economist refuses to fake a common denominator. Instead she presents the two side by side: the falls programme as cost per QALY, the reablement service as cost per unit of capability gain, each with its own uncertainty, and a clear statement that comparing across them is a value judgement for the committee, not a calculation she can make for them. She also notes what is unsettled — that New Zealand has no official capability threshold, so the ICECAP result shows direction and magnitude of value, not a pass/fail against a line.
+
+The committee decides to fund the falls programme in full and a scaled pilot of the reablement service, with continued ICECAP-O measurement to build the local evidence base. The capability analysis did not overturn the priority order, and it was not meant to. What it did was stop the reablement service from being recorded as worthless because the district happened to own a ruler that could not measure it — and it gave the service a fair, funder-legible number to be judged on next time. That is the realistic contribution of capability measurement: not a revolution in the answer, but an honest widening of what the question is allowed to see.
+
+## Three sector lenses
+
+### Startup
+
+A digital-health or social-care start-up building, say, a loneliness-reduction or medication-independence product has a strong reason to reach for capability measurement early: its whole value proposition may be autonomy and connection, which a health measure will score as nothing. Adopting ICECAP-A or ICECAP-O in a pilot lets a young venture demonstrate its real effect to commissioners and impact investors rather than straining to show a health gain it was never designed to produce. The risk is credibility — a novel measure from an unknown vendor invites scepticism — so the start-up should use the published, validated instrument exactly as designed, not a bespoke wellbeing questionnaire of its own, and be candid that capability evidence complements rather than replaces the health evidence a buyer may still demand.
+
+### Enterprise
+
+A large provider or insurer — an integrated care organisation, a national aged-care operator, a health plan — has the scale to embed capability measurement across a service line and generate the repeated, comparable data that makes it decision-useful. The prize is a portfolio view: being able to see which of many wellbeing-oriented services actually expand capability and which merely feel worthwhile. The obstacle is the installed base of QALY-centred reporting and contracts written in cost-per-QALY terms; introducing a second currency raises real questions about how to reconcile the two at board level. The enterprise move is to run capability alongside, not instead of, the incumbent measure, and to be disciplined about which services genuinely warrant the extra instrument rather than bolting it onto everything.
+
+### Government
+
+A ministry, national payer, or HTA body sets the reference case that decides which measures "count", and so has the greatest power and the greatest responsibility here. Some bodies have begun to acknowledge broader outcomes for social care and end-of-life contexts, but the QALY remains the anchor of most reference cases, for good reasons of comparability and accountability. Government's task is to decide, transparently, where capability evidence is admissible and how it is weighed against health gain — because spending public money on outcomes beyond health demands a clear, defensible rule, not case-by-case discretion. The honest position is to keep the QALY as the backbone for curative care while opening a rigorous, well-specified route for capability evidence in the services where health is demonstrably the wrong outcome space.
+
+## Common failure modes
+
+- **Measuring wellbeing with a health instrument.** Using EQ-5D to evaluate a service whose purpose is autonomy or attachment, then concluding the service "doesn't work". Fix: choose the outcome space from the service's objectives, and add a capability or wellbeing measure when health is not the point.
+- **Instrument-shopping for the flattering answer.** Reaching for ICECAP when it helps your business case and EQ-5D when that helps, chosen after seeing results. Fix: pre-specify the measure in the evaluation plan on grounds of fit, before any data are seen.
+- **Adding incommensurable numbers.** Combining QALYs and capability gains into a single total as if they shared a denominator. Fix: measure both comparators in the same space, or present the two analyses side by side and label the cross-comparison a judgement.
+- **Treating capability as a licence to fund anything.** Letting "wellbeing" become an unfalsifiable justification with no discipline. Fix: require a validated, population-valued measure and a pre-stated benefit definition, so the category stays accountable.
+- **Confusing satisfaction with capability.** Reading a high subjective-wellbeing score as evidence of expanded freedom, ignoring adaptation. Fix: keep the two constructs distinct and interpret each as the answer to its own question.
+- **Overselling maturity.** Presenting a capability result as if a settled cost-effectiveness threshold existed. Fix: report direction and magnitude, name the absence of an agreed threshold, and position the evidence as a rigorous complement.
+
+## Maturity model
+
+| Dimension | Initial | Developing | Defined | Optimising |
+|---|---|---|---|---|
+| Outcome framing | Every service evaluated as health gain; capability never considered | Awareness that some services are undervalued, but no method | Outcome space chosen deliberately per service; capability used where health is not the point | Framework is explicit, documented, and applied consistently across the portfolio |
+| Measurement | EQ-5D or clinical endpoints only | One-off use of ICECAP in a single pilot | ICECAP-A/O collected prospectively with valued tariffs where services warrant it | Routine, comparable capability data feeding priority-setting across service lines |
+| Normative clarity | Framework unstated; value judgements hidden as method | Team can name welfarism vs extra-welfarism informally | Normative stance stated in every evaluation plan alongside perspective | Governance rule defines when capability evidence is admissible and how weighed |
+| Decision use | Capability evidence ignored or absent | Presented but not acted on | Used to defend undervalued services with side-by-side analysis | Capability and health evidence integrated into transparent, defensible funding rules |
+
+## Checklist
+
+- [ ] Ask what the service is *for* and choose the outcome space before choosing an instrument.
+- [ ] State the normative framework (welfarist / health extra-welfarist / capability) in the evaluation plan.
+- [ ] Use a validated capability measure (ICECAP-A or ICECAP-O) when value lies beyond health.
+- [ ] Pre-specify the measure on grounds of fit, before seeing any results.
+- [ ] Collect capability data prospectively at baseline and follow-up, not retrospectively.
+- [ ] Apply population-valued tariffs and name whose population they represent.
+- [ ] Keep QALYs and capability gains in separate columns; never add across currencies.
+- [ ] Distinguish subjective wellbeing (how people feel) from capability (what they can do).
+- [ ] Pair the index with a short qualitative account of why it moved.
+- [ ] State plainly that no settled capability threshold exists; report direction and magnitude.
+- [ ] Cross-reference the health-outcome methods (Chapter 2.1) and the equity of distribution (Chapter 3.4).
+
+## Key sources
+
+- **Sen's capability approach** — Amartya Sen, *Development as Freedom* (1999); Martha Nussbaum's central-capabilities extension.
+- **Welfarism vs extra-welfarism** — Brouwer, Culyer, van Exel & Rutten, "Welfarism vs. extra-welfarism", *Journal of Health Economics* (2008); Coast, Smith & Lorgelly, "Welfarism, extra-welfarism and capability", *Social Science & Medicine* (2008).
+- **ICECAP measures** — Joanna Coast and colleagues, University of Birmingham / University of Bristol: ICECAP-O (older people) and ICECAP-A (adults); measure documentation and valuation studies.
+- **Economics Network — Health Economics (capabilities module)** — https://economicsnetwork.ac.uk/health/teachers
+- **Wellbeing and health-related quality of life** — EuroQol Group's EQ-5D documentation; the wider subjective-wellbeing measurement literature as a contrasting tradition.
+
+## References
+
+1. Capability approach — Wikipedia — https://en.wikipedia.org/wiki/Capability_approach
+2. Amartya Sen — Wikipedia — https://en.wikipedia.org/wiki/Amartya_Sen
+3. Martha Nussbaum — Wikipedia — https://en.wikipedia.org/wiki/Martha_Nussbaum
+4. Development as Freedom — Wikipedia — https://en.wikipedia.org/wiki/Development_as_Freedom
+5. Human Development Index — Wikipedia — https://en.wikipedia.org/wiki/Human_Development_Index
+6. Welfare economics — Wikipedia — https://en.wikipedia.org/wiki/Welfare_economics
+7. Utilitarianism — Wikipedia — https://en.wikipedia.org/wiki/Utilitarianism
+8. Quality-adjusted life year — Wikipedia — https://en.wikipedia.org/wiki/Quality-adjusted_life_year
+9. EQ-5D — Wikipedia — https://en.wikipedia.org/wiki/EQ-5D
+10. Well-being — Wikipedia — https://en.wikipedia.org/wiki/Well-being
+11. Subjective well-being — Wikipedia — https://en.wikipedia.org/wiki/Subjective_well-being
+12. Brouwer, W.B.F., Culyer, A.J., van Exel, N.J.A. & Rutten, F.F.H. — "Welfarism vs. extra-welfarism" — *Journal of Health Economics*, 27(2), 325–338 (2008) — https://doi.org/10.1016/j.jhealeco.2007.07.003
+13. Coast, J., Smith, R.D. & Lorgelly, P. — "Welfarism, extra-welfarism and capability: the spread of ideas in health economics" — *Social Science & Medicine*, 67(7), 1190–1198 (2008) — https://doi.org/10.1016/j.socscimed.2008.06.027
+14. Economics Network — Health Economics for Teachers — https://economicsnetwork.ac.uk/health/teachers
