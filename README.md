@@ -16,48 +16,48 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 
 **Front matter**
 
-- [Preface](00-preface.md)
+- [Preface](chapters/00-preface.md)
 
 **Part 1 — Foundations** — *why health is economically different, and the models that explain it*
 
-- Chapter 1.1 — [Introduction to Health Economics](01-01-introduction-to-health-economics.md)
-- Chapter 1.2 — [Demand for Health and Healthcare](01-02-demand-for-health-and-healthcare.md)
-- Chapter 1.3 — [Market Failure](01-03-market-failure.md)
-- Chapter 1.4 — [Supply of Healthcare](01-04-supply-of-healthcare.md)
-- Chapter 1.5 — [Determinants of Health](01-05-determinants-of-health.md)
+- Chapter 1.1 — [Introduction to Health Economics](chapters/01-01-introduction-to-health-economics.md)
+- Chapter 1.2 — [Demand for Health and Healthcare](chapters/01-02-demand-for-health-and-healthcare.md)
+- Chapter 1.3 — [Market Failure](chapters/01-03-market-failure.md)
+- Chapter 1.4 — [Supply of Healthcare](chapters/01-04-supply-of-healthcare.md)
+- Chapter 1.5 — [Determinants of Health](chapters/01-05-determinants-of-health.md)
 
 **Part 2 — Evaluation and Evidence** — *the analyst's toolkit: valuing outcomes, building models, testing claims*
 
-- Chapter 2.1 — [Economic Evaluation](02-01-economic-evaluation.md)
-- Chapter 2.2 — [Modelling](02-02-modelling.md)
-- Chapter 2.3 — [Health Econometrics](02-03-health-econometrics.md)
-- Chapter 2.4 — [Pharmacoeconomics](02-04-pharmacoeconomics.md)
-- Chapter 2.5 — [Budget Impact and Affordability](02-05-budget-impact-and-affordability.md)
-- Chapter 2.6 — [Evidence Synthesis and Meta-Analysis](02-06-evidence-synthesis-and-meta-analysis.md)
+- Chapter 2.1 — [Economic Evaluation](chapters/02-01-economic-evaluation.md)
+- Chapter 2.2 — [Modelling](chapters/02-02-modelling.md)
+- Chapter 2.3 — [Health Econometrics](chapters/02-03-health-econometrics.md)
+- Chapter 2.4 — [Pharmacoeconomics](chapters/02-04-pharmacoeconomics.md)
+- Chapter 2.5 — [Budget Impact and Affordability](chapters/02-05-budget-impact-and-affordability.md)
+- Chapter 2.6 — [Evidence Synthesis and Meta-Analysis](chapters/02-06-evidence-synthesis-and-meta-analysis.md)
 
 **Part 3 — Systems, Policy and Priorities** — *how societies organize, fund, and share out healthcare*
 
-- Chapter 3.1 — [Health Systems](03-01-health-systems.md)
-- Chapter 3.2 — [Health Policy](03-02-health-policy.md)
-- Chapter 3.3 — [Rationing](03-03-rationing.md)
-- Chapter 3.4 — [Equity](03-04-equity.md)
-- Chapter 3.5 — [Capabilities](03-05-capabilities.md)
-- Chapter 3.6 — [Global Health and Trade](03-06-global-health-and-trade.md)
-- Chapter 3.7 — [Health Workforce and Labour Markets](03-07-health-workforce-and-labour-markets.md)
-- Chapter 3.8 — [Insurance and Risk Protection](03-08-insurance-and-risk-protection.md)
-- Chapter 3.9 — [Long-Term and Social Care Economics](03-09-long-term-and-social-care-economics.md)
-- Chapter 3.10 — [Mental Health Economics](03-10-mental-health-economics.md)
-- Chapter 3.11 — [Strategic Purchasing and Commissioning](03-11-strategic-purchasing-and-commissioning.md)
-- Chapter 3.12 — [Quality and Safety Economics](03-12-quality-and-safety-economics.md)
+- Chapter 3.1 — [Health Systems](chapters/03-01-health-systems.md)
+- Chapter 3.2 — [Health Policy](chapters/03-02-health-policy.md)
+- Chapter 3.3 — [Rationing](chapters/03-03-rationing.md)
+- Chapter 3.4 — [Equity](chapters/03-04-equity.md)
+- Chapter 3.5 — [Capabilities](chapters/03-05-capabilities.md)
+- Chapter 3.6 — [Global Health and Trade](chapters/03-06-global-health-and-trade.md)
+- Chapter 3.7 — [Health Workforce and Labour Markets](chapters/03-07-health-workforce-and-labour-markets.md)
+- Chapter 3.8 — [Insurance and Risk Protection](chapters/03-08-insurance-and-risk-protection.md)
+- Chapter 3.9 — [Long-Term and Social Care Economics](chapters/03-09-long-term-and-social-care-economics.md)
+- Chapter 3.10 — [Mental Health Economics](chapters/03-10-mental-health-economics.md)
+- Chapter 3.11 — [Strategic Purchasing and Commissioning](chapters/03-11-strategic-purchasing-and-commissioning.md)
+- Chapter 3.12 — [Quality and Safety Economics](chapters/03-12-quality-and-safety-economics.md)
 
 **Part 4 — Frontiers** — *where the discipline is moving: behaviour, innovation, digital, AI, and the planet*
 
-- Chapter 4.1 — [Behavioural Economics](04-01-behavioural-economics.md)
-- Chapter 4.2 — [Innovation Health Economics](04-02-innovation-health-economics.md)
-- Chapter 4.3 — [Digital Health Economics](04-03-digital-health-economics.md)
-- Chapter 4.4 — [AI Health Economics](04-04-ai-health-economics.md)
-- Chapter 4.5 — [Climate and Planetary Health Economics](04-05-climate-and-planetary-health-economics.md)
-- Chapter 4.6 — [Pandemic and Emergency Preparedness Economics](04-06-pandemic-and-emergency-preparedness-economics.md)
+- Chapter 4.1 — [Behavioural Economics](chapters/04-01-behavioural-economics.md)
+- Chapter 4.2 — [Innovation Health Economics](chapters/04-02-innovation-health-economics.md)
+- Chapter 4.3 — [Digital Health Economics](chapters/04-03-digital-health-economics.md)
+- Chapter 4.4 — [AI Health Economics](chapters/04-04-ai-health-economics.md)
+- Chapter 4.5 — [Climate and Planetary Health Economics](chapters/04-05-climate-and-planetary-health-economics.md)
+- Chapter 4.6 — [Pandemic and Emergency Preparedness Economics](chapters/04-06-pandemic-and-emergency-preparedness-economics.md)
 
 **Reference**
 
