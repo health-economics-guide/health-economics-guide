@@ -28,6 +28,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 1.1 Introduction to Health Economics — `01-01-introduction-to-health-economics.md`
 - [x] 1.2 Demand for Health and Healthcare — `01-02-demand-for-health-and-healthcare.md`
 - [x] 1.3 Market Failure — `01-03-market-failure.md`
+- [x] 1.4 Supply of Healthcare — `01-04-supply-of-healthcare.md` *(expansion)*
 
 ### Part 2 — Evaluation and Evidence
 
@@ -35,6 +36,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 2.2 Modelling — `02-02-modelling.md`
 - [x] 2.3 Health Econometrics — `02-03-health-econometrics.md`
 - [x] 2.4 Pharmacoeconomics — `02-04-pharmacoeconomics.md`
+- [x] 2.5 Budget Impact and Affordability — `02-05-budget-impact-and-affordability.md` *(expansion)*
 
 ### Part 3 — Systems, Policy and Priorities
 
@@ -44,6 +46,10 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 3.4 Equity — `03-04-equity.md`
 - [x] 3.5 Capabilities — `03-05-capabilities.md`
 - [x] 3.6 Global Health and Trade — `03-06-global-health-and-trade.md`
+- [x] 3.7 Health Workforce and Labour Markets — `03-07-health-workforce-and-labour-markets.md` *(expansion)*
+- [x] 3.8 Insurance and Risk Protection — `03-08-insurance-and-risk-protection.md` *(expansion)*
+- [x] 3.9 Long-Term and Social Care Economics — `03-09-long-term-and-social-care-economics.md` *(expansion)*
+- [x] 3.10 Mental Health Economics — `03-10-mental-health-economics.md` *(expansion)*
 
 ### Part 4 — Frontiers
 
@@ -51,12 +57,27 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 4.2 Innovation Health Economics — `04-02-innovation-health-economics.md`
 - [x] 4.3 Digital Health Economics — `04-03-digital-health-economics.md`
 - [x] 4.4 AI Health Economics — `04-04-ai-health-economics.md`
+- [x] 4.5 Climate and Planetary Health Economics — `04-05-climate-and-planetary-health-economics.md` *(expansion)*
 
 ## Phase 3 — Reference matter
 
-- [x] `GLOSSARY.md` complete — 169 terms from all 17 chapters, Wikipedia-linked where verified (156 links, all resolve), each with a "See Chapter N — Title" pointer
-- [x] `INDEX.md` complete — 173 concepts mapped to ascending, de-duplicated chapter numbers
+- [x] `GLOSSARY.md` — 169 terms from the first 17 chapters (superseded by the expansion rebuild below)
+- [x] `INDEX.md` — 173 concepts from the first 17 chapters (superseded by the expansion rebuild below)
 - [x] Reconciliation sweep — every glossary pointer matches the manifest title; every index number is a valid chapter
+
+### Phase 3b — Reference matter rebuild for the 24-chapter book (expansion)
+
+- [x] `GLOSSARY.md` rebuilt over all 24 chapters — **265 terms** (target 200+), 240 verified Wikipedia links, each with a "See Chapter N — Title" pointer
+- [x] `INDEX.md` rebuilt over all 24 chapters — **238 concepts**, cross-cutting entries updated to include the new chapters
+- [x] Reconciliation sweep across 24 chapters — every glossary pointer matches the manifest; every index number valid; all 240 links resolve
+
+### Phase 4b — Quality gates for the 24-chapter book (expansion)
+
+- [x] Structural gate — all 7 new chapters pass the 13-section sequence, 3 questions, 3 lenses, 4-col table, 10–12 checklist
+- [x] Link gate — trimmed 1.4 (19→12), 3.7 (13→12), 3.10 (19→12); all 24 chapters now 9–12 links, all resolve, all inline in References
+- [x] Source gate — new chapters' external URLs HTTP-checked (fixed Health Care Without Harm → noharm.org, Green Book slug typo in 4.5); figures qualitative
+- [x] Consistency gate — cross-references across all 24 chapters resolve to correct manifest titles; UK spelling; README/preface updated to 24 chapters
+- [x] `git commit` the expansion
 
 ## Phase 4 — Quality gates and release
 

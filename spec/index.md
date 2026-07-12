@@ -59,7 +59,7 @@ Every chapter uses these headings, in this order. This is the contract the matur
 
 ## 4. Chapter manifest
 
-Seventeen chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chapter 2.3 — Health Econometrics"); filenames are the zero-padded equivalents.
+Twenty-four chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chapter 2.3 — Health Econometrics"); filenames are the zero-padded equivalents. New chapters are **appended within their part** (e.g. Supply is 1.4, after Market Failure) so that existing chapter numbers never move — a deliberate choice to avoid the renumbering risk of §11. Reading order within a part is the table order; where a later-numbered chapter is a logical sibling of an earlier one (Supply 1.4 beside Demand 1.2), the cross-references make the link.
 
 ### Part 1 — Foundations
 *Why health is economically different, and the models that explain it.*
@@ -69,6 +69,7 @@ Seventeen chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chap
 | 1.1 | Introduction to Health Economics | `01-01-introduction-to-health-economics.md` |
 | 1.2 | Demand for Health and Healthcare | `01-02-demand-for-health-and-healthcare.md` |
 | 1.3 | Market Failure | `01-03-market-failure.md` |
+| 1.4 | Supply of Healthcare | `01-04-supply-of-healthcare.md` |
 
 ### Part 2 — Evaluation and Evidence
 *The analyst's toolkit: valuing outcomes, building models, testing claims.*
@@ -79,6 +80,7 @@ Seventeen chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chap
 | 2.2 | Modelling | `02-02-modelling.md` |
 | 2.3 | Health Econometrics | `02-03-health-econometrics.md` |
 | 2.4 | Pharmacoeconomics | `02-04-pharmacoeconomics.md` |
+| 2.5 | Budget Impact and Affordability | `02-05-budget-impact-and-affordability.md` |
 
 ### Part 3 — Systems, Policy and Priorities
 *How societies organise, fund, and share out healthcare.*
@@ -91,9 +93,13 @@ Seventeen chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chap
 | 3.4 | Equity | `03-04-equity.md` |
 | 3.5 | Capabilities | `03-05-capabilities.md` |
 | 3.6 | Global Health and Trade | `03-06-global-health-and-trade.md` |
+| 3.7 | Health Workforce and Labour Markets | `03-07-health-workforce-and-labour-markets.md` |
+| 3.8 | Insurance and Risk Protection | `03-08-insurance-and-risk-protection.md` |
+| 3.9 | Long-Term and Social Care Economics | `03-09-long-term-and-social-care-economics.md` |
+| 3.10 | Mental Health Economics | `03-10-mental-health-economics.md` |
 
 ### Part 4 — Frontiers
-*Where the discipline is moving: behaviour, innovation, digital, AI.*
+*Where the discipline is moving: behaviour, innovation, digital, AI, and the planet.*
 
 | # | Title | Filename |
 |---|---|---|
@@ -101,6 +107,7 @@ Seventeen chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chap
 | 4.2 | Innovation Health Economics | `04-02-innovation-health-economics.md` |
 | 4.3 | Digital Health Economics | `04-03-digital-health-economics.md` |
 | 4.4 | AI Health Economics | `04-04-ai-health-economics.md` |
+| 4.5 | Climate and Planetary Health Economics | `04-05-climate-and-planetary-health-economics.md` |
 
 ### Chapter scope notes (boundaries, to prevent silent overlap)
 
@@ -121,6 +128,13 @@ Seventeen chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chap
 - **4.2 Innovation Health Economics** owns R&D economics, incentives for innovation (patents, prizes, advance market commitments), diffusion of technology, early HTA.
 - **4.3 Digital Health Economics** owns evaluating digital health tools (apps, telehealth, remote monitoring), evidence standards for digital health (e.g. NICE's Evidence Standards Framework, WHO digital health guidance), data as an asset, digital exclusion economics.
 - **4.4 AI Health Economics** owns economic evaluation of AI-enabled care, automation and the health workforce, algorithmic bias as an equity cost, and paying for continuously-learning technologies.
+- **1.4 Supply of Healthcare** owns the production of health services (production functions, inputs, economies of scale and scope), provider cost structures, hospital and provider objectives and behaviour (public, non-profit, for-profit), and provider market structure and competition. The labour input specifically belongs to 3.7 Health Workforce; supplier-induced demand and monopoly *as failures* belong to 1.3 Market Failure; payment mechanisms belong to 3.1. It is the supply-side counterpart to 1.2 Demand.
+- **2.5 Budget Impact and Affordability** owns budget impact analysis, the affordability-versus-value distinction, the opportunity cost of adoption at scale, financial headroom, and phased/managed adoption. Cost-effectiveness, ICERs, and thresholds belong to 2.1 Economic Evaluation (assume and cross-reference); managed entry agreements belong to 2.4; disinvestment to release headroom belongs to 3.3 Rationing.
+- **3.7 Health Workforce and Labour Markets** owns medical and nursing labour markets, monopsony and wage-setting, licensure and entry restrictions, skill mix and task-shifting, the economics of training and the workforce pipeline, and retention and burnout. International health-worker migration belongs to 3.6 Global Health and Trade (cross-reference); general provision/production belongs to 1.4 Supply of Healthcare.
+- **3.8 Insurance and Risk Protection** owns the *design* of health insurance and coverage: benefit-package design, cost-sharing structure (co-payments, deductibles, coinsurance, caps), managed care, community versus experience rating, and risk adjustment as a design tool. The *failures* of insurance (adverse selection, moral hazard) belong to 1.3 Market Failure (assume and cross-reference, do not re-derive); financing typologies (Beveridge, Bismarck) belong to 3.1 Health Systems; universal coverage and financial protection as equity goals belong to 3.4 Equity and 3.6.
+- **3.9 Long-Term and Social Care Economics** owns the economics of ageing and dependency, long-term-care financing models (social LTC insurance, means-testing, private LTC insurance and its market failure), the valuation of informal/unpaid care, the health–social-care boundary and cost-shifting, and integration. General equity belongs to 3.4; capability/wellbeing measures for older people belong to 3.5 (cross-reference ICECAP-O); mental health belongs to 3.10.
+- **3.10 Mental Health Economics** owns the distinctive economics of mental illness: why standard outcome measures fit poorly, human-capital and productivity effects (absenteeism, presenteeism), parity of esteem in funding, the treatment gap, and the economics of prevention and early intervention. Capability and wellbeing measurement belongs to 3.5 (cross-reference); general evaluation to 2.1; behavioural mechanisms to 4.1.
+- **4.5 Climate and Planetary Health Economics** owns the environmental externalities of health systems (the carbon footprint of care), the health co-benefits of climate action, valuing health within climate policy (where the social cost of carbon meets health), the cost-effectiveness of low-carbon/sustainable care, and climate change as a driver of future health costs. General externality theory belongs to 1.3 (cross-reference); global and pandemic externalities to 3.6; evaluation methods to 2.1.
 
 **Front matter:** Preface — `00-preface.md`
 **Reference:** Glossary — `GLOSSARY.md` · Index — `INDEX.md`

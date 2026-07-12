@@ -23,6 +23,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 1.1 — [Introduction to Health Economics](01-01-introduction-to-health-economics.md)
 - Chapter 1.2 — [Demand for Health and Healthcare](01-02-demand-for-health-and-healthcare.md)
 - Chapter 1.3 — [Market Failure](01-03-market-failure.md)
+- Chapter 1.4 — [Supply of Healthcare](01-04-supply-of-healthcare.md)
 
 **Part 2 — Evaluation and Evidence** — *the analyst's toolkit: valuing outcomes, building models, testing claims*
 
@@ -30,6 +31,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 2.2 — [Modelling](02-02-modelling.md)
 - Chapter 2.3 — [Health Econometrics](02-03-health-econometrics.md)
 - Chapter 2.4 — [Pharmacoeconomics](02-04-pharmacoeconomics.md)
+- Chapter 2.5 — [Budget Impact and Affordability](02-05-budget-impact-and-affordability.md)
 
 **Part 3 — Systems, Policy and Priorities** — *how societies organise, fund, and share out healthcare*
 
@@ -39,13 +41,18 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 3.4 — [Equity](03-04-equity.md)
 - Chapter 3.5 — [Capabilities](03-05-capabilities.md)
 - Chapter 3.6 — [Global Health and Trade](03-06-global-health-and-trade.md)
+- Chapter 3.7 — [Health Workforce and Labour Markets](03-07-health-workforce-and-labour-markets.md)
+- Chapter 3.8 — [Insurance and Risk Protection](03-08-insurance-and-risk-protection.md)
+- Chapter 3.9 — [Long-Term and Social Care Economics](03-09-long-term-and-social-care-economics.md)
+- Chapter 3.10 — [Mental Health Economics](03-10-mental-health-economics.md)
 
-**Part 4 — Frontiers** — *where the discipline is moving: behaviour, innovation, digital, AI*
+**Part 4 — Frontiers** — *where the discipline is moving: behaviour, innovation, digital, AI, and the planet*
 
 - Chapter 4.1 — [Behavioural Economics](04-01-behavioural-economics.md)
 - Chapter 4.2 — [Innovation Health Economics](04-02-innovation-health-economics.md)
 - Chapter 4.3 — [Digital Health Economics](04-03-digital-health-economics.md)
 - Chapter 4.4 — [AI Health Economics](04-04-ai-health-economics.md)
+- Chapter 4.5 — [Climate and Planetary Health Economics](04-05-climate-and-planetary-health-economics.md)
 
 **Reference**
 
