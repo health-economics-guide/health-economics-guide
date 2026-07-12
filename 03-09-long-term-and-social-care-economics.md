@@ -107,7 +107,7 @@ A ministry or national payer owns the financing model, the eligibility threshold
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Costing horizon | Single-year, episode-based | Multi-year for some cases | Full trajectory with long tail modelled as routine practice | Cohort trajectories tracked and costs monitored against projections | Dynamic modelling of cohorts, dependency progression, and demographic change across the whole system |
 | Informal care | Ignored or valued at zero | Acknowledged qualitatively | Valued by a stated method in societal analyses | Both valuation methods tested and carer supply monitored | Carer supply modelled and actively protected as system infrastructure with partners |

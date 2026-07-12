@@ -112,7 +112,7 @@ A ministry or national payer sets the rules of the labour market itself: it fund
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Workforce planning | Reacts to this year's vacancy list | Counts headcount by profession | Stock-and-flow pipeline model over 10+ years is standard practice | Plan actively managed against attrition, retirement, and demand data | Whole-system model of substitutes and complements, stress-tested and coordinated with training and migration partners |
 | Wage and vacancy diagnosis | Vacancies assumed to mean absolute shortage | Aware pay may matter but no test | Shortage-versus-pricing distinguished with evidence as routine | Pay and non-pay differentials set against market-clearing analysis and monitored | Compensation strategy tuned continuously across professions and the wider labour market |

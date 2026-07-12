@@ -117,7 +117,7 @@ A ministry or national payer makes the highest-stakes causal decisions — scali
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Causal reasoning | Correlations reported as effects; "the numbers went up" treated as proof | Confounding acknowledged; some adjustment attempted case by case | Counterfactual stated explicitly and a recognised design chosen for each claim | Assumptions named and falsification-tested; effects understood as local or general | Multiple designs triangulated across the organisation; disagreement mined for which assumptions fail |
 | Study design & commissioning | Evaluation bought as a retrospective report after rollout | Comparison groups chosen but not pre-planned | Designs planned before data collection with pre-registered analysis plans | Randomised or staggered rollouts commissioned as the default for material change | Every operational rollout designed as an evaluation; the estate is a standing evidence engine |

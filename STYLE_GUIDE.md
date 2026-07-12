@@ -81,7 +81,7 @@ Every chapter has exactly these sections, in this order (spec §3). Notes and mi
 
 **9. `## Common failure modes`** — anti-patterns and how to avoid each. A bulleted or short-numbered list; name the failure, then the fix.
 
-**10. `## Maturity model`** — a table with exactly five level columns — **Initiate / Develop / Standardize / Manage / Orchestrate** — and **3–5 rows** of observable characteristics. Cells describe what you would actually see at that level, not aspirations. The progression: ad hoc first steps (Initiate) → building capability (Develop) → consistent standard practice (Standardize) → active management by data (Manage) → orchestrating across the whole system and partners (Orchestrate). Keep the five headings verbatim, including the US spelling of "Standardize" and "Orchestrate", as fixed house vocabulary.
+**10. `## Maturity model`** — a table with exactly five level columns — **Initiate / Develop / Standardise / Manage / Orchestrate** — and **3–5 rows** of observable characteristics. Cells describe what you would actually see at that level, not aspirations. The progression: ad hoc first steps (Initiate) → building capability (Develop) → consistent standard practice (Standardise) → active management by data (Manage) → orchestrating across the whole system and partners (Orchestrate). Keep the five headings verbatim (UK spelling, e.g. "Standardise") as fixed house vocabulary.
 
 **11. `## Checklist`** — **6–12** actionable `- [ ]` items a reader can take away and use.
 
@@ -110,7 +110,7 @@ Target **~3,000–3,500 words of substantive prose** (spec §5). Reach it by **d
 - [ ] Best practices numbered, 8–12, bold lead-ins.
 - [ ] Exactly six discussion questions, each with a briefing, before the worked example.
 - [ ] Sector lenses in order: Startup, Small business, Enterprise, Government.
-- [ ] Maturity table: five columns (Initiate/Develop/Standardize/Manage/Orchestrate), 3–5 rows.
+- [ ] Maturity table: five columns (Initiate/Develop/Standardise/Manage/Orchestrate), 3–5 rows.
 - [ ] Checklist: 6–12 `- [ ]` items.
 - [ ] 5–12 verified Wikipedia links; every one also in `## References`.
 - [ ] No invented sources, figures, or quotations.

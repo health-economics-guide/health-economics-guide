@@ -112,7 +112,7 @@ A national payer, HTA body, or ministry is the consumer and referee of models mo
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Model choice | Structure picked by habit or reused from a prior project | Type matched loosely to the problem | Structure justified against the decision and disease, assumptions listed | Structure stress-tested; alternative structures compared as scenarios and reviewed | Structure choice governed by a house method; conceptual model agreed with stakeholders before build |
 | Uncertainty analysis | Single point estimate, no sensitivity analysis | One-way deterministic analysis only | Probabilistic sensitivity analysis with acceptability curves reported | Parameter, structural, and heterogeneity uncertainty separated and each addressed | Value of information quantified and feeding research and reimbursement decisions |

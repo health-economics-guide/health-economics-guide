@@ -106,7 +106,7 @@ Government designs the coverage architecture that no single participant can set:
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Benefit package | Coverage inherited by accident; no explicit criteria | Some services assessed case by case as pressure demands | Package defined by published cost-effectiveness criteria | Package reviewed on a cycle against evidence and affordability, additions and removals transparent | Priority-setting coordinated with providers, HTA bodies, and neighbouring schemes so coverage moves coherently across the system |
 | Cost-sharing & protection | Charges applied flat; no out-of-pocket cap | Cap declared but exemptions ad hoc | Out-of-pocket maximum set first; poor and chronic groups exempt | Value-based design tuned to clinical value; household exposure monitored | Cost-sharing aligned with providers and pharmacy so high-value care is unobstructed end to end and exposure is tracked across the whole care journey |

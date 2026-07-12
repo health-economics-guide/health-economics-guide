@@ -112,7 +112,7 @@ A ministry or national payer sets the rules everyone else plays by, through regu
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Value case | Bought on algorithmic accuracy and vendor claims | Substitution vs augmentation named; some cost data gathered | Whole-life cost and a real comparator appraised through HTA as standard | Value tracked in service against outcomes and net cost, with variances acted on | Value continuously re-tested and rebalanced across the portfolio, with tools disinvested when they stop paying |
 | Equity | Only aggregate performance seen; bias unexamined | Subgroup risk acknowledged; ad hoc checks | Representative validation and subgroup reporting required before deployment | Subgroup performance monitored live with action thresholds and published | Equity outcomes managed across tools and communities, with results fed back into procurement and design |

@@ -112,7 +112,7 @@ Government is the archetypal strategic purchaser, whether through a national ins
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Purchasing intent | Passive reimbursement of whatever is delivered | A few services actively specified; most rolled forward from last year | Explicit priorities drive purchasing consistently across the portfolio | Purchasing decisions actively steered by outcome and value data | Active, evidence-based purchasing tuned continuously across partners to system-wide outcomes and value |
 | Needs basis | Buying follows provider supply and history | Data used ad hoc to inform selected purchases | Systematic needs assessment routinely drives what is bought | Needs assessment refreshed against outcome and equity data each round | Needs assessment, HTA, and equity analysis integrated across the whole system and its partners |

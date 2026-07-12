@@ -120,7 +120,7 @@ Government is the actor that can correct innovation's market failure at its sour
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Incentive design | "Support innovation" with no diagnosis; instruments chosen by habit | Push and pull both used, but not yet matched to the specific failure | Instruments deliberately matched to appropriability, demand, or diffusion failures as standard practice | Blended incentives tuned by data, with gaming risk weighed against the research actually induced | Incentives designed with other payers and jurisdictions so social value, not just private return, is what gets rewarded |
 | Early / forward-looking HTA | Value assessed only after launch, if at all | Occasional early appraisal, disconnected from evidence generation | Headroom analysis and value-of-information used routinely to steer and stop projects | Early HTA co-designed with developers, with evidence priced and pivotal trials aimed at the payer's question | Forward-looking assessment shapes the innovation pipeline itself, aligning developers, regulators, and payers around shared value criteria |

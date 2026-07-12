@@ -102,7 +102,7 @@ A ministry, national payer, or regulator sets the frame everyone else optimises 
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Footprint measurement | No footprint known; at most an energy bill | Scope 1 and 2 measured; Scope 3 still unknown | Full-scope footprint with life-cycle estimates for major categories and a set base year | Footprint tracked routinely against the base year, hotspots isolated, trajectory reported | Assured, whole-scope accounting spanning suppliers and partners, informing shared reduction plans |
 | Carbon in decisions | Carbon absent from appraisal | Ad hoc carbon mention in some cases | Social cost of carbon applied across a range in major appraisals | Carbon and co-benefits routine in appraisal, with ownership and templates | Carbon and co-benefits embedded in HTA, capital rules, and every material decision system-wide |

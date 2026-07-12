@@ -110,7 +110,7 @@ A ministry or national payer sets the rules of the game for everyone — the nev
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | **Costing harm** | Harm cost unknown; safety argued on principle alone | Headline figures borrowed from external studies | Local attributable costs assembled for key harms, cash vs capacity split | Costs maintained, updated, and used to prioritise investment | Attributable costs shared across the pathway and used to negotiate funding flows between organisations |
 | **Measurement** | Ad hoc structure measures; outcomes untracked | Some process and outcome measures collected but unlinked | Donabedian mix with evidence-linked process measures and risk adjustment | Measures rotated as they saturate; case mix and equity routinely adjusted | Measurement aligned across sites and partners; benchmarks and definitions shared system-wide |

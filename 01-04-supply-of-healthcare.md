@@ -124,7 +124,7 @@ A ministry or national payer shapes the supply of care for a whole population an
 
 ## Maturity model
 
-| Capability | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Capability | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Cost structure understanding | Managed to a single average cost or tariff | Fixed and variable costs distinguished for some services | Fixed, variable, average, and marginal cost known and documented for all major services | Marginal cost routinely drives volume, closure, and pricing decisions, with the decomposition kept current | Cost structure shared across providers and payers so system-wide supply decisions rest on a common, marginal-cost view |
 | Scale and scope reasoning | "Bigger is cheaper" asserted | Awareness that scale economies have limits | Minimum efficient scale and scope economies estimated per service to a standard method | Reconfiguration decisions sized to evidence-based cost curves and volume–outcome data | Scale, scope, and volume–outcome evidence orchestrated across a network to place each service at its efficient size |

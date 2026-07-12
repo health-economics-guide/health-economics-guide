@@ -112,7 +112,7 @@ A government carries the accountability the other two do not: it defends policy 
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Priority-setting basis | Interventions chosen by donor earmark or precedent | Some cost-effectiveness evidence used, but imported thresholds | Local opportunity cost estimated and DALY-based rankings applied as standard | Priorities revisited against the local threshold as evidence and budget change | Priority-setting coordinated with regional peers and donors so choices reflect burden, not funder interest |
 | Financing and transition | No view of external-money share or graduation timeline | Aware of donor dependence but no transition plan | Co-financing ramp and graduation modelled; fungibility routinely tested | Savings banked against the fiscal cliff and tracked as domestic financing rises | Sustainable domestic financing secured and transition negotiated jointly with donors on a credible path |

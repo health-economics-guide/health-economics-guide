@@ -120,7 +120,7 @@ A ministry or national payer manages demand for a whole population and carries t
 
 ## Maturity model
 
-| Capability | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Capability | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Demand concept | Utilisation treated as need; care demanded for its own sake | Awareness that access and price affect use | Derived demand distinguished from demand for health in planning | Every demand forecast decomposes need, access, price, and agency | Demand for health, not care, drives investment across the whole care pathway and its upstream inputs |
 | Use of elasticities | None; charges set by revenue or politics | Ad hoc reference to "some people are put off" | Price and income elasticities estimated for key services | Elasticities segmented by group and service; equity impact modelled | Segmented elasticities feed live demand and equity management across services and partners |

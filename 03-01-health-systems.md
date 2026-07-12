@@ -118,7 +118,7 @@ Government designs, funds, and stewards the whole machine, and owns the choices 
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Financing & pooling | Heavy reliance on out-of-pocket payment; catastrophic spending unmeasured | Some pooled prepayment emerging; coverage gaps and exemptions ad hoc | Broad pooling with a defined benefit package and consistent exemptions | Pool breadth and financial protection tracked continuously; catastrophic spending a headline metric acted on | Tax, contribution, and partner revenues coordinated to hold protection steady as needs and demography shift |
 | Provider payment | Single method used by default; distortions unrecognised | Distortions of the current method acknowledged case by case | Payment blended deliberately with matched monitoring as standard practice | Blend tuned to observed behaviour using activity, coding, and outcome data | Payment aligned across providers and pathways so incentives reinforce rather than fight each other |

@@ -113,7 +113,7 @@ Government carries the accountability the others do not: it is the insurer of la
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Appraisal method | Preparedness judged on expected cost per QALY or not appraised at all | Expected-value model built, but tail collapsed to a mean | Tail modelled with severity scenarios; option value and insurance framing used as standard | Portfolio-of-options appraisal actively used to allocate the budget; whole social loss and risk aversion made explicit; ratio openly not the decision rule | Appraisal shared across ministries and partners; tail models and option valuations coordinated with cross-border and neighbouring systems |
 | Funding durability | Annual budget line, first to be cut after a crisis | Some multi-year intent, but discretionary | Multi-year ring-fenced settlement with a scheduled replenishment | Standing statutory body with legislated funding and automatic replenishment that survives the neglect phase | Financing pooled across sectors and borders; durable domestic settlement aligned with regional and global preparedness funds |

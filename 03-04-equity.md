@@ -111,7 +111,7 @@ A ministry or national payer owns equity as a statutory and political obligation
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Definition of equity | Fairness invoked but never defined; decisions ad hoc | A working definition exists for some decisions | Conception, protected groups, and dimension stated for every major decision | Definitions applied consistently and audited for adherence across the organisation | Definition is contested openly, reviewed, and shared with partners and the public as a common frame |
 | Measurement | Only averages reported | Some gaps reported as raw differences | Need-standardised concentration indices and financial-protection metrics used as standard | Gradients tracked over time, benchmarked, and used to trigger action | Distributional analysis routine and linked across sectors to a shared view of the whole population |

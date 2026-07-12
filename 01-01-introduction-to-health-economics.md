@@ -117,7 +117,7 @@ A ministry or national payer carries the widest accountability — to taxpayers,
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | **Framing decisions** | Bids judged in isolation against "doing nothing"; need drives spending | Options occasionally compared, but with no fixed budget constraint | Every proposal names its opportunity cost against a defined budget as standard practice | Marginal analysis is routine, and investment is paired with named disinvestment as budgets shift | Framing spans the whole system and partners; scarce resources are traded across organisational boundaries to maximise health |
 | **Use of methods** | Decisions settled by seniority and confidence | Ad hoc cost analysis run for the largest bids only | Cost-effectiveness and outcome measures used consistently for all major decisions | Methods matched to the plumbing-diagram box and driven by live data; specialists engaged as routine | Methods and evidence shared across providers, payers, and partners, so the system learns and improves together |

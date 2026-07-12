@@ -109,7 +109,7 @@ Spec §3/§8/§10 and STYLE_GUIDE updated, then every chapter retrofitted:
 
 - [x] Discussion questions: 3 → **6** (three new distinct briefed questions per chapter)
 - [x] Sector lenses: 3 → **4** (added `### Small business` after Startup: Startup, Small business, Enterprise, Government)
-- [x] Maturity model: 4-level → **5-level** (Initiate / Develop / Standardize / Manage / Orchestrate — house vocabulary, US spelling kept verbatim)
+- [x] Maturity model: 4-level → **5-level** (Initiate / Develop / Standardise / Manage / Orchestrate — fixed house vocabulary, UK spelling)
 - [x] Structural gate re-run: all 29 pass (6 questions, 4 ordered lenses, 5-level table, 13-section sequence)
 - [x] Link gate: all 29 chapters 5–12 links, every inline link in References, all 292 unique Wikipedia URLs resolve 200
 - [x] Reference matter rebuilt for 29 chapters — glossary **352 terms**, index **325 concepts**; re-validated (pointers match manifest, index numbers valid, all links resolve)

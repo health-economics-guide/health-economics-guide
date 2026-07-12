@@ -112,7 +112,7 @@ A ministry or national payer rations for a whole population under intense politi
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Acknowledging rationing | Denied; "we fund what's needed" | Acknowledged privately by leaders, not in public | Openly named as a routine system function | Tracked and reported as a managed discipline | Framed publicly as a fairness discipline citizens actively engage with |
 | Explicit vs implicit | Allocation hidden in queues and discretion | Some published criteria, inconsistently applied | Explicit criteria standard for most major decisions | Consistency and unwarranted variation actively audited and corrected | Explicit rules coherent across sites and partners, variation minimal by design |

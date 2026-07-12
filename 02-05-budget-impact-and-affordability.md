@@ -108,7 +108,7 @@ A ministry or national payer carries budget impact as an instrument of fiscal ac
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Affordability vs value | Decisions made on cost-effectiveness alone; total cost not asked | Budget impact estimated informally after a favourable ICER | Separate BIA required alongside every cost-effectiveness case | Value and affordability assessed together as routine, with phasing designed in from the start | Affordability governed across the whole portfolio and budget cycles, with partners and suppliers, as one planning discipline |
 | Population & uptake | Eligible numbers guessed or taken from the trial | Denominator estimated once; single uptake figure | Denominator built from the covered population; explicit uptake curve | Uptake curves validated against real roll-outs and tracked against forecast | Live uptake data feed a shared forecast that re-plans adoption across services and providers in-year |

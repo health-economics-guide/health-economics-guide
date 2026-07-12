@@ -120,7 +120,7 @@ A ministry or national payer is the largest choice architect of all, and its def
 
 ## Maturity model
 
-| Capability | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Capability | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | View of the decision-maker | Assumes rational chooser; non-adherence blamed on the individual | Aware people behave "irrationally" but with no framework to name why | Behavioural biases named and used to explain patterns in specific services | Behavioural realism routinely built into demand, prevention, and insurance models | Behavioural realism is the default assumption across the system, and partners are held to it too |
 | Use of defaults | Defaults inherited by accident | Some defaults noticed but not deliberately chosen | Key defaults deliberately set to serve health, with easy opt-out | Defaults tracked with data and adjusted as their effects are measured | Defaults systematically audited and optimised across the whole system and its suppliers |

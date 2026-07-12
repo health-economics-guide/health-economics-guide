@@ -110,7 +110,7 @@ Government is the actor of last resort for failures no market participant can fi
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Diagnosing failures | "The market isn't working" stated without analysis; remedies chosen by habit | Individual failures named case by case as they surface | A shared catalogue of failures applied routinely to problems | Diagnoses tracked and tested against outcomes; wrong remedies caught and corrected | Failures analysed together, interactions modelled before intervening, and the discipline shared across partners |
 | Insurance & pooling | Voluntary pools left to drift; adverse selection unrecognised | Adverse selection acknowledged; ad hoc underwriting response | Community rating, risk equalisation, or mandates in place | Pooling and risk adjustment tuned with data; pool stability monitored continuously | Pool design coordinated across insurers and government so selection cannot migrate between them |

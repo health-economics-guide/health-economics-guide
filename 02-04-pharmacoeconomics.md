@@ -112,7 +112,7 @@ A ministry or national payer sets the rules the others play by: the reimbursemen
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Pricing basis | List price or cost-plus accepted; little challenge to the ask | Some negotiation begins, but anchored on the manufacturer's figure | Value-based threshold applied consistently with the correct comparator | Value anchor combined with real-world evidence and a credible, exercised walk-away | Pricing coordinated across products, payers, and time, with value and affordability jointly governed |
 | HTA capability | No formal appraisal; ad hoc committee decisions | Appraisals for high-cost drugs only, evidence taken at face value | Systematic HTA with defined methods and comparators | HTA linked to pricing decisions, re-appraisal triggers, and monitoring | HTA integrated with horizon scanning, disinvestment, and cross-system priority-setting |

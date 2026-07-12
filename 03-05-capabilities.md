@@ -106,7 +106,7 @@ A ministry, national payer, or HTA body sets the reference case that decides whi
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Outcome framing | Every service evaluated as health gain; capability never considered | Awareness that some services are undervalued, and the outcome space questioned case by case | Outcome space chosen deliberately per service against a documented rule; capability used where health is not the point | Framing decisions monitored across the portfolio, with data showing where health measures systematically miss value | Framing agreed with partners and funders across the care system, so the outcome space fits the service by design end to end |
 | Measurement | EQ-5D or clinical endpoints only | One-off use of ICECAP in a single pilot | ICECAP-A/O collected prospectively with valued tariffs wherever services warrant it | Routine, comparable capability data tracked over time and used to compare services within a line | Capability data shared across organisations and commissioners, feeding priority-setting across whole service lines and pathways |

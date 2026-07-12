@@ -50,7 +50,7 @@ Every chapter uses these headings, in this order. This is the contract the matur
 7. `## In practice: a health economics example` — one concrete, realistic, fictional worked scenario (e.g. a regional health system deciding whether to fund a new screening programme). Vary the setting across chapters — different countries, system types, and income levels — so the book reads as genuinely worldwide.
 8. `## Four sector lenses` — the same topic across four `###` subsections **in this order**: `### Startup`, `### Small business`, `### Enterprise`, `### Government`. Each 3–6 sentences, showing how the practice changes with scale, funding model, risk appetite, and accountability. "Startup" is an early-stage venture; "Small business" is a small but established provider or practice; "Enterprise" is a large provider, insurer, or payer; "Government" is a ministry, national payer, or regulator.
 9. `## Common failure modes` — anti-patterns and how to avoid them.
-10. `## Maturity model` — a **5-level** table with columns **Initiate / Develop / Standardize / Manage / Orchestrate** and 3–5 rows of observable characteristics. (These five level names are a fixed house vocabulary; keep them verbatim, including the spelling of "Standardize" and "Orchestrate", even though the book is otherwise UK-spelled.)
+10. `## Maturity model` — a **5-level** table with columns **Initiate / Develop / Standardise / Manage / Orchestrate** and 3–5 rows of observable characteristics. These five level names are a fixed house vocabulary; keep them verbatim (UK spelling, e.g. "Standardise").
 11. `## Checklist` — 6–12 actionable `- [ ]` items.
 12. `## Key sources` — bulleted, real and verifiable; cite frameworks by name.
 13. `## References` — a numbered list combining (a) Wikipedia articles for the key concepts named in the chapter and (b) authoritative sources. Format each: *title — publisher/author — URL*.
@@ -191,7 +191,7 @@ A chapter is complete when all are true:
 - [ ] `## Best practices` is numbered with bold lead-ins.
 - [ ] Exactly **six** open discussion questions, each with a 4–8 sentence briefing, placed before the worked example.
 - [ ] Four sector lenses in order: Startup, Small business, Enterprise, Government.
-- [ ] Maturity model is a 5-level table (Initiate / Develop / Standardize / Manage / Orchestrate).
+- [ ] Maturity model is a 5-level table (Initiate / Develop / Standardise / Manage / Orchestrate).
 - [ ] Checklist has 6–12 `- [ ]` items.
 - [ ] 5–12 verified Wikipedia links; every inline link also in `## References`.
 - [ ] Every citation is real and checkable; no invented facts, URLs, or numbers.
@@ -216,7 +216,7 @@ A chapter can be written from scratch, regenerated, or deepened by a human or an
 
 Before a chapter or a change is considered complete, it passes four gates. Automate them wherever possible; a failure in any gate blocks "done".
 
-- **Structural gate.** Thirteen sections present and correctly named; a bold one-sentence thesis; numbered best practices with bold lead-ins; exactly six discussion questions before the example; four sector lenses in the order Startup, Small business, Enterprise, Government; a five-column maturity table (Initiate / Develop / Standardize / Manage / Orchestrate); a checklist of 6–12 `- [ ]` items.
+- **Structural gate.** Thirteen sections present and correctly named; a bold one-sentence thesis; numbered best practices with bold lead-ins; exactly six discussion questions before the example; four sector lenses in the order Startup, Small business, Enterprise, Government; a five-column maturity table (Initiate / Develop / Standardise / Manage / Orchestrate); a checklist of 6–12 `- [ ]` items.
 - **Link gate.** Every inline Wikipedia link resolves to a real article and also appears in `## References`; no invented or guessed slugs; 5–12 links per chapter.
 - **Source gate.** No invented citations, URLs, statistics, or quotations. Figures are either real and checkable or described qualitatively.
 - **Consistency gate.** The `# Chapter N — Title` heading matches the filename and the manifest; every `Chapter N — Title` cross-reference names the chapter that actually holds that number; UK spelling; acronyms expanded on first use.

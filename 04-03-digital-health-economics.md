@@ -102,7 +102,7 @@ A ministry or national payer is answerable for equity and public money across ev
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Evidence standard | Tools bought on vendor claims and demos | Some due diligence, but bar set case by case | Tiered evidence framework (e.g. NICE ESF, WHO guidance) applied by risk and claim | Evidence proportionate to risk, refreshed on major updates, with real-world outcome monitoring | Evidence generation shared across partners; standards shape what the market brings forward |
 | Costing | Only the licence fee is counted | Some downstream costs estimated | Whole-pathway costing including staff triage, support, and fallback | Full pathway costed over a benefit-appropriate horizon with cross-payer effects mapped | Costs and released capacity tracked in-life and reconciled against the business case across payers |

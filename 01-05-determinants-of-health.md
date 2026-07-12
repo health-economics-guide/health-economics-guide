@@ -122,7 +122,7 @@ A ministry or national authority is the only actor that owns the full set of lev
 
 ## Maturity model
 
-| Capability | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Capability | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | View of what produces health | Health equated with healthcare | Determinants acknowledged rhetorically but not resourced | Population health production function mapped and used in planning | Spend routinely appraised across inputs by health yielded per unit | Spend allocated across sectors and partners to where it yields most health |
 | Use of the social gradient | Outcomes tracked as averages only | Deprivation gap reported for the worst-off | Outcomes routinely stratified across the whole gradient | Programmes actively managed on gradient data, gradient-widening flagged | Proportionate universalism designed in with partners and evaluated on the whole gradient |

@@ -120,7 +120,7 @@ Government is the author of the toolkit and the actor of last resort for failure
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Diagnosis-to-instrument | Instruments chosen by fashion or politics; no stated failure | Failure named informally, case by case, after the instrument is picked | Every proposal traces a specific failure to a proportionate instrument as standard practice | Instrument choice tested against the coercion spectrum and government-failure risk before acting, and reviewed against outcomes | Diagnosis and instrument choice coordinated across departments and jurisdictions, so failures and remedies are matched system-wide |
 | Fiscal lever design | Flat levy set by round number; revenue the only goal | Rate justified, but design ignores elasticity and substitution | Levy targets the harmful ingredient, tiered for reformulation, with regressivity addressed as routine | Design tuned on observed pass-through, elasticity, and industry response; rate updated on review | Fiscal levers aligned with regulation, labelling, and neighbouring jurisdictions to close substitution and cross-border gaps |

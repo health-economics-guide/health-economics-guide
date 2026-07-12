@@ -104,7 +104,7 @@ A ministry or national payer holds the parity question directly, because it sets
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Perspective and cost scope | Health-system costs only; indirect costs ignored | Aware indirect costs matter; some ad hoc attempts to describe them | Societal and payer perspectives both reported as standard; productivity and informal care costed | Perspective choice governed and its effect on decisions tracked; indirect costs monitored over time | Cross-sector costs routinely captured, with mechanisms to reallocate savings across budgets and partners |
 | Outcome measurement | Generic measure or none; mental-health change under-detected | Condition-specific scale used in some evaluations | Fit-for-purpose measure chosen per service as standard; wellbeing/capability used where apt | Measurement matched to service intent and actively audited; results trusted by funders | Outcome data shared and compared across the system to steer commissioning and improvement |

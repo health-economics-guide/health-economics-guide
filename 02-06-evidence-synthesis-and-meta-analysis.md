@@ -116,7 +116,7 @@ A ministry, national payer, or HTA body is the principal consumer and referee of
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Search & selection | Convenience reading of a few known papers | Multiple databases searched, but journals only | Registered protocol, comprehensive multi-source search, PRISMA flow | Registries, regulators, grey literature and unpublished data pursued; searches reproducible | Search infrastructure shared across the portfolio; provenance auditable and re-runnable by third parties |
 | Appraisal & pooling | Studies pooled regardless of quality or comparability | Some quality screening; pooling by default | Risk of bias assessed per study with a recognised tool; pooling justified against heterogeneity | Sensitivity analyses by risk of bias; narrative synthesis chosen when pooling is invalid | Appraisal and pooling standards enforced across teams and reconciled with external replication |

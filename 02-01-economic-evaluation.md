@@ -118,7 +118,7 @@ A ministry or national payer uses economic evaluation as the backbone of account
 
 ## Maturity model
 
-| Dimension | Initiate | Develop | Standardize | Manage | Orchestrate |
+| Dimension | Initiate | Develop | Standardise | Manage | Orchestrate |
 |---|---|---|---|---|---|
 | Framing & perspective | Decisions made on cost or clinical data alone; perspective unstated | Costs and outcomes compared ad hoc; perspective named study by study | Standard reference case with an agreed perspective and real-world comparator | Framing choices monitored for consistency across decisions and corrected when they drift | Perspective and comparator fixed by policy; societal and payer views reported together as routine and aligned with partners across the system |
 | Outcome valuation | Outcomes described qualitatively or in mixed units | Natural units used; QALYs attempted with borrowed weights | Validated instruments (e.g. EQ-5D) and stated value sets applied consistently | Valuation quality tracked; instrument sensitivity and value-set choice reviewed against results | Valuation basis chosen deliberately per decision; QALY limits acknowledged and complemented with condition-specific or capability measures where needed |
