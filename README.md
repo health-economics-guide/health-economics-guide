@@ -6,19 +6,13 @@ This guide is for the people who run health and care organizations — chief exe
 
 The scope is worldwide. Tax-funded, social-insurance, private-insurance, and mixed systems — in low-, middle-, and high-income settings — are all first-class citizens here; named systems (the NHS, Medicare, Germany's social insurance, Ayushman Bharat) appear as exemplars of patterns, not as defaults.
 
-Every chapter follows the same structure — core concepts, numbered best practices, three discussion questions for your team, a worked example, three sector lenses (startup, enterprise, government), common failure modes, a maturity model, and a checklist — so you can drop into any topic and act.
-
-## How to read this book
-
-Read Part 1 first if you are new to the field; it explains why healthcare defies ordinary market logic. Part 2 is the analyst's toolkit for valuing outcomes and testing claims. Part 3 covers how systems organize, fund, and share out care. Part 4 looks at where the discipline is moving. Each chapter stands alone and cross-references its siblings.
-
 ## Table of contents
 
 **Front matter**
 
 - [Preface](chapters/00-preface.md)
 
-**Part 1 — Foundations** — *why health is economically different, and the models that explain it*
+**Part 1 — Foundations** — _why health is economically different, and the models that explain it_
 
 - Chapter 1.1 — [Introduction to Health Economics](chapters/01-01-introduction-to-health-economics.md)
 - Chapter 1.2 — [Demand for Health and Healthcare](chapters/01-02-demand-for-health-and-healthcare.md)
@@ -26,7 +20,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 1.4 — [Supply of Healthcare](chapters/01-04-supply-of-healthcare.md)
 - Chapter 1.5 — [Determinants of Health](chapters/01-05-determinants-of-health.md)
 
-**Part 2 — Evaluation and Evidence** — *the analyst's toolkit: valuing outcomes, building models, testing claims*
+**Part 2 — Evaluation and Evidence** — _the analyst's toolkit: valuing outcomes, building models, testing claims_
 
 - Chapter 2.1 — [Economic Evaluation](chapters/02-01-economic-evaluation.md)
 - Chapter 2.2 — [Modelling](chapters/02-02-modelling.md)
@@ -35,7 +29,7 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 2.5 — [Budget Impact and Affordability](chapters/02-05-budget-impact-and-affordability.md)
 - Chapter 2.6 — [Evidence Synthesis and Meta-Analysis](chapters/02-06-evidence-synthesis-and-meta-analysis.md)
 
-**Part 3 — Systems, Policy and Priorities** — *how societies organize, fund, and share out healthcare*
+**Part 3 — Systems, Policy and Priorities** — _how societies organize, fund, and share out healthcare_
 
 - Chapter 3.1 — [Health Systems](chapters/03-01-health-systems.md)
 - Chapter 3.2 — [Health Policy](chapters/03-02-health-policy.md)
@@ -49,15 +43,16 @@ Read Part 1 first if you are new to the field; it explains why healthcare defies
 - Chapter 3.10 — [Mental Health Economics](chapters/03-10-mental-health-economics.md)
 - Chapter 3.11 — [Strategic Purchasing and Commissioning](chapters/03-11-strategic-purchasing-and-commissioning.md)
 - Chapter 3.12 — [Quality and Safety Economics](chapters/03-12-quality-and-safety-economics.md)
+- Chapter 3.13 — [Pandemic and Emergency Preparedness Economics](chapters/03-13-pandemic-and-emergency-preparedness-economics.md)
 
-**Part 4 — Frontiers** — *where the discipline is moving: behaviour, innovation, digital, AI, and the planet*
+**Part 4 — Frontiers** — _where the discipline is moving: behaviour, innovation, digital, AI, and the planet_
 
 - Chapter 4.1 — [Behavioural Economics](chapters/04-01-behavioural-economics.md)
 - Chapter 4.2 — [Innovation Health Economics](chapters/04-02-innovation-health-economics.md)
 - Chapter 4.3 — [Digital Health Economics](chapters/04-03-digital-health-economics.md)
 - Chapter 4.4 — [AI Health Economics](chapters/04-04-ai-health-economics.md)
 - Chapter 4.5 — [Climate and Planetary Health Economics](chapters/04-05-climate-and-planetary-health-economics.md)
-- Chapter 4.6 — [Pandemic and Emergency Preparedness Economics](chapters/04-06-pandemic-and-emergency-preparedness-economics.md)
+- Chapter 4.6 — [Software Engineering Health Economics](chapters/04-06-software-engineering-health-economics.md)
 
 **Reference**
 
