@@ -1,4 +1,4 @@
-# Chapter 4.4 — AI Health Economics
+# Chapter 5.3 — AI Health Economics
 
 **Artificial intelligence changes what a health technology is — a product that learns, degrades, and can quietly redistribute care — so evaluating it well means pricing not only its accuracy but its upkeep, its effect on the workforce, and the equity it gives or takes away.**
 
@@ -8,7 +8,7 @@ Artificial intelligence (AI) has moved from demonstration to deployment in healt
 
 The stakes are the ordinary stakes of health economics, sharpened. Public money is spent on tools whose benefit depends on how clinicians actually use them, not on how they perform in a published study. Safety depends on performance that can silently decay as populations and practice change. And equity is exposed in a specific new way: an algorithm trained on one population can systematically underserve another, turning a procurement decision into a distributional one. As of the mid-2020s, regulators such as the United States Food and Drug Administration (FDA) and the European Union have begun building frameworks for these products, but reimbursement and evaluation practice lag behind the technology, leaving decision-makers to improvise.
 
-This chapter is about that gap. It does not re-teach economic evaluation — the cost-effectiveness machinery lives in Chapter 2.1 — Economic Evaluation, and the modelling of uncertainty in Chapter 2.2 — Modelling — nor does it re-cover general digital tools such as apps and telehealth, which belong to Chapter 4.3 — Digital Health Economics. It owns the economics that are specific to AI: evaluating tools that learn, valuing the substitution or augmentation of clinical labour, and treating algorithmic bias as a cost that falls on real people (the equity concepts themselves are Chapter 3.4 — Equity).
+This chapter is about that gap. It does not re-teach economic evaluation — the cost-effectiveness machinery lives in Chapter 2.1 — Economic Evaluation, and the modelling of uncertainty in Chapter 2.2 — Modelling — nor does it re-cover general digital tools such as apps and telehealth, which belong to Chapter 5.2 — Digital Health Economics. It owns the economics that are specific to AI: evaluating tools that learn, valuing the substitution or augmentation of clinical labour, and treating algorithmic bias as a cost that falls on real people (the equity concepts themselves are Chapter 3.4 — Equity).
 
 ## Core concepts
 

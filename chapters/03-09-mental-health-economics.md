@@ -1,4 +1,4 @@
-# Chapter 3.10 — Mental Health Economics
+# Chapter 3.9 — Mental Health Economics
 
 **Mental illness carries one of the heaviest burdens of any group of conditions, yet the tools health economics reaches for by default measure it poorly, pay for it least, and reach fewest of the people who have it — and closing those three gaps is what this chapter is about.**
 
@@ -78,7 +78,7 @@ The authority funds the task-sharing model, phased by district, with the depress
 
 ### Startup
 
-A digital-mental-health start-up — a therapy app, a symptom-tracking tool, a peer-support platform — usually pitches on reach and cost: the promise of narrowing the treatment gap cheaply by delivering support without a clinician for every user. That is a genuine strength, but the evidence bar is where these ventures live or die, because engagement often collapses outside a trial and generic measures may not capture real benefit. A credible start-up measures outcomes with a validated mental-health-specific instrument, reports real-world retention honestly rather than trial-condition efficacy, and is candid about which severities it is and is not safe for. Its strongest economic argument is productivity: an employer or insurer buyer will respond to a defensible presenteeism-reduction case far more than to a soft wellbeing claim (see Chapter 4.3 — Digital Health Economics for the wider evidence-standards picture).
+A digital-mental-health start-up — a therapy app, a symptom-tracking tool, a peer-support platform — usually pitches on reach and cost: the promise of narrowing the treatment gap cheaply by delivering support without a clinician for every user. That is a genuine strength, but the evidence bar is where these ventures live or die, because engagement often collapses outside a trial and generic measures may not capture real benefit. A credible start-up measures outcomes with a validated mental-health-specific instrument, reports real-world retention honestly rather than trial-condition efficacy, and is candid about which severities it is and is not safe for. Its strongest economic argument is productivity: an employer or insurer buyer will respond to a defensible presenteeism-reduction case far more than to a soft wellbeing claim (see Chapter 5.2 — Digital Health Economics for the wider evidence-standards picture).
 
 ### Small business
 

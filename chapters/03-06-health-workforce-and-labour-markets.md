@@ -1,4 +1,4 @@
-# Chapter 3.7 — Health Workforce and Labour Markets
+# Chapter 3.6 — Health Workforce and Labour Markets
 
 **Labour is the largest single cost in almost every health system and the ultimate constraint on what care can be delivered, so how a system trains, prices, licenses, and retains its clinicians is not a personnel afterthought but a central economic decision.**
 
@@ -8,7 +8,7 @@ You can build a hospital in three years, buy a scanner in three months, and lice
 
 The stakes are unusually sharp because the health labour market is not a textbook competitive market. Entry is deliberately restricted by law through licensure; a single national employer often dominates hiring; training is long, expensive, and frequently subsidized by the public purse; and the people involved carry duties of care that make ordinary market signals — walk out for higher pay elsewhere — ethically and practically loaded. Each of these features bends wages, employment, and effort away from the competitive benchmark, and each opens a policy lever that a leader can pull or misuse.
 
-Get the workforce economics wrong and the costs are concrete and severe: rota gaps filled by expensive agency staff, safety incidents when skill mix is stretched too thin, burnout that drives experienced clinicians out early, and training pipelines that deliver the wrong specialists a decade too late. Get it right and you unlock the single largest lever on both cost and quality. This chapter treats the workforce as a market to be understood and shaped, not merely a headcount to be filled. General provision and production of services belong to Chapter 1.4 — Supply of Healthcare; the international movement of clinicians belongs to Chapter 3.6 — Global Health and Trade; this chapter owns the labour market itself.
+Get the workforce economics wrong and the costs are concrete and severe: rota gaps filled by expensive agency staff, safety incidents when skill mix is stretched too thin, burnout that drives experienced clinicians out early, and training pipelines that deliver the wrong specialists a decade too late. Get it right and you unlock the single largest lever on both cost and quality. This chapter treats the workforce as a market to be understood and shaped, not merely a headcount to be filled. General provision and production of services belong to Chapter 1.4 — Supply of Healthcare; the international movement of clinicians belongs to Chapter 4.2 — Global Health and Trade; this chapter owns the labour market itself.
 
 ## Core concepts
 
@@ -50,7 +50,7 @@ Get the workforce economics wrong and the costs are concrete and severe: rota ga
 
 11. **Contain the agency and locum premium by fixing its cause.** Heavy reliance on temporary staff at premium rates is usually a symptom — of unfilled substantive posts, poor rotas, or pay compression — not a cause, and capping agency rates without fixing the substantive offer just moves the shortage. Measure the true cost of temporary staffing, including its effect on continuity and team morale, and redirect the premium toward the substantive conditions that would make the permanent post attractive. A large agency bill is a message about your permanent offer.
 
-12. **Fold automation into workforce plans as augmentation, and count the transition costs.** Technologies that automate documentation, triage, or image reading change the marginal product of clinical labour and can relieve the tasks that drive burnout (the evaluation of these tools belongs to Chapter 4.4 — AI Health Economics). Treat them as ways to release scarce clinical time toward higher-value work rather than as headcount substitution, and budget for the training and workflow redesign that realizing any saving requires. An efficiency that is never redeployed or that adds hidden oversight work is not a saving.
+12. **Fold automation into workforce plans as augmentation, and count the transition costs.** Technologies that automate documentation, triage, or image reading change the marginal product of clinical labour and can relieve the tasks that drive burnout (the evaluation of these tools belongs to Chapter 5.3 — AI Health Economics). Treat them as ways to release scarce clinical time toward higher-value work rather than as headcount substitution, and budget for the training and workflow redesign that realizing any saving requires. An efficiency that is never redeployed or that adds hidden oversight work is not a saving.
 
 ## Questions to discuss with your team
 
@@ -98,7 +98,7 @@ A large hospital group or insurer is usually the local [monopsony](https://en.wi
 
 ### Government
 
-A ministry or national payer sets the rules of the labour market itself: it funds and caps training places, defines licensure and scope of practice, and as the dominant employer in tax-funded systems sets the wage that shapes the whole market. Its decisions carry the longest lags and the widest equity consequences — where it opens training places and sets rural differentials determines who gets care a decade out (equity is developed in Chapter 3.4 — Equity). It must balance the fiscal attraction of monopsony wage restraint against the safety and access costs it creates, and it owns the interface with international recruitment and its ethics (Chapter 3.6 — Global Health and Trade). Its hardest discipline is resisting the false economy of a cheap wage line that reappears, larger, as agency spend, turnover, and unsafe care.
+A ministry or national payer sets the rules of the labour market itself: it funds and caps training places, defines licensure and scope of practice, and as the dominant employer in tax-funded systems sets the wage that shapes the whole market. Its decisions carry the longest lags and the widest equity consequences — where it opens training places and sets rural differentials determines who gets care a decade out (equity is developed in Chapter 3.4 — Equity). It must balance the fiscal attraction of monopsony wage restraint against the safety and access costs it creates, and it owns the interface with international recruitment and its ethics (Chapter 4.2 — Global Health and Trade). Its hardest discipline is resisting the false economy of a cheap wage line that reappears, larger, as agency spend, turnover, and unsafe care.
 
 ## Common failure modes
 
@@ -138,7 +138,7 @@ A ministry or national payer sets the rules of the labour market itself: it fund
 
 - World Health Organization — *Global Strategy on Human Resources for Health* and the National Health Workforce Accounts, the standing international framework for workforce planning and data.
 - OECD — *Health at a Glance*, for comparative data on health-workforce numbers, remuneration, and skill mix across countries.
-- World Health Organization — *Global Code of Practice on the International Recruitment of Health Personnel*, the reference for ethical recruitment (applied in Chapter 3.6 — Global Health and Trade).
+- World Health Organization — *Global Code of Practice on the International Recruitment of Health Personnel*, the reference for ethical recruitment (applied in Chapter 4.2 — Global Health and Trade).
 - Economics Network — *Health Economics for Teachers*, health-policy and health-systems modules covering workforce and labour-market topics.
 - Academic literature on monopsony in health labour markets and on nurse and physician labour supply, in journals such as the *Journal of Health Economics* and *Health Economics*.
 

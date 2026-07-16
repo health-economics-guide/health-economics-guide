@@ -1,6 +1,6 @@
 # Plan — Health Economics Guide
 
-This plan turns `spec/index.md` (the source of truth) into a finished book: 17 chapters in 4 parts, plus front matter and reference matter. Progress is tracked in `tasks.md`; agent operating rules are in `AGENTS.md`.
+This plan turns `spec/index.md` (the source of truth) into a finished book: 33 chapters in 5 parts, plus front matter and reference matter. Progress is tracked in `tasks.md`; agent operating rules are in `AGENTS.md`.
 
 ## What we are building
 
@@ -32,7 +32,7 @@ Deliverables, in this order (they gate everything after):
 
 ### Phase 2 — Chapters, part by part
 
-Write chapters in part order — Part 1 first, because later chapters cross-reference its concepts; then Part 2 (the methods toolkit), then Parts 3 and 4. Within a part, chapters are independent and can be authored concurrently (one writer per file, per spec §9).
+Write chapters in part order — Part 1 first, because later chapters cross-reference its concepts; then Part 2 (the methods toolkit), then Parts 3, 4, and 5. Within a part, chapters are independent and can be authored concurrently (one writer per file, per spec §9).
 
 For each chapter: research and verify sources → draft to the 13-section template → self-check against spec §8 → register new terms in `GLOSSARY.md`/`INDEX.md`.
 
@@ -62,6 +62,6 @@ Fix everything the gates surface, then a final read-through of README → prefac
 ## Risks and mitigations
 
 - **Invented citations** — the biggest failure mode for generated prose. Mitigation: spec §6 is non-negotiable; the link gate HEAD-checks every URL; qualitative description replaces any unverifiable figure.
-- **Template drift** on "different-feeling" chapters (e.g. 4.4 AI). Mitigation: the template is the contract (spec §13); the structural gate is mechanical.
-- **Silent overlap** between adjacent chapters (1.3 vs 3.2; 2.1 vs 2.4; 4.3 vs 4.4). Mitigation: scope notes in spec §4 assign every contested concept a single home chapter.
+- **Template drift** on "different-feeling" chapters (e.g. 5.3 AI). Mitigation: the template is the contract (spec §13); the structural gate is mechanical.
+- **Silent overlap** between adjacent chapters (1.3 vs 3.2; 2.1 vs 2.4; 5.2 vs 5.3). Mitigation: scope notes in spec §4 assign every contested concept a single home chapter.
 - **Dated claims** in fast-moving areas (digital, AI, drug pricing). Mitigation: prefer durable frameworks over news; date-stamp any time-sensitive claim in prose.

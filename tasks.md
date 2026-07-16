@@ -47,23 +47,29 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 3.3 Rationing — `03-03-rationing.md`
 - [x] 3.4 Equity — `03-04-equity.md`
 - [x] 3.5 Capabilities — `03-05-capabilities.md`
-- [x] 3.6 Global Health and Trade — `03-06-global-health-and-trade.md`
-- [x] 3.7 Health Workforce and Labour Markets — `03-07-health-workforce-and-labour-markets.md` *(expansion)*
-- [x] 3.8 Insurance and Risk Protection — `03-08-insurance-and-risk-protection.md` *(expansion)*
-- [x] 3.9 Long-Term and Social Care Economics — `03-09-long-term-and-social-care-economics.md` *(expansion)*
-- [x] 3.10 Mental Health Economics — `03-10-mental-health-economics.md` *(expansion)*
-- [x] 3.11 Strategic Purchasing and Commissioning — `03-11-strategic-purchasing-and-commissioning.md` *(expansion 2)*
-- [x] 3.12 Quality and Safety Economics — `03-12-quality-and-safety-economics.md` *(expansion 2)*
-- [x] 3.13 Pandemic and Emergency Preparedness Economics — `03-13-pandemic-and-emergency-preparedness-economics.md` *(moved from 4.6)*
+- [x] 3.6 Health Workforce and Labour Markets — `03-06-health-workforce-and-labour-markets.md` *(expansion)*
+- [x] 3.7 Insurance and Risk Protection — `03-07-insurance-and-risk-protection.md` *(expansion)*
+- [x] 3.8 Long-Term and Social Care Economics — `03-08-long-term-and-social-care-economics.md` *(expansion)*
+- [x] 3.9 Mental Health Economics — `03-09-mental-health-economics.md` *(expansion)*
+- [x] 3.10 Strategic Purchasing and Commissioning — `03-10-strategic-purchasing-and-commissioning.md` *(expansion 2)*
+- [x] 3.11 Quality and Safety Economics — `03-11-quality-and-safety-economics.md` *(expansion 2)*
+- [x] 3.12 Pandemic and Emergency Preparedness Economics — `03-12-pandemic-and-emergency-preparedness-economics.md` *(expansion 2)*
 
-### Part 4 — Frontiers
+### Part 4 — Global and Societal Issues
 
 - [x] 4.1 Behavioural Economics — `04-01-behavioural-economics.md`
-- [x] 4.2 Innovation Health Economics — `04-02-innovation-health-economics.md`
-- [x] 4.3 Digital Health Economics — `04-03-digital-health-economics.md`
-- [x] 4.4 AI Health Economics — `04-04-ai-health-economics.md`
-- [x] 4.5 Climate and Planetary Health Economics — `04-05-climate-and-planetary-health-economics.md` *(expansion)*
-- [x] 4.6 Software Engineering Health Economics — `04-06-software-engineering-health-economics.md`
+- [x] 4.2 Global Health and Trade — `04-02-global-health-and-trade.md`
+- [x] 4.3 Climate and Planetary Health Economics — `04-03-climate-and-planetary-health-economics.md` *(expansion)*
+- [x] 4.4 Social Media and Health Communication Economics — `04-04-social-media-and-health-communication-economics.md`
+
+### Part 5 — Digital, Software, and Technology
+
+- [x] 5.1 Innovation Health Economics — `05-01-innovation-health-economics.md`
+- [x] 5.2 Digital Health Economics — `05-02-digital-health-economics.md`
+- [x] 5.3 AI Health Economics — `05-03-ai-health-economics.md`
+- [x] 5.4 Software Engineering Health Economics — `05-04-software-engineering-health-economics.md`
+- [x] 5.5 Robotics Health Economics — `05-05-robotics-health-economics.md`
+- [x] 5.6 Health Data Economics — `05-06-health-data-economics.md`
 
 ## Phase 3 — Reference matter
 

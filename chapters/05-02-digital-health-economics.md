@@ -1,4 +1,4 @@
-# Chapter 4.3 — Digital Health Economics
+# Chapter 5.2 — Digital Health Economics
 
 **A digital health tool earns its place not by being modern but by delivering more health per pound than the next-best use of the same money — and proving it against evidence standards written for software that changes, scales cheaply, and can quietly exclude the people who need it most.**
 
@@ -42,7 +42,7 @@ The economic point that unites these is the **cost structure of software**: most
 
 9. **Beware the app graveyard: plan for evidence decay and abandonment.** Software changes, engagement falls off, and evidence generated on one version may not hold for the next. Build in re-evaluation triggered by major updates, monitor real-world use rather than trusting launch trials, and set explicit criteria for decommissioning tools that stop delivering. A tool that worked in the trial and is ignored in practice is spending money for nothing.
 
-10. **Keep the boundary with artificial intelligence clean.** Many digital tools now embed machine learning, and the economics of continuously-learning, opaque algorithms — validation that must repeat, algorithmic bias as an equity cost, paying for a model that changes after purchase — differ enough to warrant separate treatment (see Chapter 4.4 — AI Health Economics). Assess the general digital tool on the practices here; where a claim rests on an adaptive algorithm, apply the additional scrutiny that chapter sets out.
+10. **Keep the boundary with artificial intelligence clean.** Many digital tools now embed machine learning, and the economics of continuously-learning, opaque algorithms — validation that must repeat, algorithmic bias as an equity cost, paying for a model that changes after purchase — differ enough to warrant separate treatment (see Chapter 5.3 — AI Health Economics). Assess the general digital tool on the practices here; where a claim rests on an adaptive algorithm, apply the additional scrutiny that chapter sets out.
 
 11. **Distinguish access gains from health gains.** Telehealth reliably improves convenience and access, and that has genuine value, but access is not the same as outcome. A programme can raise the number of consultations and patient satisfaction while leaving clinical results unchanged. Be clear which you are buying, value convenience honestly rather than smuggling it in as a health effect, and hold outcome claims to outcome evidence.
 
@@ -122,7 +122,7 @@ A ministry or national payer is answerable for equity and public money across ev
 - [ ] Interoperability and data portability are procurement conditions, not afterthoughts.
 - [ ] Re-evaluation and decommissioning triggers are set for future versions.
 - [ ] Access and convenience gains are valued honestly and not counted as health outcomes.
-- [ ] Any reliance on an adaptive algorithm is flagged for the additional scrutiny of Chapter 4.4 — AI Health Economics.
+- [ ] Any reliance on an adaptive algorithm is flagged for the additional scrutiny of Chapter 5.3 — AI Health Economics.
 
 ## Key sources
 

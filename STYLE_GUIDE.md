@@ -52,7 +52,7 @@ The book is **worldwide** (spec §1). Do not assume the reader works in any one 
 
 - **Never invent** a citation, URL, statistic, or quotation. If you cannot verify a figure, describe the pattern qualitatively ("costs rise steeply with age" rather than a fabricated number).
 - **Wikipedia links:** on first mention of a key named concept, link to its canonical English Wikipedia article. **Verify the article exists** before linking — never guess a slug. Aim for **5–12** links per chapter. Every inline Wikipedia link must also appear in `## References`.
-- Prefer **durable** sources (seminal papers, standing guidance, textbooks) over news that dates. Date-stamp any time-sensitive claim, especially in Chapters 4.2–4.4.
+- Prefer **durable** sources (seminal papers, standing guidance, textbooks) over news that dates. Date-stamp any time-sensitive claim, especially in Chapters 5.1–5.3.
 - `## Key sources` names frameworks and bodies of knowledge (NICE methods guidance, the HM Treasury Green Book, WHO health financing publications, ISPOR good-practice reports). `## References` is the numbered list, each formatted *title — publisher/author — URL*.
 
 ---

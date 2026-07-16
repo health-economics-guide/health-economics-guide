@@ -1,4 +1,4 @@
-# Chapter 3.6 — Global Health and Trade
+# Chapter 4.2 — Global Health and Trade
 
 **Health is produced and rationed inside national systems, but its threats, its remedies, and its money increasingly cross borders — so a health economist who cannot see past the national accounts will misjudge both the costs and the duties that flow in from the rest of the world.**
 
@@ -42,7 +42,7 @@ The equity stakes are stark. The gap in life expectancy between the richest and 
 
 7. **Use TRIPS flexibilities deliberately, and cost the trade retaliation risk.** Compulsory licensing, parallel importation, and the "Bolar" research exemption are lawful tools to widen access to patented medicines, affirmed by the Doha Declaration. They are not free: they carry diplomatic and trade-retaliation risks and can chill future investment. Weigh the health gain against those costs openly, and coordinate with other countries and pooled-procurement mechanisms to increase bargaining power and reduce the exposure of acting alone.
 
-8. **Separate the innovation question from the access question — then solve both.** High patent-protected prices are the mechanism by which research and development is funded (Chapter 4.2 — Innovation Health Economics); simply abolishing them would weaken the incentive to invent. Better to pair strong incentives for innovation with deliberate access instruments — tiered pricing, voluntary licensing to generic manufacturers, patent pools, and advance market commitments — so the reward for inventing does not have to be paid by the poorest patients at the point of need.
+8. **Separate the innovation question from the access question — then solve both.** High patent-protected prices are the mechanism by which research and development is funded (Chapter 5.1 — Innovation Health Economics); simply abolishing them would weaken the incentive to invent. Better to pair strong incentives for innovation with deliberate access instruments — tiered pricing, voluntary licensing to generic manufacturers, patent pools, and advance market commitments — so the reward for inventing does not have to be paid by the poorest patients at the point of need.
 
 9. **Govern health-worker migration ethically, and invest in retention.** Destination countries should apply ethical-recruitment principles and avoid actively draining source countries that can least afford the loss; source countries should treat retention — pay, conditions, career paths — as an economic investment, not a moral appeal. Remittances and return migration can offset some loss, but they rarely repay the public cost of training a clinician who never practises at home. Bilateral agreements that share training costs and manage flows are more honest than pretending the market will self-correct.
 

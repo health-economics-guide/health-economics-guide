@@ -1,4 +1,4 @@
-# Chapter 3.12 — Quality and Safety Economics
+# Chapter 3.11 — Quality and Safety Economics
 
 **Poor quality and avoidable harm are not free — they consume real resources, and the economic case for safety is that preventing harm is usually cheaper than treating it, provided you measure and pay for the right things.**
 

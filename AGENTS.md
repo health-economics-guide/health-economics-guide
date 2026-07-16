@@ -1,6 +1,6 @@
 # AGENTS.md — Operating instructions for AI agents
 
-This repository is a book: the *Health Economics Guide*, 17 Markdown chapters in 4 parts plus reference matter. Agents do most of the authoring and checking. This file tells any agent how to work here safely.
+This repository is a book: the *Health Economics Guide*, 33 Markdown chapters in 5 parts plus reference matter. Agents do most of the authoring and checking. This file tells any agent how to work here safely.
 
 ## The one rule that governs everything
 

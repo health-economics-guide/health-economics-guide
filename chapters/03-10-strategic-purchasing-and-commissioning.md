@@ -1,4 +1,4 @@
-# Chapter 3.11 — Strategic Purchasing and Commissioning
+# Chapter 3.10 — Strategic Purchasing and Commissioning
 
 **Strategic purchasing is the discipline of spending a health budget actively — deciding what to buy, from whom, and on what terms — so that public money is converted into health value rather than merely disbursed against whatever providers happen to do.**
 
