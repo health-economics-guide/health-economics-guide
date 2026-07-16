@@ -47,7 +47,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## C
 
 **Capability approach** — 2.1, 3.5, 3.9, 3.10
-**Capacity, occupancy, and deliberate slack** — 1.4, 4.6
+**Capacity, occupancy, and deliberate slack** — 1.4, 3.13
 **Capitation** — 1.2, 1.3, 3.1, 3.8
 **Carbon footprint of care** — 4.5
 **Causal inference** — 2.3, 2.6
@@ -56,7 +56,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Clinical decision support systems** — 4.4
 **Co-benefits of climate action** — 4.5
 **Co-dependent technology** — 4.2
-**Coalition for Epidemic Preparedness Innovations (CEPI)** — 4.6
+**Coalition for Epidemic Preparedness Innovations (CEPI)** — 3.13
 **Cochrane and systematic-review methods** — 2.6
 **Commercial determinants of health** — 1.5
 **Commissioning and the commissioning cycle** — 3.11
@@ -125,10 +125,10 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Evidence standards for digital and AI tools** — 4.3, 4.4
 **Evidence synthesis and meta-analysis** — 2.1, 2.2, 2.6
 **Evergreening** — 2.4
-**Expected value and expected utility** — 4.6
+**Expected value and expected utility** — 3.13
 **Experience rating** — 3.8
 **External reference pricing** — 2.4
-**Externalities** — 1.1, 1.3, 1.5, 3.2, 3.6, 4.2, 4.5, 4.6
+**Externalities** — 1.1, 1.3, 1.5, 3.2, 3.6, 3.13, 4.2, 4.5
 **Extra-welfarism** — 3.5
 
 ## F
@@ -152,10 +152,10 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Generic drugs** — 2.4
 **Gini coefficient** — 3.4
 **Global budgets** — 3.1
-**Global catastrophic risk** — 4.6
+**Global catastrophic risk** — 3.13
 **Global Fund** — 3.6
 **Global mental health** — 3.10
-**Global public goods** — 1.3, 3.6, 4.6
+**Global public goods** — 1.3, 3.6, 3.13
 **GRADE and certainty of evidence** — 2.6
 **Grey literature** — 2.6
 **Grossman model and health as capital** — 1.1, 1.2, 4.1
@@ -197,6 +197,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Integrated care** — 3.9, 3.11
 **Integration of health and social care** — 3.9
 **Intention-to-treat analysis** — 2.3
+**Interoperability and open standards (FHIR)** — 4.6
 **Inverse care law** — 3.4, 4.3
 
 ## J
@@ -209,6 +210,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Labour markets in health** — 3.7
 **Levels of prevention (primary, secondary, tertiary)** — 3.2
+**Legacy systems and modernization** — 4.6
 **Libertarian paternalism** — 4.1
 **Life-course approach** — 1.5
 **Life-cycle assessment** — 4.5
@@ -219,7 +221,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## M
 
 **Machine learning** — 4.4
-**Make-or-buy decision** — 3.11
+**Make-or-buy decision** — 3.11, 4.6
 **Managed care** — 3.8, 3.11
 **Managed entry agreements** — 2.2, 2.4, 2.5
 **Mapping (cross-walking)** — 2.1
@@ -248,7 +250,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Natural experiments** — 2.3, 3.2
 **Natural monopoly** — 1.4
 **Net zero and decarbonization** — 4.5
-**Network effects and vendor lock-in** — 4.3, 4.4
+**Network effects and vendor lock-in** — 4.3, 4.4, 4.6
 **Network meta-analysis** — 2.6
 **Never events** — 3.12
 **NICE (National Institute for Health and Care Excellence)** — 1.1, 2.1, 2.2, 2.4, 2.5, 2.6, 3.2, 3.3, 3.11, 4.3, 4.4
@@ -256,8 +258,9 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## O
 
 **Occupational licensing and scope of practice** — 3.7
-**Opportunity cost** — 1.1, 2.1, 2.4, 2.5, 3.3, 4.3, 4.5, 4.6
-**Option value and real options** — 4.6
+**Open-source software** — 4.6
+**Opportunity cost** — 1.1, 2.1, 2.4, 2.5, 3.3, 3.13, 4.3, 4.5
+**Option value and real options** — 3.13
 **Oregon Health Plan** — 3.3
 **Orphan drugs** — 2.4, 4.2
 **Outcome-based contracts** — 3.11
@@ -265,10 +268,10 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## P
 
-**Pandemic preparedness** — 3.6, 4.6
-**Pandemics as global externalities** — 3.6, 4.6
+**Pandemic preparedness** — 3.6, 3.13
+**Pandemics as global externalities** — 3.6, 3.13
 **Panel data methods** — 2.3
-**Panic-and-neglect cycle** — 4.6
+**Panic-and-neglect cycle** — 3.13
 **Parity of esteem** — 3.10
 **Passive versus strategic purchasing** — 3.11
 **Patents** — 2.4, 3.6, 4.2
@@ -285,7 +288,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Pooling and prepayment** — 1.3, 3.1, 3.8, 3.9
 **Population health** — 1.5
 **Population strategy (prevention)** — 3.2
-**Precautionary principle** — 4.6
+**Precautionary principle** — 3.13
 **Precision medicine (stratified / personalized)** — 4.2
 **Present bias** — 3.2, 4.1
 **Presenteeism and productivity loss** — 3.10
@@ -305,7 +308,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Proportionate universalism** — 1.5
 **Provider objectives and behaviour** — 1.4
 **Provider payment mechanisms** — 1.2, 1.3, 3.1, 3.8, 3.11, 3.12
-**Public goods** — 1.3, 3.6, 4.2, 4.6
+**Public goods** — 1.3, 3.6, 3.13, 4.2
 **Public health** — 1.5, 3.2
 **Publication bias** — 2.6
 **Purchaser–provider split** — 3.11
@@ -345,35 +348,39 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Sensitivity and uncertainty analysis** — 2.1, 2.2
 **Sin taxes and consumption taxes** — 3.2
 **Single-payer systems** — 3.1
+**Site reliability engineering** — 4.6
 **Skill mix and task-shifting** — 3.7
 **Social care economics** — 3.9
 **Social cost of carbon** — 4.5
 **Social determinants of health** — 1.5, 3.4, 4.5
 **Social gradient in health** — 1.5, 3.4
 **Social impact bonds** — 3.11
+**Software maintenance** — 4.6
 **Strategic purchasing** — 3.11
 **Subjective wellbeing** — 3.5
 **Sufficientarianism** — 3.4
 **Sugary drink taxes** — 3.2
 **Supplier-induced demand** — 1.2, 1.3, 3.1
 **Supply of healthcare** — 1.4
-**Surge capacity** — 4.6
+**Surge capacity** — 3.13
 **Sustainable and low-carbon care** — 4.5
 **Systematic reviews** — 2.6
 
 ## T
 
-**Tail risk and catastrophe** — 4.6
+**Tail risk and catastrophe** — 3.13
+**Technical debt** — 4.6
 **Telehealth and telemedicine** — 4.3
 **Time preference** — 1.2
 **Time trade-off** — 2.1
+**Total cost of ownership** — 4.6
 **Treatment gap** — 3.10
 **TRIPS Agreement** — 3.6
 **Two-tier healthcare** — 3.1, 3.6
 
 ## U
 
-**Uncertainty (parameter, structural, heterogeneity)** — 2.1, 2.2, 2.6, 4.2, 4.6
+**Uncertainty (parameter, structural, heterogeneity)** — 2.1, 2.2, 2.6, 3.13, 4.2
 **Universal health coverage** — 3.1, 3.4, 3.6, 3.8
 **Uptake curves and eligible populations** — 2.5
 **Utilitarianism** — 3.4, 3.5
@@ -381,7 +388,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## V
 
 **Validation of models** — 2.2
-**Value of a statistical life** — 4.6
+**Value of a statistical life** — 3.13
 **Value of information** — 2.2, 4.2
 **Value-based health care** — 3.11
 **Value-based insurance design** — 3.8

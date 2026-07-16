@@ -54,6 +54,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 3.10 Mental Health Economics — `03-10-mental-health-economics.md` *(expansion)*
 - [x] 3.11 Strategic Purchasing and Commissioning — `03-11-strategic-purchasing-and-commissioning.md` *(expansion 2)*
 - [x] 3.12 Quality and Safety Economics — `03-12-quality-and-safety-economics.md` *(expansion 2)*
+- [x] 3.13 Pandemic and Emergency Preparedness Economics — `03-13-pandemic-and-emergency-preparedness-economics.md` *(moved from 4.6)*
 
 ### Part 4 — Frontiers
 
@@ -62,7 +63,7 @@ Each chapter task means: researched, drafted to the 13-section template, self-ch
 - [x] 4.3 Digital Health Economics — `04-03-digital-health-economics.md`
 - [x] 4.4 AI Health Economics — `04-04-ai-health-economics.md`
 - [x] 4.5 Climate and Planetary Health Economics — `04-05-climate-and-planetary-health-economics.md` *(expansion)*
-- [x] 4.6 Pandemic and Emergency Preparedness Economics — `04-06-pandemic-and-emergency-preparedness-economics.md` *(expansion 2)*
+- [x] 4.6 Software Engineering Health Economics — `04-06-software-engineering-health-economics.md`
 
 ## Phase 3 — Reference matter
 

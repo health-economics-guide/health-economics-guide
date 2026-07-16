@@ -59,7 +59,7 @@ Every chapter uses these headings, in this order. This is the contract the matur
 
 ## 4. Chapter manifest
 
-Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chapter 2.3 — Health Econometrics"); filenames are the zero-padded equivalents. New chapters are **appended within their part** (e.g. Supply is 1.4, after Market Failure) so that existing chapter numbers never move — a deliberate choice to avoid the renumbering risk of §11. Reading order within a part is the table order; where a later-numbered chapter is a logical sibling of an earlier one (Supply 1.4 beside Demand 1.2), the cross-references make the link.
+Thirty chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Chapter 2.3 — Health Econometrics"); filenames are the zero-padded equivalents. New chapters are **appended within their part** (e.g. Supply is 1.4, after Market Failure) so that existing chapter numbers never move — a deliberate choice to avoid the renumbering risk of §11. Reading order within a part is the table order; where a later-numbered chapter is a logical sibling of an earlier one (Supply 1.4 beside Demand 1.2), the cross-references make the link.
 
 ### Part 1 — Foundations
 *Why health is economically different, and the models that explain it.*
@@ -101,6 +101,7 @@ Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 3.10 | Mental Health Economics | `03-10-mental-health-economics.md` |
 | 3.11 | Strategic Purchasing and Commissioning | `03-11-strategic-purchasing-and-commissioning.md` |
 | 3.12 | Quality and Safety Economics | `03-12-quality-and-safety-economics.md` |
+| 3.13 | Pandemic and Emergency Preparedness Economics | `03-13-pandemic-and-emergency-preparedness-economics.md` |
 
 ### Part 4 — Frontiers
 *Where the discipline is moving: behaviour, innovation, digital, AI, and the planet.*
@@ -112,7 +113,7 @@ Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 | 4.3 | Digital Health Economics | `04-03-digital-health-economics.md` |
 | 4.4 | AI Health Economics | `04-04-ai-health-economics.md` |
 | 4.5 | Climate and Planetary Health Economics | `04-05-climate-and-planetary-health-economics.md` |
-| 4.6 | Pandemic and Emergency Preparedness Economics | `04-06-pandemic-and-emergency-preparedness-economics.md` |
+| 4.6 | Software Engineering Health Economics | `04-06-software-engineering-health-economics.md` |
 
 ### Chapter scope notes (boundaries, to prevent silent overlap)
 
@@ -144,7 +145,8 @@ Twenty-nine chapters in four parts. Chapter numbers are `Part.Chapter` (e.g. "Ch
 - **2.6 Evidence Synthesis and Meta-Analysis** owns how a body of studies is pooled into the evidence that feeds evaluation and health technology assessment: systematic review, meta-analysis, network (indirect-comparison) meta-analysis, evidence hierarchies and GRADE, heterogeneity, publication bias, and living evidence. Single-study causal inference belongs to 2.3 Health Econometrics (cross-reference); the decision model that consumes the synthesized inputs belongs to 2.2 Modelling; the evaluation itself to 2.1. This is the "where the numbers in the model come from" chapter.
 - **3.11 Strategic Purchasing and Commissioning** owns the active discipline of *buying* care to get value: strategic purchasing, the commissioning cycle (assess, plan, procure, monitor), selective and value-based contracting, provider selection, make-or-buy, and outcome-based contracts. The payment *mechanisms* (capitation, fee-for-service, diagnosis-related groups) as system design belong to 3.1 Health Systems (cross-reference); insurance benefit design to 3.8; priority-setting and disinvestment to 3.3. This is "how a payer purchases"; 3.1 is "how the system is structured".
 - **3.12 Quality and Safety Economics** owns the economics of quality and patient safety: the cost of poor quality and of harm (adverse events, healthcare-associated infection), the business case for safety, pay-for-performance for quality and its unintended effects, value-based purchasing for quality, and the measurement of quality. Payment mechanisms in general belong to 3.1 (cross-reference); outcome measurement to 2.1; AI-specific safety to 4.4.
-- **4.6 Pandemic and Emergency Preparedness Economics** owns the economics of preparing for rare, catastrophic events: low-probability/high-consequence appraisal and tail risk, the option value of preparedness (stockpiles, surge capacity, standing vaccine platforms), why markets and annual budgets systematically under-provide preparedness, and the value of preventing catastrophe. Pandemics as global externalities and public goods belong to 3.6 Global Health and Trade (cross-reference); climate resilience to 4.5; antimicrobial resistance to 1.3 and 4.2.
+- **3.13 Pandemic and Emergency Preparedness Economics** owns the economics of preparing for rare, catastrophic events: low-probability/high-consequence appraisal and tail risk, the option value of preparedness (stockpiles, surge capacity, standing vaccine platforms), why markets and annual budgets systematically under-provide preparedness, and the value of preventing catastrophe. Pandemics as global externalities and public goods belong to 3.6 Global Health and Trade (cross-reference); climate resilience to 4.5; antimicrobial resistance to 1.3 and 4.2.
+- **4.6 Software Engineering Health Economics** owns the engineering economics of the software that health systems build, buy, and run: total cost of ownership over a system's life, technical debt as an economic liability, build-versus-buy and vendor lock-in, legacy systems and the economics of modernization and migration, interoperability and standards (e.g. HL7 FHIR) as network economics, open-source versus proprietary trade-offs, and the reliability engineering that clinical safety demands. Evaluating digital tools as *health interventions* belongs to 4.3 Digital Health Economics (cross-reference); AI-specific evaluation to 4.4; procurement discipline to 3.11 Strategic Purchasing and Commissioning; the cost of harm to 3.12 Quality and Safety Economics.
 
 **Front matter:** Preface — `00-preface.md`
 **Reference:** Glossary — `GLOSSARY.md` · Index — `INDEX.md`

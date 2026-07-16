@@ -102,7 +102,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Co-dependent technology** — A drug and its selection test (or any linked pair) whose value cannot be assessed separately because neither delivers its benefit alone. — See Chapter 4.2 — Innovation Health Economics.
 
-**Coalition for Epidemic Preparedness Innovations (CEPI)** — A partnership that finances vaccine platforms and candidates against epidemic threats, an institutional way to hold standing preparedness capacity. *[Wikipedia](https://en.wikipedia.org/wiki/Coalition_for_Epidemic_Preparedness_Innovations)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Coalition for Epidemic Preparedness Innovations (CEPI)** — A partnership that finances vaccine platforms and candidates against epidemic threats, an institutional way to hold standing preparedness capacity. *[Wikipedia](https://en.wikipedia.org/wiki/Coalition_for_Epidemic_Preparedness_Innovations)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Cochrane** — The international collaboration whose Handbook is the standard manual for systematic reviews and whose reviews are a global reference point. *[Wikipedia](https://en.wikipedia.org/wiki/Cochrane_(organisation))* — See Chapter 2.6 — Evidence Synthesis and Meta-Analysis.
 
@@ -252,9 +252,9 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Evidence Standards Framework** — A tiered framework (e.g. NICE's for digital health) setting the proof a tool must show according to its function and financial risk. — See Chapter 4.3 — Digital Health Economics.
 
-**Expected utility** — Decision theory that weights outcomes by their utility, not merely their money value; because it can weight catastrophic states heavily, it justifies paying more than an actuarially fair premium to avoid ruin. *[Wikipedia](https://en.wikipedia.org/wiki/Expected_utility_hypothesis)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Expected utility** — Decision theory that weights outcomes by their utility, not merely their money value; because it can weight catastrophic states heavily, it justifies paying more than an actuarially fair premium to avoid ruin. *[Wikipedia](https://en.wikipedia.org/wiki/Expected_utility_hypothesis)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
-**Expected value** — The decision rule that multiplies each outcome by its probability and sums; the workhorse of appraisal, but risk-neutral and so prone to under-counting rare catastrophes. *[Wikipedia](https://en.wikipedia.org/wiki/Expected_value)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Expected value** — The decision rule that multiplies each outcome by its probability and sums; the workhorse of appraisal, but risk-neutral and so prone to under-counting rare catastrophes. *[Wikipedia](https://en.wikipedia.org/wiki/Expected_value)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Experience rating** — Setting premiums by an individual's or group's own claims history and risk, so the sick pay more — actuarially precise but corrosive of insurance's protective purpose. *[Wikipedia](https://en.wikipedia.org/wiki/Experience_rating)* — See Chapter 3.8 — Insurance and Risk Protection.
 
@@ -267,6 +267,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## F
 
 **Fair innings argument** — Alan Williams' claim that everyone is entitled to a normal lifetime span of health, giving the young sick a stronger claim than the old sick and justifying age weighting. — See Chapter 3.4 — Equity.
+
+**Fast Healthcare Interoperability Resources (FHIR)** — The dominant open standard for exchanging health data between systems, maintained by HL7 International; requiring it at purchase lowers integration costs and weakens vendor lock-in. *[Wikipedia](https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources)* — See Chapter 4.6 — Software Engineering Health Economics.
 
 **Fee-for-service** — Paying for each item of activity, which rewards volume and invites supplier-induced demand. *[Wikipedia](https://en.wikipedia.org/wiki/Fee-for-service)* — See Chapter 3.1 — Health Systems.
 
@@ -294,7 +296,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Gini coefficient** — A single-number summary of income inequality, conceptually the same family of tool as the concentration index. *[Wikipedia](https://en.wikipedia.org/wiki/Gini_coefficient)* — See Chapter 3.4 — Equity.
 
-**Global catastrophic risk** — A class of events that could inflict damage on a planetary scale; preparedness shares their appraisal difficulty — contested probabilities, vast consequences, and the danger of waiting for proof. *[Wikipedia](https://en.wikipedia.org/wiki/Global_catastrophic_risk)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Global catastrophic risk** — A class of events that could inflict damage on a planetary scale; preparedness shares their appraisal difficulty — contested probabilities, vast consequences, and the danger of waiting for proof. *[Wikipedia](https://en.wikipedia.org/wiki/Global_catastrophic_risk)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Global Fund** — A disease-specific vertical fund financing responses to AIDS, tuberculosis, and malaria worldwide. *[Wikipedia](https://en.wikipedia.org/wiki/The_Global_Fund_to_Fight_AIDS,_Tuberculosis_and_Malaria)* — See Chapter 3.6 — Global Health and Trade.
 
@@ -380,6 +382,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Intention-to-treat analysis** — Analysing trial participants in the group they were randomized to, to stop selection bias creeping back in. *[Wikipedia](https://en.wikipedia.org/wiki/Intention-to-treat_analysis)* — See Chapter 2.3 — Health Econometrics.
 
+**Interoperability** — The ability of systems to exchange information and use what is exchanged; chronically under-supplied by markets because its benefits are network-wide while its costs fall on each vendor and buyer. *[Wikipedia](https://en.wikipedia.org/wiki/Interoperability)* — See Chapter 4.6 — Software Engineering Health Economics.
+
 **Inverse care law** — Tudor Hart's observation that the availability of good medical care tends to vary inversely with the need of the population served. *[Wikipedia](https://en.wikipedia.org/wiki/Inverse_care_law)* — See Chapter 3.4 — Equity.
 
 ## J
@@ -393,6 +397,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 ## L
 
 **Labour economics** — The study of how wages and employment are set by workers supplying effort and employers demanding it; the frame for the health workforce as a market. *[Wikipedia](https://en.wikipedia.org/wiki/Labour_economics)* — See Chapter 3.7 — Health Workforce and Labour Markets.
+
+**Legacy system** — Software kept in service past the point where it can be economically maintained, because it works and replacement is frightening; technical debt at organizational scale. *[Wikipedia](https://en.wikipedia.org/wiki/Legacy_system)* — See Chapter 4.6 — Software Engineering Health Economics.
 
 **Libertarian paternalism** — Thaler and Sunstein's justification for nudging: arrange the unavoidable choice architecture to help people achieve their own goals while preserving free choice. *[Wikipedia](https://en.wikipedia.org/wiki/Libertarian_paternalism)* — See Chapter 4.1 — Behavioural Economics.
 
@@ -492,9 +498,11 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **One Health** — The framing that links human, animal, and environmental health, important for emerging infectious disease. *[Wikipedia](https://en.wikipedia.org/wiki/One_Health)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
+**Open-source software** — Software whose source code is freely usable and modifiable; not free — implementation, hosting, and stewardship remain — but it removes the lock-in premium and lets many buyers co-fund a common good. *[Wikipedia](https://en.wikipedia.org/wiki/Open-source_software)* — See Chapter 4.6 — Software Engineering Health Economics.
+
 **Opportunity cost** — The value of the best alternative a decision displaces; in a fixed budget, the true price of everything. *[Wikipedia](https://en.wikipedia.org/wiki/Opportunity_cost)* — See Chapter 1.1 — Introduction to Health Economics.
 
-**Option value (of preparedness)** — The worth of keeping a future course of action open under uncertainty; preparedness is a portfolio of such options — each stockpile or platform a call option on a rapid response. *[Wikipedia](https://en.wikipedia.org/wiki/Option_value_(cost%E2%80%93benefit_analysis))* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Option value (of preparedness)** — The worth of keeping a future course of action open under uncertainty; preparedness is a portfolio of such options — each stockpile or platform a call option on a rapid response. *[Wikipedia](https://en.wikipedia.org/wiki/Option_value_(cost%E2%80%93benefit_analysis))* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Oregon Health Plan** — The canonical attempt at fully explicit rationing, ranking condition–treatment pairs and drawing a funding line. *[Wikipedia](https://en.wikipedia.org/wiki/Oregon_Health_Plan)* — See Chapter 3.3 — Rationing.
 
@@ -510,11 +518,11 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## P
 
-**Pandemic prevention** — Measures to reduce the likelihood and impact of pandemics, from surveillance and pathogen genomics to standing response capacity — largely public goods that markets and annual budgets under-provide. *[Wikipedia](https://en.wikipedia.org/wiki/Pandemic_prevention)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Pandemic prevention** — Measures to reduce the likelihood and impact of pandemics, from surveillance and pathogen genomics to standing response capacity — largely public goods that markets and annual budgets under-provide. *[Wikipedia](https://en.wikipedia.org/wiki/Pandemic_prevention)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Panel data** — Repeated observations of the same units over time, allowing the analyst to control for everything stable about a unit. *[Wikipedia](https://en.wikipedia.org/wiki/Panel_data)* — See Chapter 2.3 — Health Econometrics.
 
-**Panic-and-neglect cycle** — The recurring pattern of lavish spending during an emergency followed by under-investment once the threat recedes, which leaves preparedness chronically depleted between crises. — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Panic-and-neglect cycle** — The recurring pattern of lavish spending during an emergency followed by under-investment once the threat recedes, which leaves preparedness chronically depleted between crises. — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Parity of esteem** — The principle that mental health be resourced and treated on equal terms with physical health, set against chronic under-funding relative to burden. — See Chapter 3.10 — Mental Health Economics.
 
@@ -546,7 +554,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Population strategy (prevention)** — Shifting the whole population's risk distribution slightly (a tax, a reformulation target, a default) to prevent many cases in aggregate, with small individual benefit. — See Chapter 3.2 — Health Policy.
 
-**Precautionary principle** — The rule that, where a threat is potentially irreversible and catastrophic, protective action is warranted even under deep uncertainty about its probability — shifting the burden of proof, not licensing unlimited spend. *[Wikipedia](https://en.wikipedia.org/wiki/Precautionary_principle)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Precautionary principle** — The rule that, where a threat is potentially irreversible and catastrophic, protective action is warranted even under deep uncertainty about its probability — shifting the burden of proof, not licensing unlimited spend. *[Wikipedia](https://en.wikipedia.org/wiki/Precautionary_principle)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Precision medicine (stratified / personalized medicine)** — Using biological information, often genomic, to target a therapy at the subgroup likely to benefit rather than treating an average patient. — See Chapter 4.2 — Innovation Health Economics.
 
@@ -614,7 +622,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Rawlsian maximin ("just health")** — The view (John Rawls, extended by Norman Daniels) that prioritizes the worst-off and grounds a right to health care in fair equality of opportunity. — See Chapter 3.4 — Equity.
 
-**Real option** — An asset whose worth lies in the flexibility to act if circumstances demand it; preparedness — stockpiles, surge capacity, standing platforms — is valued this way, not by conventional net-present-value arithmetic. *[Wikipedia](https://en.wikipedia.org/wiki/Real_options_valuation)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Real option** — An asset whose worth lies in the flexibility to act if circumstances demand it; preparedness — stockpiles, surge capacity, standing platforms — is valued this way, not by conventional net-present-value arithmetic. *[Wikipedia](https://en.wikipedia.org/wiki/Real_options_valuation)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Regression discontinuity design** — A quasi-experimental method exploiting a sharp eligibility threshold to compare near-identical people just above and below the line. *[Wikipedia](https://en.wikipedia.org/wiki/Regression_discontinuity_design)* — See Chapter 2.3 — Health Econometrics.
 
@@ -660,6 +668,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Single-payer healthcare** — A system in which one public payer funds care for the whole population, the archetype of the Beveridge model. *[Wikipedia](https://en.wikipedia.org/wiki/Single-payer_healthcare)* — See Chapter 3.1 — Health Systems.
 
+**Site reliability engineering** — The discipline of managing software reliability against explicit availability targets, budgeting for acceptable failure; economically, insurance whose premium is engineering effort. *[Wikipedia](https://en.wikipedia.org/wiki/Site_reliability_engineering)* — See Chapter 4.6 — Software Engineering Health Economics.
+
 **Skill mix and task-shifting** — The balance of staff types on a team, and the moving of a task from a higher-cost professional to a lower-cost, appropriately-trained one. — See Chapter 3.7 — Health Workforce and Labour Markets.
 
 **Social care** — Personal and practical support with daily living, as distinct from medical treatment, though the two constantly overlap. *[Wikipedia](https://en.wikipedia.org/wiki/Social_care)* — See Chapter 3.9 — Long-Term and Social Care Economics.
@@ -674,6 +684,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Social insurance** — Mandatory contributory pooling of a risk, the model behind statutory long-term-care insurance in Germany and Japan. *[Wikipedia](https://en.wikipedia.org/wiki/Social_insurance)* — See Chapter 3.9 — Long-Term and Social Care Economics.
 
+**Software maintenance** — Corrective, adaptive, and preventive work on software in service; commonly the majority of a system's lifetime cost, and the reason the purchase price is never the economic unit of analysis. *[Wikipedia](https://en.wikipedia.org/wiki/Software_maintenance)* — See Chapter 4.6 — Software Engineering Health Economics.
+
 **Strategic purchasing** — The deliberate, evidence-based use of a payer's buying power to decide what services to buy, from whom, and how — the active alternative to passively paying for whatever is delivered. — See Chapter 3.11 — Strategic Purchasing and Commissioning.
 
 **Subjective well-being** — How people rate their own lives; a tradition distinct from capability, which measures what people are free to do rather than how they feel. *[Wikipedia](https://en.wikipedia.org/wiki/Subjective_well-being)* — See Chapter 3.5 — Capabilities.
@@ -686,7 +698,7 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Supplier-induced demand** — Care generated by the provider's interest rather than the patient's need, opened up by imperfect agency. *[Wikipedia](https://en.wikipedia.org/wiki/Supplier-induced_demand)* — See Chapter 1.3 — Market Failure.
 
-**Surge capacity** — A health system's ability to expand rapidly beyond normal capacity in an emergency — beds, staff, ventilators, laboratory throughput; deliberately slack capacity justified on option-value rather than utilization grounds. *[Wikipedia](https://en.wikipedia.org/wiki/Surge_capacity)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Surge capacity** — A health system's ability to expand rapidly beyond normal capacity in an emergency — beds, staff, ventilators, laboratory throughput; deliberately slack capacity justified on option-value rather than utilization grounds. *[Wikipedia](https://en.wikipedia.org/wiki/Surge_capacity)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Sustainable healthcare** — Care delivered so as to decarbonize estates, supply chains, and models toward net zero while remaining clinically effective. *[Wikipedia](https://en.wikipedia.org/wiki/Sustainable_healthcare)* — See Chapter 4.5 — Climate and Planetary Health Economics.
 
@@ -694,7 +706,9 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 ## T
 
-**Tail risk** — The risk of extreme, low-frequency, high-consequence events in the tail of the loss distribution, exactly where ordinary intuition and expected-value appraisal fail. *[Wikipedia](https://en.wikipedia.org/wiki/Tail_risk)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Tail risk** — The risk of extreme, low-frequency, high-consequence events in the tail of the loss distribution, exactly where ordinary intuition and expected-value appraisal fail. *[Wikipedia](https://en.wikipedia.org/wiki/Tail_risk)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
+
+**Technical debt** — The implied future cost of choosing an expedient software design now instead of a sound one; it accrues interest as every later change costs more, and unmanaged debt compounds into an unbooked liability. *[Wikipedia](https://en.wikipedia.org/wiki/Technical_debt)* — See Chapter 4.6 — Software Engineering Health Economics.
 
 **Telehealth** — The delivery of care and health information at a distance, with telemedicine reserved for remote clinical services such as a video consultation. *[Wikipedia](https://en.wikipedia.org/wiki/Telehealth)* — See Chapter 4.3 — Digital Health Economics.
 
@@ -703,6 +717,8 @@ Entries are alphabetical within each letter section. This file is populated as c
 **Time preference** — How heavily a person discounts the future, shaping how much they invest today in prevention and health. *[Wikipedia](https://en.wikipedia.org/wiki/Time_preference)* — See Chapter 1.2 — Demand for Health and Healthcare.
 
 **Time trade-off** — A preference-elicitation method for valuing health states, used to derive the utility weights behind QALYs. *[Wikipedia](https://en.wikipedia.org/wiki/Time_trade-off)* — See Chapter 2.1 — Economic Evaluation.
+
+**Total cost of ownership** — The full cost of a system over its life — acquisition, integration, data migration, training, hosting, support, upgrades, security, and decommissioning — the correct economic unit for any software decision. *[Wikipedia](https://en.wikipedia.org/wiki/Total_cost_of_ownership)* — See Chapter 4.6 — Software Engineering Health Economics.
 
 **Treatment gap** — The proportion of people with a disorder who receive no treatment, or none adequate; large everywhere and enormous in low- and middle-income countries. — See Chapter 3.10 — Mental Health Economics.
 
@@ -732,11 +748,13 @@ Entries are alphabetical within each letter section. This file is populated as c
 
 **Value-based purchasing** — Buying care on measured quality and outcomes rather than volume alone; a quality overlay on the underlying payment mechanism, exposed to Goodhart's law. *[Wikipedia](https://en.wikipedia.org/wiki/Value-based_purchasing)* — See Chapter 3.12 — Quality and Safety Economics.
 
-**Value of a statistical life (VSL)** — The marginal rate of substitution between money and fatality risk, used across transport, environmental, and health appraisal to monetize avoided deaths. *[Wikipedia](https://en.wikipedia.org/wiki/Value_of_life)* — See Chapter 4.6 — Pandemic and Emergency Preparedness Economics.
+**Value of a statistical life (VSL)** — The marginal rate of substitution between money and fatality risk, used across transport, environmental, and health appraisal to monetize avoided deaths. *[Wikipedia](https://en.wikipedia.org/wiki/Value_of_life)* — See Chapter 3.13 — Pandemic and Emergency Preparedness Economics.
 
 **Value of information** — An analysis estimating what it would be worth to reduce uncertainty before deciding, turning "we're not sure" into a number a research budget can act on. *[Wikipedia](https://en.wikipedia.org/wiki/Value_of_information)* — See Chapter 2.2 — Modelling.
 
 **Variable cost** — A cost that rises with activity — consumables, some staffing, drugs. *[Wikipedia](https://en.wikipedia.org/wiki/Variable_cost)* — See Chapter 1.4 — Supply of Healthcare.
+
+**Vendor lock-in** — The condition in which switching away from a supplier costs so much — data migration, retraining, re-integration, clinical disruption — that the buyer has lost effective bargaining power; in health, aggravated by patient data held in proprietary formats. *[Wikipedia](https://en.wikipedia.org/wiki/Vendor_lock-in)* — See Chapter 4.6 — Software Engineering Health Economics.
 
 ## W
 

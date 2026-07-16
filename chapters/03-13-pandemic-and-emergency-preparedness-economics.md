@@ -1,4 +1,4 @@
-# Chapter 4.6 — Pandemic and Emergency Preparedness Economics
+# Chapter 3.13 — Pandemic and Emergency Preparedness Economics
 
 **Preparedness is an insurance premium against catastrophe, not a purchase of care — so the tools built to rank ordinary health investments by their expected cost per unit of benefit systematically undervalue it, and the discipline's job is to correct that bias before the next emergency, not during it.**
 
