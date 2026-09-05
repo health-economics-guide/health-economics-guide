@@ -66,6 +66,13 @@ The scope is worldwide. Tax-funded, social-insurance, private-insurance, and mix
 - [Index](INDEX.md) — concepts and frameworks by chapter number
 - [Style Guide](STYLE_GUIDE.md) — the prose and formatting contract
 
+## Use with Claude Code
+
+Two [Claude Code](https://claude.com/claude-code) skills teach an AI assistant to work with this guide:
+
+- [`skills/health-economics-guide-skill`](skills/health-economics-guide-skill/SKILL.md) — for readers. Routes a question to the right chapter, answers grounded in the book's own text, runs team workshops from a chapter's discussion questions, and applies the maturity model and checklists to a reader's own organization.
+- [`skills/health-economics-guide-maintainer-skill`](skills/health-economics-guide-maintainer-skill/SKILL.md) — for maintainers. Encodes the authoring, review, and cross-file consistency rules from `AGENTS.md` and `spec/index.md` for anyone writing, reviewing, or reorganizing chapters.
+
 ## For contributors
 
 The book is governed by [`spec/index.md`](spec/index.md) — the authoritative specification for structure, style, citation rules, and quality gates. The build plan is [`plan.md`](plan.md), tracked in [`tasks.md`](tasks.md). AI agents working on this repository should start with [`AGENTS.md`](AGENTS.md).
