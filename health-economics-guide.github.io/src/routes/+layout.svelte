@@ -10,6 +10,7 @@
   } from '@lilydesignsystem/svelte-headless';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
   import { SOURCE_REPO, LOCALES, LOCALE_SLUGS, DEFAULT_LOCALE } from '$lib/book';
+  import { ui } from '$lib/i18n';
 
   let { children } = $props();
 
@@ -19,8 +20,12 @@
 
   // The locale of the page currently showing, when there is one — set on
   // every `/locales/<slug>/...` route, absent on locale-neutral pages
-  // (home, glossary, index).
+  // (home, glossary, index). UI chrome (nav, picker labels, footer) follows
+  // it, falling back to the house-style default on locale-neutral pages —
+  // see spec/locales-for-global-sharing-with-svelte/index.md's bug-fix note
+  // on UI chrome staying hardcoded English.
   const currentLocale = $derived(page.params.locale);
+  const t = $derived(ui(currentLocale ?? DEFAULT_LOCALE));
 
   /**
    * Where switching to `newLocale` should go from the page showing now.
@@ -34,7 +39,7 @@
   function targetPathForLocale(newLocale: string): string {
     const chapterMatch = page.url.pathname.match(/^\/locales\/[^/]+\/chapters\/([^/]+)\/?$/);
     if (chapterMatch && page.data?.ref) {
-      const key: string = page.data.ref.number || `front:${page.data.ref.slug}`;
+      const key: string = page.data.ref.part === 0 ? 'front-matter' : page.data.ref.number;
       const mapped = page.data.localeSlugMap?.[key]?.[newLocale];
       if (mapped) return `/locales/${newLocale}/chapters/${mapped}/`;
     }
@@ -79,9 +84,9 @@
   // "Contents" follows whichever locale is currently showing, falling back
   // to the house-style default on locale-neutral pages.
   const siteLinks = $derived([
-    { href: `/locales/${currentLocale ?? DEFAULT_LOCALE}/contents/`, label: 'Contents' },
-    { href: '/glossary/', label: 'Glossary' },
-    { href: '/index/', label: 'Index' }
+    { href: `/locales/${currentLocale ?? DEFAULT_LOCALE}/contents/`, label: t.contents },
+    { href: '/glossary/', label: t.glossary },
+    { href: '/index/', label: t.index }
   ]);
 
   // Read at share time (inside each href, not as a static prop), so it
@@ -126,13 +131,13 @@
   ];
 </script>
 
-<SkipLink href="#main" label="Skip to main content" />
+<SkipLink href="#main" label={t.skipToContent} />
 
 <GrailLayout class="site">
   <GrailLayoutTopHeader class="site-header">
     <a class="site-brand" href="/">
       <span class="site-brand-icon" aria-hidden="true">⚕</span>
-      <span class="site-brand-title">Health Economics Guide</span>
+      <span class="site-brand-title">{t.siteName}</span>
     </a>
 
     <nav class="site-nav" aria-label="Site">
@@ -141,12 +146,17 @@
           {link.label}
         </a>
       {/each}
-      <a href={SOURCE_REPO} rel="noopener">Source</a>
+      <a href={SOURCE_REPO} rel="noopener">{t.source}</a>
     </nav>
 
     <PickerBar
       class="site-controls"
-      labels={{ theme: 'Theme', locale: 'Language', textSize: 'Text size', share: 'Share' }}
+      labels={{
+        theme: t.pickerTheme,
+        locale: t.pickerLocale,
+        textSize: t.pickerTextSize,
+        share: t.pickerShare
+      }}
       themesUrl="/assets/themes/"
       themeProps={{
         themeLabels: THEME_LABELS,
@@ -165,9 +175,9 @@
       textSizeProps={{ storageKey: 'health-economics-guide-text-size' }}
       shareTargets={shareTargets}
       shareProps={{
-        copyLabel: 'Copy Link',
-        copiedLabel: 'Copied!',
-        copyFailedLabel: 'Copy failed — copy the address bar instead'
+        copyLabel: t.copyLabel,
+        copiedLabel: t.copiedLabel,
+        copyFailedLabel: t.copyFailedLabel
       }}
     />
   </GrailLayoutTopHeader>
@@ -178,13 +188,12 @@
 
   <GrailLayoutBottomFooter class="site-footer">
     <p>
-      <strong>Health Economics Guide</strong> — a practical handbook of best practices for health
-      economics, worldwide in scope.
+      <strong>{t.siteName}</strong> — a practical handbook of best practices for health economics,
+      worldwide in scope.
     </p>
     <p>
-      Source and contributions: <a href={SOURCE_REPO} rel="noopener">github.com/health-economics-guide</a
-      >. Built with the
-      <a href="https://github.com/LilyDesignSystem" rel="noopener">Lily Design System™</a>.
+      {t.source}: <a href={SOURCE_REPO} rel="noopener">github.com/health-economics-guide</a>. Built
+      with the <a href="https://github.com/LilyDesignSystem" rel="noopener">Lily Design System™</a>.
     </p>
   </GrailLayoutBottomFooter>
 </GrailLayout>

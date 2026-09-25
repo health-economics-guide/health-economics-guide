@@ -11,14 +11,17 @@
     ContentsLink
   } from '@lilydesignsystem/svelte-headless';
   import { PARTS } from '$lib/book';
+  import { ui, partTitle } from '$lib/i18n';
 
   let { data } = $props();
 
+  const t = $derived(ui(data.locale));
   const part = $derived(PARTS.find((candidate) => candidate.number === data.ref.part));
+  const localizedPartTitle = $derived(part ? partTitle(data.locale, part.number) : '');
 
   /** `Chapter 1.1 — Market Failure`, or just the title for front matter. */
   const fullTitle = $derived(
-    data.ref.number ? `Chapter ${data.ref.number} — ${data.ref.title}` : data.ref.title
+    data.ref.number ? `${t.chapter} ${data.ref.number} — ${data.ref.title}` : data.ref.title
   );
 
   /** Only top-level sections go in the on-page contents; `###` would crowd it. */
@@ -29,27 +32,29 @@
 </script>
 
 <svelte:head>
-  <title>{fullTitle} — Health Economics Guide</title>
+  <title>{fullTitle} — {t.siteName}</title>
   <meta name="description" content={data.doc.lead || data.ref.title} />
 </svelte:head>
 
 <ArticleLayout class="page page-chapter">
   <BreadcrumbNav label="Breadcrumb" class="page-breadcrumb">
     <BreadcrumbList>
-      <BreadcrumbListItem><a href="/">Home</a></BreadcrumbListItem>
-      <BreadcrumbListItem><a href="/locales/{data.locale}/contents/">Contents</a></BreadcrumbListItem>
+      <BreadcrumbListItem><a href="/">{t.home}</a></BreadcrumbListItem>
+      <BreadcrumbListItem
+        ><a href="/locales/{data.locale}/contents/">{t.contents}</a></BreadcrumbListItem
+      >
       {#if part}
-        <BreadcrumbListItem>Part {part.number} — {part.title}</BreadcrumbListItem>
+        <BreadcrumbListItem>{t.part} {part.number} — {localizedPartTitle}</BreadcrumbListItem>
       {/if}
       <BreadcrumbListItem current>
-        {data.ref.number ? `Chapter ${data.ref.number}` : data.ref.title}
+        {data.ref.number ? `${t.chapter} ${data.ref.number}` : data.ref.title}
       </BreadcrumbListItem>
     </BreadcrumbList>
   </BreadcrumbNav>
 
   <header class="page-header">
     {#if data.ref.number}
-      <p class="page-eyebrow">Chapter {data.ref.number}</p>
+      <p class="page-eyebrow">{t.chapter} {data.ref.number}</p>
     {/if}
     <h1>{data.ref.title}</h1>
     {#if data.doc.lead}
@@ -58,8 +63,8 @@
   </header>
 
   {#if sections.length > 1}
-    <ContentsNav label="On this page" class="page-toc">
-      <h2 class="page-toc-heading">On this page</h2>
+    <ContentsNav label={t.onThisPage} class="page-toc">
+      <h2 class="page-toc-heading">{t.onThisPage}</h2>
       {#each sections as section (section.id)}
         <ContentsLink class="page-toc-item">
           <a href="#{section.id}">{section.text}</a>
@@ -74,12 +79,12 @@
     {@html data.doc.html}
   </div>
 
-  <PaginationNav label="Chapter" class="page-pagination">
+  <PaginationNav label={t.chapter} class="page-pagination">
     <PaginationList>
       <PaginationListItem class="page-pagination-previous">
         {#if data.previous}
           <a href="/locales/{data.locale}/chapters/{data.previous.slug}/" rel="prev">
-            <span class="page-pagination-direction">Previous</span>
+            <span class="page-pagination-direction">{t.previous}</span>
             <span class="page-pagination-label">{label(data.previous)}</span>
           </a>
         {/if}
@@ -87,7 +92,7 @@
       <PaginationListItem class="page-pagination-next">
         {#if data.next}
           <a href="/locales/{data.locale}/chapters/{data.next.slug}/" rel="next">
-            <span class="page-pagination-direction">Next</span>
+            <span class="page-pagination-direction">{t.next}</span>
             <span class="page-pagination-label">{label(data.next)}</span>
           </a>
         {/if}

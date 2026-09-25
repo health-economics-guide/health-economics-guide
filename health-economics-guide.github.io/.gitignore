@@ -3,3 +3,16 @@ build/
 .svelte-kit/
 .DS_Store
 *.log
+
+# ISO-3166-suffixed duplicates of the book's canonical `-001` "worldwide"
+# locale codes (see $lib/book.ts's LOCALES doc comment and
+# spec/locales-for-global-sharing-with-svelte/locales.tsv upstream).
+# pnpm sync happily vendors these too, but the site never routes to them, so
+# there is no reason to carry their weight in this repo.
+/src/content/locales/ar-eg/
+/src/content/locales/cy-gb/
+/src/content/locales/en-150/
+/src/content/locales/es-es/
+/src/content/locales/fr-fr/
+/src/content/locales/ru-ru/
+/src/content/locales/zh-001/

@@ -36,39 +36,51 @@ const indexFile = import.meta.glob('../../content/INDEX.md', {
 type Chapter = ChapterRef & { markdown: string };
 
 /**
- * Turn a content filename into a URL slug.
+ * Parse a content filename's structural part/chapter numbers and derive its
+ * URL slug.
  *
- * Files are named `NN-NN-kebab-title.md`, where the leading numbers order the
- * book on disk. URLs keep the chapter number (readers cite chapters by number)
- * but drop the zero padding: `01-01-market-failure` becomes `1-1-market-failure`.
- * Front matter has no chapter number, so `00-preface` becomes just `preface`.
+ * Files are named `NN-NN-kebab-title.md` (one directory per chapter,
+ * `NN-NN-kebab-title/index.md`, vendored flat by scripts/sync-content.sh),
+ * where the leading numbers order the book on disk and, for numbered
+ * chapters, give the part and chapter number directly — read from here
+ * rather than from the heading text, because a translated heading's own
+ * digits are not always ASCII (Bengali chapters are headed "অধ্যায় ৩.১",
+ * not "Chapter 3.1"). Front matter uses part `00` and has no chapter number
+ * of its own; its slug drops both leading numbers entirely — `00-01-preface`
+ * becomes just `preface`. Numbered chapters keep a de-zero-padded number in
+ * the slug: `01-01-market-failure` becomes `1-1-market-failure`.
  *
- * The kebab-title itself can differ by locale (`labour-markets` vs.
- * `labor-markets`), which is exactly why chapters are looked up per locale
- * rather than by a single slug shared across all three.
+ * The kebab-title itself is per-locale — translated locales rename it to a
+ * native-script or accented slug (`03-01-স্বাস্থ্য-ব্যবস্থা`) — which is
+ * exactly why chapters are looked up per locale rather than by a single slug
+ * shared across all of them.
  */
-function slugFor(stem: string): string {
+function parseStem(
+  stem: string
+): { slug: string; part: number; chapter: number } | { slug: string; part: 0 } {
   const numbered = stem.match(/^(\d+)-(\d+)-(.+)$/);
-  if (numbered) {
-    const [, part, chapter, rest] = numbered;
-    return `${Number(part)}-${Number(chapter)}-${rest}`;
-  }
-  // Front matter is numbered for ordering only — `00-preface` — and reads
-  // better without the digits.
-  const frontMatter = stem.match(/^\d+-(.+)$/);
-  return frontMatter ? frontMatter[1] : stem;
+  if (!numbered) return { slug: stem, part: 0 };
+  const [, partStr, chapterStr, rest] = numbered;
+  const part = Number(partStr);
+  if (part === 0) return { slug: rest, part: 0 };
+  return { slug: `${part}-${Number(chapterStr)}-${rest}`, part, chapter: Number(chapterStr) };
 }
 
 /**
- * Split a document title into its number and its title.
- *
- * Chapter files open with `# Chapter 1.1 — Introduction to Health Economics`;
- * front matter opens with a bare `# Preface`.
+ * The title text of a chapter heading, with any localized "Chapter N.N — "
+ * lead-in stripped. The part/chapter numbers themselves come from the
+ * filename (`parseStem`), not from here — this only needs to recognize
+ * *some* lead-in and drop it. Every locale's numbered-chapter heading
+ * follows "<word> <number> <dash> <title>" (`Chapter 1.1 — …`, `الفصل 1.1
+ * — …`, `第1.1章 — …`, `অধ্যায় ৩.১ — …`); front matter has no lead-in at
+ * all (`Preface`, `مقدمة`). `\p{Nd}` matches a decimal digit in any script,
+ * not just ASCII, which is what a plain `\d` would miss.
  */
-function splitTitle(heading: string): { number: string; title: string } {
-  const match = heading.match(/^Chapter\s+([\d.]+)\s*[—–-]\s*(.+)$/);
-  if (match) return { number: match[1], title: match[2].trim() };
-  return { number: '', title: heading.trim() };
+function stripHeadingPrefix(heading: string): string {
+  const dashSplit = heading.match(/^(.+?)\s*[—–-]\s*(.+)$/);
+  if (!dashSplit) return heading.trim();
+  const [, prefix, rest] = dashSplit;
+  return /\p{Nd}/u.test(prefix) ? rest.trim() : heading.trim();
 }
 
 /** Parse `../../content/locales/<slug>/chapters/<file>.md` into its parts. */
@@ -88,13 +100,13 @@ for (const [path, markdown] of Object.entries(chapterFiles).sort(([a], [b]) =>
   a.localeCompare(b)
 )) {
   const { locale, stem } = parseChapterPath(path);
+  const parsed = parseStem(stem);
   const heading = markdown.match(/^#\s+(.+)$/m)?.[1] ?? stem;
-  const { number, title } = splitTitle(heading);
   const entry: Chapter = {
-    slug: slugFor(stem),
-    number,
-    title,
-    part: number ? Number(number.split('.')[0]) : 0,
+    slug: parsed.slug,
+    number: 'chapter' in parsed ? `${parsed.part}.${parsed.chapter}` : '',
+    title: stripHeadingPrefix(heading),
+    part: parsed.part,
     markdown
   };
   (chaptersByLocale[locale] ??= []).push(entry);
@@ -173,18 +185,20 @@ export function slugs(locale: string): string[] {
  * Maps a chapter identifier to its slug in each locale, so the locale picker
  * can jump to the equivalent chapter after a switch instead of just the
  * target locale's contents page. Most chapters share the same slug in every
- * locale; a few (e.g. "Modelling"/"Modeling") do not, which is exactly why
+ * locale; translated locales rename it to a native-script or accented slug
+ * (e.g. `market-failure` vs. `স্বাস্থ্য-ব্যবস্থা`), which is exactly why
  * this is keyed by chapter number rather than by slug.
  *
- * Front matter has no number, so it is keyed by its own slug instead — safe
- * here because front-matter filenames (and therefore slugs) are identical
- * across all three locales upstream.
+ * Front matter has no number, and — now that locales can translate its slug
+ * too (`preface` vs. `مقدمة`) — no locale-independent slug to key it by
+ * either. There is exactly one front-matter entry per locale, so a single
+ * constant key is enough to line them all up.
  */
 export function localeSlugMap(): Record<string, Record<string, string>> {
   const map: Record<string, Record<string, string>> = {};
   for (const [locale, chapters] of Object.entries(chaptersByLocale)) {
     for (const ch of chapters) {
-      const key = ch.number || `front:${ch.slug}`;
+      const key = ch.part === 0 ? 'front-matter' : ch.number;
       (map[key] ??= {})[locale] = ch.slug;
     }
   }

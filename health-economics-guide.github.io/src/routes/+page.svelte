@@ -13,6 +13,7 @@
 
   const preface = $derived(data.toc.find((chapter) => chapter.part === 0));
   const chapterCount = $derived(data.toc.filter((chapter) => chapter.part > 0).length);
+  const otherLocales = $derived(LOCALES.filter((locale) => locale.slug !== DEFAULT_LOCALE));
 </script>
 
 <svelte:head>
@@ -54,8 +55,14 @@
     </p>
     <p>
       Written in Oxford spelling by default. Also available in
-      {#each LOCALES.filter((locale) => locale.slug !== DEFAULT_LOCALE) as locale, i (locale.slug)}
-        {i > 0 ? ' and ' : ''}<a href="/locales/{locale.slug}/contents/">{locale.label}</a>
+      {#each otherLocales as locale, i (locale.slug)}
+        {i === 0
+          ? ' '
+          : i === otherLocales.length - 1
+            ? otherLocales.length === 2
+              ? ' and '
+              : ', and '
+            : ', '}<a href="/locales/{locale.slug}/contents/">{locale.label}</a>
       {/each}
       — switch anytime from the language picker above.
     </p>

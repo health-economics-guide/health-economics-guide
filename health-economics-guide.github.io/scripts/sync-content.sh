@@ -37,15 +37,42 @@ cp "$source_repo/INDEX.md" "$destination/INDEX.md"
 rm -rf "$destination/locales"
 mkdir -p "$destination/locales"
 
+# Chapters live one directory per chapter upstream (chapters/<slug>/index.md,
+# alongside a README.md symlink and a .locale-peer-id — see
+# spec/locales-for-global-sharing-with-svelte/index.md), not as flat
+# chapters/<slug>.md files. Flatten back to <slug>.md on the way in so the
+# site's own chapter lookup (server/book.ts's chapterFiles glob) needs no
+# change: it still expects one file per chapter, named by slug.
 total=0
 for locale_path in "$locales_dir"/*/; do
     slug=$(basename "$locale_path")
-    if [ ! -d "$locale_path/chapters" ]; then
+    if [ ! -d "${locale_path}chapters" ]; then
         continue
     fi
-    mkdir -p "$destination/locales/$slug/chapters"
-    cp "$locale_path"chapters/*.md "$destination/locales/$slug/chapters/"
-    count=$(find "$destination/locales/$slug/chapters" -name '*.md' | wc -l | tr -d ' ')
+
+    count=0
+    for chapter_dir in "$locale_path"chapters/*/; do
+        [ -d "$chapter_dir" ] || continue
+        chapter_slug=$(basename "$chapter_dir")
+        index_file="${chapter_dir}index.md"
+        if [ -f "$index_file" ]; then
+            mkdir -p "$destination/locales/$slug/chapters"
+            cp "$index_file" "$destination/locales/$slug/chapters/$chapter_slug.md"
+            count=$((count + 1))
+        fi
+    done
+
+    if [ "$count" -eq 0 ]; then
+        # A locale scaffolded upstream (per spec, every locale gets its
+        # directory created before it has any translated chapters) but not
+        # yet translated. Skip it silently here rather than erroring on an
+        # empty glob — see the README's caution against an unfinished locale
+        # silently appearing on the live site; this just keeps it out of the
+        # vendored copy, so $lib/book.ts's hand-curated LOCALES (the site's
+        # actual published-locale list) stays the real gate on visibility.
+        continue
+    fi
+
     total=$((total + count))
     echo "Synced $count chapters for locale $slug"
 done

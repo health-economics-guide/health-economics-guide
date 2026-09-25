@@ -5,6 +5,8 @@
 // from either side. The prose lives in `$lib/server/book.ts`, which is
 // server-only and therefore never reaches a client bundle.
 
+import { localeLabel } from '$lib/locales';
+
 /** One entry in the table of contents. */
 export type ChapterRef = {
   /** URL slug, e.g. `1-1-introduction-to-health-economics` or `preface`. */
@@ -25,7 +27,7 @@ export type Part = {
   tagline: string;
 };
 
-/** One English dialect the book is written in, per `locales/<slug>/chapters/` upstream. */
+/** One locale the book is written in, per `locales/<slug>/chapters/` upstream. */
 export type Locale = {
   /** URL slug and directory name, e.g. `en-us`. Matches the source repo's `locales/<slug>/`. */
   slug: string;
@@ -34,14 +36,37 @@ export type Locale = {
 };
 
 /**
- * The book's locales, in the order offered by the picker. Kept in sync by hand
- * with the source repo's `locales/` directory — Welsh (`cy-gb`) is scaffolded
- * upstream but has no chapters yet, so it is not listed here.
+ * The book's locales, in the order offered by the picker — sorted by code,
+ * per spec/locales-for-global-sharing-with-svelte/index.md's "Locale picker"
+ * section (the `-001` "worldwide" suffix, used for a locale with no single
+ * national dialect, happens to sort before any letter-starting regional
+ * suffix).
+ *
+ * Kept in sync by hand with the source repo's `locales/` directory — the
+ * codes here are exactly spec/locales-for-global-sharing-with-svelte/
+ * locales.tsv's list. The book repo's `locales/` also has a few
+ * ISO-3166-suffixed duplicates of these (`ar-eg`, `cy-gb`, `en-150`,
+ * `es-es`, `fr-fr`, `ru-ru`, `zh-001`) left over from before that spec
+ * settled on the `-001` "worldwide" convention; they are not listed here
+ * and so never appear on the live site, even though `pnpm sync` still
+ * vendors their content (harmless, just unused).
  */
 export const LOCALES: Locale[] = [
-  { slug: 'en-us', label: 'English (US)' },
-  { slug: 'en-gb', label: 'English (UK)' },
-  { slug: 'en-gb-oxendict', label: 'English (UK, Oxford spelling)' }
+  { slug: 'ar-001', label: localeLabel('ar-001') },
+  { slug: 'bn-001', label: localeLabel('bn-001') },
+  { slug: 'cy-001', label: localeLabel('cy-001') },
+  { slug: 'en-001', label: localeLabel('en-001') },
+  { slug: 'en-gb', label: localeLabel('en-gb') },
+  { slug: 'en-gb-oxendict', label: localeLabel('en-gb-oxendict') },
+  { slug: 'en-us', label: localeLabel('en-us') },
+  { slug: 'es-001', label: localeLabel('es-001') },
+  { slug: 'fr-001', label: localeLabel('fr-001') },
+  { slug: 'hi-001', label: localeLabel('hi-001') },
+  { slug: 'id-001', label: localeLabel('id-001') },
+  { slug: 'pt-001', label: localeLabel('pt-001') },
+  { slug: 'ru-001', label: localeLabel('ru-001') },
+  { slug: 'ur-001', label: localeLabel('ur-001') },
+  { slug: 'zh-cn', label: localeLabel('zh-cn') }
 ];
 
 /** Locale slugs only, for validating a route param against the known set. */
