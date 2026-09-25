@@ -36,16 +36,19 @@ export function localeDir(code: string): 'ltr' | 'rtl' {
 }
 
 /**
- * BCP 47-ish language tag for the `lang` attribute. The book's locale codes
- * are close to BCP 47 already: `ar-001`/`bn-001`/`cy-001`/`en-001`/`es-001`/
- * `fr-001`/`hi-001`/`id-001`/`pt-001`/`ru-001`/`ur-001` are CLDR "worldwide"
- * region codes, not real BCP 47 regions, so the synthetic `-001` is
- * stripped to the bare language subtag; `en-gb-oxendict` keeps its real,
- * IANA-registered `oxendict` variant subtag with conventional casing.
+ * The `lang` attribute value for a locale code.
+ *
+ * This is deliberately the *identity function*, not a normalizer: the
+ * header's `LocalePicker` (`@lilydesignsystem/svelte-locale-picker`) also
+ * writes `document.documentElement.lang` — on mount as well as on a real
+ * switch — via its own `bcp47LocaleTag()`, which is `_` → `-` only. Once
+ * that component hydrates, its value always wins, so returning anything
+ * that would print differently here just produces a pointless flash where
+ * the client immediately overwrites what the server rendered. `-001` is a
+ * real, valid BCP 47 region subtag (CLDR's UN M49 "World" macro-region —
+ * `en-001` is genuinely "English, World"), which is exactly why the
+ * component's own author chose not to strip it either.
  */
 export function langAttr(code: string): string {
-  if (code === 'en-gb-oxendict') return 'en-GB-oxendict';
-  if (code.endsWith('-001')) return code.slice(0, -4);
-  const [lang, region] = code.split('-');
-  return region ? `${lang}-${region.toUpperCase()}` : lang;
+  return code;
 }
