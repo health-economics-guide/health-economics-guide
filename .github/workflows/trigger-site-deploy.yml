@@ -1,0 +1,36 @@
+# When the site's own subdirectory changes on main, tell
+# health-economics-guide.github.io (a separate repo — see its README) to
+# redeploy. Scoped to that path, not every push, because most commits here
+# are book content that only reaches the live site once someone runs
+# `pnpm sync` inside health-economics-guide.github.io/ and commits the
+# result; an unrelated chapter edit shouldn't trigger a rebuild of
+# unchanged site output.
+#
+# Requires a fine-grained PAT in this repo's secrets as PAGES_DISPATCH_TOKEN,
+# scoped to ONLY the health-economics-guide.github.io repository, with
+# "Actions" permission set to Read and write — that's what lets it call
+# that repo's workflow-dispatch API. The default GITHUB_TOKEN can't do this;
+# it has no access outside the repo the workflow runs in. Until that secret
+# is added, this workflow's step fails harmlessly (nothing else depends on
+# it) — the site still redeploys via its own daily schedule in the
+# meantime, see health-economics-guide.github.io/.github/workflows/deploy.yml.
+
+name: Trigger site deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'health-economics-guide.github.io/**'
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger health-economics-guide.github.io's deploy workflow
+        env:
+          GH_TOKEN: ${{ secrets.PAGES_DISPATCH_TOKEN }}
+        run: |
+          gh workflow run "Deploy to GitHub Pages" \
+            --repo health-economics-guide/health-economics-guide.github.io \
+            --ref main
