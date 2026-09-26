@@ -33,11 +33,6 @@
       and care professionals, and operational managers. Its premise: in health, economics provides
       the frameworks for strategy, resourcing, equity, and public trust — not merely efficiency.
     </p>
-    <p>
-      The scope is worldwide. Tax-funded, social-insurance, private-insurance, and mixed systems —
-      in low-, middle-, and high-income settings — are all first-class citizens here. Named systems
-      appear as exemplars of patterns, not as defaults.
-    </p>
     <p class="page-hero-actions">
       {#if preface}
         <a
