@@ -5,7 +5,7 @@
 // from either side. The prose lives in `$lib/server/book.ts`, which is
 // server-only and therefore never reaches a client bundle.
 
-import { localeLabel } from '$lib/locales';
+import { localeLabel, languageName } from '$lib/locales';
 
 /** One entry in the table of contents. */
 export type ChapterRef = {
@@ -71,6 +71,19 @@ export const LOCALES: Locale[] = [
 
 /** Locale slugs only, for validating a route param against the known set. */
 export const LOCALE_SLUGS: string[] = LOCALES.map((locale) => locale.slug);
+
+/**
+ * One entry per distinct LANGUAGE the book is written in, not per routable
+ * locale variant — collapsing English's three dialects (`en-gb`,
+ * `en-gb-oxendict`, `en-us`) down to the single language-only `en-001`
+ * entry. For contexts that want to name the book's languages rather than
+ * list every locale a reader could switch to — currently just the home
+ * page's "available in" sentence, which would otherwise say "English"
+ * three times over.
+ */
+export const LANGUAGES: Locale[] = LOCALES.filter(
+  (locale) => !['en-gb', 'en-gb-oxendict', 'en-us'].includes(locale.slug)
+).map((locale) => ({ ...locale, label: languageName(locale.slug) }));
 
 /**
  * The locale served at unprefixed reference pages (glossary, index) and used

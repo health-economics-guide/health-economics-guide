@@ -1,6 +1,6 @@
 <script lang="ts">
   import { ArticleLayout, SectionHeading, Badge } from '@lilydesignsystem/svelte-headless';
-  import { PARTS, SOURCE_REPO, SKILLS_REPO, LOCALES, DEFAULT_LOCALE } from '$lib/book';
+  import { PARTS, SOURCE_REPO, SKILLS_REPO, LANGUAGES, DEFAULT_LOCALE } from '$lib/book';
 
   let { data } = $props();
 
@@ -13,7 +13,6 @@
 
   const preface = $derived(data.toc.find((chapter) => chapter.part === 0));
   const chapterCount = $derived(data.toc.filter((chapter) => chapter.part > 0).length);
-  const otherLocales = $derived(LOCALES.filter((locale) => locale.slug !== DEFAULT_LOCALE));
 </script>
 
 <svelte:head>
@@ -54,17 +53,16 @@
       <a class="page-action" href="/glossary/">Glossary</a>
     </p>
     <p>
-      Written in Oxford spelling by default. Also available in
-      {#each otherLocales as locale, i (locale.slug)}
+      Available in multiple languages
+      {#each LANGUAGES as language, i (language.slug)}
         {i === 0
           ? ' '
-          : i === otherLocales.length - 1
-            ? otherLocales.length === 2
+          : i === LANGUAGES.length - 1
+            ? LANGUAGES.length === 2
               ? ' and '
               : ', and '
-            : ', '}<a href="/locales/{locale.slug}/contents/">{locale.label}</a>
-      {/each}
-      — switch anytime from the language picker above.
+            : ', '}<a href="/locales/{language.slug}/contents/">{language.label}</a>
+      {/each}. Switch anytime from the language picker above.
     </p>
   </header>
 

@@ -3,13 +3,23 @@
 // spec/locales-for-global-sharing-with-svelte/index.md ("Labels live in
 // locales.js's LOCALE_LABELS, one entry per code, in that language ...
 // Falls back to the raw code via localeLabel() if a code has no label
-// yet"). English dialects get a descriptive label (endonym and exonym are
-// the same word, "English", so plain "English" three times would not
-// distinguish them); every other locale gets its own endonym.
+// yet"). Every locale gets its own endonym.
+//
+// Format: "<language>" alone for a `-001` "worldwide" code (never a
+// "World"/"International" qualifier — genuinely no region to name), or
+// "<language> - <region>[ - <variant>]" for one with a real region —
+// always the region's full name, in the label's own language, never an
+// abbreviation ("Great Britain", not "UK"; "United States", not "US").
+// "gb" is "Great Britain" specifically, not "United Kingdom" — this is a
+// deliberate house choice, not a claim about the two names being
+// synonyms. Every label follows this same " - "-joined shape so that
+// `languageName()` below can recover the bare language name generically,
+// by taking everything before the first " - ", without a second parallel
+// data structure.
 export const LOCALE_LABELS: Record<string, string> = {
-  'en-us': 'English (US)',
-  'en-gb': 'English (UK)',
-  'en-gb-oxendict': 'English (UK, Oxford spelling)',
+  'en-us': 'English - United States',
+  'en-gb': 'English - Great Britain',
+  'en-gb-oxendict': 'English - Great Britain - Oxford',
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
@@ -21,11 +31,22 @@ export const LOCALE_LABELS: Record<string, string> = {
   'pt-001': 'Português',
   'ru-001': 'Русский',
   'ur-001': 'اردو',
-  'zh-cn': '中文 (简体)'
+  'zh-cn': '中文 - 中国'
 };
 
 export function localeLabel(code: string): string {
   return LOCALE_LABELS[code] ?? code;
+}
+
+/**
+ * The bare language name for a locale code — its label with any
+ * " - <region>[ - <variant>]" suffix dropped. For contexts that want to
+ * name the book's languages, not its routable locale variants (currently
+ * just the home page's "available in" list — see $lib/book.ts's
+ * LANGUAGES).
+ */
+export function languageName(code: string): string {
+  return localeLabel(code).split(' - ')[0];
 }
 
 /** Right-to-left locale codes among the ones this site publishes. */
