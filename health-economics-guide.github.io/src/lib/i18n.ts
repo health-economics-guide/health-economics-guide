@@ -117,7 +117,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     siteName: 'Guía de Economía de la Salud',
     skipToContent: 'Saltar al contenido principal',
     home: 'Inicio',
-    contents: 'Índice',
+    contents: 'Contenido',
     glossary: 'Glosario',
     index: 'Índice',
     source: 'Código fuente',
