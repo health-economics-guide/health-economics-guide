@@ -7,7 +7,7 @@
     BreadcrumbListItem
   } from '@lilydesignsystem/svelte-headless';
   import { PARTS, LOCALES } from '$lib/book';
-  import { ui, partTitle } from '$lib/i18n';
+  import { ui, partTitle, partTagline } from '$lib/i18n';
 
   let { data } = $props();
 
@@ -20,6 +20,7 @@
     PARTS.map((part) => ({
       ...part,
       title: partTitle(data.locale, part.number),
+      tagline: partTagline(data.locale, part.number),
       chapters: data.toc.filter((chapter) => chapter.part === part.number)
     }))
   );
@@ -27,7 +28,7 @@
 
 <svelte:head>
   <title>{t.contents} — {t.siteName}</title>
-  <meta name="description" content="The full table of contents of the Health Economics Guide." />
+  <meta name="description" content={t.contentsDescription} />
 </svelte:head>
 
 <ArticleLayout class="page">
@@ -40,10 +41,7 @@
 
   <header class="page-header">
     <h1>{t.contents}</h1>
-    <p class="page-lead">
-      Every chapter is self-contained. Read straight through for a course in health economics, or
-      go directly to the chapter that matches the decision in front of you.
-    </p>
+    <p class="page-lead">{t.contentsLead}</p>
     <p class="page-eyebrow">{t.readingIn} {localeLabel}. {t.switchLanguageHint}</p>
   </header>
 

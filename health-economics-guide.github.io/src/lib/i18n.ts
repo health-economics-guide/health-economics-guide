@@ -8,7 +8,11 @@
 // This does not cover the book's own prose (chapters, glossary, index) —
 // that is vendored per locale from the source repo — nor the home page's
 // long-form copy at `/`, which is locale-neutral by design (see
-// $lib/book.ts's DEFAULT_LOCALE doc comment) and stays in English.
+// $lib/book.ts's DEFAULT_LOCALE doc comment) and stays in English. The
+// contents page's own lead paragraph and the parts' taglines (below) are
+// translated here even though they read more like prose than chrome,
+// because they appear inline on an otherwise fully localized page — see
+// partTagline()'s doc comment.
 export type Ui = typeof EN;
 
 const EN = {
@@ -34,7 +38,10 @@ const EN = {
   copiedLabel: 'Copied!',
   copyFailedLabel: 'Copy failed — copy the address bar instead',
   readingIn: 'Reading in',
-  switchLanguageHint: 'Switch language from the header picker.'
+  switchLanguageHint: 'Switch language from the header picker.',
+  contentsLead:
+    'Every chapter is self-contained. Read straight through for a course in health economics, or go directly to the chapter that matches the decision in front of you.',
+  contentsDescription: 'The full table of contents of the Health Economics Guide.'
 };
 
 const OVERRIDES: Record<string, Partial<Ui>> = {
@@ -61,7 +68,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'Wedi copïo!',
     copyFailedLabel: "Methodd copïo — copïwch far y cyfeiriad yn lle hynny",
     readingIn: 'Darllen yn',
-    switchLanguageHint: "Newidiwch iaith o'r dewisydd yn y pennawd."
+    switchLanguageHint: "Newidiwch iaith o'r dewisydd yn y pennawd.",
+    contentsLead:
+      "Mae pob pennod yn gyflawn ynddi'i hun. Darllenwch drwyddi ar gyfer cwrs mewn economeg iechyd, neu ewch yn syth i'r bennod sy'n cyd-fynd â'r penderfyniad o'ch blaen.",
+    contentsDescription: "Tabl cynnwys llawn Canllaw Economeg Iechyd."
   },
   'hi-001': {
     siteName: 'स्वास्थ्य अर्थशास्त्र गाइड',
@@ -86,7 +96,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'कॉपी हो गया!',
     copyFailedLabel: 'कॉपी विफल — इसके बजाय पता बार कॉपी करें',
     readingIn: 'इस भाषा में पढ़ रहे हैं',
-    switchLanguageHint: 'हेडर पिकर से भाषा बदलें।'
+    switchLanguageHint: 'हेडर पिकर से भाषा बदलें।',
+    contentsLead:
+      'हर अध्याय अपने आप में पूर्ण है। स्वास्थ्य अर्थशास्त्र में एक पाठ्यक्रम के लिए सीधे पढ़ें, या सीधे उस अध्याय पर जाएँ जो आपके सामने के निर्णय से मेल खाता है।',
+    contentsDescription: 'स्वास्थ्य अर्थशास्त्र गाइड की पूर्ण विषय-सूची।'
   },
   'zh-cn': {
     siteName: '健康经济学指南',
@@ -111,7 +124,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: '已复制！',
     copyFailedLabel: '复制失败——请改为复制地址栏内容',
     readingIn: '正在阅读语言',
-    switchLanguageHint: '从页眉选择器切换语言。'
+    switchLanguageHint: '从页眉选择器切换语言。',
+    contentsLead:
+      '每一章都是独立完整的。您可以从头到尾阅读，系统学习健康经济学；也可以直接跳转到与您当前决策相关的章节。',
+    contentsDescription: '《健康经济学指南》完整目录。'
   },
   'es-001': {
     siteName: 'Guía de Economía de la Salud',
@@ -136,7 +152,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: '¡Copiado!',
     copyFailedLabel: 'Error al copiar — copie la barra de direcciones en su lugar',
     readingIn: 'Leyendo en',
-    switchLanguageHint: 'Cambie de idioma desde el selector del encabezado.'
+    switchLanguageHint: 'Cambie de idioma desde el selector del encabezado.',
+    contentsLead:
+      'Cada capítulo es autónomo. Léalo de principio a fin como un curso de economía de la salud, o vaya directamente al capítulo que corresponda a la decisión que tiene por delante.',
+    contentsDescription: 'El índice completo de la Guía de Economía de la Salud.'
   },
   'fr-001': {
     siteName: "Guide d'Économie de la Santé",
@@ -161,7 +180,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'Copié !',
     copyFailedLabel: "Échec de la copie — copiez plutôt la barre d'adresse",
     readingIn: 'Lecture en',
-    switchLanguageHint: "Changez de langue depuis le sélecteur d'en-tête."
+    switchLanguageHint: "Changez de langue depuis le sélecteur d'en-tête.",
+    contentsLead:
+      "Chaque chapitre se suffit à lui-même. Lisez-le d'un bout à l'autre comme un cours d'économie de la santé, ou allez directement au chapitre qui correspond à la décision qui se présente à vous.",
+    contentsDescription: "La table des matières complète du Guide d'Économie de la Santé."
   },
   'pt-001': {
     siteName: 'Guia de Economia da Saúde',
@@ -186,7 +208,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'Copiado!',
     copyFailedLabel: 'Falha ao copiar — copie a barra de endereço',
     readingIn: 'Lendo em',
-    switchLanguageHint: 'Mude o idioma no seletor do cabeçalho.'
+    switchLanguageHint: 'Mude o idioma no seletor do cabeçalho.',
+    contentsLead:
+      'Cada capítulo é autónomo. Leia do início ao fim como um curso de economia da saúde, ou vá diretamente ao capítulo que corresponde à decisão que tem pela frente.',
+    contentsDescription: 'O sumário completo do Guia de Economia da Saúde.'
   },
   'ru-001': {
     siteName: 'Руководство по экономике здравоохранения',
@@ -211,7 +236,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'Скопировано!',
     copyFailedLabel: 'Не удалось скопировать — скопируйте адрес вручную',
     readingIn: 'Чтение на языке',
-    switchLanguageHint: 'Смените язык в переключателе в шапке сайта.'
+    switchLanguageHint: 'Смените язык в переключателе в шапке сайта.',
+    contentsLead:
+      'Каждая глава самодостаточна. Читайте подряд — как курс экономики здравоохранения, — или переходите сразу к главе, которая соответствует стоящему перед вами решению.',
+    contentsDescription: 'Полное оглавление Руководства по экономике здравоохранения.'
   },
   'bn-001': {
     siteName: 'স্বাস্থ্য অর্থনীতি গাইড',
@@ -236,7 +264,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'কপি হয়েছে!',
     copyFailedLabel: 'কপি ব্যর্থ হয়েছে — ঠিকানা বার থেকে কপি করুন',
     readingIn: 'যে ভাষায় পড়ছেন',
-    switchLanguageHint: 'হেডার পিকার থেকে ভাষা পরিবর্তন করুন।'
+    switchLanguageHint: 'হেডার পিকার থেকে ভাষা পরিবর্তন করুন।',
+    contentsLead:
+      'প্রতিটি অধ্যায় নিজে থেকেই সম্পূর্ণ। স্বাস্থ্য অর্থনীতির একটি কোর্সের জন্য শুরু থেকে শেষ পর্যন্ত পড়ুন, অথবা সরাসরি সেই অধ্যায়ে যান যা আপনার সামনে থাকা সিদ্ধান্তের সাথে মেলে।',
+    contentsDescription: 'স্বাস্থ্য অর্থনীতি গাইডের সম্পূর্ণ সূচিপত্র।'
   },
   'id-001': {
     siteName: 'Panduan Ekonomi Kesehatan',
@@ -261,7 +292,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'Tersalin!',
     copyFailedLabel: 'Gagal menyalin — salin bilah alamat sebagai gantinya',
     readingIn: 'Membaca dalam',
-    switchLanguageHint: 'Ganti bahasa dari pemilih di header.'
+    switchLanguageHint: 'Ganti bahasa dari pemilih di header.',
+    contentsLead:
+      'Setiap bab berdiri sendiri. Baca dari awal hingga akhir sebagai kursus ekonomi kesehatan, atau langsung menuju bab yang sesuai dengan keputusan yang sedang Anda hadapi.',
+    contentsDescription: 'Daftar isi lengkap Panduan Ekonomi Kesehatan.'
   },
   'ar-001': {
     siteName: 'دليل اقتصاديات الصحة',
@@ -286,7 +320,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'تم النسخ!',
     copyFailedLabel: 'فشل النسخ — انسخ من شريط العنوان بدلاً من ذلك',
     readingIn: 'تقرأ الآن باللغة',
-    switchLanguageHint: 'غيّر اللغة من محدد اللغة في الرأس.'
+    switchLanguageHint: 'غيّر اللغة من محدد اللغة في الرأس.',
+    contentsLead:
+      'كل فصل قائم بذاته. اقرأه من البداية إلى النهاية كدورة في اقتصاديات الصحة، أو انتقل مباشرة إلى الفصل الذي يطابق القرار الماثل أمامك.',
+    contentsDescription: 'فهرس المحتويات الكامل لدليل اقتصاديات الصحة.'
   },
   'ur-001': {
     siteName: 'صحت کی معاشیات کی رہنما کتاب',
@@ -311,7 +348,10 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     copiedLabel: 'کاپی ہو گیا!',
     copyFailedLabel: 'کاپی ناکام — بجائے اس کے ایڈریس بار کاپی کریں',
     readingIn: 'جس زبان میں پڑھ رہے ہیں',
-    switchLanguageHint: 'ہیڈر پکر سے زبان تبدیل کریں۔'
+    switchLanguageHint: 'ہیڈر پکر سے زبان تبدیل کریں۔',
+    contentsLead:
+      'ہر باب اپنی جگہ مکمل ہے۔ صحت کی معاشیات کے ایک کورس کے طور پر شروع سے آخر تک پڑھیں، یا براہ راست اُس باب پر جائیں جو آپ کے سامنے موجود فیصلے سے مطابقت رکھتا ہے۔',
+    contentsDescription: 'صحت کی معاشیات کی رہنما کتاب کی مکمل فہرست۔'
   }
 };
 
@@ -321,11 +361,7 @@ export function ui(locale: string): Ui {
 
 export const DEFAULT_UI: Ui = EN;
 
-// Part titles, matching $lib/book.ts's PARTS (English; canonical). Taglines
-// are not translated here — they are longer-form prose, closer to the
-// book's own content than to UI chrome, and out of scope for this file; an
-// untranslated tagline under a translated title is an acceptable partial
-// gap, not a broken page.
+// Part titles, matching $lib/book.ts's PARTS (English; canonical).
 const EN_PART_TITLES: Record<number, string> = {
   1: 'Foundations',
   2: 'Evaluation and Evidence',
@@ -417,4 +453,104 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
 /** This locale's title for part `number`, falling back to the canonical English one. */
 export function partTitle(locale: string, number: number): string {
   return PART_TITLE_OVERRIDES[locale]?.[number] ?? EN_PART_TITLES[number];
+}
+
+// Part taglines, matching $lib/book.ts's PARTS (English; canonical). These
+// are translated here even though they read as prose rather than chrome —
+// they appear on the contents page directly under a title that's already
+// translated (partTitle, above), so leaving them in English would read as
+// a half-finished page rather than a deliberate scope boundary. The home
+// page (locale-neutral by design) still uses the untranslated PARTS.tagline
+// directly, not this.
+const EN_PART_TAGLINES: Record<number, string> = {
+  1: 'why health is economically different, and the models that explain it',
+  2: "the analyst's toolkit: valuing outcomes, building models, testing claims",
+  3: 'how societies organize, fund, and share out healthcare',
+  4: 'health beyond one system: behaviour, global trade and financing, the planet, and the public conversation',
+  5: 'the economics of health technology: innovation, digital care, artificial intelligence, software, robotics, and data'
+};
+
+const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
+  'cy-001': {
+    1: "pam mae iechyd yn economaidd wahanol, a'r modelau sy'n ei esbonio",
+    2: "twlcis y dadansoddwr: prisio canlyniadau, adeiladu modelau, profi honiadau",
+    3: "sut mae cymdeithasau'n trefnu, ariannu, a rhannu gofal iechyd",
+    4: 'iechyd y tu hwnt i un system: ymddygiad, masnach a chyllid byd-eang, y blaned, a\'r sgwrs gyhoeddus',
+    5: 'economeg technoleg iechyd: arloesi, gofal digidol, deallusrwydd artiffisial, meddalwedd, roboteg, a data'
+  },
+  'hi-001': {
+    1: 'स्वास्थ्य आर्थिक रूप से अलग क्यों है, और वे मॉडल जो इसे समझाते हैं',
+    2: 'विश्लेषक की टूलकिट: परिणामों का मूल्यांकन, मॉडल बनाना, दावों का परीक्षण',
+    3: 'समाज स्वास्थ्य सेवा को कैसे व्यवस्थित, वित्तपोषित और वितरित करते हैं',
+    4: 'एक प्रणाली से परे स्वास्थ्य: व्यवहार, वैश्विक व्यापार और वित्तपोषण, ग्रह, और सार्वजनिक बातचीत',
+    5: 'स्वास्थ्य प्रौद्योगिकी का अर्थशास्त्र: नवाचार, डिजिटल देखभाल, कृत्रिम बुद्धिमत्ता, सॉफ़्टवेयर, रोबोटिक्स, और डेटा'
+  },
+  'zh-cn': {
+    1: '为什么健康在经济上有其特殊性，以及解释这一点的模型',
+    2: '分析师的工具箱：评估结果、构建模型、检验主张',
+    3: '社会如何组织、资助并分配医疗保健',
+    4: '超越单一体系的健康：行为、全球贸易与融资、地球，以及公共讨论',
+    5: '健康科技的经济学：创新、数字化医疗、人工智能、软件、机器人技术与数据'
+  },
+  'es-001': {
+    1: 'por qué la salud es económicamente diferente, y los modelos que lo explican',
+    2: 'el conjunto de herramientas del analista: valorar resultados, construir modelos, poner a prueba afirmaciones',
+    3: 'cómo las sociedades organizan, financian y distribuyen la atención sanitaria',
+    4: 'la salud más allá de un solo sistema: comportamiento, comercio y financiación globales, el planeta, y el debate público',
+    5: 'la economía de la tecnología sanitaria: innovación, salud digital, inteligencia artificial, software, robótica y datos'
+  },
+  'fr-001': {
+    1: "pourquoi la santé est économiquement différente, et les modèles qui l'expliquent",
+    2: "la boîte à outils de l'analyste : évaluer les résultats, construire des modèles, tester des affirmations",
+    3: 'comment les sociétés organisent, financent et répartissent les soins de santé',
+    4: 'la santé au-delà d\'un seul système : comportement, commerce et financement mondiaux, la planète, et le débat public',
+    5: "l'économie de la technologie de la santé : innovation, santé numérique, intelligence artificielle, logiciels, robotique et données"
+  },
+  'pt-001': {
+    1: 'por que a saúde é economicamente diferente, e os modelos que o explicam',
+    2: 'o conjunto de ferramentas do analista: avaliar resultados, construir modelos, testar afirmações',
+    3: 'como as sociedades organizam, financiam e distribuem os cuidados de saúde',
+    4: 'a saúde para além de um único sistema: comportamento, comércio e financiamento globais, o planeta, e o debate público',
+    5: 'a economia da tecnologia da saúde: inovação, saúde digital, inteligência artificial, software, robótica e dados'
+  },
+  'ru-001': {
+    1: 'почему здоровье экономически особенное и какие модели это объясняют',
+    2: 'инструментарий аналитика: оценка результатов, построение моделей, проверка утверждений',
+    3: 'как общества организуют, финансируют и распределяют здравоохранение',
+    4: 'здоровье за пределами одной системы: поведение, глобальная торговля и финансирование, планета и общественная дискуссия',
+    5: 'экономика медицинских технологий: инновации, цифровое здравоохранение, искусственный интеллект, программное обеспечение, робототехника и данные'
+  },
+  'bn-001': {
+    1: 'কেন স্বাস্থ্য অর্থনৈতিকভাবে ভিন্ন, এবং যেসব মডেল এটি ব্যাখ্যা করে',
+    2: 'বিশ্লেষকের টুলকিট: ফলাফল মূল্যায়ন, মডেল তৈরি, দাবি যাচাই',
+    3: 'সমাজ কীভাবে স্বাস্থ্যসেবা সংগঠিত, অর্থায়ন এবং বণ্টন করে',
+    4: 'একটি একক ব্যবস্থার বাইরে স্বাস্থ্য: আচরণ, বৈশ্বিক বাণিজ্য ও অর্থায়ন, গ্রহ, এবং জনসাধারণের আলোচনা',
+    5: 'স্বাস্থ্য প্রযুক্তির অর্থনীতি: উদ্ভাবন, ডিজিটাল স্বাস্থ্যসেবা, কৃত্রিম বুদ্ধিমত্তা, সফটওয়্যার, রোবোটিক্স, এবং ডেটা'
+  },
+  'id-001': {
+    1: 'mengapa kesehatan secara ekonomi berbeda, dan model-model yang menjelaskannya',
+    2: 'perangkat analis: menilai hasil, membangun model, menguji klaim',
+    3: 'bagaimana masyarakat mengatur, mendanai, dan mendistribusikan layanan kesehatan',
+    4: 'kesehatan di luar satu sistem: perilaku, perdagangan dan pembiayaan global, planet ini, dan wacana publik',
+    5: 'ekonomi teknologi kesehatan: inovasi, kesehatan digital, kecerdasan buatan, perangkat lunak, robotika, dan data'
+  },
+  'ar-001': {
+    1: 'لماذا تُعد الصحة حالة اقتصادية مختلفة، والنماذج التي تفسر ذلك',
+    2: 'عدة المحلل: تقييم النتائج، وبناء النماذج، واختبار الادعاءات',
+    3: 'كيف تنظّم المجتمعات الرعاية الصحية وتموّلها وتوزّعها',
+    4: 'الصحة خارج نطاق نظام واحد: السلوك، والتجارة والتمويل العالميين، والكوكب، والنقاش العام',
+    5: 'اقتصاديات التكنولوجيا الصحية: الابتكار، والرعاية الرقمية، والذكاء الاصطناعي، والبرمجيات، والروبوتات، والبيانات'
+  },
+  'ur-001': {
+    1: 'صحت معاشی طور پر مختلف کیوں ہے، اور وہ ماڈل جو اسے بیان کرتے ہیں',
+    2: 'تجزیہ کار کا ٹول کٹ: نتائج کی قدر کرنا، ماڈل بنانا، دعووں کی جانچ',
+    3: 'معاشرے صحت کی دیکھ بھال کو کیسے منظم، مالی طور پر معاون، اور تقسیم کرتے ہیں',
+    4: 'ایک نظام سے آگے صحت: رویہ، عالمی تجارت و مالیات، سیارہ، اور عوامی گفتگو',
+    5: 'صحت ٹیکنالوجی کی معاشیات: ایجاد، ڈیجیٹل نگہداشت، مصنوعی ذہانت، سافٹ ویئر، روبوٹکس، اور ڈیٹا'
+  }
+};
+
+/** This locale's tagline for part `number`, falling back to the canonical English one. */
+export function partTagline(locale: string, number: number): string {
+  return PART_TAGLINE_OVERRIDES[locale]?.[number] ?? EN_PART_TAGLINES[number];
 }
