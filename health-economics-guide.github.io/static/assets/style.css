@@ -179,10 +179,12 @@ body {
 }
 
 /* Chapter numbers, wherever a chapter is listed: the home page's part cards and
-   the contents page. Tabular figures keep the numbers in a straight edge. */
+   the contents page. Tabular figures keep the numbers in a straight edge;
+   plain inline spacing (no grid column) separates the number from the title. */
 .site-contents-number {
     font-variant-numeric: tabular-nums;
     color: var(--lily-text-muted);
+    margin-right: 0.4em;
 }
 
 /* --- Article shell -------------------------------------------------------- */
@@ -400,30 +402,49 @@ body {
     vertical-align: middle;
 }
 
-/* --- Contents page -------------------------------------------------------- */
+/* --- Contents page --------------------------------------------------------
+   A genuine nested list: parts and their chapters, in plain document flow —
+   no table, no grid, no flexbox, no card/tile styling. Nesting itself
+   (indentation, list markers) is what shows the part/chapter hierarchy. */
+
+.contents-parts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contents-parts > li {
+    margin-top: 3rem;
+}
+
+.contents-parts > li:first-child {
+    margin-top: 0;
+}
 
 .contents-chapters {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.15rem;
+}
+
+.contents-chapters li + li {
+    margin-top: 0.15rem;
+}
+
+/* Chapters nested inside a part (see .contents-parts above) indent to show
+   they belong to it; front matter and the reference list are not nested
+   under anything, so they stay flush with the page margin. */
+.contents-parts .contents-chapters {
+    padding-left: 1.5rem;
 }
 
 .contents-chapters a {
-    display: grid;
-    grid-template-columns: 2.5em minmax(0, 1fr);
-    gap: 0.25em;
+    display: block;
     padding: 0.35rem var(--lily-space-sm);
     margin-left: calc(-1 * var(--lily-space-sm));
     border-radius: var(--lily-radius-sm);
     color: var(--lily-text);
     text-decoration: none;
-}
-
-.contents-chapters a:not(:has(.site-contents-number)) {
-    display: block;
 }
 
 .contents-chapters a:hover {
