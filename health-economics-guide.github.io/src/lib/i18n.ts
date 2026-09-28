@@ -9,10 +9,9 @@
 // that is vendored per locale from the source repo — nor the home page's
 // long-form copy at `/`, which is locale-neutral by design (see
 // $lib/book.ts's DEFAULT_LOCALE doc comment) and stays in English. The
-// contents page's own lead paragraph and the parts' taglines (below) are
-// translated here even though they read more like prose than chrome,
-// because they appear inline on an otherwise fully localized page — see
-// partTagline()'s doc comment.
+// contents page's own lead paragraph is translated here even though it
+// reads more like prose than chrome, because it appears inline on an
+// otherwise fully localized page.
 export type Ui = typeof EN;
 
 const EN = {
@@ -455,13 +454,12 @@ export function partTitle(locale: string, number: number): string {
   return PART_TITLE_OVERRIDES[locale]?.[number] ?? EN_PART_TITLES[number];
 }
 
-// Part taglines, matching $lib/book.ts's PARTS (English; canonical). These
-// are translated here even though they read as prose rather than chrome —
-// they appear on the contents page directly under a title that's already
-// translated (partTitle, above), so leaving them in English would read as
-// a half-finished page rather than a deliberate scope boundary. The home
-// page (locale-neutral by design) still uses the untranslated PARTS.tagline
-// directly, not this.
+// Part taglines, matching $lib/book.ts's PARTS (English; canonical).
+// Translated per an earlier request, then the contents page stopped
+// showing any part subtitle at all (also per request) — so partTagline()
+// currently has no caller. Left in place rather than deleted: it's real
+// translated content across every published locale, not dead scaffolding,
+// and may be wanted again if a subtitle returns somewhere.
 const EN_PART_TAGLINES: Record<number, string> = {
   1: 'why health is economically different, and the models that explain it',
   2: "the analyst's toolkit: valuing outcomes, building models, testing claims",

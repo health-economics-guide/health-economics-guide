@@ -7,7 +7,7 @@
     BreadcrumbListItem
   } from '@lilydesignsystem/svelte-headless';
   import { PARTS, LOCALES } from '$lib/book';
-  import { ui, partTitle, partTagline } from '$lib/i18n';
+  import { ui, partTitle } from '$lib/i18n';
 
   let { data } = $props();
 
@@ -20,7 +20,6 @@
     PARTS.map((part) => ({
       ...part,
       title: partTitle(data.locale, part.number),
-      tagline: partTagline(data.locale, part.number),
       chapters: data.toc.filter((chapter) => chapter.part === part.number)
     }))
   );
@@ -60,11 +59,7 @@
     <ul class="contents-parts">
       {#each parts as part (part.number)}
         <li>
-          <SectionHeading
-            eyebrow="{t.part} {part.number}"
-            heading={part.title}
-            subtitle={part.tagline}
-          />
+          <SectionHeading heading="{part.number} {part.title}" />
           <ul class="contents-chapters">
             {#each part.chapters as chapter (chapter.slug)}
               <li>
