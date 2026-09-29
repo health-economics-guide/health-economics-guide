@@ -10,7 +10,7 @@ This directory lives inside the book's monorepo, one level below the repo root (
 
 **Never edit `src/content/`.** An edit there is lost the next time anyone runs `pnpm sync`, and it silently forks the book from its source of truth. To fix a typo in a chapter, fix it in the book — under `../locales/<slug>/chapters/`, not `src/content/` — then run `pnpm sync` here.
 
-**The book has three locales** (`en-us`, `en-gb`, `en-gb-oxendict`; see `$lib/book.ts`'s `LOCALES`). A chapter's slug is not guaranteed to match across locales (`modelling` vs. `modeling`), so chapter lookups always take a `locale` argument — never assume one global slug space. The glossary and index are not localized upstream and stay at unprefixed URLs shared by every locale.
+**The book has 15 locales** (three English dialects — `en-us`, `en-gb`, `en-gb-oxendict` — plus 12 other languages, including right-to-left Arabic and Urdu; see `$lib/book.ts`'s `LOCALES`). A chapter's slug is not guaranteed to match across locales — English dialects mostly agree except for spelling (`modelling` vs. `modeling`), while translated locales use their own native-script or accented slug entirely — so chapter lookups always take a `locale` argument — never assume one global slug space. The glossary and index are not localized upstream and stay at unprefixed URLs shared by every locale.
 
 ## Conventions
 
