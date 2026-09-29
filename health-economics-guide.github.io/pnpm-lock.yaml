@@ -14,6 +14,9 @@ importers:
       '@lilydesignsystem/svelte-picker-bar':
         specifier: ^0.1.0
         version: 0.1.0(svelte@5.56.8)
+      '@lilydesignsystem/themes':
+        specifier: ^0.1.0
+        version: 0.1.0
       marked:
         specifier: ^15.0.0
         version: 15.0.12
@@ -249,6 +252,10 @@ packages:
     engines: {node: '=26'}
     peerDependencies:
       svelte: ^5.0.0
+
+  '@lilydesignsystem/themes@0.1.0':
+    resolution: {integrity: sha512-Oa52SvChIe0kE7g0xqa+XUkXO4Bi6GRJmOvPjDWkk+zJ9W2O1N1DZk0l8/BEsAGUMSZZBDL+IobTfR0Ps20DmA==}
+    engines: {node: '=26'}
 
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
@@ -795,6 +802,8 @@ snapshots:
   '@lilydesignsystem/svelte-theme-picker@0.1.0(svelte@5.56.8)':
     dependencies:
       svelte: 5.56.8
+
+  '@lilydesignsystem/themes@0.1.0': {}
 
   '@polka/url@1.0.0-next.29': {}
 
