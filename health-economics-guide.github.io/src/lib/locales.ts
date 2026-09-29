@@ -23,6 +23,7 @@ export const LOCALE_LABELS: Record<string, string> = {
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
+  'de-de': 'Deutsch - Deutschland',
   'en-001': 'English',
   'es-001': 'Español',
   'fr-001': 'Français',

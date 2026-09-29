@@ -72,6 +72,34 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       "Mae pob pennod yn gyflawn ynddi'i hun. Darllenwch drwyddi ar gyfer cwrs mewn economeg iechyd, neu ewch yn syth i'r bennod sy'n cyd-fynd â'r penderfyniad o'ch blaen.",
     contentsDescription: "Tabl cynnwys llawn Canllaw Economeg Iechyd."
   },
+  'de-de': {
+    siteName: 'Leitfaden für Gesundheitsökonomie',
+    skipToContent: 'Zum Hauptinhalt springen',
+    home: 'Startseite',
+    contents: 'Inhaltsverzeichnis',
+    glossary: 'Glossar',
+    index: 'Stichwortverzeichnis',
+    source: 'Quellcode',
+    part: 'Teil',
+    chapter: 'Kapitel',
+    previous: 'Zurück',
+    next: 'Weiter',
+    frontMatter: 'Vorspann',
+    reference: 'Referenz',
+    onThisPage: 'Auf dieser Seite',
+    pickerTheme: 'Design',
+    pickerLocale: 'Sprache',
+    pickerTextSize: 'Textgröße',
+    pickerShare: 'Teilen',
+    copyLabel: 'Link kopieren',
+    copiedLabel: 'Kopiert!',
+    copyFailedLabel: 'Kopieren fehlgeschlagen — kopieren Sie stattdessen die Adressleiste',
+    readingIn: 'Lesen auf',
+    switchLanguageHint: 'Sprache über die Auswahl in der Kopfzeile wechseln.',
+    contentsLead:
+      'Jedes Kapitel ist in sich geschlossen. Lesen Sie durchgehend für einen Kurs in Gesundheitsökonomie, oder gehen Sie direkt zu dem Kapitel, das der vor Ihnen liegenden Entscheidung entspricht.',
+    contentsDescription: 'Das vollständige Inhaltsverzeichnis des Leitfadens für Gesundheitsökonomie.'
+  },
   'hi-001': {
     siteName: 'स्वास्थ्य अर्थशास्त्र गाइड',
     skipToContent: 'मुख्य सामग्री पर जाएँ',
@@ -391,6 +419,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: '全球与社会问题',
     5: '数字化、软件与技术'
   },
+  'de-de': {
+    1: 'Grundlagen',
+    2: 'Evaluation und Evidenz',
+    3: 'Systeme, Politik und Prioritäten',
+    4: 'Globale und gesellschaftliche Themen',
+    5: 'Digitales, Software, und Technologie'
+  },
   'es-001': {
     1: 'Fundamentos',
     2: 'Evaluación y Evidencia',
@@ -489,6 +524,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     3: '社会如何组织、资助并分配医疗保健',
     4: '超越单一体系的健康：行为、全球贸易与融资、地球，以及公共讨论',
     5: '健康科技的经济学：创新、数字化医疗、人工智能、软件、机器人技术与数据'
+  },
+  'de-de': {
+    1: 'warum Gesundheit ökonomisch anders ist, und die Modelle, die das erklären',
+    2: 'der Werkzeugkasten des Analysten: Ergebnisse bewerten, Modelle bauen, Behauptungen testen',
+    3: 'wie Gesellschaften Gesundheitsversorgung organisieren, finanzieren, und verteilen',
+    4: 'Gesundheit jenseits eines Systems: Verhalten, globaler Handel und globale Finanzierung, der Planet, und das öffentliche Gespräch',
+    5: 'die Ökonomie der Gesundheitstechnologie: Innovation, digitale Versorgung, künstliche Intelligenz, Software, Robotik, und Daten'
   },
   'es-001': {
     1: 'por qué la salud es económicamente diferente, y los modelos que lo explican',

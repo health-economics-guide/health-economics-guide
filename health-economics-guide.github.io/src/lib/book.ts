@@ -55,6 +55,7 @@ export const LOCALES: Locale[] = [
   { slug: 'ar-001', label: localeLabel('ar-001') },
   { slug: 'bn-001', label: localeLabel('bn-001') },
   { slug: 'cy-001', label: localeLabel('cy-001') },
+  { slug: 'de-de', label: localeLabel('de-de') },
   { slug: 'en-001', label: localeLabel('en-001') },
   { slug: 'en-gb', label: localeLabel('en-gb') },
   { slug: 'en-gb-oxendict', label: localeLabel('en-gb-oxendict') },
