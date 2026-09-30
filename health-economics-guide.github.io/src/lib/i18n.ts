@@ -296,6 +296,34 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'প্রতিটি অধ্যায় নিজে থেকেই সম্পূর্ণ। স্বাস্থ্য অর্থনীতির একটি কোর্সের জন্য শুরু থেকে শেষ পর্যন্ত পড়ুন, অথবা সরাসরি সেই অধ্যায়ে যান যা আপনার সামনে থাকা সিদ্ধান্তের সাথে মেলে।',
     contentsDescription: 'স্বাস্থ্য অর্থনীতি গাইডের সম্পূর্ণ সূচিপত্র।'
   },
+  'ja-jp': {
+    siteName: '健康経済学ガイド',
+    skipToContent: 'メインコンテンツへスキップ',
+    home: 'ホーム',
+    contents: '目次',
+    glossary: '用語集',
+    index: '索引',
+    source: 'ソース',
+    part: '部',
+    chapter: '章',
+    previous: '前へ',
+    next: '次へ',
+    frontMatter: '前付',
+    reference: '参考資料',
+    onThisPage: 'このページの内容',
+    pickerTheme: 'テーマ',
+    pickerLocale: '言語',
+    pickerTextSize: '文字サイズ',
+    pickerShare: '共有',
+    copyLabel: 'リンクをコピー',
+    copiedLabel: 'コピーしました！',
+    copyFailedLabel: 'コピーに失敗しました——アドレスバーからコピーしてください',
+    readingIn: '閲覧中の言語',
+    switchLanguageHint: 'ヘッダーの言語選択から切り替えてください。',
+    contentsLead:
+      '各章は独立して完結しています。健康経済学の講座として通読することも、目の前の決定に合った章に直接進むこともできます。',
+    contentsDescription: '『健康経済学ガイド』の完全な目次。'
+  },
   'id-001': {
     siteName: 'Panduan Ekonomi Kesehatan',
     skipToContent: 'Lompat ke konten utama',
@@ -468,6 +496,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Isu Global dan Sosial',
     5: 'Digital, Perangkat Lunak, dan Teknologi'
   },
+  'ja-jp': {
+    1: '基礎',
+    2: '評価とエビデンス',
+    3: '制度、政策、優先順位',
+    4: 'グローバルと社会の課題',
+    5: 'デジタル、ソフトウェア、テクノロジー'
+  },
   'ar-001': {
     1: 'الأسس',
     2: 'التقييم والأدلة',
@@ -573,6 +608,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     3: 'bagaimana masyarakat mengatur, mendanai, dan mendistribusikan layanan kesehatan',
     4: 'kesehatan di luar satu sistem: perilaku, perdagangan dan pembiayaan global, planet ini, dan wacana publik',
     5: 'ekonomi teknologi kesehatan: inovasi, kesehatan digital, kecerdasan buatan, perangkat lunak, robotika, dan data'
+  },
+  'ja-jp': {
+    1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
+    2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
+    3: '社会がどのように医療を組織し、資金提供し、分配するか',
+    4: '一つの制度を超えた健康：行動、グローバルな貿易と資金、地球、そして公的な議論',
+    5: '健康技術の経済学：イノベーション、デジタルケア、人工知能、ソフトウェア、ロボティクス、データ'
   },
   'ar-001': {
     1: 'لماذا تُعد الصحة حالة اقتصادية مختلفة، والنماذج التي تفسر ذلك',
