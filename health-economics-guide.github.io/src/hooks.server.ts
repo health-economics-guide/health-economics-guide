@@ -1,6 +1,6 @@
-import type { Handle } from '@sveltejs/kit';
-import { isLocale, DEFAULT_LOCALE } from '$lib/book';
-import { langAttr, localeDir } from '$lib/locales';
+import type { Handle } from '@sveltejs/kit/hooks';
+import { isLocale, DEFAULT_LOCALE } from '#lib/book.js';
+import { langAttr, localeDir } from '#lib/locales.js';
 
 // Every route prerenders (see routes/+layout.ts), and adapter-static bakes
 // this hook's output into the static HTML at build time — there is no

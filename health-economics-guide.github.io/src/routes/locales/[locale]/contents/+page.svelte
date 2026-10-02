@@ -6,8 +6,8 @@
     BreadcrumbList,
     BreadcrumbListItem
   } from '@lilydesignsystem/svelte-headless';
-  import { PARTS, LOCALES } from '$lib/book';
-  import { ui, partTitle } from '$lib/i18n';
+  import { PARTS, LOCALES } from '#lib/book.js';
+  import { ui, partTitle } from '#lib/i18n.js';
 
   let { data } = $props();
 

@@ -9,8 +9,8 @@
     GrailLayoutBottomFooter
   } from '@lilydesignsystem/svelte-headless';
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
-  import { SOURCE_REPO, LOCALES, LOCALE_SLUGS, DEFAULT_LOCALE } from '$lib/book';
-  import { ui } from '$lib/i18n';
+  import { SOURCE_REPO, LOCALES, LOCALE_SLUGS, DEFAULT_LOCALE } from '#lib/book.js';
+  import { ui } from '#lib/i18n.js';
 
   let { children } = $props();
 
@@ -61,7 +61,11 @@
       return;
     }
     const target = targetPathForLocale(newLocale);
-    if (target !== page.url.pathname) goto(target);
+    if (target === page.url.pathname) return;
+    // `target` can be a cross-locale chapter slug from `localeSlugMap`; if that
+    // ever drifts and the route doesn't resolve, land on the locale's contents
+    // page instead of leaving the picker's selection dangling.
+    goto(target).catch(() => goto(`/locales/${newLocale}/contents/`));
   }
 
   // Every theme slug title-cases to a readable label on its own (see

@@ -2,10 +2,10 @@
 //
 // This module holds no chapter prose — only the small metadata that both the
 // server load functions and the Svelte components need, so it is safe to import
-// from either side. The prose lives in `$lib/server/book.ts`, which is
+// from either side. The prose lives in `#lib/server/book.ts`, which is
 // server-only and therefore never reaches a client bundle.
 
-import { localeLabel, languageName } from '$lib/locales';
+import { localeLabel, languageName } from '#lib/locales.js';
 
 /** One entry in the table of contents. */
 export type ChapterRef = {
