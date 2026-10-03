@@ -200,5 +200,11 @@
       {t.source}: <a href={SOURCE_REPO} rel="noopener">github.com/health-economics-guide</a>. Built
       with the <a href="https://github.com/LilyDesignSystem" rel="noopener">Lily Design System™</a>.
     </p>
+    <p>
+      {t.ledBy}
+      <a href="https://linkedin.com/in/joelparkerhenderson" rel="noopener"
+        >Joel Parker Henderson</a
+      >.
+    </p>
   </GrailLayoutBottomFooter>
 </GrailLayout>
