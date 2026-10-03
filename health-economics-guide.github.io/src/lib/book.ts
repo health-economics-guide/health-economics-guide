@@ -5,7 +5,7 @@
 // from either side. The prose lives in `#lib/server/book.ts`, which is
 // server-only and therefore never reaches a client bundle.
 
-import { localeLabel, languageName } from '#lib/locales.js';
+import { localeLabel, languageName, LOCALE_ALIASES } from '#lib/locales.js';
 
 /** One entry in the table of contents. */
 export type ChapterRef = {
@@ -95,9 +95,17 @@ export const LANGUAGES: Locale[] = LOCALES.filter(
  */
 export const DEFAULT_LOCALE = 'en-gb-oxendict';
 
-/** Is `value` one of the book's known locale slugs? */
+/** Two-letter aliases (`en`, `fr`, ...) that render the content of their `-001` locale. */
+export const ALIAS_SLUGS: string[] = Object.keys(LOCALE_ALIASES).filter((alias) =>
+  LOCALE_SLUGS.includes(LOCALE_ALIASES[alias])
+);
+
+/** Every locale route param to prerender: the real slugs plus the aliases. */
+export const ROUTABLE_LOCALE_SLUGS: string[] = [...LOCALE_SLUGS, ...ALIAS_SLUGS];
+
+/** Is `value` one of the book's locale slugs, or a two-letter alias of one? */
 export function isLocale(value: string): boolean {
-  return LOCALE_SLUGS.includes(value);
+  return ROUTABLE_LOCALE_SLUGS.includes(value);
 }
 
 /**

@@ -6,7 +6,8 @@
 // each page ships only its own rendered HTML.
 
 import { parse, type Document, type Heading } from '#lib/markdown.js';
-import { PARTS, LOCALE_SLUGS, type ChapterRef } from '#lib/book.js';
+import { PARTS, ROUTABLE_LOCALE_SLUGS, type ChapterRef } from '#lib/book.js';
+import { canonicalLocale } from '#lib/locales.js';
 
 /**
  * Raw markdown for every chapter, keyed by module path, e.g.
@@ -114,7 +115,7 @@ for (const [path, markdown] of Object.entries(chapterFiles).sort(([a], [b]) =>
 
 /** Chapters for one locale, or `[]` if the locale is unknown. */
 function chaptersFor(locale: string): Chapter[] {
-  return chaptersByLocale[locale] ?? [];
+  return chaptersByLocale[canonicalLocale(locale)] ?? [];
 }
 
 /** Table-of-contents entries for one locale — metadata only, safe for the client. */
@@ -173,7 +174,7 @@ export function chapter(
 
 /** `{ locale, slug }` for every chapter in every locale, for prerender entry generation. */
 export function localeChapterEntries(): Array<{ locale: string; slug: string }> {
-  return LOCALE_SLUGS.flatMap((locale) => slugs(locale).map((slug) => ({ locale, slug })));
+  return ROUTABLE_LOCALE_SLUGS.flatMap((locale) => slugs(locale).map((slug) => ({ locale, slug })));
 }
 
 /** Every chapter slug for one locale, for prerender entry generation. */

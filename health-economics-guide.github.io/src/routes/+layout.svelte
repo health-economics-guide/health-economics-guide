@@ -12,6 +12,7 @@
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
   import { SOURCE_REPO, LOCALES, LOCALE_SLUGS, DEFAULT_LOCALE } from '#lib/book.js';
   import { ui } from '#lib/i18n.js';
+  import { canonicalLocale } from '#lib/locales.js';
 
   let { children } = $props();
 
@@ -27,6 +28,17 @@
   // on UI chrome staying hardcoded English.
   const currentLocale = $derived(page.params.locale);
   const t = $derived(ui(currentLocale ?? DEFAULT_LOCALE));
+
+  // A two-letter alias (`/en/...`) serves the same page as its `-001` locale
+  // (`/en-001/...`); point search engines at the real one.
+  const canonicalHref = $derived(
+    currentLocale && canonicalLocale(currentLocale) !== currentLocale
+      ? `https://health-economics-guide.github.io${page.url.pathname.replace(
+          `/${currentLocale}/`,
+          `/${canonicalLocale(currentLocale)}/`
+        )}`
+      : null
+  );
 
   /**
    * Where switching to `newLocale` should go from the page showing now.
@@ -136,6 +148,10 @@
   ];
 </script>
 
+<svelte:head>
+  {#if canonicalHref}<link rel="canonical" href={canonicalHref} />{/if}
+</svelte:head>
+
 <SkipLink href="#main" label={t.skipToContent} />
 
 <GrailLayout class="site">
@@ -171,7 +187,7 @@
       }}
       locales={LOCALE_SLUGS}
       localeProps={{
-        value: currentLocale,
+        value: currentLocale ? canonicalLocale(currentLocale) : currentLocale,
         defaultValue: DEFAULT_LOCALE,
         storageKey: 'health-economics-guide-locale',
         localeLabels: LOCALE_LABELS,

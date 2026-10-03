@@ -12,6 +12,8 @@
 // contents page's own lead paragraph is translated here even though it
 // reads more like prose than chrome, because it appears inline on an
 // otherwise fully localized page.
+import { canonicalLocale } from '#lib/locales.js';
+
 export type Ui = typeof EN;
 
 const EN = {
@@ -425,7 +427,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
 };
 
 export function ui(locale: string): Ui {
-  return { ...EN, ...(OVERRIDES[locale] ?? {}) };
+  return { ...EN, ...(OVERRIDES[canonicalLocale(locale)] ?? {}) };
 }
 
 export const DEFAULT_UI: Ui = EN;

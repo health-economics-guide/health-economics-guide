@@ -36,6 +36,22 @@ export const LOCALE_LABELS: Record<string, string> = {
   'zh-cn': '中文 - 中国'
 };
 
+/**
+ * Two-letter route aliases for the worldwide (`-001`) locales: `en` serves
+ * the same content as `en-001`, `fr` as `fr-001`, and so on. Derived from the
+ * label table so a new `-001` locale gets its alias automatically.
+ */
+export const LOCALE_ALIASES: Record<string, string> = Object.fromEntries(
+  Object.keys(LOCALE_LABELS)
+    .filter((code) => code.endsWith('-001'))
+    .map((code) => [code.slice(0, -'-001'.length), code])
+);
+
+/** The real locale code behind a route alias (`en` -> `en-001`); any other code is returned as is. */
+export function canonicalLocale(code: string): string {
+  return LOCALE_ALIASES[code] ?? code;
+}
+
 export function localeLabel(code: string): string {
   return LOCALE_LABELS[code] ?? code;
 }
@@ -55,7 +71,7 @@ export function languageName(code: string): string {
 export const RTL_LOCALES: ReadonlySet<string> = new Set(['ar-001', 'ur-001']);
 
 export function localeDir(code: string): 'ltr' | 'rtl' {
-  return RTL_LOCALES.has(code) ? 'rtl' : 'ltr';
+  return RTL_LOCALES.has(canonicalLocale(code)) ? 'rtl' : 'ltr';
 }
 
 /**
@@ -73,5 +89,5 @@ export function localeDir(code: string): 'ltr' | 'rtl' {
  * component's own author chose not to strip it either.
  */
 export function langAttr(code: string): string {
-  return code;
+  return canonicalLocale(code);
 }

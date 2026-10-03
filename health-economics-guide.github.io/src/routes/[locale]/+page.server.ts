@@ -1,10 +1,10 @@
 import { error } from '@sveltejs/kit';
-import { isLocale, LOCALE_SLUGS } from '#lib/book.js';
+import { isLocale, ROUTABLE_LOCALE_SLUGS } from '#lib/book.js';
 import { toc } from '#lib/server/book.js';
 
 /** A locale's landing page: the book's overview and its chapters grouped by part. */
 export function entries() {
-  return LOCALE_SLUGS.map((locale) => ({ locale }));
+  return ROUTABLE_LOCALE_SLUGS.map((locale) => ({ locale }));
 }
 
 export function load({ params }) {

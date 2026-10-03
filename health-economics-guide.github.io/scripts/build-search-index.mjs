@@ -52,6 +52,7 @@ for (const file of walk(BUILD)) {
 	const url = urlFor(file);
 	if (url === '/404' || url === '/search-index') continue;
 	const html = readFileSync(file, 'utf8');
+	if (/<link[^>]+rel=["']canonical/i.test(html)) continue; // locale alias of another page
 	if (/<meta[^>]+http-equiv=["']refresh/i.test(html)) continue;
 	if (/<meta[^>]+name=["']robots["'][^>]+noindex/i.test(html)) continue;
 	const title = strip((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) ?? [])[1] ?? '');
