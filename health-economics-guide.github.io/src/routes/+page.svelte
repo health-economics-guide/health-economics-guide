@@ -1,133 +1,22 @@
 <script lang="ts">
-  import { ArticleLayout, SectionHeading, Badge } from '@lilydesignsystem/svelte-headless';
-  import { PARTS, SOURCE_REPO, SKILLS_REPO, LANGUAGES, DEFAULT_LOCALE } from '#lib/book.js';
+  // `/` is a stub, not a server-side redirect: a redirect would drop the query
+  // string, and `/?<target>` is the site-search URL (see $lib/SearchGate.svelte).
+  // With no query this forwards to the default locale on the client; with one
+  // it stays put and the layout's SearchGate shows the results. Without
+  // JavaScript, the <noscript> meta refresh below does the forwarding.
+  import { onMount } from 'svelte';
+  import { goto } from '$app/navigation';
+  import { page } from '$app/state';
+  import { DEFAULT_LOCALE } from '#lib/book.js';
 
-  let { data } = $props();
-
-  const parts = $derived(
-    PARTS.map((part) => ({
-      ...part,
-      chapters: data.toc.filter((chapter) => chapter.part === part.number)
-    }))
-  );
-
-  const preface = $derived(data.toc.find((chapter) => chapter.part === 0));
-  const chapterCount = $derived(data.toc.filter((chapter) => chapter.part > 0).length);
+  onMount(() => {
+    if (!page.url.search) goto(`/${DEFAULT_LOCALE}/`, { replaceState: true });
+  });
 </script>
 
 <svelte:head>
   <title>Health Economics Guide</title>
-  <meta
-    name="description"
-    content="A practical handbook of best practices for health economics, written for the people who run health and care organizations. Worldwide in scope, free and open."
-  />
+  <noscript><meta http-equiv="refresh" content="0; url=/{DEFAULT_LOCALE}/" /></noscript>
 </svelte:head>
 
-<ArticleLayout class="page page-home">
-  <header class="page-hero">
-    <h1>Health Economics Guide</h1>
-    <p class="page-hero-lead">A practical handbook of best practices for health economics.</p>
-    <p>
-      This guide is for the people who run health and care organizations — chief executives and
-      senior leaders, directors of digital and transformation, product and programme leads, clinical
-      and care professionals, and operational managers. Its premise: in health, economics provides
-      the frameworks for strategy, resourcing, equity, and public trust — not merely efficiency.
-    </p>
-    <p class="page-hero-actions">
-      {#if preface}
-        <a
-          class="page-action page-action-primary"
-          href="/{DEFAULT_LOCALE}/chapters/{preface.slug}/"
-        >
-          Start with the preface
-        </a>
-      {/if}
-      <a class="page-action" href="/{DEFAULT_LOCALE}/contents/"
-        >Browse all {chapterCount} chapters</a
-      >
-      <a class="page-action" href="/{DEFAULT_LOCALE}/glossary/">Glossary</a>
-    </p>
-    <p>
-      Available in multiple languages
-      {#each LANGUAGES as language, i (language.slug)}
-        {i === 0
-          ? ' '
-          : i === LANGUAGES.length - 1
-            ? LANGUAGES.length === 2
-              ? ' and '
-              : ', and '
-            : ', '}<a href="/{language.slug}/contents/">{language.label}</a>
-      {/each}. Switch anytime from the language picker above.
-    </p>
-  </header>
-
-  <section class="page-section">
-    <SectionHeading
-      heading="How the book is organized"
-      subtitle="Five parts, {chapterCount} chapters. Any chapter can be read on its own — the night before the decision."
-    />
-
-    <div class="part-list">
-      {#each parts as part (part.number)}
-        <div class="part-block">
-          <h3 class="part-block-heading">Part {part.number} — {part.title}</h3>
-          <p class="part-block-tagline">{part.tagline}</p>
-          <ol class="contents-chapters">
-            {#each part.chapters as chapter (chapter.slug)}
-              <li>
-                <a href="/{DEFAULT_LOCALE}/chapters/{chapter.slug}/">
-                  <span class="site-contents-number">{chapter.number}</span>
-                  {chapter.title}
-                </a>
-              </li>
-            {/each}
-          </ol>
-        </div>
-      {/each}
-    </div>
-  </section>
-
-  <section class="page-section">
-    <SectionHeading heading="Reference" />
-    <ul class="reference-list">
-      <li>
-        <a href="/{DEFAULT_LOCALE}/glossary/">Glossary</a>
-        <Badge type="info">A–Z</Badge>
-        — plain-English definitions of every key term, each pointing at its home chapter.
-      </li>
-      <li>
-        <a href="/{DEFAULT_LOCALE}/index/">Index</a>
-        <Badge type="info">by chapter</Badge>
-        — concepts and frameworks mapped to the chapters that cover them.
-      </li>
-      <li>
-        <a href={SOURCE_REPO} rel="noopener">Source repository</a>
-        — the markdown behind this site, its specification, and the contribution guide.
-      </li>
-    </ul>
-  </section>
-
-  <section class="page-section">
-    <SectionHeading
-      heading="Use with Claude"
-      subtitle="Two Claude Code skills teach an AI assistant to work with this guide."
-    />
-    <ul class="reference-list">
-      <li>
-        <a href="{SKILLS_REPO}/health-economics-guide-skill" rel="noopener">health-economics-guide</a>
-        <Badge type="info">readers</Badge>
-        — routes a question to the right chapter, answers grounded in the book's own text, runs
-        team workshops from a chapter's discussion questions, and applies the maturity model and
-        checklists to a reader's own organization.
-      </li>
-      <li>
-        <a href="{SKILLS_REPO}/health-economics-guide-maintainer-skill" rel="noopener"
-          >health-economics-guide-maintainer</a
-        >
-        <Badge type="info">maintainers</Badge>
-        — encodes the book's authoring, review, and cross-file consistency rules for anyone writing,
-        reviewing, or reorganizing chapters.
-      </li>
-    </ul>
-  </section>
-</ArticleLayout>
+<p><a href="/{DEFAULT_LOCALE}/">Health Economics Guide</a></p>

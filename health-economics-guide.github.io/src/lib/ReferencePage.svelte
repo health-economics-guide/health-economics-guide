@@ -39,7 +39,7 @@
 <ArticleLayout class="page page-reference">
   <BreadcrumbNav label="Breadcrumb" class="page-breadcrumb">
     <BreadcrumbList>
-      <BreadcrumbListItem><a href="/">{home}</a></BreadcrumbListItem>
+      <BreadcrumbListItem><a href="/{locale}/">{home}</a></BreadcrumbListItem>
       <BreadcrumbListItem current>{title}</BreadcrumbListItem>
     </BreadcrumbList>
   </BreadcrumbNav>

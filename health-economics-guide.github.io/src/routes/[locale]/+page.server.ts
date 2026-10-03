@@ -1,16 +1,13 @@
-import { error, redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 import { isLocale, LOCALE_SLUGS } from '#lib/book.js';
+import { toc } from '#lib/server/book.js';
 
-/**
- * `/<locale>/` on its own has nothing to show — the contents page is
- * the locale's actual landing page. adapter-static prerenders a `redirect()`
- * as a static page with a meta-refresh, so this works with no server.
- */
+/** A locale's landing page: the book's overview and its chapters grouped by part. */
 export function entries() {
   return LOCALE_SLUGS.map((locale) => ({ locale }));
 }
 
 export function load({ params }) {
   if (!isLocale(params.locale)) error(404, `No locale named "${params.locale}"`);
-  redirect(307, `/${params.locale}/contents/`);
+  return { locale: params.locale, toc: toc(params.locale) };
 }
