@@ -10,11 +10,13 @@
     ContentsNav
   } from '@lilydesignsystem/svelte-headless';
   import type { Document, Heading } from '#lib/markdown.js';
+  import { ui } from '#lib/i18n.js';
 
   let {
     title,
     lead,
-    doc
+    doc,
+    locale
   }: {
     /** Page title, e.g. "Glossary". */
     title: string;
@@ -22,7 +24,11 @@
     lead: string;
     /** The parsed document, with its `##` letter headings already split out. */
     doc: Document & { letters: Heading[] };
+    /** Locale whose UI chrome (breadcrumb labels) to use. */
+    locale: string;
   } = $props();
+
+  const home = $derived(ui(locale).home);
 </script>
 
 <svelte:head>
@@ -33,7 +39,7 @@
 <ArticleLayout class="page page-reference">
   <BreadcrumbNav label="Breadcrumb" class="page-breadcrumb">
     <BreadcrumbList>
-      <BreadcrumbListItem><a href="/">Home</a></BreadcrumbListItem>
+      <BreadcrumbListItem><a href="/">{home}</a></BreadcrumbListItem>
       <BreadcrumbListItem current>{title}</BreadcrumbListItem>
     </BreadcrumbList>
   </BreadcrumbNav>

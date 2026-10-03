@@ -12,7 +12,7 @@ import { langAttr, localeDir } from '#lib/locales.js';
 // spec/locales-for-global-sharing-with-svelte/index.md's content-structure
 // note that the glossary and index are "not localized upstream") fall back
 // to DEFAULT_LOCALE, matching what they actually render.
-const LOCALE_PATH = /^\/locales\/([^/]+)\//;
+const LOCALE_PATH = /^\/([^/]+)\//;
 
 export const handle: Handle = async ({ event, resolve }) => {
   const match = event.url.pathname.match(LOCALE_PATH);

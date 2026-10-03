@@ -15,11 +15,10 @@ const SITE = 'https://health-economics-guide.github.io';
 export function GET() {
   const paths = [
     '/',
-    '/glossary/',
-    '/index/',
+    ...LOCALE_SLUGS.flatMap((locale) => [`/${locale}/glossary/`, `/${locale}/index/`]),
     ...LOCALE_SLUGS.flatMap((locale) => [
-      `/locales/${locale}/contents/`,
-      ...slugs(locale).map((slug) => `/locales/${locale}/chapters/${slug}/`)
+      `/${locale}/contents/`,
+      ...slugs(locale).map((slug) => `/${locale}/chapters/${slug}/`)
     ])
   ];
 

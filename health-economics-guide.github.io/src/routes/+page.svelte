@@ -37,15 +37,15 @@
       {#if preface}
         <a
           class="page-action page-action-primary"
-          href="/locales/{DEFAULT_LOCALE}/chapters/{preface.slug}/"
+          href="/{DEFAULT_LOCALE}/chapters/{preface.slug}/"
         >
           Start with the preface
         </a>
       {/if}
-      <a class="page-action" href="/locales/{DEFAULT_LOCALE}/contents/"
+      <a class="page-action" href="/{DEFAULT_LOCALE}/contents/"
         >Browse all {chapterCount} chapters</a
       >
-      <a class="page-action" href="/glossary/">Glossary</a>
+      <a class="page-action" href="/{DEFAULT_LOCALE}/glossary/">Glossary</a>
     </p>
     <p>
       Available in multiple languages
@@ -56,7 +56,7 @@
             ? LANGUAGES.length === 2
               ? ' and '
               : ', and '
-            : ', '}<a href="/locales/{language.slug}/contents/">{language.label}</a>
+            : ', '}<a href="/{language.slug}/contents/">{language.label}</a>
       {/each}. Switch anytime from the language picker above.
     </p>
   </header>
@@ -75,7 +75,7 @@
           <ol class="contents-chapters">
             {#each part.chapters as chapter (chapter.slug)}
               <li>
-                <a href="/locales/{DEFAULT_LOCALE}/chapters/{chapter.slug}/">
+                <a href="/{DEFAULT_LOCALE}/chapters/{chapter.slug}/">
                   <span class="site-contents-number">{chapter.number}</span>
                   {chapter.title}
                 </a>
@@ -91,12 +91,12 @@
     <SectionHeading heading="Reference" />
     <ul class="reference-list">
       <li>
-        <a href="/glossary/">Glossary</a>
+        <a href="/{DEFAULT_LOCALE}/glossary/">Glossary</a>
         <Badge type="info">A–Z</Badge>
         — plain-English definitions of every key term, each pointing at its home chapter.
       </li>
       <li>
-        <a href="/index/">Index</a>
+        <a href="/{DEFAULT_LOCALE}/index/">Index</a>
         <Badge type="info">by chapter</Badge>
         — concepts and frameworks mapped to the chapters that cover them.
       </li>

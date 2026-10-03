@@ -41,7 +41,7 @@
     <BreadcrumbList>
       <BreadcrumbListItem><a href="/">{t.home}</a></BreadcrumbListItem>
       <BreadcrumbListItem
-        ><a href="/locales/{data.locale}/contents/">{t.contents}</a></BreadcrumbListItem
+        ><a href="/{data.locale}/contents/">{t.contents}</a></BreadcrumbListItem
       >
       {#if part}
         <BreadcrumbListItem>{t.part} {part.number} — {localizedPartTitle}</BreadcrumbListItem>
@@ -83,7 +83,7 @@
     <PaginationList>
       <PaginationListItem class="page-pagination-previous">
         {#if data.previous}
-          <a href="/locales/{data.locale}/chapters/{data.previous.slug}/" rel="prev">
+          <a href="/{data.locale}/chapters/{data.previous.slug}/" rel="prev">
             <span class="page-pagination-direction">{t.previous}</span>
             <span class="page-pagination-label">{label(data.previous)}</span>
           </a>
@@ -91,7 +91,7 @@
       </PaginationListItem>
       <PaginationListItem class="page-pagination-next">
         {#if data.next}
-          <a href="/locales/{data.locale}/chapters/{data.next.slug}/" rel="next">
+          <a href="/{data.locale}/chapters/{data.next.slug}/" rel="next">
             <span class="page-pagination-direction">{t.next}</span>
             <span class="page-pagination-label">{label(data.next)}</span>
           </a>

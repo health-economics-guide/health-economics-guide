@@ -20,7 +20,7 @@
   );
 
   // The locale of the page currently showing, when there is one — set on
-  // every `/locales/<slug>/...` route, absent on locale-neutral pages
+  // every `/<slug>/...` route, absent on locale-neutral pages
   // (home, glossary, index). UI chrome (nav, picker labels, footer) follows
   // it, falling back to the house-style default on locale-neutral pages —
   // see spec/locales-for-global-sharing-with-svelte/index.md's bug-fix note
@@ -38,13 +38,13 @@
    * index) have no per-locale equivalent to jump to.
    */
   function targetPathForLocale(newLocale: string): string {
-    const chapterMatch = page.url.pathname.match(/^\/locales\/[^/]+\/chapters\/([^/]+)\/?$/);
+    const chapterMatch = page.url.pathname.match(/^\/[^/]+\/chapters\/([^/]+)\/?$/);
     if (chapterMatch && page.data?.ref) {
       const key: string = page.data.ref.part === 0 ? 'front-matter' : page.data.ref.number;
       const mapped = page.data.localeSlugMap?.[key]?.[newLocale];
-      if (mapped) return `/locales/${newLocale}/chapters/${mapped}/`;
+      if (mapped) return `/${newLocale}/chapters/${mapped}/`;
     }
-    return `/locales/${newLocale}/contents/`;
+    return `/${newLocale}/contents/`;
   }
 
   /**
@@ -66,7 +66,7 @@
     // `target` can be a cross-locale chapter slug from `localeSlugMap`; if that
     // ever drifts and the route doesn't resolve, land on the locale's contents
     // page instead of leaving the picker's selection dangling.
-    goto(target).catch(() => goto(`/locales/${newLocale}/contents/`));
+    goto(target).catch(() => goto(`/${newLocale}/contents/`));
   }
 
   // Every theme slug title-cases to a readable label on its own (see
@@ -89,9 +89,9 @@
   // "Contents" follows whichever locale is currently showing, falling back
   // to the house-style default on locale-neutral pages.
   const siteLinks = $derived([
-    { href: `/locales/${currentLocale ?? DEFAULT_LOCALE}/contents/`, label: t.contents },
-    { href: '/glossary/', label: t.glossary },
-    { href: '/index/', label: t.index }
+    { href: `/${currentLocale ?? DEFAULT_LOCALE}/contents/`, label: t.contents },
+    { href: `/${currentLocale ?? DEFAULT_LOCALE}/glossary/`, label: t.glossary },
+    { href: `/${currentLocale ?? DEFAULT_LOCALE}/index/`, label: t.index }
   ]);
 
   // Read at share time (inside each href, not as a static prop), so it

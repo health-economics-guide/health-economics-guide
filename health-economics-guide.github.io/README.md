@@ -28,7 +28,7 @@ health-economics-guide.github.io/
 │       ├── +layout.svelte        Grail layout: header (incl. the language picker), reading column, footer
 │       ├── +layout.server.ts     Cross-locale chapter slug map, for the language picker
 │       ├── +page.svelte          Home (locale-neutral; links into the default locale)
-│       ├── locales/[locale]/
+│       ├── [locale]/
 │       │   ├── +page.server.ts   Redirects to this locale's contents
 │       │   ├── contents/         Full table of contents, in this locale
 │       │   └── chapters/[slug]/  One prerendered page per chapter, in this locale
@@ -73,7 +73,7 @@ then review and commit the result. The script deletes `src/content/locales/` bef
 
 Chapters are discovered from the filenames, which carry the ordering (`03-07-insurance-and-risk-protection.md`), and the chapter number and title are read from each file's `#` heading. Adding a chapter upstream and re-running the sync is therefore the whole job — no route, no list, and no navigation entry needs editing. The one thing kept by hand is the five-part grouping and its taglines, and the locale list, both in `src/lib/book.ts` — the chapter files do not record which part they belong to, and the book repo's `locales/` directory is not something a build script should go discovering blind (a new, unfinished locale directory upstream — like `cy-gb`, which is scaffolded but has no chapters yet — should not silently appear on the live site).
 
-**Locales.** The book is written once per locale, in `locales/<slug>/chapters/` upstream, and a chapter's slug is not always the same across locales — the three English dialects mostly agree except for spelling (`02-02-modelling.md` in en-gb and en-gb-oxendict is `02-02-modeling.md` in en-us), while translated locales rename the slug entirely, to a native-script or accented one (`03-01-health-systems.md` in en-us is `03-01-স্বাস্থ্য-ব্যবস্থা.md` in bn-001). That is why chapters are looked up per locale (`$lib/server/book.ts`'s functions all take a `locale` argument) rather than by a single slug shared across all of them, and why the header's language picker jumps to the equivalent chapter via `+layout.server.ts`'s cross-locale slug map (keyed by chapter number, not slug) rather than by editing the URL in place. The glossary and the index are not localized upstream, so they stay at unprefixed URLs (`/glossary/`, `/index/`) shared by every locale, rather than under `/locales/<slug>/`.
+**Locales.** The book is written once per locale, in `locales/<slug>/chapters/` upstream, and a chapter's slug is not always the same across locales — the three English dialects mostly agree except for spelling (`02-02-modelling.md` in en-gb and en-gb-oxendict is `02-02-modeling.md` in en-us), while translated locales rename the slug entirely, to a native-script or accented one (`03-01-health-systems.md` in en-us is `03-01-স্বাস্থ্য-ব্যবস্থা.md` in bn-001). That is why chapters are looked up per locale (`$lib/server/book.ts`'s functions all take a `locale` argument) rather than by a single slug shared across all of them, and why the header's language picker jumps to the equivalent chapter via `+layout.server.ts`'s cross-locale slug map (keyed by chapter number, not slug) rather than by editing the URL in place. The glossary and the index are not localized upstream, so each locale's `/<slug>/glossary/` and `/<slug>/index/` render the same shared document.
 
 ## Design
 

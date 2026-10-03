@@ -49,7 +49,7 @@
       <SectionHeading heading={t.frontMatter} />
       <ul class="contents-chapters">
         {#each frontMatter as chapter (chapter.slug)}
-          <li><a href="/locales/{data.locale}/chapters/{chapter.slug}/">{chapter.title}</a></li>
+          <li><a href="/{data.locale}/chapters/{chapter.slug}/">{chapter.title}</a></li>
         {/each}
       </ul>
     </section>
@@ -63,7 +63,7 @@
           <ul class="contents-chapters">
             {#each part.chapters as chapter (chapter.slug)}
               <li>
-                <a href="/locales/{data.locale}/chapters/{chapter.slug}/">
+                <a href="/{data.locale}/chapters/{chapter.slug}/">
                   <span class="site-contents-number">{chapter.number}</span>
                   {chapter.title}
                 </a>
@@ -78,8 +78,8 @@
   <section class="page-section">
     <SectionHeading heading={t.reference} />
     <ul class="contents-chapters">
-      <li><a href="/glossary/">{t.glossary}</a></li>
-      <li><a href="/index/">{t.index}</a></li>
+      <li><a href="/{data.locale}/glossary/">{t.glossary}</a></li>
+      <li><a href="/{data.locale}/index/">{t.index}</a></li>
     </ul>
   </section>
 </ArticleLayout>
