@@ -7,7 +7,7 @@
 
 <ReferencePage
   title={ui(data.locale).index}
-  lead="Where to find each concept and framework. Numbers are chapter numbers, not pages."
+  lead="Where to find each concept and framework. Numbers are topic numbers, not pages."
   doc={data.doc}
   locale={data.locale}
 />

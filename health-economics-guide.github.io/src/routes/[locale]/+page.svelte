@@ -43,7 +43,7 @@
         </a>
       {/if}
       <a class="page-action" href="/{data.locale}/contents/"
-        >Browse all {chapterCount} chapters</a
+        >Browse all {chapterCount} topics</a
       >
       <a class="page-action" href="/{data.locale}/glossary/">Glossary</a>
     </p>
@@ -64,7 +64,7 @@
   <section class="page-section">
     <SectionHeading
       heading="How the book is organized"
-      subtitle="Five parts, {chapterCount} chapters. Any chapter can be read on its own — the night before the decision."
+      subtitle="Five parts, {chapterCount} topics. Any topic can be read on its own — the night before the decision."
     />
 
     <div class="part-list">
@@ -97,8 +97,8 @@
       </li>
       <li>
         <a href="/{data.locale}/index/">Index</a>
-        <Badge type="info">by chapter</Badge>
-        — concepts and frameworks mapped to the chapters that cover them.
+        <Badge type="info">by topic</Badge>
+        — concepts and frameworks mapped to the topics that cover them.
       </li>
       <li>
         <a href={SOURCE_REPO} rel="noopener">Source repository</a>
@@ -116,8 +116,8 @@
       <li>
         <a href="{SKILLS_REPO}/health-economics-guide-skill" rel="noopener">health-economics-guide</a>
         <Badge type="info">readers</Badge>
-        — routes a question to the right chapter, answers grounded in the book's own text, runs
-        team workshops from a chapter's discussion questions, and applies the maturity model and
+        — routes a question to the right topic, answers grounded in the book's own text, runs
+        team workshops from a topic's discussion questions, and applies the maturity model and
         checklists to a reader's own organization.
       </li>
       <li>
@@ -126,7 +126,7 @@
         >
         <Badge type="info">maintainers</Badge>
         — encodes the book's authoring, review, and cross-file consistency rules for anyone writing,
-        reviewing, or reorganizing chapters.
+        reviewing, or reorganizing topics.
       </li>
     </ul>
   </section>

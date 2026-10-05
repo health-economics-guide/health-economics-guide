@@ -26,7 +26,7 @@ const EN = {
   source: 'Source',
   ledBy: 'Led by',
   part: 'Part',
-  chapter: 'Chapter',
+  chapter: 'Topic',
   previous: 'Previous',
   next: 'Next',
   frontMatter: 'Front matter',
@@ -42,7 +42,7 @@ const EN = {
   readingIn: 'Reading in',
   switchLanguageHint: 'Switch language from the header picker.',
   contentsLead:
-    'Every chapter is self-contained. Read straight through for a course in health economics, or go directly to the chapter that matches the decision in front of you.',
+    'Every topic is self-contained. Read straight through for a course in health economics, or go directly to the topic that matches the decision in front of you.',
   contentsDescription: 'The full table of contents of the Health Economics Guide.'
 };
 
@@ -57,7 +57,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Ffynhonnell',
     ledBy: 'Dan arweiniad',
     part: 'Rhan',
-    chapter: 'Pennod',
+    chapter: 'Pwnc',
     previous: 'Blaenorol',
     next: 'Nesaf',
     frontMatter: 'Deunydd blaen',
@@ -73,7 +73,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Darllen yn',
     switchLanguageHint: "Newidiwch iaith o'r dewisydd yn y pennawd.",
     contentsLead:
-      "Mae pob pennod yn gyflawn ynddi'i hun. Darllenwch drwyddi ar gyfer cwrs mewn economeg iechyd, neu ewch yn syth i'r bennod sy'n cyd-fynd â'r penderfyniad o'ch blaen.",
+      "Mae pob pwnc yn gyflawn ynddo'i hun. Darllenwch drwyddi ar gyfer cwrs mewn economeg iechyd, neu ewch yn syth i'r pwnc sy'n cyd-fynd â'r penderfyniad o'ch blaen.",
     contentsDescription: "Tabl cynnwys llawn Canllaw Economeg Iechyd."
   },
   'de-de': {
@@ -86,7 +86,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Quellcode',
     ledBy: 'Geleitet von',
     part: 'Teil',
-    chapter: 'Kapitel',
+    chapter: 'Thema',
     previous: 'Zurück',
     next: 'Weiter',
     frontMatter: 'Vorspann',
@@ -102,7 +102,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Lesen auf',
     switchLanguageHint: 'Sprache über die Auswahl in der Kopfzeile wechseln.',
     contentsLead:
-      'Jedes Kapitel ist in sich geschlossen. Lesen Sie durchgehend für einen Kurs in Gesundheitsökonomie, oder gehen Sie direkt zu dem Kapitel, das der vor Ihnen liegenden Entscheidung entspricht.',
+      'Jedes Thema ist in sich geschlossen. Lesen Sie durchgehend für einen Kurs in Gesundheitsökonomie, oder gehen Sie direkt zu dem Thema, das der vor Ihnen liegenden Entscheidung entspricht.',
     contentsDescription: 'Das vollständige Inhaltsverzeichnis des Leitfadens für Gesundheitsökonomie.'
   },
   'hi-001': {
@@ -115,7 +115,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'स्रोत',
     ledBy: 'नेतृत्व:',
     part: 'भाग',
-    chapter: 'अध्याय',
+    chapter: 'विषय',
     previous: 'पिछला',
     next: 'अगला',
     frontMatter: 'प्रारंभिक सामग्री',
@@ -131,7 +131,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'इस भाषा में पढ़ रहे हैं',
     switchLanguageHint: 'हेडर पिकर से भाषा बदलें।',
     contentsLead:
-      'हर अध्याय अपने आप में पूर्ण है। स्वास्थ्य अर्थशास्त्र में एक पाठ्यक्रम के लिए सीधे पढ़ें, या सीधे उस अध्याय पर जाएँ जो आपके सामने के निर्णय से मेल खाता है।',
+      'हर विषय अपने आप में पूर्ण है। स्वास्थ्य अर्थशास्त्र में एक पाठ्यक्रम के लिए सीधे पढ़ें, या सीधे उस विषय पर जाएँ जो आपके सामने के निर्णय से मेल खाता है।',
     contentsDescription: 'स्वास्थ्य अर्थशास्त्र गाइड की पूर्ण विषय-सूची।'
   },
   'zh-cn': {
@@ -144,7 +144,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: '源码',
     ledBy: '负责人：',
     part: '部分',
-    chapter: '章',
+    chapter: '主题',
     previous: '上一章',
     next: '下一章',
     frontMatter: '前言部分',
@@ -160,7 +160,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: '正在阅读语言',
     switchLanguageHint: '从页眉选择器切换语言。',
     contentsLead:
-      '每一章都是独立完整的。您可以从头到尾阅读，系统学习健康经济学；也可以直接跳转到与您当前决策相关的章节。',
+      '每个主题都是独立完整的。您可以从头到尾阅读，系统学习健康经济学；也可以直接跳转到与您当前决策相关的主题。',
     contentsDescription: '《健康经济学指南》完整目录。'
   },
   'es-001': {
@@ -173,7 +173,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Código fuente',
     ledBy: 'Dirigido por',
     part: 'Parte',
-    chapter: 'Capítulo',
+    chapter: 'Tema',
     previous: 'Anterior',
     next: 'Siguiente',
     frontMatter: 'Material preliminar',
@@ -189,7 +189,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Leyendo en',
     switchLanguageHint: 'Cambie de idioma desde el selector del encabezado.',
     contentsLead:
-      'Cada capítulo es autónomo. Léalo de principio a fin como un curso de economía de la salud, o vaya directamente al capítulo que corresponda a la decisión que tiene por delante.',
+      'Cada tema es autónomo. Léalo de principio a fin como un curso de economía de la salud, o vaya directamente al tema que corresponda a la decisión que tiene por delante.',
     contentsDescription: 'El índice completo de la Guía de Economía de la Salud.'
   },
   'fr-001': {
@@ -202,7 +202,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Code source',
     ledBy: 'Dirigé par',
     part: 'Partie',
-    chapter: 'Chapitre',
+    chapter: 'Sujet',
     previous: 'Précédent',
     next: 'Suivant',
     frontMatter: 'Avant-propos',
@@ -218,7 +218,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Lecture en',
     switchLanguageHint: "Changez de langue depuis le sélecteur d'en-tête.",
     contentsLead:
-      "Chaque chapitre se suffit à lui-même. Lisez-le d'un bout à l'autre comme un cours d'économie de la santé, ou allez directement au chapitre qui correspond à la décision qui se présente à vous.",
+      "Chaque sujet se suffit à lui-même. Lisez-le d'un bout à l'autre comme un cours d'économie de la santé, ou allez directement au sujet qui correspond à la décision qui se présente à vous.",
     contentsDescription: "La table des matières complète du Guide d'Économie de la Santé."
   },
   'pt-001': {
@@ -231,7 +231,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Código-fonte',
     ledBy: 'Liderado por',
     part: 'Parte',
-    chapter: 'Capítulo',
+    chapter: 'Tema',
     previous: 'Anterior',
     next: 'Próximo',
     frontMatter: 'Material preliminar',
@@ -247,7 +247,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Lendo em',
     switchLanguageHint: 'Mude o idioma no seletor do cabeçalho.',
     contentsLead:
-      'Cada capítulo é autónomo. Leia do início ao fim como um curso de economia da saúde, ou vá diretamente ao capítulo que corresponde à decisão que tem pela frente.',
+      'Cada tópico é autónomo. Leia do início ao fim como um curso de economia da saúde, ou vá diretamente ao tópico que corresponde à decisão que tem pela frente.',
     contentsDescription: 'O sumário completo do Guia de Economia da Saúde.'
   },
   'ru-001': {
@@ -260,7 +260,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Исходный код',
     ledBy: 'Руководитель:',
     part: 'Часть',
-    chapter: 'Глава',
+    chapter: 'Тема',
     previous: 'Назад',
     next: 'Далее',
     frontMatter: 'Вступительная часть',
@@ -276,7 +276,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Чтение на языке',
     switchLanguageHint: 'Смените язык в переключателе в шапке сайта.',
     contentsLead:
-      'Каждая глава самодостаточна. Читайте подряд — как курс экономики здравоохранения, — или переходите сразу к главе, которая соответствует стоящему перед вами решению.',
+      'Каждая тема самодостаточна. Читайте подряд — как курс экономики здравоохранения, — или переходите сразу к теме, которая соответствует стоящему перед вами решению.',
     contentsDescription: 'Полное оглавление Руководства по экономике здравоохранения.'
   },
   'bn-001': {
@@ -289,7 +289,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'সোর্স',
     ledBy: 'নেতৃত্বে:',
     part: 'ভাগ',
-    chapter: 'অধ্যায়',
+    chapter: 'বিষয়',
     previous: 'পূর্ববর্তী',
     next: 'পরবর্তী',
     frontMatter: 'প্রারম্ভিক অংশ',
@@ -305,7 +305,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'যে ভাষায় পড়ছেন',
     switchLanguageHint: 'হেডার পিকার থেকে ভাষা পরিবর্তন করুন।',
     contentsLead:
-      'প্রতিটি অধ্যায় নিজে থেকেই সম্পূর্ণ। স্বাস্থ্য অর্থনীতির একটি কোর্সের জন্য শুরু থেকে শেষ পর্যন্ত পড়ুন, অথবা সরাসরি সেই অধ্যায়ে যান যা আপনার সামনে থাকা সিদ্ধান্তের সাথে মেলে।',
+      'প্রতিটি বিষয় নিজে থেকেই সম্পূর্ণ। স্বাস্থ্য অর্থনীতির একটি কোর্সের জন্য শুরু থেকে শেষ পর্যন্ত পড়ুন, অথবা সরাসরি সেই বিষয়ে যান যা আপনার সামনে থাকা সিদ্ধান্তের সাথে মেলে।',
     contentsDescription: 'স্বাস্থ্য অর্থনীতি গাইডের সম্পূর্ণ সূচিপত্র।'
   },
   'ja-jp': {
@@ -318,7 +318,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'ソース',
     ledBy: 'リード：',
     part: '部',
-    chapter: '章',
+    chapter: 'トピック',
     previous: '前へ',
     next: '次へ',
     frontMatter: '前付',
@@ -334,7 +334,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: '閲覧中の言語',
     switchLanguageHint: 'ヘッダーの言語選択から切り替えてください。',
     contentsLead:
-      '各章は独立して完結しています。健康経済学の講座として通読することも、目の前の決定に合った章に直接進むこともできます。',
+      '各トピックは独立して完結しています。健康経済学の講座として通読することも、目の前の決定に合ったトピックに直接進むこともできます。',
     contentsDescription: '『健康経済学ガイド』の完全な目次。'
   },
   'id-001': {
@@ -347,7 +347,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Sumber',
     ledBy: 'Dipimpin oleh',
     part: 'Bagian',
-    chapter: 'Bab',
+    chapter: 'Topik',
     previous: 'Sebelumnya',
     next: 'Berikutnya',
     frontMatter: 'Bagian pembuka',
@@ -363,7 +363,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'Membaca dalam',
     switchLanguageHint: 'Ganti bahasa dari pemilih di header.',
     contentsLead:
-      'Setiap bab berdiri sendiri. Baca dari awal hingga akhir sebagai kursus ekonomi kesehatan, atau langsung menuju bab yang sesuai dengan keputusan yang sedang Anda hadapi.',
+      'Setiap topik berdiri sendiri. Baca dari awal hingga akhir sebagai kursus ekonomi kesehatan, atau langsung menuju topik yang sesuai dengan keputusan yang sedang Anda hadapi.',
     contentsDescription: 'Daftar isi lengkap Panduan Ekonomi Kesehatan.'
   },
   'ar-001': {
@@ -376,7 +376,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'المصدر',
     ledBy: 'بقيادة',
     part: 'الجزء',
-    chapter: 'الفصل',
+    chapter: 'الموضوع',
     previous: 'السابق',
     next: 'التالي',
     frontMatter: 'المقدمات',
@@ -392,7 +392,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'تقرأ الآن باللغة',
     switchLanguageHint: 'غيّر اللغة من محدد اللغة في الرأس.',
     contentsLead:
-      'كل فصل قائم بذاته. اقرأه من البداية إلى النهاية كدورة في اقتصاديات الصحة، أو انتقل مباشرة إلى الفصل الذي يطابق القرار الماثل أمامك.',
+      'كل موضوع قائم بذاته. اقرأه من البداية إلى النهاية كدورة في اقتصاديات الصحة، أو انتقل مباشرة إلى الموضوع الذي يطابق القرار الماثل أمامك.',
     contentsDescription: 'فهرس المحتويات الكامل لدليل اقتصاديات الصحة.'
   },
   'ur-001': {
@@ -405,7 +405,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'ماخذ',
     ledBy: 'قیادت:',
     part: 'حصہ',
-    chapter: 'باب',
+    chapter: 'موضوع',
     previous: 'پچھلا',
     next: 'اگلا',
     frontMatter: 'ابتدائی مواد',
@@ -421,7 +421,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     readingIn: 'جس زبان میں پڑھ رہے ہیں',
     switchLanguageHint: 'ہیڈر پکر سے زبان تبدیل کریں۔',
     contentsLead:
-      'ہر باب اپنی جگہ مکمل ہے۔ صحت کی معاشیات کے ایک کورس کے طور پر شروع سے آخر تک پڑھیں، یا براہ راست اُس باب پر جائیں جو آپ کے سامنے موجود فیصلے سے مطابقت رکھتا ہے۔',
+      'ہر موضوع اپنی جگہ مکمل ہے۔ صحت کی معاشیات کے ایک کورس کے طور پر شروع سے آخر تک پڑھیں، یا براہ راست اُس موضوع پر جائیں جو آپ کے سامنے موجود فیصلے سے مطابقت رکھتا ہے۔',
     contentsDescription: 'صحت کی معاشیات کی رہنما کتاب کی مکمل فہرست۔'
   }
 };
