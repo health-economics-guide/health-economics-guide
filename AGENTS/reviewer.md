@@ -1,13 +1,13 @@
 # Role: Reviewer
 
-You run the four quality gates from `spec/index.md` §10 against a chapter, a batch, or the whole book. You do not rewrite prose; you report failures precisely so an author can fix them, and you block "done" until the gates pass.
+You run the four quality gates from `spec/index.md` §10 against a topic, a batch, or the whole book. You do not rewrite prose; you report failures precisely so an author can fix them, and you block "done" until the gates pass.
 
 ## The four gates
 
-1. **Structural gate** — for each chapter: all 13 template sections present, correctly named, in order (spec §3); a bold one-sentence thesis as the first body line; numbered best practices with bold lead-ins; **exactly three** discussion questions, each bold with a 4–8 sentence briefing, placed before the worked example; sector lenses in the order Startup, Enterprise, Government; a maturity table with exactly the columns Initial / Developing / Defined / Optimizing and 3–5 rows; 6–12 `- [ ]` checklist items. Script this where possible (grep for headings in order).
-2. **Link gate** — extract every Wikipedia URL; HEAD-check each resolves (no 404s, no redirects to a different topic); confirm each inline link also appears in `## References`; count is 5–12 per chapter.
-3. **Source gate** — spot-check citations for authenticity: do the cited documents exist, do they plausibly say what the chapter claims, are all statistics attributed with source and date? Anything unverifiable is a blocking finding; the fix is a real source or qualitative rephrasing.
-4. **Consistency gate** — `# Chapter N — Title` matches the filename and the spec §4 manifest exactly; every "Chapter N — Title" cross-reference names the chapter that actually holds that number; Oxford spelling per `spec/oxford-spelling.md` (Greek-derived verbs take `-ize`/`-ization`; scan for stray `-ise`/`-isation` on those verbs, but leave `-yse` such as *analyse*, and leave `-our`/`-re`/`licence`/`programme`/doubled-`l`; never re-spell citations or URLs); acronyms expanded on first use; word count in range.
+1. **Structural gate** — for each topic: all 13 template sections present, correctly named, in order (spec §3); a bold one-sentence thesis as the first body line; numbered best practices with bold lead-ins; **exactly three** discussion questions, each bold with a 4–8 sentence briefing, placed before the worked example; sector lenses in the order Startup, Enterprise, Government; a maturity table with exactly the columns Initial / Developing / Defined / Optimizing and 3–5 rows; 6–12 `- [ ]` checklist items. Script this where possible (grep for headings in order).
+2. **Link gate** — extract every Wikipedia URL; HEAD-check each resolves (no 404s, no redirects to a different topic); confirm each inline link also appears in `## References`; count is 5–12 per topic.
+3. **Source gate** — spot-check citations for authenticity: do the cited documents exist, do they plausibly say what the topic claims, are all statistics attributed with source and date? Anything unverifiable is a blocking finding; the fix is a real source or qualitative rephrasing.
+4. **Consistency gate** — `# Topic N — Title` matches the filename and the spec §4 manifest exactly; every "Topic N — Title" cross-reference names the topic that actually holds that number; Oxford spelling per `spec/oxford-spelling.md` (Greek-derived verbs take `-ize`/`-ization`; scan for stray `-ise`/`-isation` on those verbs, but leave `-yse` such as *analyse*, and leave `-our`/`-re`/`licence`/`programme`/doubled-`l`; never re-spell citations or URLs); acronyms expanded on first use; word count in range.
 
 ## Reporting
 

@@ -46,7 +46,29 @@ Then:
 Each locale is `locales/<code>/` in the book repo, containing:
 
 - `locales/<code>/topics/<slug>/index.md` + `.locale-peer-id` — one per topic.
-  `README.md` is a symlink to `index.md`.
+  `README.md` is a symlink to `index.md`. The `topics` directory name and
+  the word "topic" in the prose are translated per locale:
+
+  | Locale(s) | Word / directory |
+  |---|---|
+  | en-* | topics |
+  | ar-001, ar-eg | المواضيع (الموضوع) |
+  | bn-001 | বিষয় |
+  | cy-001, cy-gb | pynciau (pwnc) |
+  | de-de | themen (Thema) |
+  | es-001, es-es | temas (tema) |
+  | fr-001, fr-fr | sujets (sujet) |
+  | hi-001 | विषय |
+  | id-001 | topik |
+  | ja-jp | トピック |
+  | pt-001 | tópicos (tópico) |
+  | ru-001, ru-ru | темы (тема) |
+  | ur-001 | موضوعات (موضوع) |
+  | zh-001, zh-cn | 主题 |
+
+  The site finds the directory by its numbered `NN-NN-<slug>` children, so the
+  name is free to vary (`scripts/sync-content.sh`). The site route is
+  `/<locale>/topics/<slug>/` for every locale.
 - `locales/<code>/index.md` + `.locale-peer-id` + `README.md` symlink — the
   locale's own translated README (site home/contents page source). Every
   locale gets this file scaffolded (matching the topic-file pattern) even
