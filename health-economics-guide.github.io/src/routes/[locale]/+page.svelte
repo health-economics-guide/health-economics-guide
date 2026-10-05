@@ -37,7 +37,7 @@
       {#if preface}
         <a
           class="page-action page-action-primary"
-          href="/{data.locale}/chapters/{preface.slug}/"
+          href="/{data.locale}/topics/{preface.slug}/"
         >
           Start with the preface
         </a>
@@ -75,7 +75,7 @@
           <ol class="contents-chapters">
             {#each part.chapters as chapter (chapter.slug)}
               <li>
-                <a href="/{data.locale}/chapters/{chapter.slug}/">
+                <a href="/{data.locale}/topics/{chapter.slug}/">
                   <span class="site-contents-number">{chapter.number}</span>
                   {chapter.title}
                 </a>

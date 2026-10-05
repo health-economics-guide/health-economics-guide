@@ -50,11 +50,11 @@
    * index) have no per-locale equivalent to jump to.
    */
   function targetPathForLocale(newLocale: string): string {
-    const chapterMatch = page.url.pathname.match(/^\/[^/]+\/chapters\/([^/]+)\/?$/);
+    const chapterMatch = page.url.pathname.match(/^\/[^/]+\/topics\/([^/]+)\/?$/);
     if (chapterMatch && page.data?.ref) {
       const key: string = page.data.ref.part === 0 ? 'front-matter' : page.data.ref.number;
       const mapped = page.data.localeSlugMap?.[key]?.[newLocale];
-      if (mapped) return `/${newLocale}/chapters/${mapped}/`;
+      if (mapped) return `/${newLocale}/topics/${mapped}/`;
     }
     return `/${newLocale}/contents/`;
   }

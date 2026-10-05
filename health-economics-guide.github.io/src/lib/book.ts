@@ -27,7 +27,7 @@ export type Part = {
   tagline: string;
 };
 
-/** One locale the book is written in, per `locales/<slug>/chapters/` upstream. */
+/** One locale the book is written in, per `locales/<slug>/topics/` upstream. */
 export type Locale = {
   /** URL slug and directory name, e.g. `en-us`. Matches the source repo's `locales/<slug>/`. */
   slug: string;

@@ -37,27 +37,35 @@ cp "$source_repo/INDEX.md" "$destination/INDEX.md"
 rm -rf "$destination/locales"
 mkdir -p "$destination/locales"
 
-# Chapters live one directory per chapter upstream (chapters/<slug>/index.md,
+# Chapters live one directory per chapter upstream (<topics>/<slug>/index.md,
 # alongside a README.md symlink and a .locale-peer-id — see
 # spec/locales-for-global-sharing-with-svelte/index.md), not as flat
-# chapters/<slug>.md files. Flatten back to <slug>.md on the way in so the
+# topics/<slug>.md files. Flatten back to <slug>.md on the way in so the
 # site's own chapter lookup (server/book.ts's chapterFiles glob) needs no
 # change: it still expects one file per chapter, named by slug.
 total=0
 for locale_path in "$locales_dir"/*/; do
     slug=$(basename "$locale_path")
-    if [ ! -d "${locale_path}chapters" ]; then
-        continue
-    fi
+    # The chapters directory carries a translated name per locale (chapters,
+    # chapitres, 章節 …). Find it as the subdirectory holding numbered
+    # NN-NN-<slug> chapter directories; it is vendored as "topics" regardless.
+    chapters_path=
+    for candidate in "$locale_path"*/; do
+        if ls -d "$candidate"[0-9][0-9]-[0-9][0-9]-*/ >/dev/null 2>&1; then
+            chapters_path=$candidate
+            break
+        fi
+    done
+    [ -n "$chapters_path" ] || continue
 
     count=0
-    for chapter_dir in "$locale_path"chapters/*/; do
+    for chapter_dir in "$chapters_path"*/; do
         [ -d "$chapter_dir" ] || continue
         chapter_slug=$(basename "$chapter_dir")
         index_file="${chapter_dir}index.md"
         if [ -f "$index_file" ]; then
-            mkdir -p "$destination/locales/$slug/chapters"
-            cp "$index_file" "$destination/locales/$slug/chapters/$chapter_slug.md"
+            mkdir -p "$destination/locales/$slug/topics"
+            cp "$index_file" "$destination/locales/$slug/topics/$chapter_slug.md"
             count=$((count + 1))
         fi
     done

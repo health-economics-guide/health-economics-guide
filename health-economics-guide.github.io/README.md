@@ -14,9 +14,9 @@ health-economics-guide.github.io/
 │   ├── app.html                  Document shell; loads the Lily theme and site CSS
 │   ├── content/                  Vendored copy of the book's markdown
 │   │   ├── locales/
-│   │   │   ├── en-us/chapters/*.md          34 files: the preface and 33 chapters
-│   │   │   ├── en-gb/chapters/*.md          same 34, British spelling
-│   │   │   └── en-gb-oxendict/chapters/*.md same 34, Oxford spelling (the house style)
+│   │   │   ├── en-us/topics/*.md          34 files: the preface and 33 chapters
+│   │   │   ├── en-gb/topics/*.md          same 34, British spelling
+│   │   │   └── en-gb-oxendict/topics/*.md same 34, Oxford spelling (the house style)
 │   │   ├── GLOSSARY.md           Not localized upstream — one shared copy
 │   │   └── INDEX.md              Not localized upstream — one shared copy
 │   ├── lib/
@@ -31,7 +31,7 @@ health-economics-guide.github.io/
 │       ├── [locale]/
 │       │   ├── +page.server.ts   Redirects to this locale's contents
 │       │   ├── contents/         Full table of contents, in this locale
-│       │   └── chapters/[slug]/  One prerendered page per chapter, in this locale
+│       │   └── topics/[slug]/  One prerendered page per chapter, in this locale
 │       ├── glossary/             Locale-neutral: the glossary is not localized upstream
 │       ├── index/                Locale-neutral: the index is not localized upstream
 │       └── sitemap.xml/
@@ -73,7 +73,7 @@ then review and commit the result. The script deletes `src/content/locales/` bef
 
 Chapters are discovered from the filenames, which carry the ordering (`03-07-insurance-and-risk-protection.md`), and the chapter number and title are read from each file's `#` heading. Adding a chapter upstream and re-running the sync is therefore the whole job — no route, no list, and no navigation entry needs editing. The one thing kept by hand is the five-part grouping and its taglines, and the locale list, both in `src/lib/book.ts` — the chapter files do not record which part they belong to, and the book repo's `locales/` directory is not something a build script should go discovering blind (a new, unfinished locale directory upstream — like `cy-gb`, which is scaffolded but has no chapters yet — should not silently appear on the live site).
 
-**Locales.** The book is written once per locale, in `locales/<slug>/chapters/` upstream, and a chapter's slug is not always the same across locales — the three English dialects mostly agree except for spelling (`02-02-modelling.md` in en-gb and en-gb-oxendict is `02-02-modeling.md` in en-us), while translated locales rename the slug entirely, to a native-script or accented one (`03-01-health-systems.md` in en-us is `03-01-স্বাস্থ্য-ব্যবস্থা.md` in bn-001). That is why chapters are looked up per locale (`$lib/server/book.ts`'s functions all take a `locale` argument) rather than by a single slug shared across all of them, and why the header's language picker jumps to the equivalent chapter via `+layout.server.ts`'s cross-locale slug map (keyed by chapter number, not slug) rather than by editing the URL in place. The glossary and the index are not localized upstream, so each locale's `/<slug>/glossary/` and `/<slug>/index/` render the same shared document.
+**Locales.** The book is written once per locale, in `locales/<slug>/topics/` upstream, and a chapter's slug is not always the same across locales — the three English dialects mostly agree except for spelling (`02-02-modelling.md` in en-gb and en-gb-oxendict is `02-02-modeling.md` in en-us), while translated locales rename the slug entirely, to a native-script or accented one (`03-01-health-systems.md` in en-us is `03-01-স্বাস্থ্য-ব্যবস্থা.md` in bn-001). That is why chapters are looked up per locale (`$lib/server/book.ts`'s functions all take a `locale` argument) rather than by a single slug shared across all of them, and why the header's language picker jumps to the equivalent chapter via `+layout.server.ts`'s cross-locale slug map (keyed by chapter number, not slug) rather than by editing the URL in place. The glossary and the index are not localized upstream, so each locale's `/<slug>/glossary/` and `/<slug>/index/` render the same shared document.
 
 ## Design
 

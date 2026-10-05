@@ -11,11 +11,11 @@ import { canonicalLocale } from '#lib/locales.js';
 
 /**
  * Raw markdown for every chapter, keyed by module path, e.g.
- * `../../content/locales/en-us/chapters/02-02-modeling.md`. Each locale is
- * its own directory upstream (`locales/<slug>/chapters/`), vendored here the
+ * `../../content/locales/en-us/topics/02-02-modeling.md`. Each locale is
+ * its own directory upstream (`locales/<slug>/topics/`), vendored here the
  * same way — see `scripts/sync-content.sh`.
  */
-const chapterFiles = import.meta.glob('../../content/locales/*/chapters/*.md', {
+const chapterFiles = import.meta.glob('../../content/locales/*/topics/*.md', {
   query: '?raw',
   import: 'default',
   eager: true
@@ -84,9 +84,9 @@ function stripHeadingPrefix(heading: string): string {
   return /\p{Nd}/u.test(prefix) ? rest.trim() : heading.trim();
 }
 
-/** Parse `../../content/locales/<slug>/chapters/<file>.md` into its parts. */
+/** Parse `../../content/locales/<slug>/topics/<file>.md` into its parts. */
 function parseChapterPath(path: string): { locale: string; stem: string } {
-  const match = path.match(/\/locales\/([^/]+)\/chapters\/([^/]+)\.md$/);
+  const match = path.match(/\/locales\/([^/]+)\/topics\/([^/]+)\.md$/);
   if (!match) throw new Error(`Unrecognized chapter content path: ${path}`);
   return { locale: match[1], stem: match[2] };
 }

@@ -83,7 +83,7 @@
     <PaginationList>
       <PaginationListItem class="page-pagination-previous">
         {#if data.previous}
-          <a href="/{data.locale}/chapters/{data.previous.slug}/" rel="prev">
+          <a href="/{data.locale}/topics/{data.previous.slug}/" rel="prev">
             <span class="page-pagination-direction">{t.previous}</span>
             <span class="page-pagination-label">{label(data.previous)}</span>
           </a>
@@ -91,7 +91,7 @@
       </PaginationListItem>
       <PaginationListItem class="page-pagination-next">
         {#if data.next}
-          <a href="/{data.locale}/chapters/{data.next.slug}/" rel="next">
+          <a href="/{data.locale}/topics/{data.next.slug}/" rel="next">
             <span class="page-pagination-direction">{t.next}</span>
             <span class="page-pagination-label">{label(data.next)}</span>
           </a>

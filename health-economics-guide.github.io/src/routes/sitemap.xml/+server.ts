@@ -18,7 +18,7 @@ export function GET() {
     ...LOCALE_SLUGS.flatMap((locale) => [
       `/${locale}/`,
       `/${locale}/contents/`,
-      ...slugs(locale).map((slug) => `/${locale}/chapters/${slug}/`)
+      ...slugs(locale).map((slug) => `/${locale}/topics/${slug}/`)
     ])
   ];
 
