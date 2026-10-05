@@ -1,6 +1,6 @@
 # Rhagair
 
-**Mae hwn yn llawlyfr gwaith i'r bobl sy'n penderfynu sut y caiff arian iechyd ei wario — wedi'i ysgrifennu fel y gellir darllen unrhyw un bennod ar ei phen ei hun, y noson cyn y penderfyniad.**
+**Mae hwn yn llawlyfr gwaith i'r bobl sy'n penderfynu sut y caiff arian iechyd ei wario — wedi'i ysgrifennu fel y gellir darllen unrhyw un pwnc ar ei ben ei hun, y noson cyn y penderfyniad.**
 
 ## I bwy y mae'r llyfr hwn
 
@@ -24,7 +24,7 @@ Mae gan y llyfr bum rhan:
 
 - Mae **Rhan 5 — Digidol, Meddalwedd, a Thechnoleg** yn ymdrin ag economeg technoleg iechyd: arloesi, economeg gyflym-newidiol gofal digidol a galluogir gan ddeallusrwydd artiffisial, y feddalwedd y mae systemau iechyd wedi'u hadeiladu arni, roboteg, a'r data y mae'r systemau hynny'n eu creu.
 
-Mae rhestr y penodau wedi'i seilio ar y cwricwlwm economeg iechyd a addysgir mewn prifysgolion — pedwar pwnc ar ddeg casgliad addysgu [Rhwydwaith Economeg](https://economicsnetwork.ac.uk/health/teachers) — wedi'i ymestyn â phenodau blaengar sy'n rhagflaenu'r cwricwlwm clasurol. Asgwrn cefn deallusol y llyfr yw un y ddisgyblaeth ei hun: mewnwelediad seiliedig [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) nad yw gofal meddygol yn nwydd cyffredin, model [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)) o iechyd fel cyfalaf, a map [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)) o'r maes cyfan.
+Mae rhestr y pynciau wedi'i seilio ar y cwricwlwm economeg iechyd a addysgir mewn prifysgolion — pedwar pwnc ar ddeg casgliad addysgu [Rhwydwaith Economeg](https://economicsnetwork.ac.uk/health/teachers) — wedi'i ymestyn â phynciau blaengar sy'n rhagflaenu'r cwricwlwm clasurol. Asgwrn cefn deallusol y llyfr yw un y ddisgyblaeth ei hun: mewnwelediad seiliedig [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) nad yw gofal meddygol yn nwydd cyffredin, model [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)) o iechyd fel cyfalaf, a map [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)) o'r maes cyfan.
 
 ## Safbwynt
 
@@ -34,11 +34,11 @@ Nod y llyfr yw bod yn ymarferol ac yn onest. Yn y bôn, astudiaeth o gyfaddawdau
 
 ## Sut i'w ddarllen
 
-Mae pob pennod yn sefyll ar ei phen ei hun, yn agor gyda thesis un frawddeg, ac yn dilyn yr un siâp: pam mae'r pwnc yn bwysig, y cysyniadau craidd, arferion gorau wedi'u rhifo, tri chwestiwn i'w cymryd at eich tîm, enghraifft waith, tri lens sector (busnes newydd, menter, llywodraeth), moddau methiant cyffredin, model aeddfedrwydd, a rhestr wirio.
+Mae pob pwnc yn sefyll ar ei phen ei hun, yn agor gyda thesis un frawddeg, ac yn dilyn yr un siâp: pam mae'r pwnc yn bwysig, y cysyniadau craidd, arferion gorau wedi'u rhifo, tri chwestiwn i'w cymryd at eich tîm, enghraifft waith, tri lens sector (busnes newydd, menter, llywodraeth), moddau methiant cyffredin, model aeddfedrwydd, a rhestr wirio.
 
 Os ydych yn newydd i'r maes, Rhan 1 yw'r man cychwyn naturiol.
 
-Os ydych wedi dod am benderfyniad penodol — gwerthusiad i'w gomisiynu, polisi dogni i'w amddiffyn, teclyn digidol i'w werthuso — ewch yn syth i'r bennod honno a dilynwch ei chroesgyfeiriadau tuag allan.
+Os ydych wedi dod am benderfyniad penodol — gwerthusiad i'w gomisiynu, polisi dogni i'w amddiffyn, teclyn digidol i'w werthuso — ewch yn syth i'r pwnc hwnnw a dilynwch ei chroesgyfeiriadau tuag allan.
 
 Nid oes angen i chi ddarllen y llyfr yn ei drefn.
 

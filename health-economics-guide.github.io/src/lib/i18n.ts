@@ -231,7 +231,7 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
     source: 'Código-fonte',
     ledBy: 'Liderado por',
     part: 'Parte',
-    chapter: 'Tema',
+    chapter: 'Tópico',
     previous: 'Anterior',
     next: 'Próximo',
     frontMatter: 'Material preliminar',

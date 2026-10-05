@@ -1,6 +1,6 @@
 # Vorwort
 
-**Dies ist ein Arbeitshandbuch für die Menschen, die entscheiden, wie Gesundheitsgelder ausgegeben werden — geschrieben, damit jedes einzelne Kapitel für sich gelesen werden kann, am Abend vor der Entscheidung.**
+**Dies ist ein Arbeitshandbuch für die Menschen, die entscheiden, wie Gesundheitsgelder ausgegeben werden — geschrieben, damit jedes einzelne Thema für sich gelesen werden kann, am Abend vor der Entscheidung.**
 
 ## Für wen dieses Buch geschrieben ist
 
@@ -24,7 +24,7 @@ Das Buch hat fünf Teile:
 
 - **Teil 5 — Digitales, Software und Technologie** behandelt die Ökonomie der Gesundheitstechnologie: Innovation, die sich schnell wandelnde Ökonomie digitaler und KI-gestützter Versorgung, die Software, auf der Gesundheitssysteme aufgebaut sind, Robotik und die Daten, die diese Systeme erzeugen.
 
-Die Kapitelliste baut auf dem an Universitäten gelehrten Curriculum der Gesundheitsökonomie auf — den vierzehn Themen der Lehrsammlung des [Economics Network](https://economicsnetwork.ac.uk/health/teachers) — erweitert um Grenzkapitel, die der klassische Lehrplan noch nicht kannte. Das gedankliche Rückgrat ist das der Disziplin selbst: [Kenneth Arrows](https://de.wikipedia.org/wiki/Kenneth_Arrow) grundlegende Einsicht, dass medizinische Versorgung keine gewöhnliche Ware ist, [Michael Grossmans](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)) Modell von Gesundheit als Kapital, und [Alan Williams'](https://en.wikipedia.org/wiki/Alan_Williams_(economist)) Landkarte des gesamten Feldes.
+Die Themenliste baut auf dem an Universitäten gelehrten Curriculum der Gesundheitsökonomie auf — den vierzehn Themen der Lehrsammlung des [Economics Network](https://economicsnetwork.ac.uk/health/teachers) — erweitert um Grenzthemen, die der klassische Lehrplan noch nicht kannte. Das gedankliche Rückgrat ist das der Disziplin selbst: [Kenneth Arrows](https://de.wikipedia.org/wiki/Kenneth_Arrow) grundlegende Einsicht, dass medizinische Versorgung keine gewöhnliche Ware ist, [Michael Grossmans](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)) Modell von Gesundheit als Kapital, und [Alan Williams'](https://en.wikipedia.org/wiki/Alan_Williams_(economist)) Landkarte des gesamten Feldes.
 
 ## Standpunkt
 
@@ -34,11 +34,11 @@ Das Buch strebt danach, praktisch und ehrlich zu sein. Gesundheitsökonomie ist 
 
 ## Wie man es liest
 
-Jedes Kapitel steht für sich, beginnt mit einer einsätzigen These und folgt derselben Form: warum das Thema wichtig ist, die Kernkonzepte, nummerierte bewährte Praktiken, Fragen, die Sie in Ihr Team tragen können, ein durchgerechnetes Beispiel, Perspektiven aus mehreren Sektoren (Start-up, Unternehmen, Staat), typische Fehlermuster, ein Reifegradmodell und eine Checkliste.
+Jedes Thema steht für sich, beginnt mit einer einsätzigen These und folgt derselben Form: warum das Thema wichtig ist, die Kernkonzepte, nummerierte bewährte Praktiken, Fragen, die Sie in Ihr Team tragen können, ein durchgerechnetes Beispiel, Perspektiven aus mehreren Sektoren (Start-up, Unternehmen, Staat), typische Fehlermuster, ein Reifegradmodell und eine Checkliste.
 
 Wenn Sie neu im Feld sind, ist Teil 1 der natürliche Einstieg.
 
-Wenn Sie wegen einer konkreten Entscheidung gekommen sind — einer in Auftrag zu gebenden Evaluation, einer zu verteidigenden Rationierungspolitik, eines zu beurteilenden digitalen Werkzeugs —, gehen Sie direkt zu diesem Kapitel und folgen Sie seinen Querverweisen nach außen.
+Wenn Sie wegen einer konkreten Entscheidung gekommen sind — einer in Auftrag zu gebenden Evaluation, einer zu verteidigenden Rationierungspolitik, eines zu beurteilenden digitalen Werkzeugs —, gehen Sie direkt zu diesem Thema und folgen Sie seinen Querverweisen nach außen.
 
 Sie müssen das Buch nicht der Reihe nach lesen.
 

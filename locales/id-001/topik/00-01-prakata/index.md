@@ -1,6 +1,6 @@
 # Prakata
 
-**Ini adalah buku pegangan kerja untuk orang-orang yang memutuskan bagaimana uang kesehatan dibelanjakan — ditulis agar setiap bab dapat dibaca secara mandiri, pada malam sebelum keputusan diambil.**
+**Ini adalah buku pegangan kerja untuk orang-orang yang memutuskan bagaimana uang kesehatan dibelanjakan — ditulis agar setiap topik dapat dibaca secara mandiri, pada malam sebelum keputusan diambil.**
 
 ## Untuk siapa buku ini ditulis
 
@@ -24,7 +24,7 @@ Buku ini memiliki lima bagian:
 
 - **Bagian 5 — Digital, Perangkat Lunak, dan Teknologi** mencakup ekonomi teknologi kesehatan: inovasi, ekonomi perawatan digital dan berbasis kecerdasan buatan yang berubah cepat, perangkat lunak tempat sistem kesehatan dibangun, robotika, dan data yang dihasilkan sistem-sistem tersebut.
 
-Daftar bab dibangun di atas kurikulum ekonomi kesehatan yang diajarkan di universitas — empat belas topik dari koleksi pengajaran [Economics Network](https://economicsnetwork.ac.uk/health/teachers) — diperluas dengan bab-bab garis depan yang mendahului silabus klasik. Tulang punggung intelektualnya adalah milik disiplin ilmu itu sendiri: wawasan fondasional [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) bahwa perawatan medis bukanlah komoditas biasa, model kesehatan sebagai modal dari [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)), dan peta seluruh bidang dari [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
+Daftar topik dibangun di atas kurikulum ekonomi kesehatan yang diajarkan di universitas — empat belas topik dari koleksi pengajaran [Economics Network](https://economicsnetwork.ac.uk/health/teachers) — diperluas dengan topik-topik garis depan yang mendahului silabus klasik. Tulang punggung intelektualnya adalah milik disiplin ilmu itu sendiri: wawasan fondasional [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) bahwa perawatan medis bukanlah komoditas biasa, model kesehatan sebagai modal dari [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)), dan peta seluruh bidang dari [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
 
 ## Sudut pandang
 
@@ -34,11 +34,11 @@ Buku ini bertujuan untuk menjadi praktis dan jujur. Ekonomi kesehatan, pada dasa
 
 ## Cara membacanya
 
-Setiap bab berdiri sendiri, dibuka dengan tesis satu kalimat, dan mengikuti bentuk yang sama: mengapa topik itu penting, konsep inti, praktik terbaik bernomor, tiga pertanyaan untuk dibawa ke tim Anda, contoh yang dikerjakan, tiga lensa sektor (startup, perusahaan, pemerintah), mode kegagalan umum, model kematangan, dan daftar periksa.
+Setiap topik berdiri sendiri, dibuka dengan tesis satu kalimat, dan mengikuti bentuk yang sama: mengapa topik itu penting, konsep inti, praktik terbaik bernomor, tiga pertanyaan untuk dibawa ke tim Anda, contoh yang dikerjakan, tiga lensa sektor (startup, perusahaan, pemerintah), mode kegagalan umum, model kematangan, dan daftar periksa.
 
 Jika Anda baru di bidang ini, Bagian 1 adalah titik awal yang alami.
 
-Jika Anda datang untuk keputusan tertentu — evaluasi yang akan ditugaskan, kebijakan penjatahan yang akan dipertahankan, alat digital yang akan dinilai — langsung ke bab itu dan ikuti referensi silangnya ke luar.
+Jika Anda datang untuk keputusan tertentu — evaluasi yang akan ditugaskan, kebijakan penjatahan yang akan dipertahankan, alat digital yang akan dinilai — langsung ke topik itu dan ikuti referensi silangnya ke luar.
 
 Anda tidak perlu membaca buku ini secara berurutan.
 

@@ -1,6 +1,6 @@
 # Prefácio
 
-**Este é um manual de trabalho para as pessoas que decidem como o dinheiro da saúde é gasto — escrito para que qualquer capítulo possa ser lido isoladamente, na noite anterior à decisão.**
+**Este é um manual de trabalho para as pessoas que decidem como o dinheiro da saúde é gasto — escrito para que qualquer tópico possa ser lido isoladamente, na noite anterior à decisão.**
 
 ## Para quem este livro é escrito
 
@@ -24,7 +24,7 @@ O livro tem cinco partes:
 
 - **Parte 5 — Digital, Software e Tecnologia** cobre a economia da tecnologia em saúde: inovação, a economia em rápida mudança da assistência digital e habilitada por inteligência artificial, o software sobre o qual os sistemas de saúde são construídos, robótica, e os dados que esses sistemas criam.
 
-A lista de capítulos é construída sobre o currículo de economia da saúde ensinado em universidades — os catorze tópicos da coleção didática da [Economics Network](https://economicsnetwork.ac.uk/health/teachers) — estendida com capítulos de fronteira que antecedem o currículo clássico. A espinha intelectual é a própria da disciplina: o insight fundador de [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) de que a assistência médica não é uma mercadoria comum, o modelo de saúde como capital de [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)), e o mapa de todo o campo de [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
+A lista de tópicos é construída sobre o currículo de economia da saúde ensinado em universidades — os catorze tópicos da coleção didática da [Economics Network](https://economicsnetwork.ac.uk/health/teachers) — estendida com tópicos de fronteira que antecedem o currículo clássico. A espinha intelectual é a própria da disciplina: o insight fundador de [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) de que a assistência médica não é uma mercadoria comum, o modelo de saúde como capital de [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)), e o mapa de todo o campo de [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
 
 ## Ponto de vista
 
@@ -34,11 +34,11 @@ O livro visa ser prático e honesto. A economia da saúde é, no fundo, o estudo
 
 ## Como lê-lo
 
-Cada capítulo é autônomo, abre com uma tese em uma única frase, e segue a mesma forma: por que o tópico importa, os conceitos centrais, melhores práticas numeradas, três perguntas para levar à sua equipe, um exemplo trabalhado, três lentes setoriais (startup, empresa, governo), modos de falha comuns, um modelo de maturidade, e uma lista de verificação.
+Cada tópico é autônomo, abre com uma tese em uma única frase, e segue a mesma forma: por que o tópico importa, os conceitos centrais, melhores práticas numeradas, três perguntas para levar à sua equipe, um exemplo trabalhado, três lentes setoriais (startup, empresa, governo), modos de falha comuns, um modelo de maturidade, e uma lista de verificação.
 
 Se você é novo no campo, a Parte 1 é o ponto de partida natural.
 
-Se você veio por uma decisão específica — uma avaliação a comissionar, uma política de racionamento a defender, uma ferramenta digital a avaliar — vá diretamente a esse capítulo e siga suas referências cruzadas para fora.
+Se você veio por uma decisão específica — uma avaliação a comissionar, uma política de racionamento a defender, uma ferramenta digital a avaliar — vá diretamente a esse tópico e siga suas referências cruzadas para fora.
 
 Você não precisa ler o livro em ordem.
 

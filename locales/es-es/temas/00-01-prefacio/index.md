@@ -1,6 +1,6 @@
 # Prefacio
 
-**Este es un manual de trabajo para las personas que deciden cómo se gasta el dinero destinado a la salud, escrito de forma que cualquier capítulo pueda leerse de forma independiente, la noche antes de tomar la decisión.**
+**Este es un manual de trabajo para las personas que deciden cómo se gasta el dinero destinado a la salud, escrito de forma que cualquier tema pueda leerse de forma independiente, la noche antes de tomar la decisión.**
 
 ## A quién va dirigido este libro
 
@@ -24,7 +24,7 @@ El libro tiene cinco partes:
 
 - **Parte 5 — Digital, Software y Tecnología** cubre la economía de la tecnología sanitaria: la innovación, la economía en rápida evolución de la atención digital y habilitada por inteligencia artificial, el software sobre el que se construyen los sistemas de salud, la robótica y los datos que esos sistemas generan.
 
-La lista de capítulos se basa en el plan de estudios de economía de la salud que se imparte en las universidades —los catorce temas de la colección docente de [Economics Network](https://economicsnetwork.ac.uk/health/teachers)— ampliada con capítulos de frontera que el temario clásico no contemplaba. El eje intelectual es el propio de la disciplina: la idea fundacional de [Kenneth Arrow](https://es.wikipedia.org/wiki/Kenneth_Arrow) de que la atención médica no es una mercancía ordinaria, el modelo de [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)) de la salud como capital, y el mapa de todo el campo trazado por [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
+La lista de temas se basa en el plan de estudios de economía de la salud que se imparte en las universidades —los catorce temas de la colección docente de [Economics Network](https://economicsnetwork.ac.uk/health/teachers)— ampliada con temas de frontera que el temario clásico no contemplaba. El eje intelectual es el propio de la disciplina: la idea fundacional de [Kenneth Arrow](https://es.wikipedia.org/wiki/Kenneth_Arrow) de que la atención médica no es una mercancía ordinaria, el modelo de [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)) de la salud como capital, y el mapa de todo el campo trazado por [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
 
 ## Punto de vista
 
@@ -34,11 +34,11 @@ El libro aspira a ser práctico y honesto. La economía de la salud es, en el fo
 
 ## Cómo leerlo
 
-Cada capítulo es autónomo, se abre con una tesis en una sola frase y sigue la misma estructura: por qué importa el tema, los conceptos fundamentales, buenas prácticas numeradas, tres preguntas para llevar a su equipo, un ejemplo práctico, tres perspectivas sectoriales (startup, gran empresa, gobierno), modos de fallo habituales, un modelo de madurez y una lista de comprobación.
+Cada tema es autónomo, se abre con una tesis en una sola frase y sigue la misma estructura: por qué importa el tema, los conceptos fundamentales, buenas prácticas numeradas, tres preguntas para llevar a su equipo, un ejemplo práctico, tres perspectivas sectoriales (startup, gran empresa, gobierno), modos de fallo habituales, un modelo de madurez y una lista de comprobación.
 
 Si es nuevo en el campo, la Parte 1 es el punto de partida natural.
 
-Si ha llegado buscando una decisión concreta —una evaluación que encargar, una política de racionamiento que defender, una herramienta digital que valorar— vaya directamente a ese capítulo y siga sus referencias cruzadas hacia fuera.
+Si ha llegado buscando una decisión concreta —una evaluación que encargar, una política de racionamiento que defender, una herramienta digital que valorar— vaya directamente a ese tema y siga sus referencias cruzadas hacia fuera.
 
 No es necesario leer el libro en orden.
 

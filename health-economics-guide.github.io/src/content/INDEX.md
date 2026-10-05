@@ -1,8 +1,8 @@
 # Index
 
-Concepts and frameworks mapped to the chapters that cover them. Numbers are **chapter numbers, not pages** — e.g. `2.1` is Chapter 2.1 — Economic Evaluation. Each entry lists the home chapter plus every chapter that materially covers the concept, ascending and de-duplicated.
+Concepts and frameworks mapped to the topics that cover them. Numbers are **topic numbers, not pages** — e.g. `2.1` is Topic 2.1 — Economic Evaluation. Each entry lists the home topic plus every topic that materially covers the concept, ascending and de-duplicated.
 
-Entries are alphabetical within each letter section. This file is populated as chapters are written; empty letter sections are placeholders.
+Entries are alphabetical within each letter section. This file is populated as topics are written; empty letter sections are placeholders.
 
 ---
 

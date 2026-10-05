@@ -1,6 +1,6 @@
 # Préface
 
-**Ceci est un manuel de travail destiné à celles et ceux qui décident de l'usage de l'argent de la santé — rédigé pour que chaque chapitre puisse se lire seul, la veille de la décision.**
+**Ceci est un manuel de travail destiné à celles et ceux qui décident de l'usage de l'argent de la santé — rédigé pour que chaque sujet puisse se lire seul, la veille de la décision.**
 
 ## À qui ce livre s'adresse
 
@@ -24,7 +24,7 @@ Le livre comporte cinq parties :
 
 - **Partie 5 — Numérique, logiciels et technologie** couvre l'économie de la technologie en santé : l'innovation, l'économie en rapide évolution des soins numériques et assistés par l'intelligence artificielle, les logiciels sur lesquels reposent les systèmes de santé, la robotique, et les données que ces systèmes produisent.
 
-La liste des chapitres s'appuie sur le programme d'économie de la santé enseigné à l'université — les quatorze thèmes de la collection pédagogique de l'[Economics Network](https://economicsnetwork.ac.uk/health/teachers) — complétée par des chapitres de pointe que le programme classique ne prévoyait pas. L'ossature intellectuelle est celle de la discipline elle-même : l'intuition fondatrice de [Kenneth Arrow](https://fr.wikipedia.org/wiki/Kenneth_Arrow) selon laquelle les soins médicaux ne sont pas une marchandise ordinaire, le modèle de la santé comme capital de [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)), et la cartographie du champ tout entier par [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
+La liste des sujets s'appuie sur le programme d'économie de la santé enseigné à l'université — les quatorze thèmes de la collection pédagogique de l'[Economics Network](https://economicsnetwork.ac.uk/health/teachers) — complétée par des sujets de pointe que le programme classique ne prévoyait pas. L'ossature intellectuelle est celle de la discipline elle-même : l'intuition fondatrice de [Kenneth Arrow](https://fr.wikipedia.org/wiki/Kenneth_Arrow) selon laquelle les soins médicaux ne sont pas une marchandise ordinaire, le modèle de la santé comme capital de [Michael Grossman](https://en.wikipedia.org/wiki/Michael_Grossman_(economist)), et la cartographie du champ tout entier par [Alan Williams](https://en.wikipedia.org/wiki/Alan_Williams_(economist)).
 
 ## Point de vue
 
@@ -34,11 +34,11 @@ Ce livre vise à être pratique et honnête. L'économie de la santé est, au fo
 
 ## Comment le lire
 
-Chaque chapitre se suffit à lui-même, s'ouvre sur une thèse en une phrase, et suit la même structure : pourquoi le sujet compte, les concepts fondamentaux, des bonnes pratiques numérotées, trois questions à soumettre à son équipe, un exemple concret, trois angles sectoriels (jeune pousse, entreprise, gouvernement), les erreurs courantes, un modèle de maturité, et une liste de vérification.
+Chaque sujet se suffit à lui-même, s'ouvre sur une thèse en une phrase, et suit la même structure : pourquoi le sujet compte, les concepts fondamentaux, des bonnes pratiques numérotées, trois questions à soumettre à son équipe, un exemple concret, trois angles sectoriels (jeune pousse, entreprise, gouvernement), les erreurs courantes, un modèle de maturité, et une liste de vérification.
 
 Si vous découvrez le domaine, la Partie 1 est le point de départ naturel.
 
-Si vous venez pour une décision précise — une évaluation à commanditer, une politique de rationnement à défendre, un outil numérique à évaluer — allez directement à ce chapitre et suivez ses renvois vers l'extérieur.
+Si vous venez pour une décision précise — une évaluation à commanditer, une politique de rationnement à défendre, un outil numérique à évaluer — allez directement à ce sujet et suivez ses renvois vers l'extérieur.
 
 Il n'est pas nécessaire de lire le livre dans l'ordre.
 
