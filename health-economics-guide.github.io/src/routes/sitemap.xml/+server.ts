@@ -10,10 +10,13 @@ const SITE = 'https://health-economics-guide.github.io';
  * readers arrive from a search for one concept, not for the front page.
  * Every locale's chapters are listed; the glossary and index are not
  * localized upstream, so each gets one shared entry rather than one per
- * locale.
+ * locale. The `llms.txt` / `llms.json` maps are listed too, so crawlers
+ * find them without being told.
  */
 export function GET() {
   const paths = [
+    '/llms.txt',
+    '/llms.json',
     ...LOCALE_SLUGS.flatMap((locale) => [`/${locale}/glossary/`, `/${locale}/index/`]),
     ...LOCALE_SLUGS.flatMap((locale) => [
       `/${locale}/`,
