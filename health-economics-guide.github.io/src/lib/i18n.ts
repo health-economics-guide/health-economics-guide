@@ -308,6 +308,35 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'প্রতিটি বিষয় নিজে থেকেই সম্পূর্ণ। স্বাস্থ্য অর্থনীতির একটি কোর্সের জন্য শুরু থেকে শেষ পর্যন্ত পড়ুন, অথবা সরাসরি সেই বিষয়ে যান যা আপনার সামনে থাকা সিদ্ধান্তের সাথে মেলে।',
     contentsDescription: 'স্বাস্থ্য অর্থনীতি গাইডের সম্পূর্ণ সূচিপত্র।'
   },
+  'ko-kr': {
+    siteName: '보건경제학 가이드',
+    skipToContent: '본문으로 건너뛰기',
+    home: '홈',
+    contents: '목차',
+    glossary: '용어집',
+    index: '색인',
+    source: '소스',
+    ledBy: '주도:',
+    part: '부',
+    chapter: '주제',
+    previous: '이전',
+    next: '다음',
+    frontMatter: '앞부분',
+    reference: '참고 자료',
+    onThisPage: '이 페이지의 내용',
+    pickerTheme: '테마',
+    pickerLocale: '언어',
+    pickerTextSize: '글자 크기',
+    pickerShare: '공유',
+    copyLabel: '링크 복사',
+    copiedLabel: '복사했습니다!',
+    copyFailedLabel: '복사하지 못했습니다. 주소 표시줄에서 복사하세요',
+    readingIn: '읽고 있는 언어',
+    switchLanguageHint: '머리글의 언어 선택기에서 언어를 바꾸세요.',
+    contentsLead:
+      '각 주제는 독립적으로 완결됩니다. 보건경제학 강좌처럼 처음부터 끝까지 읽어도 되고, 지금 앞에 놓인 결정에 맞는 주제로 바로 이동해도 됩니다.',
+    contentsDescription: '『보건경제학 가이드』 전체 목차.'
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -512,6 +541,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Isu Global dan Sosial',
     5: 'Digital, Perangkat Lunak, dan Teknologi'
   },
+  'ko-kr': {
+    1: '기초',
+    2: '평가와 근거',
+    3: '체계, 정책, 우선순위',
+    4: '세계적·사회적 이슈',
+    5: '디지털, 소프트웨어, 기술'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -624,6 +660,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     3: 'bagaimana masyarakat mengatur, mendanai, dan mendistribusikan layanan kesehatan',
     4: 'kesehatan di luar satu sistem: perilaku, perdagangan dan pembiayaan global, planet ini, dan wacana publik',
     5: 'ekonomi teknologi kesehatan: inovasi, kesehatan digital, kecerdasan buatan, perangkat lunak, robotika, dan data'
+  },
+  'ko-kr': {
+    1: '건강이 경제적으로 특별한 이유와 그것을 설명하는 모형',
+    2: '분석가의 도구 상자: 성과 평가, 모형 구축, 주장 검증',
+    3: '사회가 보건의료를 어떻게 조직하고, 재원을 조달하고, 분배하는가',
+    4: '하나의 체계를 넘어선 건강: 행동, 세계 무역과 재원, 지구, 그리고 공론',
+    5: '보건 기술의 경제학: 혁신, 디지털 보건, 인공지능, 소프트웨어, 로봇공학, 데이터'
   },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',

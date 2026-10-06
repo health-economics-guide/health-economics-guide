@@ -34,7 +34,8 @@ test_locales() {
         bn-001 \
         pt-001 \
         id-001 \
-        ur-001
+        ur-001 \
+        ko-kr
     do
         echo "$x"
         directory_exists_or_err "$top/locales/$x"

@@ -61,6 +61,7 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | hi-001 | विषय |
   | id-001 | topik |
   | ja-jp | トピック |
+  | ko-kr | 주제 |
   | pt-001 | tópicos (tópico) |
   | ru-001, ru-ru | темы (тема) |
   | ur-001 | موضوعات (موضوع) |

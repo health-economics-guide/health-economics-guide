@@ -30,6 +30,7 @@ export const LOCALE_LABELS: Record<string, string> = {
   'hi-001': 'हिन्दी',
   'id-001': 'Bahasa Indonesia',
   'ja-jp': '日本語 - 日本',
+  'ko-kr': '한국어 - 대한민국',
   'pt-001': 'Português',
   'ru-001': 'Русский',
   'ur-001': 'اردو',
