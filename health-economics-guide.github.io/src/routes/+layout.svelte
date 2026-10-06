@@ -173,6 +173,9 @@
     <PickerBar
       class="site-controls"
       labels={{
+        search: t.pickerSearch,
+        searchInput: t.pickerSearchInput,
+        searchSubmit: t.pickerSearchSubmit,
         theme: t.pickerTheme,
         locale: t.pickerLocale,
         textSize: t.pickerTextSize,
