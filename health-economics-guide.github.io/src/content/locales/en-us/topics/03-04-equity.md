@@ -166,5 +166,3 @@ A ministry or national payer owns equity as a statutory and political obligation
 16. Intergenerational Equity: An Exploration of the "Fair Innings" Argument — Alan Williams, Health Economics — https://onlinelibrary.wiley.com/journal/10991050
 17. Health at a Glance — OECD — https://www.oecd.org/health/health-at-a-glance/
 18. Tracking Universal Health Coverage: Global Monitoring Report — World Health Organization & World Bank — https://www.who.int/publications
-</content>
-</invoke>
