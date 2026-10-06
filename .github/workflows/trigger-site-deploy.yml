@@ -6,14 +6,15 @@
 # result; an unrelated chapter edit shouldn't trigger a rebuild of
 # unchanged site output.
 #
-# Requires a fine-grained PAT in this repo's secrets as PAGES_DISPATCH_TOKEN,
-# scoped to ONLY the health-economics-guide.github.io repository, with
-# "Actions" permission set to Read and write — that's what lets it call
-# that repo's workflow-dispatch API. The default GITHUB_TOKEN can't do this;
-# it has no access outside the repo the workflow runs in. Until that secret
-# is added, this workflow's step fails harmlessly (nothing else depends on
-# it) — the site still redeploys via its own daily schedule in the
-# meantime, see health-economics-guide.github.io/.github/workflows/deploy.yml.
+# Requires a write-enabled deploy key on the health-economics-guide.github.io
+# repository (its public half), with the private half stored in THIS repo's
+# secrets as PAGES_DEPLOY_KEY. A deploy key can only push over SSH — it cannot
+# call the workflow-dispatch API, and the default GITHUB_TOKEN cannot reach
+# another repo at all — so this workflow pushes an empty commit to that repo's
+# main branch instead. That push fires its own `on: push` deploy workflow
+# (see health-economics-guide.github.io/.github/workflows/deploy.yml). A push
+# made with a deploy key, unlike one made with GITHUB_TOKEN, does trigger
+# workflows. The daily schedule there remains the fallback.
 
 name: Trigger site deploy
 
@@ -22,15 +23,24 @@ on:
     branches: [main]
     paths:
       - 'health-economics-guide.github.io/**'
+  workflow_dispatch:
 
 jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger health-economics-guide.github.io's deploy workflow
+      - name: Push an empty commit to health-economics-guide.github.io
         env:
-          GH_TOKEN: ${{ secrets.PAGES_DISPATCH_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.PAGES_DEPLOY_KEY }}
+          SOURCE_SHA: ${{ github.sha }}
         run: |
-          gh workflow run "Deploy to GitHub Pages" \
-            --repo health-economics-guide/health-economics-guide.github.io \
-            --ref main
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/pages_deploy_key
+          chmod 600 ~/.ssh/pages_deploy_key
+          export GIT_SSH_COMMAND='ssh -i ~/.ssh/pages_deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new'
+          git clone --depth 1 git@github.com:health-economics-guide/health-economics-guide.github.io.git pages
+          cd pages
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --allow-empty -m "Redeploy for health-economics-guide@${SOURCE_SHA::7}"
+          git push origin HEAD:main
