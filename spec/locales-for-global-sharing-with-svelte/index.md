@@ -58,7 +58,7 @@ Then:
 
 - Fix any broken internal links
 - Fix any residual wrong-dialect spellings
-- Update `./spec/locale/index.md`
+- Update this file and `locales.tsv`
 
 ## Content structure (book side)
 
@@ -90,9 +90,10 @@ Each locale is `locales/<code>/` in the book repo, containing:
   name is free to vary (`scripts/sync-content.sh`). The site route is
   `/<locale>/topics/<slug>/` for every locale.
 - `locales/<code>/index.md` + `.locale-peer-id` + `README.md` symlink — the
-  locale's own translated README (site home/contents page source). Every
-  locale gets this file scaffolded (matching the topic-file pattern) even
-  before it has a translation; it starts empty.
+  locale's own translated README (site home/contents page source). Intended
+  to be scaffolded for every locale (matching the topic-file pattern), empty
+  until translated; it has not been created for any locale yet, English
+  included, and the site does not read it today.
 
 ## Slugs
 
@@ -103,11 +104,59 @@ Example: `es-001` `año-de-vida-ajustado-por-calidad`, `ur-001` `صحت-ایڈج
 
 Nothing in the site assumes slugs match across locales.
 
+## Routes and language forwarding
+
+Every published locale code is a top-level route: `/<code>/`, with
+`/<code>/contents/`, `/<code>/topics/<slug>/`, `/<code>/glossary/` and
+`/<code>/index/` beneath it. There is no `/locales/` segment in a URL; the
+`locales/` directory name is a repository path only.
+
+- **Published set.** The routes are exactly the codes in `locales.tsv`, in the
+  same order as `LOCALES` in `book.ts`. A directory under `locales/` that is
+  not in that list is vendored but never routed (`ar-eg`, `cy-gb`, `en-150`,
+  `es-es`, `fr-fr`, `ru-ru`, `zh-001`).
+- **Two-letter aliases.** Each published `-001` locale also answers at its bare
+  language (`/en/` renders `en-001`, `/cy/` renders `cy-001`). The alias is
+  derived from the `-001` code, never stored as a directory, and its page names
+  the `-001` URL as its canonical link. The two routes are peers: the site never
+  forwards `/<language>-001/` to `/<language>/` or the reverse.
+- **Root `/`.** A client-side stub, not a server redirect, because `/?<terms>` is
+  the site-search URL and must stay put (with JavaScript off, a `<noscript>`
+  refresh goes to the default locale). With no query it forwards to the first
+  of:
+  1. the locale the reader last chose in the picker (stored locally), if it is
+     still a published route;
+  2. the first of the browser's `navigator.languages` that matches, where each
+     tag is lower-cased with `_` read as `-` and tried as: an exact published
+     route; else the language's `-001` route (a bare `en` counts as the
+     language); else the nearest published locale in the same language;
+  3. the default locale, `en-gb-oxendict`.
+
+  | Browser language | Forwards to |
+  |---|---|
+  | `en-GB` | `/en-gb/` (exact) |
+  | `en-AU`, `en` | `/en-001/` |
+  | `cy-GB`, `cy_GB` | `/cy-001/` (there is no `cy-gb` route; publishing one would win automatically) |
+  | `de-AT` | `/de-001/` |
+  | `zh-TW` | `/zh-cn/` (no `zh-001`) |
+  | `sw-KE` (not published) | `/en-gb-oxendict/` |
+- **Unknown locale in a URL.** A 404 under a locale segment the site does not
+  publish (`/de-xx/…`, `/zh-001/…`) forwards to the nearest published locale
+  in the same language, keeping the rest of the path; a language the book is not
+  written in stays a 404.
+- **Picker.** The picker shows the locale named by the URL, not the saved one,
+  and picking the locale the page is already in does nothing. Elsewhere,
+  choosing a language goes to the same topic in that locale (found through
+  `.locale-peer-id`, since slugs differ) or else to that locale's contents.
+
 ## Locale picker (labels + ordering)
 
-- Labels live in `locales.js`'s `LOCALE_LABELS`, one entry per code, in that
-  language (e.g. `'fr-001': 'Français (Monde)'`). Falls back to the raw code
-  via `localeLabel()` if a code has no label yet.
+- Labels live in `locales.ts`'s `LOCALE_LABELS`, one entry per code, in that
+  language: `<language>` alone for a `-001` locale (`'fr-001': 'Français'`),
+  `<language> - <region>[ - <variant>]` otherwise (`'ja-jp': '日本語 - 日本'`,
+  `'en-gb-oxendict': 'English - Great Britain - Oxford'`), with the region's
+  full name, never an abbreviation. Falls back to the raw code via
+  `localeLabel()` if a code has no label yet.
 - Header `PickerBar` order comes from `content.js`'s `locales()` (sorted by
   code) — the `-001` suffix happens to sort before any letter-starting
   regional suffix, so variants already come first there.
@@ -157,7 +206,7 @@ and `+layout.svelte`.
 Bug: wordmark came only from the root (locale-agnostic) `+layout.server.js`,
 which deliberately never picks a locale.
 
-Fix: have `locales/[locale]/+layout.server.js` supply this locale's own title,
+Fix: have `[locale]/+layout.server.js` supply this locale's own title,
 which overrides the root layout's canonical one via SvelteKit's merged
-`page.data` on any route under `/locales/<locale>/` — the root picker and
+`page.data` on any route under `/<locale>/` — the root picker and
 `/about/` (no locale in the URL) correctly keep the canonical English title.
