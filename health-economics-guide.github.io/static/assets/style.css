@@ -786,13 +786,38 @@ body {
     box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.15);
 }
 
-/* When the picker bar wraps (narrow screens) the search button is the first
-   item on the left, so hang the panel from its start edge instead. */
+/* On narrow screens a popup under the button would cover the nav links or the
+   content, so the search field opens over the picker-button row instead, full
+   width inside the header, and the other pickers are hidden only while it is
+   open. The theme positions the panel inside :where() (no specificity), so these
+   plain class selectors win. Logical offsets keep it right for RTL pages. */
 @media (max-width: 40rem) {
+    .picker-bar {
+        position: relative;
+        width: 100%;
+    }
+
+    .search-picker {
+        position: static;
+    }
+
     .search-picker-panel {
-        inset-inline-end: auto;
-        inset-inline-start: 0;
-        width: min(20rem, calc(100vw - 3rem));
+        inset-block: 0;
+        inset-inline: 0;
+        width: auto;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
+    .search-picker-form {
+        height: 100%;
+    }
+
+    .picker-bar:has(.search-picker-panel:not([hidden])) > :not(.search-picker) {
+        visibility: hidden;
     }
 }
 
