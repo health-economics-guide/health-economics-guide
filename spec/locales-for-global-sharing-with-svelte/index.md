@@ -7,6 +7,24 @@ routing, UI chrome, and bugs.
 
 Read locales via file `locales.tsv`.
 
+## Locale directory names
+
+Every directory under `locales/` is named `<language>-<region>`, all lowercase:
+a two-letter ISO 639-1 language code, a hyphen, then a region that is either a
+two-letter ISO 3166-1 country code (`de-de`, `ja-jp`, `en-us`) or `001`, the UN
+M.49 code for the world, for a locale with no single national dialect
+(`fr-001`, `cy-001`).
+
+- A bare language code is never a directory name: there is no `locales/en/`,
+  no `locales/cy/`. The two-letter forms (`/en/`, `/cy/`) exist only as web
+  route aliases of the `-001` locale, derived from it by the site, and are
+  never stored as content.
+- A locale may carry a further variant suffix after the region, as
+  `en-gb-oxendict` does for Oxford spelling; the `<language>-<region>` prefix
+  is still required.
+- Directory names are the locale codes used everywhere else: in
+  `locales.tsv`, in route slugs, and in `LOCALE_LABELS`.
+
 ## .locale-peer.id file
 
 `.locale-peer-id` file is a byte-identical 32-character hexadecimal lowercase
@@ -31,6 +49,7 @@ Keep proper nouns unconverted. Example: "Hospital Readmissions Reduction Program
 
 For each locale subdirectory:
 
+- Name matches `<language>-<region>` (see Locale directory names); a bare two-letter directory is an error
 - File exists: `index.md`
 - Symlink exists: `README.md`
 - Locale peer id tracking file exists: `.locale-peer-id`
