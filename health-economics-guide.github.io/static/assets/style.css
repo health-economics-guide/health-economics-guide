@@ -743,6 +743,104 @@ body {
     gap: var(--lily-space-sm);
 }
 
+/* svelte-picker-bar 0.2.0 added a search picker, but the Lily themes only
+   style the theme/locale/text-size/share pickers, so its button fell back
+   to the browser's default <button> (33x26, 13px text) beside three 40x40
+   siblings. Give it the same box as the theme's picker buttons. */
+.search-picker {
+    position: relative;
+    display: inline-block;
+}
+
+.search-picker-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    padding: var(--lily-space-xs);
+    font: inherit;
+    line-height: 1;
+    color: var(--lily-text);
+    background-color: var(--lily-surface);
+    border: var(--border) solid var(--lily-border-strong);
+    border-radius: var(--lily-radius-md);
+    cursor: pointer;
+}
+
+/* The panel holds the query form. Like the other pickers' lists it floats
+   under its button, hanging from the end edge so it cannot run past the
+   viewport (in normal flow it made the whole header grow when opened). */
+.search-picker-panel {
+    position: absolute;
+    inset-inline-end: 0;
+    top: calc(100% + var(--lily-space-xs));
+    z-index: 20;
+    box-sizing: border-box;
+    width: min(20rem, calc(100vw - 2rem));
+    padding: var(--lily-space-sm);
+    color: var(--lily-text);
+    background-color: var(--lily-surface);
+    border: var(--border) solid var(--lily-border-strong);
+    border-radius: var(--lily-radius-md);
+    box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.15);
+}
+
+/* When the picker bar wraps (narrow screens) the search button is the first
+   item on the left, so hang the panel from its start edge instead. */
+@media (max-width: 40rem) {
+    .search-picker-panel {
+        inset-inline-end: auto;
+        inset-inline-start: 0;
+        width: min(20rem, calc(100vw - 3rem));
+    }
+}
+
+.search-picker-panel[hidden] {
+    display: none;
+}
+
+.search-picker-form {
+    display: flex;
+    align-items: stretch;
+    gap: var(--lily-space-xs);
+    margin: 0;
+}
+
+.search-picker-input {
+    flex: 1;
+    min-width: 0;
+    min-height: 2.5rem;
+    box-sizing: border-box;
+    padding: 0 var(--lily-space-sm);
+    font: inherit;
+    color: var(--lily-text);
+    background-color: var(--lily-surface);
+    border: var(--border) solid var(--lily-border-strong);
+    border-radius: var(--lily-radius-md);
+}
+
+.search-picker-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    padding: var(--lily-space-xs);
+    font: inherit;
+    color: var(--lily-text);
+    background-color: var(--lily-surface);
+    border: var(--border) solid var(--lily-border-strong);
+    border-radius: var(--lily-radius-md);
+    cursor: pointer;
+}
+
+.search-picker-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* All four pickers sit in the right-hand cluster of a right-aligned
    header, so the theme's default left-anchored popup (inset-inline-start:
    0, extending toward the reading end) risks running past the
