@@ -115,16 +115,22 @@ export function isLocale(value: string): boolean {
  * preferred first, as in `navigator.languages`), or `undefined` when none of
  * them is a language the book is published in.
  *
- * Each tag is tried in order. `cy-GB` / `cy_GB` is normalised to `cy-gb`; a tag
- * that is itself a published route wins outright, otherwise the nearest
- * published locale in the same language is used (`cy-GB` -> `cy-001` while no
- * `cy-gb` route exists, `fr-CA` -> `fr-001`). So publishing a more specific
- * locale later takes effect without touching this function.
+ * Each tag is tried in order, normalised (`cy_GB` -> `cy-gb`), and resolved
+ * in three steps:
+ *  1. an exact route wins (`en-GB` -> `en-gb`);
+ *  2. else the language's superset route, the two-letter alias that renders
+ *     its `-001` edition (`en-AU` -> `en`, `cy-GB` -> `cy`);
+ *  3. else the nearest published locale in the same language (`zh-TW` ->
+ *     `zh-cn`, where there is no `zh` alias).
+ * Publishing a more specific locale later (a `cy-gb` route) takes effect
+ * without touching this function.
  */
 export function localeForLanguages(tags: readonly string[]): string | undefined {
   for (const tag of tags) {
     const code = tag.toLowerCase().replace(/_/g, '-');
     if (isLocale(code)) return code;
+    const language = code.split('-')[0];
+    if (isLocale(language)) return language;
     const near = resolveLocale(code);
     if (near && isLocale(near)) return near;
   }
