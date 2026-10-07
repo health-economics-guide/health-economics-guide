@@ -12,7 +12,7 @@
   import PickerBar from '@lilydesignsystem/svelte-picker-bar';
   import { SOURCE_REPO, LOCALES, LOCALE_SLUGS, DEFAULT_LOCALE } from '#lib/book.js';
   import { ui } from '#lib/i18n.js';
-  import { canonicalLocale } from '#lib/locales.js';
+  import { canonicalLocale, resolveLocale } from '#lib/locales.js';
 
   let { children } = $props();
 
@@ -26,7 +26,12 @@
   // it, falling back to the house-style default on locale-neutral pages —
   // see spec/locales-for-global-sharing-with-svelte/index.md's bug-fix note
   // on UI chrome staying hardcoded English.
-  const currentLocale = $derived(page.params.locale);
+  // A URL naming a locale the site does not publish (`/de-001/…`) resolves to
+  // the nearest published one, so the picker and chrome follow the URL rather
+  // than falling back to the reader's saved choice.
+  const currentLocale = $derived(
+    page.params.locale ? resolveLocale(page.params.locale) : undefined
+  );
   const t = $derived(ui(currentLocale ?? DEFAULT_LOCALE));
 
   // A two-letter alias (`/en/...`) serves the same page as its `-001` locale
@@ -73,6 +78,9 @@
       readyToNavigate = true;
       return;
     }
+    // Already reading this locale (e.g. the home page `/` just forwarded here on
+    // the browser's language): stay on the page rather than jump to its contents.
+    if (currentLocale && canonicalLocale(currentLocale) === canonicalLocale(newLocale)) return;
     const target = targetPathForLocale(newLocale);
     if (target === page.url.pathname) return;
     // `target` can be a cross-locale chapter slug from `localeSlugMap`; if that

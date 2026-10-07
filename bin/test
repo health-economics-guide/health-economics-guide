@@ -35,6 +35,7 @@ test_locales() {
         pt-001 \
         id-001 \
         ur-001 \
+        de-001 \
         ko-kr
     do
         echo "$x"

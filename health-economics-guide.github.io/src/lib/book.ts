@@ -5,7 +5,7 @@
 // from either side. The prose lives in `#lib/server/book.ts`, which is
 // server-only and therefore never reaches a client bundle.
 
-import { localeLabel, languageName, LOCALE_ALIASES } from '#lib/locales.js';
+import { localeLabel, languageName, resolveLocale, LOCALE_ALIASES } from '#lib/locales.js';
 
 /** One entry in the table of contents. */
 export type ChapterRef = {
@@ -55,6 +55,7 @@ export const LOCALES: Locale[] = [
   { slug: 'ar-001', label: localeLabel('ar-001') },
   { slug: 'bn-001', label: localeLabel('bn-001') },
   { slug: 'cy-001', label: localeLabel('cy-001') },
+  { slug: 'de-001', label: localeLabel('de-001') },
   { slug: 'de-de', label: localeLabel('de-de') },
   { slug: 'en-001', label: localeLabel('en-001') },
   { slug: 'en-gb', label: localeLabel('en-gb') },
@@ -79,13 +80,13 @@ export const LOCALE_SLUGS: string[] = LOCALES.map((locale) => locale.slug);
  * One entry per distinct LANGUAGE the book is written in, not per routable
  * locale variant — collapsing English's three dialects (`en-gb`,
  * `en-gb-oxendict`, `en-us`) down to the single language-only `en-001`
- * entry. For contexts that want to name the book's languages rather than
+ * entry, and German's regional `de-de` down to the worldwide `de-001`. For contexts that want to name the book's languages rather than
  * list every locale a reader could switch to — currently just the home
  * page's "available in" sentence, which would otherwise say "English"
  * three times over.
  */
 export const LANGUAGES: Locale[] = LOCALES.filter(
-  (locale) => !['en-gb', 'en-gb-oxendict', 'en-us'].includes(locale.slug)
+  (locale) => !['en-gb', 'en-gb-oxendict', 'en-us', 'de-de'].includes(locale.slug)
 ).map((locale) => ({ ...locale, label: languageName(locale.slug) }));
 
 /**
@@ -107,6 +108,27 @@ export const ROUTABLE_LOCALE_SLUGS: string[] = [...LOCALE_SLUGS, ...ALIAS_SLUGS]
 /** Is `value` one of the book's locale slugs, or a two-letter alias of one? */
 export function isLocale(value: string): boolean {
   return ROUTABLE_LOCALE_SLUGS.includes(value);
+}
+
+/**
+ * The locale route that best matches a list of browser language tags (most
+ * preferred first, as in `navigator.languages`), or `undefined` when none of
+ * them is a language the book is published in.
+ *
+ * Each tag is tried in order. `cy-GB` / `cy_GB` is normalised to `cy-gb`; a tag
+ * that is itself a published route wins outright, otherwise the nearest
+ * published locale in the same language is used (`cy-GB` -> `cy-001` while no
+ * `cy-gb` route exists, `fr-CA` -> `fr-001`). So publishing a more specific
+ * locale later takes effect without touching this function.
+ */
+export function localeForLanguages(tags: readonly string[]): string | undefined {
+  for (const tag of tags) {
+    const code = tag.toLowerCase().replace(/_/g, '-');
+    if (isLocale(code)) return code;
+    const near = resolveLocale(code);
+    if (near && isLocale(near)) return near;
+  }
+  return undefined;
 }
 
 /**

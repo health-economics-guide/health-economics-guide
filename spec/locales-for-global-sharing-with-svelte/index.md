@@ -55,7 +55,7 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | ar-001, ar-eg | المواضيع (الموضوع) |
   | bn-001 | বিষয় |
   | cy-001, cy-gb | pynciau (pwnc) |
-  | de-de | themen (Thema) |
+  | de-001, de-de | themen (Thema) |
   | es-001, es-es | temas (tema) |
   | fr-001, fr-fr | sujets (sujet) |
   | hi-001 | विषय |

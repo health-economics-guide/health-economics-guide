@@ -500,6 +500,9 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
   }
 };
 
+// `de-001` is a copy of `de-de`: same German chrome.
+OVERRIDES['de-001'] = OVERRIDES['de-de'];
+
 export function ui(locale: string): Ui {
   return { ...EN, ...(OVERRIDES[canonicalLocale(locale)] ?? {}) };
 }
@@ -615,6 +618,9 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     5: 'ڈیجیٹل، سافٹ ویئر اور ٹیکنالوجی'
   }
 };
+
+// `de-001` is a copy of `de-de`: same German chrome.
+PART_TITLE_OVERRIDES['de-001'] = PART_TITLE_OVERRIDES['de-de'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
 export function partTitle(locale: string, number: number): string {
@@ -735,6 +741,9 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     5: 'صحت ٹیکنالوجی کی معاشیات: ایجاد، ڈیجیٹل نگہداشت، مصنوعی ذہانت، سافٹ ویئر، روبوٹکس، اور ڈیٹا'
   }
 };
+
+// `de-001` is a copy of `de-de`: same German chrome.
+PART_TAGLINE_OVERRIDES['de-001'] = PART_TAGLINE_OVERRIDES['de-de'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
 export function partTagline(locale: string, number: number): string {

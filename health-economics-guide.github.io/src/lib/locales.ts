@@ -23,6 +23,7 @@ export const LOCALE_LABELS: Record<string, string> = {
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
+  'de-001': 'Deutsch',
   'de-de': 'Deutsch - Deutschland',
   'en-001': 'English',
   'es-001': 'Español',
@@ -51,6 +52,25 @@ export const LOCALE_ALIASES: Record<string, string> = Object.fromEntries(
 /** The real locale code behind a route alias (`en` -> `en-001`); any other code is returned as is. */
 export function canonicalLocale(code: string): string {
   return LOCALE_ALIASES[code] ?? code;
+}
+
+/**
+ * The published locale a URL's first segment most plausibly means.
+ *
+ * A link can name a locale the site does not publish — `/de-001/…` for the
+ * German edition that lives at `/de-de/…`, or a bare `/de/…`. A segment that
+ * is already a locale or alias comes back unchanged; otherwise it falls back
+ * to a published locale in the same language, preferring the worldwide
+ * `-001` edition and then the first in table order (`zh-001` → `zh-cn`,
+ * `en-xx` → `en-001`). Returns `undefined` for a language the book is not
+ * written in, so the caller can leave the reader's own choice alone.
+ */
+export function resolveLocale(segment: string): string | undefined {
+  const code = segment.toLowerCase().replace(/_/g, '-');
+  if (code in LOCALE_LABELS || code in LOCALE_ALIASES) return code;
+  const language = code.split('-')[0];
+  const sameLanguage = Object.keys(LOCALE_LABELS).filter((c) => c.split('-')[0] === language);
+  return sameLanguage.find((c) => c.endsWith('-001')) ?? sameLanguage[0];
 }
 
 export function localeLabel(code: string): string {
