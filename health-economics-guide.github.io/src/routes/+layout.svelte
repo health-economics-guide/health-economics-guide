@@ -114,6 +114,44 @@
     { href: `/${currentLocale ?? DEFAULT_LOCALE}/index/`, label: t.index }
   ]);
 
+  // Project links for the header's link picker (a home icon, leftmost). Labels
+  // are proper names or file names, so they need no translation; only the
+  // picker's own name (`t.pickerLink`) does. All open in a new tab.
+  const projectLinks = [
+    { id: 'github', label: 'GitHub', href: SOURCE_REPO, newTab: true },
+    {
+      id: 'codeberg',
+      label: 'Codeberg',
+      href: 'https://codeberg.org/health-economics-guide/health-economics-guide',
+      newTab: true
+    },
+    {
+      id: 'gitlab',
+      label: 'GitLab',
+      href: 'https://gitlab.com/health-economics-guide/health-economics-guide',
+      newTab: true
+    },
+    { id: 'llms', label: 'llms.txt', href: '/llms.txt', newTab: true },
+    {
+      id: 'metrics',
+      label: 'Health Economics Metrics',
+      href: 'https://health-economics-metrics.github.io/',
+      newTab: true
+    },
+    {
+      id: 'green-book',
+      label: 'The Green Book',
+      href: 'https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government',
+      newTab: true
+    },
+    {
+      id: 'lily',
+      label: 'Lily Design System',
+      href: 'https://github.com/LilyDesignSystem',
+      newTab: true
+    }
+  ];
+
   // Read at share time (inside each href, not as a static prop), so it
   // reflects whatever page is showing even after a client-side
   // navigation the layout itself doesn't re-run for.
@@ -181,6 +219,7 @@
     <PickerBar
       class="site-controls"
       labels={{
+        link: t.pickerLink,
         search: t.pickerSearch,
         searchInput: t.pickerSearchInput,
         searchSubmit: t.pickerSearchSubmit,
@@ -189,6 +228,7 @@
         textSize: t.pickerTextSize,
         share: t.pickerShare
       }}
+      links={projectLinks}
       themesUrl="/assets/themes/"
       themeProps={{
         themeLabels: THEME_LABELS,
