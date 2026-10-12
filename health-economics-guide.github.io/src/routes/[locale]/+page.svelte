@@ -1,6 +1,8 @@
 <script lang="ts">
   import { ArticleLayout, SectionHeading, Badge } from '@lilydesignsystem/svelte-headless';
-  import { PARTS, SOURCE_REPO, SKILLS_REPO, LANGUAGES } from '#lib/book.js';
+  import { PARTS, SOURCE_REPO, SKILLS_REPO, ROUTABLE_LOCALE_SLUGS } from '#lib/book.js';
+  import { ui } from '#lib/i18n.js';
+  import { HERO, ENDONYMS } from '#lib/hero.js';
 
   let { data } = $props();
 
@@ -13,51 +15,40 @@
 
   const preface = $derived(data.toc.find((chapter) => chapter.part === 0));
   const chapterCount = $derived(data.toc.filter((chapter) => chapter.part > 0).length);
+  const t = $derived(ui(data.locale));
+  const hero = $derived(HERO[data.locale] ?? HERO['en-001']);
+  const translations = ROUTABLE_LOCALE_SLUGS.filter((code) => code in ENDONYMS);
 </script>
 
 <svelte:head>
-  <title>Health Economics Guide</title>
-  <meta
-    name="description"
-    content="A practical handbook of best practices for health economics, written for the people who run health and care organizations. Worldwide in scope, free and open."
-  />
+  <title>{t.siteName}</title>
+  <meta name="description" content="{hero.tagline} {hero.intro}" />
 </svelte:head>
 
 <ArticleLayout class="page page-home">
   <header class="page-hero">
-    <h1>Health Economics Guide</h1>
-    <p class="page-hero-lead">A practical handbook of best practices for health economics.</p>
-    <p>
-      This guide is for the people who run health and care organizations — chief executives and
-      senior leaders, directors of digital and transformation, product and programme leads, clinical
-      and care professionals, and operational managers. Its premise: in health, economics provides
-      the frameworks for strategy, resourcing, equity, and public trust — not merely efficiency.
-    </p>
+    <h1>{t.siteName}</h1>
+    <p class="page-hero-lead">{hero.tagline}</p>
+    <p>{hero.intro}</p>
     <p class="page-hero-actions">
       {#if preface}
         <a
           class="page-action page-action-primary"
           href="/{data.locale}/topics/{preface.slug}/"
         >
-          Start with the preface
+          {hero.start}
         </a>
       {/if}
       <a class="page-action" href="/{data.locale}/contents/"
-        >Browse all {chapterCount} topics</a
+        >{hero.browse.replace('{n}', String(chapterCount))}</a
       >
-      <a class="page-action" href="/{data.locale}/glossary/">Glossary</a>
+      <a class="page-action" href="/{data.locale}/glossary/">{t.glossary}</a>
     </p>
-    <p>
-      Available in multiple languages
-      {#each LANGUAGES as language, i (language.slug)}
-        {i === 0
-          ? ' '
-          : i === LANGUAGES.length - 1
-            ? LANGUAGES.length === 2
-              ? ' and '
-              : ', and '
-            : ', '}<a href="/{language.slug}/contents/">{language.label}</a>
-      {/each}. Switch anytime from the language picker above.
+    <p class="page-hero-translations">
+      {hero.translations}{#each translations as code, i (code)}{i ? ', ' : ''}<a
+          href="/{code}/"
+          aria-current={code === data.locale ? 'page' : undefined}>{ENDONYMS[code]}</a
+        >{/each}
     </p>
   </header>
 

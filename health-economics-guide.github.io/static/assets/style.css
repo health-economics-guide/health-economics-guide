@@ -911,3 +911,14 @@ body {
 .site-search-results li p {
 	margin: 0.25rem 0 0;
 }
+
+/* Landing page: the list of translations under the hero. */
+.page-hero-translations {
+    font-size: 0.875em;
+    color: var(--lily-text-muted);
+}
+
+.page-hero-translations a[aria-current='page'] {
+    font-weight: 700;
+    text-decoration: none;
+}
