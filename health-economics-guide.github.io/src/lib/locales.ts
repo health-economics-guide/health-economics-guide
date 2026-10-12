@@ -23,18 +23,23 @@ export const LOCALE_LABELS: Record<string, string> = {
   'ar-001': 'العربية',
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
+  'cy-gb': 'Cymraeg - Cymru',
   'de-001': 'Deutsch',
   'de-de': 'Deutsch - Deutschland',
   'en-001': 'English',
   'es-001': 'Español',
   'fr-001': 'Français',
   'hi-001': 'हिन्दी',
+  'hi-in': 'हिन्दी - भारत',
   'id-001': 'Bahasa Indonesia',
+  'ja-001': '日本語',
   'ja-jp': '日本語 - 日本',
+  'ko-001': '한국어',
   'ko-kr': '한국어 - 대한민국',
   'pt-001': 'Português',
   'ru-001': 'Русский',
   'ur-001': 'اردو',
+  'zh-001': '中文',
   'zh-cn': '中文 - 中国'
 };
 

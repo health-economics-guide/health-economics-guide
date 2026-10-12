@@ -517,6 +517,12 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
 
 // `de-001` is a copy of `de-de`: same German chrome.
 OVERRIDES['de-001'] = OVERRIDES['de-de'];
+// Regional and worldwide variants of the same language share their sibling's chrome.
+OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
+OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
+OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
+OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
+OVERRIDES['zh-001'] = OVERRIDES['zh-cn'];
 
 export function ui(locale: string): Ui {
   return { ...EN, ...(OVERRIDES[canonicalLocale(locale)] ?? {}) };
@@ -636,6 +642,11 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
 
 // `de-001` is a copy of `de-de`: same German chrome.
 PART_TITLE_OVERRIDES['de-001'] = PART_TITLE_OVERRIDES['de-de'];
+PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
+PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
+PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
+PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
+PART_TITLE_OVERRIDES['zh-001'] = PART_TITLE_OVERRIDES['zh-cn'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
 export function partTitle(locale: string, number: number): string {
@@ -759,6 +770,11 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
 
 // `de-001` is a copy of `de-de`: same German chrome.
 PART_TAGLINE_OVERRIDES['de-001'] = PART_TAGLINE_OVERRIDES['de-de'];
+PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
+PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
+PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
+PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
+PART_TAGLINE_OVERRIDES['zh-001'] = PART_TAGLINE_OVERRIDES['zh-cn'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
 export function partTagline(locale: string, number: number): string {

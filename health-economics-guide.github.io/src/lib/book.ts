@@ -45,16 +45,19 @@ export type Locale = {
  * Kept in sync by hand with the source repo's `locales/` directory — the
  * codes here are exactly spec/locales-for-global-sharing-with-svelte/
  * locales.tsv's list. The book repo's `locales/` also has a few
- * ISO-3166-suffixed duplicates of these (`ar-eg`, `cy-gb`, `en-150`,
- * `es-es`, `fr-fr`, `ru-ru`, `zh-001`) left over from before that spec
+ * ISO-3166-suffixed duplicates of these (`ar-eg`, `en-150`,
+ * `es-es`, `fr-fr`, `ru-ru`) left over from before that spec
  * settled on the `-001` "worldwide" convention; they are not listed here
  * and so never appear on the live site, even though `pnpm sync` still
- * vendors their content (harmless, just unused).
+ * vendors their content (harmless, just unused). `cy-gb`, `hi-in`, `ja-001`,
+ * `ko-001` and `zh-001` are listed alongside their regional or worldwide
+ * counterparts so that every locale the book is translated into is served.
  */
 export const LOCALES: Locale[] = [
   { slug: 'ar-001', label: localeLabel('ar-001') },
   { slug: 'bn-001', label: localeLabel('bn-001') },
   { slug: 'cy-001', label: localeLabel('cy-001') },
+  { slug: 'cy-gb', label: localeLabel('cy-gb') },
   { slug: 'de-001', label: localeLabel('de-001') },
   { slug: 'de-de', label: localeLabel('de-de') },
   { slug: 'en-001', label: localeLabel('en-001') },
@@ -64,12 +67,16 @@ export const LOCALES: Locale[] = [
   { slug: 'es-001', label: localeLabel('es-001') },
   { slug: 'fr-001', label: localeLabel('fr-001') },
   { slug: 'hi-001', label: localeLabel('hi-001') },
+  { slug: 'hi-in', label: localeLabel('hi-in') },
   { slug: 'id-001', label: localeLabel('id-001') },
+  { slug: 'ja-001', label: localeLabel('ja-001') },
   { slug: 'ja-jp', label: localeLabel('ja-jp') },
+  { slug: 'ko-001', label: localeLabel('ko-001') },
   { slug: 'ko-kr', label: localeLabel('ko-kr') },
   { slug: 'pt-001', label: localeLabel('pt-001') },
   { slug: 'ru-001', label: localeLabel('ru-001') },
   { slug: 'ur-001', label: localeLabel('ur-001') },
+  { slug: 'zh-001', label: localeLabel('zh-001') },
   { slug: 'zh-cn', label: localeLabel('zh-cn') }
 ];
 
