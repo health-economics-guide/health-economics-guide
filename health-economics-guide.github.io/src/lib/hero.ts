@@ -161,6 +161,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "전체 {n}개 주제 보기",
   "translations": "번역: "
  },
+ "nl-001": {
+  "tagline": "Een praktisch handboek met best practices voor de gezondheidseconomie.",
+  "intro": "Deze gids is bedoeld voor de mensen die zorg- en welzijnsorganisaties leiden: bestuurders en andere leidinggevenden, directeuren digitalisering en transformatie, product- en programmaleiders, klinische en zorgprofessionals en operationele managers. Het uitgangspunt: in de zorg biedt de economie de kaders voor strategie, middelen, billijkheid en publiek vertrouwen, niet louter voor efficiëntie.",
+  "start": "Begin met het voorwoord",
+  "browse": "Blader door alle {n} onderwerpen",
+  "translations": "Vertalingen: "
+ },
+ "nl-nl": {
+  "tagline": "Een praktisch handboek met best practices voor de gezondheidseconomie.",
+  "intro": "Deze gids is bedoeld voor de mensen die zorg- en welzijnsorganisaties leiden: bestuurders en andere leidinggevenden, directeuren digitalisering en transformatie, product- en programmaleiders, klinische en zorgprofessionals en operationele managers. Het uitgangspunt: in de zorg biedt de economie de kaders voor strategie, middelen, billijkheid en publiek vertrouwen, niet louter voor efficiëntie.",
+  "start": "Begin met het voorwoord",
+  "browse": "Blader door alle {n} onderwerpen",
+  "translations": "Vertalingen: "
+ },
  "pt-001": {
   "tagline": "Um manual prático de boas práticas de economia da saúde.",
   "intro": "Este guia é para quem dirige organizações de saúde e cuidados: diretores executivos e líderes seniores, diretores de digital e transformação, responsáveis por produtos e programas, profissionais clínicos e de cuidados e gestores operacionais. A premissa: na saúde, a economia fornece os quadros para a estratégia, os recursos, a equidade e a confiança pública, e não apenas a eficiência.",
@@ -243,6 +257,8 @@ export const ENDONYMS: Record<string, string> = {
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",
  "ko-kr": "한국어 (대한민국)",
+ "nl-001": "Nederlands",
+ "nl-nl": "Nederlands (Nederland)",
  "pt-001": "Português",
  "ru-001": "Русский",
  "ru-ru": "Русский (Россия)",

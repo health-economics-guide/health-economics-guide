@@ -50,7 +50,7 @@ export type Locale = {
  * settled on the `-001` "worldwide" convention; they are not listed here
  * and so never appear on the live site, even though `pnpm sync` still
  * vendors their content (harmless, just unused). `cy-gb`, `hi-in`, `ja-001`,
- * `ko-001`, `sv-001` and `zh-001` are listed alongside their regional or worldwide
+ * `ko-001`, `nl-001`, `sv-001` and `zh-001` are listed alongside their regional or worldwide
  * counterparts so that every locale the book is translated into is served.
  */
 export const LOCALES: Locale[] = [
@@ -73,6 +73,8 @@ export const LOCALES: Locale[] = [
   { slug: 'ja-jp', label: localeLabel('ja-jp') },
   { slug: 'ko-001', label: localeLabel('ko-001') },
   { slug: 'ko-kr', label: localeLabel('ko-kr') },
+  { slug: 'nl-001', label: localeLabel('nl-001') },
+  { slug: 'nl-nl', label: localeLabel('nl-nl') },
   { slug: 'pt-001', label: localeLabel('pt-001') },
   { slug: 'ru-001', label: localeLabel('ru-001') },
   { slug: 'sv-001', label: localeLabel('sv-001') },

@@ -38,7 +38,9 @@ test_locales() {
         de-001 \
         ko-kr \
         sv-se \
-        sv-001
+        sv-001 \
+        nl-nl \
+        nl-001
     do
         echo "$x"
         directory_exists_or_err "$top/locales/$x"

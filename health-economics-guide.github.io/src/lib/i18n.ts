@@ -381,6 +381,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       '각 주제는 독립적으로 완결됩니다. 보건경제학 강좌처럼 처음부터 끝까지 읽어도 되고, 지금 앞에 놓인 결정에 맞는 주제로 바로 이동해도 됩니다.',
     contentsDescription: '『보건경제학 가이드』 전체 목차.'
   },
+  'nl-nl': {
+    siteName: 'Gids voor gezondheidseconomie',
+    skipToContent: 'Ga naar de hoofdinhoud',
+    home: 'Startpagina',
+    contents: 'Inhoud',
+    glossary: 'Woordenlijst',
+    index: 'Register',
+    source: 'Bron',
+    ledBy: 'Onder leiding van',
+    part: 'Deel',
+    chapter: 'Onderwerp',
+    previous: 'Vorige',
+    next: 'Volgende',
+    frontMatter: 'Voorwerk',
+    reference: 'Referentie',
+    onThisPage: 'Op deze pagina',
+    pickerTheme: 'Thema',
+    pickerLocale: 'Taal',
+    pickerLink: 'Links',
+    pickerTextSize: 'Tekstgrootte',
+    pickerShare: 'Delen',
+    pickerSearch: 'De site doorzoeken',
+    pickerSearchInput: 'Zoekopdracht',
+    pickerSearchSubmit: 'Zoeken',
+    copyLabel: 'Link kopiëren',
+    copiedLabel: 'Gekopieerd!',
+    copyFailedLabel: 'Kopiëren mislukt — kopieer in plaats daarvan de adresbalk',
+    readingIn: 'Lezen in',
+    switchLanguageHint: 'Wissel van taal met de taalkiezer in de koptekst.',
+    contentsLead:
+      'Elk onderwerp staat op zichzelf. Lees het van begin tot eind als een cursus gezondheidseconomie, of ga rechtstreeks naar het onderwerp dat past bij de beslissing waarvoor u staat.',
+    contentsDescription: 'De volledige inhoudsopgave van de Gids voor gezondheidseconomie.'
+  },
   'sv-se': {
     siteName: 'Guide till hälsoekonomi',
     skipToContent: 'Hoppa till huvudinnehållet',
@@ -555,6 +588,7 @@ OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
 OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
 OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
+OVERRIDES['nl-001'] = OVERRIDES['nl-nl'];
 OVERRIDES['sv-001'] = OVERRIDES['sv-se'];
 OVERRIDES['zh-001'] = OVERRIDES['zh-cn'];
 
@@ -651,6 +685,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: '세계적·사회적 이슈',
     5: '디지털, 소프트웨어, 기술'
   },
+  'nl-nl': {
+    1: 'Grondslagen',
+    2: 'Evaluatie en bewijs',
+    3: 'Stelsels, beleid en prioriteiten',
+    4: 'Mondiale en maatschappelijke vraagstukken',
+    5: 'Digitaal, software en technologie'
+  },
   'sv-se': {
     1: 'Grunder',
     2: 'Utvärdering och evidens',
@@ -687,6 +728,7 @@ PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
 PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
 PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
+PART_TITLE_OVERRIDES['nl-001'] = PART_TITLE_OVERRIDES['nl-nl'];
 PART_TITLE_OVERRIDES['sv-001'] = PART_TITLE_OVERRIDES['sv-se'];
 PART_TITLE_OVERRIDES['zh-001'] = PART_TITLE_OVERRIDES['zh-cn'];
 
@@ -787,6 +829,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: '하나의 체계를 넘어선 건강: 행동, 세계 무역과 재원, 지구, 그리고 공론',
     5: '보건 기술의 경제학: 혁신, 디지털 보건, 인공지능, 소프트웨어, 로봇공학, 데이터'
   },
+  'nl-nl': {
+    1: 'waarom gezondheid economisch anders is, en de modellen die dat verklaren',
+    2: 'het gereedschap van de analist: uitkomsten waarderen, modellen bouwen, beweringen toetsen',
+    3: 'hoe samenlevingen gezondheidszorg organiseren, financieren en verdelen',
+    4: 'gezondheid voorbij één stelsel: gedrag, wereldhandel en -financiering, de planeet en het publieke gesprek',
+    5: 'de economie van gezondheidstechnologie: innovatie, digitale zorg, kunstmatige intelligentie, software, robotica en data'
+  },
   'sv-se': {
     1: 'varför hälsa är ekonomiskt annorlunda, och modellerna som förklarar det',
     2: 'analytikerns verktygslåda: värdera utfall, bygga modeller, pröva påståenden',
@@ -823,6 +872,7 @@ PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
 PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
 PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
+PART_TAGLINE_OVERRIDES['nl-001'] = PART_TAGLINE_OVERRIDES['nl-nl'];
 PART_TAGLINE_OVERRIDES['sv-001'] = PART_TAGLINE_OVERRIDES['sv-se'];
 PART_TAGLINE_OVERRIDES['zh-001'] = PART_TAGLINE_OVERRIDES['zh-cn'];
 

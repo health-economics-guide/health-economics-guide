@@ -36,6 +36,8 @@ export const LOCALE_LABELS: Record<string, string> = {
   'ja-jp': '日本語 - 日本',
   'ko-001': '한국어',
   'ko-kr': '한국어 - 대한민국',
+  'nl-001': 'Nederlands',
+  'nl-nl': 'Nederlands - Nederland',
   'pt-001': 'Português',
   'ru-001': 'Русский',
   'sv-001': 'Svenska',
