@@ -76,19 +76,19 @@ Omarbetningen angriper båda misslyckandena samtidigt. Anslutningen skiftar frå
 
 ## Fyra sektorperspektiv
 
-### Startup
+### Startup-företag
 
 Ett digitalt hälsoföretag i startfasen möter vanligen marknadsmisslyckande som asymmetrisk information det lovar att minska – en symtomkontroll, ett prisjämförelseverktyg, en kvalitetsinstrumentpanel. Möjligheten är verklig men smal: information hjälper bara där användare kan agera på den, och en patient mitt i en kris kan inte jämföra. Grundare bör också lägga märke till vilket misslyckande deras affärsmodell i det tysta förlitar sig på; en telehälsotjänst som betalas per konsultation står inför samma frestelse till inducerad efterfrågan som varje vårdgivare med prestationsersättning, och investerare och tillsynsmyndigheter kommer till slut att fråga. Det trovärdiga erbjudandet korrigerar ett misslyckande utan att skapa ett nytt.
 
-### Small business
+### Småföretag
 
 En liten etablerad vårdgivare – en läkarpraktik, en enskild klinik, ett samhällsapotek, ett vårdhem – lever varje dag på fel sida av uppdragsförhållandet, och dess integritet är praktikens främsta tillgång. Till skillnad från ett startup-företag som jagar tillväxt är en sådan verksamhet en prisaccepterare som står inför betalare som fastställer arvoden och regler den inte kan skriva om, så dess handlingsutrymme ligger i hur den beter sig, inte i vad den kan bygga. Den ständiga frestelsen är den inducerade efterfrågans: en inkomstström med prestationsersättning belönar i det tysta det extra provet eller återbesöket, och en liten ägare-operatör känner det draget direkt i de månatliga räkenskaperna. Det hållbara svaret är att göra pålitlighet synlig – transparent remittering, ärlig rekommendation, återhållsamhet som patienter och beställare kan se – eftersom ryktet på en lokal marknad är den enda form av kvalitetssignal en liten vårdgivare faktiskt kan äga.
 
-### Enterprise
+### Storföretag
 
 En stor försäkrare eller sjukhuskoncern lever inuti dessa misslyckanden som sin kärnverksamhets verklighet. En försäkrare hanterar negativt urval genom riskpoolning, teckningsregler och riskutjämning, och hanterar moralisk risk genom kostnadsdelning och förhandsgodkännande – varje spak med sin egen motreaktion. Ett sjukhussystem som vuxit till regional dominans är ett monopol vare sig det använder ordet eller inte, och kommer att möta fusionsgranskning och prisreglering därefter. I företagsskala handlar frågan mindre om huruvida misslyckanden finns än om huruvida organisationen utnyttjar dem eller styr dem, eftersom tillsynsmyndigheter och allmänhet alltmer ser skillnaden.
 
-### Government
+### Staten
 
 Staten är den sista utvägens aktör för misslyckanden som ingen marknadsdeltagare kan åtgärda – externa effekter, kollektiva nyttigheter, allmänningar och sönderfallet av frivilliga pooler. Dess verktygslåda är den bredaste: obligatorium och subventioner för vaccination, stewardship och pull-incitament för antimikrobiella medel, konkurrenslag och taxereglering för monopol, obligatorisk poolning för försäkring. Dess disciplin måste vara den bredaste också, eftersom varje ingripande riskerar sitt eget misslyckande – regulatory capture, manipulation, dödviktskostnad – och ett botemedel dyrare än sjukdomen är fortfarande en förlust. Utformningen av dessa ingripanden är föremål för Ämne 3.2 — Hälsopolitik; poängen här är att misslyckandena är det som gör statens roll i hälsa oundviklig i varje system på jorden.
 

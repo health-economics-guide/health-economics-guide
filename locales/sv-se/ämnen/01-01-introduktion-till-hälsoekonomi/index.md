@@ -91,19 +91,19 @@ Analysen är obekväm på precis det sätt den ska vara. De nya läkemedlen ger 
 
 ## Fyra sektorperspektiv
 
-### Startup
+### Startup-företag
 
 Ett digitalt hälsoföretag i startfasen upplever knapphet som uthållighet (runway) snarare än budget, och dess bindande begränsning är ofta evidens snarare än pengar. Dess frestelse är att argumentera värde mot ”att göra ingenting” – det nuläge som produkten ersätter – när den beslutsfattare som spelar roll, en betalare eller ett hälso- och sjukvårdssystem, kommer att bedöma det mot det bästa befintliga alternativet och dess alternativkostnad. Det disciplinerade greppet är att tidigt och ärligt identifiera vilken ruta i rörledningsdiagrammet produkten hör hemma i och vilket utfall den förbättrar i jämförbara termer, så att grundarna, när en seriös utvärdering kommer (se Ämne 5.2 — Digital hälsas ekonomi), inte överraskas av frågor de kunde ha ställt sig själva.
 
-### Small business
+### Småföretag
 
 En etablerad liten vårdgivare – en läkarpraktik, en enskild klinik, ett vårdhem eller en liten leverantör – lever knapphetens ekonomi på nära håll, men som en verksamhet i jämviktsläge som spenderar sina egna pengar snarare än en startup som bränner investerares uthållighet. Dess budget är fast och blygsam, så varje beslut att lägga till en tjänst, en mottagning eller en medarbetare tränger synligt undan en annan användning av samma medel, vilket gör alternativkostnaden konkret snarare än teoretisk. Frestelsen här är att bedöma varje inköp mot att göra ingenting och att resonera utifrån genomsnittskostnad, när den ärliga frågan är marginell: tjänar nästa mottagningspass, nästa utrustning, nästa listade patient in mer än sina rivaliserande anspråk på en liten kassa? Eftersom en sådan vårdgivare vanligen verkar inom ett större systems regler – en nationell taxa, en beställares avtal, en försäkrares arvodesschema – är dess särskilda disciplin att placera sina beslut på rörledningsdiagrammet och att acceptera det hälso- och sjukvårdssystem vars priser och tröskelvärden den inte själv kan fastställa (se Ämne 3.1 — Hälso- och sjukvårdssystem). Dess ansvarsutkrävande är direkt och personligt: inför dess egna patienter eller boende, och inför de delägare eller ägare vars inkomst samma budget också finansierar.
 
-### Enterprise
+### Storföretag
 
 En stor sjukhuskoncern, försäkrare eller vårdgivarnätverk har skalan att vara tekniskt effektivt och trögheten att vara allokeringsmässigt fel. Dess portfölj spänner över dussintals tjänster med förankrade förkämpar, och dess verkliga hälsoekonomiska arbete är intern omfördelning – att flytta resurser från lågvärdig till högvärdig verksamhet, vilket innebär avveckling såväl som investering. Programbudgetering och marginalanalys är det naturliga verktyget i den skalan. Ansvarsutkrävandet gäller inför en styrelse och inför medlemmar eller patienter, och disciplinen är att tillämpa samma marginella prov över konkurrerande interna anspråk i stället för att finansiera den högljuddaste.
 
-### Government
+### Staten
 
 Ett ministerium eller en nationell betalare bär det bredaste ansvarsutkrävandet – inför skattebetalare, medborgare och de undanträngda – och de starkaste skälen att göra sitt resonemang uttryckligt och legitimt. Det fastställer spelreglerna: budgetar, betalningsmetoder, täckningsbeslut och de HTA-institutioner som tillämpar hälsoekonomi i nationell skala (NICE, IQWiG och deras motsvarigheter). Dess särskilda börda är jämlikhet: effektivitet ensam besvarar inte vems hälsa som ska gynnas, och en regering måste försvara sina fördelningsmässiga val offentligt (se Ämne 3.2 — Hälsopolitik och Ämne 3.4 — Jämlikhet). Dess särskilda risk är att synliga förmånstagare överröstar osynliga förlorare, vilket snedvrider besluten bort från kostnadseffektivitet.
 

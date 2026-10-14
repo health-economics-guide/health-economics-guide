@@ -90,19 +90,19 @@ Hennes rekommendation är inte att överge kardiologibehovet utan att dela ansla
 
 ## Fyra sektorperspektiv
 
-### Startup
+### Startup-företag
 
 Ett ungt digitalt hälso- eller folkhälsoföretag är väl placerat att angripa en enskild bestämningsfaktor med ett skarpt, mätbart erbjudande – en tjänst som förbättrar bostadsvärme, en plattform som kopplar arbetslösa till arbete och stöd, ett verktyg som omformar en lokal matmiljö. Dess fördel är fokus och förmågan att bygga in mätning från dag ett; dess fara är att göra anspråk på en hälsoavkastning det ännu inte kan belägga, eftersom effekter av bestämningsfaktorer är långsamma, confoundade och svåra att tillskriva en enskild produkt. Ett trovärdigt startup-företag på detta område är ovanligt ärligt om sin kausala evidens och sin fördröjningsstruktur, väljer ett närliggande, mätbart mellanutfall och motstår frestelsen att marknadsföra en korrelation som ett botemedel. Det bör också inse att åtgärder på en bestämningsfaktor ofta innebär att påverka ett system det inte kontrollerar, vilket är en svårare försäljning till investerare än en fristående klinisk produkt.
 
-### Small business
+### Småföretag
 
 En etablerad liten vårdgivare – en läkarpraktik, ett enskilt samhällsapotek, ett vårdhem eller en liten leverantör av bostadsanpassning eller matservice – möter hälsans bestämningsfaktorer dagligen i sin egen patientgrupp, och till skillnad från ett startup-företag jagar den inte tillväxt utan upprätthåller en stadig, självfinansierad verksamhet förankrad på ett ställe. Dess särskilda tillgång är lokal kännedom och förtroende: den vet vilka gator, arbetsgivare och bostadsbestånd som ger dess sjukaste patienter, och den kan agera på bestämningsfaktorerna i mänsklig skala – en remiss till en tjänst för bidragsrådgivning eller varma hem, en länk till en lokal arbetsgivare, ett matbankssamarbete – utan overheaden i ett systemomfattande program. Dess begränsning är tunna marginaler och ingen reserv: att agera uppströms kostar personaltid den inte får betalt för, eftersom betalningsmodellen belönar den kliniska kontakten, inte bostadsbrevet, och hälsoavkastningen tillfaller år senare och ofta en annan budget. En realistisk liten vårdgivare väljer därför ett litet antal högavkastande, lågkostnadslänkar till lokal social infrastruktur, dokumenterar det behov den ser för att stärka argumentet för att andra ska finansiera arbetet uppströms och motstår att bli ombedd att axla strukturella problem som bara en betalare eller staten kan rubba.
 
-### Enterprise
+### Storföretag
 
 En stor vårdgivare, försäkrare eller integrerat system ser alltmer hälsans bestämningsfaktorer på sin egen balansräkning: socialt driven sjukdom anländer som dyr, sen efterfrågan, och i kapiterade modeller eller modeller med befolkningsbudget bär organisationen den kostnaden. Det ger en koncern ett genuint ekonomiskt incitament att investera uppströms – i bostäder, social förskrivning eller sysselsättningsstöd – men också en frestelse att skumma de bestämningsfaktorer som är billiga att åtgärda och ignorera de strukturella. I stor skala kan en koncern poola data för att bygga en verklig befolkningshälsoproduktionsfunktion och kan agera som en förankringsinstitution (anchor institution), och använda sin egen upphandling och anställning för att förbättra lokala förhållanden. Dess utmaning med ansvarsutkrävande är att avkastningen uppströms är långsam och sektorsövergripande, så styrelser under årligt tryck måste visas det långsiktiga och jämlikhetsmässiga argumentet, inte bara första årets siffra.
 
-### Government
+### Staten
 
 Ett ministerium eller en nationell myndighet är den enda aktör som äger hela uppsättningen spakar – fiskala, regulatoriska och strukturella – som rör de sociala, kommersiella och miljömässiga bestämningsfaktorerna, och det är där ”hälsa i all politik” antingen lever eller dör. Dess särskilda makt är att prissätta externa effekter (genom beskattning av skadliga produkter), reglera de kommersiella bestämningsfaktorerna och direkt forma inkomst, bostad och utbildning; dess särskilda svårighet är att hälsa ligger i en förvaltning medan de flesta bestämningsfaktorer ligger i andra, så samordning och delat ansvarsutkrävande är de bindande begränsningarna. Staten bär också jämlikhetsplikten mest uttryckligen: eftersom bestämningsfaktorer är socialt mönstrade är statliga åtgärder ofta det enda som kan böja hela gradienten snarare än svansen. Dess horisont bör vara den längsta av de tre sektorerna, i takt med livsloppets fördröjningar, och dess svåraste uppgift är att upprätthålla investeringar uppströms över valcykler som belönar synlig behandling framför osynlig prevention.
 

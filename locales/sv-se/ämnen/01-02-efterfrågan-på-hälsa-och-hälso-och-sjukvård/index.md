@@ -88,19 +88,19 @@ Ekonomin omformulerar nu beslutet. Två nya öppenvårdsblock skulle möta efter
 
 ## Fyra sektorperspektiv
 
-### Startup
+### Startup-företag
 
 Ett digitalt hälsoföretag i startfasen – säg en telemedicin- eller symtomkontrollapp – lever eller dör på att förstå härledd efterfrågan. Dess användare vill inte ha appen; de vill ha hälsa, och överger den i samma ögonblick den misslyckas med att skapa det billigare i tid och pengar än alternativen. Ett startup-företag bör segmentera efterfrågan snävt, rikta in sig på de insatser för hälsa det genuint kan förbättra (tillgång, triage, följsamhet) och vara skoningslöst ärligt med att sänkningen av det effektiva priset på en konsultation kommer att höja efterfrågan, inklusive från de ”oroliga friska” (worried well). Dess riskaptit låter det experimentera med efterfrågan i liten skala, men det måste motstå att sälja volym som om volym vore målet.
 
-### Small business
+### Småföretag
 
 En etablerad liten vårdgivare – en läkarpraktik, en enskild klinik eller ett samhällsapotek som tjänat samma patienter i åratal – läser efterfrågan utifrån nära patientkännedom snarare än experiment. Dess lista är i stort sett känd, så de praktiska frågorna är hur mycket av den dagliga efterfrågan som speglar genuint behov jämfört med vana, oro eller tillgångshinder den kunde lätta, och var en liten avgift eller en längre väntan i det tysta avskräcker de patienter som mest behöver tas emot. Till skillnad från ett startup-företag kan det inte svänga bort från olönsam efterfrågan; dess ansvarsutkrävande gäller en etablerad gemenskap och ofta en kapitation eller ett avtal som belönar att hålla människor friska snarare än att omsätta besök. Det styr efterfrågan med de spakar det faktiskt kontrollerar – triage, vårdkontinuitet, hänvisning till prevention och socialt stöd – och lever med spänningen att tid som läggs på att styra efterfrågan uppströms är tid som inte faktureras i dag.
 
-### Enterprise
+### Storföretag
 
 En stor vårdgivare eller försäkrare tänker på efterfrågan i portföljskala, där elasticiteter, inkomsteffekter och uppdragsförhållandet blir planeringsvariabler. En försäkrare utformar förmåns- och kostnadsdelningsstrukturer med vetskap om att de kommer att flytta efterfrågan, och måste balansera ekonomiskt skydd mot den efterfrågereaktion täckningen inducerar. En sjukhuskoncern läser sina egna utnyttjandedata genom tillgångens och leverantörspåverkans lins, bevakar omotiverad variation mellan kliniker som ett tecken på svagt uppdragsförhållande och justerar ersättningen så att rekommenderad vård följer informerade patienters val. Ansvarsutkrävandet gäller här solvens och tillsynsmyndigheter, så efterfrågemodeller måste vara försvarbara och granskningsbara.
 
-### Government
+### Staten
 
 Ett ministerium eller en nationell betalare styr efterfrågan för en hel befolkning och bär de jämlikhets- och offentliga medelsplikter som följer med det. Det fastställer det pris medborgarna möter vid användningstillfället – genom täckning, undantag och eventuella patientavgifter – och formar därmed efterfrågan över inkomstfördelningen, så varje efterfrågesidig spak är också en jämlikhetsspak (se Ämne 3.4 — Jämlikhet). Det måste planera för den strukturella ökning av efterfrågan som inkomsttillväxt och åldrande medför, investera i de insatser för hälsa utanför hälso- och sjukvården som minskar efterfrågan på kostsam vård och utforma uppdragsförhållandet systemomfattande genom riktlinjer, betalningsmetoder och personalpolitik. Dess horisont är lång och dess ansvarsutkrävande är demokratiskt, så det måste motivera efterfrågesidiga val offentligt och ärligt.
 

@@ -90,19 +90,19 @@ Hon modellerar tre alternativ: konsultfirmans enda stora bygge; renovering av al
 
 ## Fyra sektorperspektiv
 
-### Startup
+### Startup-företag
 
 En ung digital eller specialiserad vårdgivare – ett diagnostikföretag i startfasen, en enspecialitets dagkirurgisk klinik, en telehälsotjänst – har ofta en ovanligt ren kostnadsstruktur: låga fasta kostnader, hög rörlig andel och friheten att välja sin insatsmix från grunden. Dess utbudsfördel är just att den kan välja ett smalt, högvolymigt segment och åka på volym–utfall- och skalkurvorna inom det, och underbjuda allmänna vårdgivare på den skivan. Riskerna är att den saknar ett allmänt sjukhus samordningsfördelar, att den kan skumma grädden av lönsamma, lågkomplexa fall och lämna de svåra åt andra, och att dess lilla skala gör den exponerad om efterfrågan eller ersättning förskjuts. Ett startup-företag bör vara ärligt med vilken fördel det genuint fångar och vilka kostnader det externaliserar till det bredare systemet.
 
-### Small business
+### Småföretag
 
 En etablerad liten vårdgivare – en läkarpraktik, en fristående dagkirurgisk enhet, ett enskilt närsjukhus, ett familjeägt vårdhem, en lokal diagnostikleverantör – känner sin kostnadskurva från år av drift, vilket är just vad ett startup-företag inte gör. Dess utbudsposition definieras av en fast anläggning och en etablerad insatsmix som är svåra att snabbt flexa: den ligger på den skala den har, vanligen under den punkt där de skarpaste skalfördelarna skulle bita, och dess enhetskostnad är exponerad när volymen sjunker eller när en taxa fastställs utifrån en större vårdgivares genomsnittskostnad. Till skillnad från startup-företaget jagar den inte en tillväxtkurva utan försvarar ett livskraftigt jämviktsläge, så dess verkliga beslut gäller beläggning, kompetensmix och om man ska dela infrastruktur – gemensam diagnostik, administration eller remissnätverk – för att fånga samordningsfördelar den inte kan generera ensam. Den konkurrerar med lokal tillgång, kontinuitet och lyhördhet snarare än skala, och dess främsta sårbarhet är att en enda rival med naturligt monopol eller en ogynnsam taxa kan göra dess blygsamma volym oekonomisk över en natt.
 
-### Enterprise
+### Storföretag
 
 En stor sjukhuskoncern, ett integrerat vårdnätverk eller en organisation som både försäkrar och vårdar förvaltar utbudet som en portfölj över platser, och lever eller dör på sina kostnadskurvor och sin kapacitetsstyrning. Den kan eftersträva samordningsfördelar genom delad infrastruktur och vertikal integration, koncentrera specialistvolym över sitt nätverk och förhandla insatspriser i stor skala – men den riskerar också de samordnings-, byråkrati- och lokala lyhördhetsnackdelar som följer med storlek. Dess marknadsmakt väcker regulatoriska och konkurrensmässiga farhågor (misslyckandesidan hör hemma i Ämne 1.3 — Marknadsmisslyckande), så den måste visa att konsolidering ger verkliga produktionseffektiviteter snarare än bara prissättningsmakt. Ansvarsutkrävande inför styrelser, tillsynsmyndigheter och obligationsmarknader innebär att dess utbudsbeslut måste vara kostnadsberäknade, jämförda och försvarbara.
 
-### Government
+### Staten
 
 Ett ministerium eller en nationell betalare formar utbudet av vård för en hel befolkning och bär plikter som inget företag gör: universell tillgång, geografisk jämlikhet och förvaltning av oåterkalleligt offentligt kapital. Det avgör hur många sjukhus av vilken storlek som ska ligga var, fastställer de betalningsregler som driver vårdgivares beteende (se Ämne 3.1 — Hälso- och sjukvårdssystem) och måste reglera de naturliga monopol som konkurrens inte kan disciplinera. Dess svåraste utbudsavvägning är mellan koncentrationens kostnadseffektivitet och den lokala tillhandahållandets tillgångs- och jämlikhetsvärde, och det måste göra den avvägningen transparent och försvara den offentligt. Dess horisont är lång, dess kapitalbeslut binder efterträdare i decennier och dess ansvarsutkrävande är demokratiskt – så det måste motstå både den falska besparingen i överkoncentration och slöseriet i att understödja genuint underdimensionerade, osäkra tjänster.
 
