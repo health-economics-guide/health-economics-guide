@@ -182,6 +182,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Просмотреть все темы ({n})",
   "translations": "Переводы: "
  },
+ "sv-001": {
+  "tagline": "En praktisk handbok om bästa praxis inom hälsoekonomi.",
+  "intro": "Den här guiden vänder sig till dem som leder hälso- och sjukvårds- och omsorgsorganisationer: vd:ar och högre chefer, digitaliserings- och förändringschefer, produkt- och programansvariga, kliniska yrkesutövare och omsorgspersonal samt verksamhetschefer. Utgångspunkten: inom hälsa ger ekonomin ramverken för strategi, resurser, jämlikhet och allmänhetens förtroende, inte bara för effektivitet.",
+  "start": "Börja med förordet",
+  "browse": "Bläddra bland alla {n} ämnen",
+  "translations": "Översättningar: "
+ },
+ "sv-se": {
+  "tagline": "En praktisk handbok om bästa praxis inom hälsoekonomi.",
+  "intro": "Den här guiden vänder sig till dem som leder hälso- och sjukvårds- och omsorgsorganisationer: vd:ar och högre chefer, digitaliserings- och förändringschefer, produkt- och programansvariga, kliniska yrkesutövare och omsorgspersonal samt verksamhetschefer. Utgångspunkten: inom hälsa ger ekonomin ramverken för strategi, resurser, jämlikhet och allmänhetens förtroende, inte bara för effektivitet.",
+  "start": "Börja med förordet",
+  "browse": "Bläddra bland alla {n} ämnen",
+  "translations": "Översättningar: "
+ },
  "ur-001": {
   "tagline": "صحت کی معاشیات کے بہترین طریقوں کا ایک عملی دستی۔",
   "intro": "یہ رہنما ان لوگوں کے لیے ہے جو صحت اور نگہداشت کے اداروں کو چلاتے ہیں: چیف ایگزیکٹو اور سینئر قائدین، ڈیجیٹل اور تبدیلی کے ڈائریکٹر، مصنوعات اور پروگرام کے سربراہ، طبی اور نگہداشتی پیشہ ور افراد، اور آپریشنل مینیجر۔ اس کا بنیادی نکتہ: صحت میں معاشیات محض کارکردگی نہیں بلکہ حکمتِ عملی، وسائل، مساوات اور عوامی اعتماد کے لیے فریم ورک فراہم کرتی ہے۔",
@@ -232,6 +246,8 @@ export const ENDONYMS: Record<string, string> = {
  "pt-001": "Português",
  "ru-001": "Русский",
  "ru-ru": "Русский (Россия)",
+ "sv-001": "Svenska",
+ "sv-se": "Svenska (Sverige)",
  "ur-001": "اردو",
  "zh-001": "中文",
  "zh-cn": "简体中文"

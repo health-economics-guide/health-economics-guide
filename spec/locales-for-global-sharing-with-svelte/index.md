@@ -83,6 +83,7 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | ko-kr | 주제 |
   | pt-001 | tópicos (tópico) |
   | ru-001, ru-ru | темы (тема) |
+  | sv-se, sv-001 | ämnen (ämne) |
   | ur-001 | موضوعات (موضوع) |
   | zh-001, zh-cn | 主题 |
 

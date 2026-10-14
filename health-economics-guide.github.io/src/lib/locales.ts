@@ -38,6 +38,8 @@ export const LOCALE_LABELS: Record<string, string> = {
   'ko-kr': '한국어 - 대한민국',
   'pt-001': 'Português',
   'ru-001': 'Русский',
+  'sv-001': 'Svenska',
+  'sv-se': 'Svenska - Sverige',
   'ur-001': 'اردو',
   'zh-001': '中文',
   'zh-cn': '中文 - 中国'

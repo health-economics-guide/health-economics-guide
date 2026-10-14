@@ -381,6 +381,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       '각 주제는 독립적으로 완결됩니다. 보건경제학 강좌처럼 처음부터 끝까지 읽어도 되고, 지금 앞에 놓인 결정에 맞는 주제로 바로 이동해도 됩니다.',
     contentsDescription: '『보건경제학 가이드』 전체 목차.'
   },
+  'sv-se': {
+    siteName: 'Guide till hälsoekonomi',
+    skipToContent: 'Hoppa till huvudinnehållet',
+    home: 'Hem',
+    contents: 'Innehåll',
+    glossary: 'Ordlista',
+    index: 'Register',
+    source: 'Källa',
+    ledBy: 'Ledd av',
+    part: 'Del',
+    chapter: 'Ämne',
+    previous: 'Föregående',
+    next: 'Nästa',
+    frontMatter: 'Inledande delar',
+    reference: 'Referens',
+    onThisPage: 'På den här sidan',
+    pickerTheme: 'Tema',
+    pickerLocale: 'Språk',
+    pickerLink: 'Länkar',
+    pickerTextSize: 'Textstorlek',
+    pickerShare: 'Dela',
+    pickerSearch: 'Sök på webbplatsen',
+    pickerSearchInput: 'Sökord',
+    pickerSearchSubmit: 'Sök',
+    copyLabel: 'Kopiera länk',
+    copiedLabel: 'Kopierad!',
+    copyFailedLabel: 'Kopieringen misslyckades — kopiera adressfältet i stället',
+    readingIn: 'Läser på',
+    switchLanguageHint: 'Byt språk med väljaren i sidhuvudet.',
+    contentsLead:
+      'Varje ämne är fristående. Läs rakt igenom för en kurs i hälsoekonomi, eller gå direkt till det ämne som passar det beslut ni står inför.',
+    contentsDescription: 'Hela innehållsförteckningen för Guide till hälsoekonomi.'
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -522,6 +555,7 @@ OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
 OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
 OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
+OVERRIDES['sv-001'] = OVERRIDES['sv-se'];
 OVERRIDES['zh-001'] = OVERRIDES['zh-cn'];
 
 export function ui(locale: string): Ui {
@@ -617,6 +651,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: '세계적·사회적 이슈',
     5: '디지털, 소프트웨어, 기술'
   },
+  'sv-se': {
+    1: 'Grunder',
+    2: 'Utvärdering och evidens',
+    3: 'System, politik och prioriteringar',
+    4: 'Globala och samhälleliga frågor',
+    5: 'Digitalt, mjukvara och teknik'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -646,6 +687,7 @@ PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
 PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
 PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
+PART_TITLE_OVERRIDES['sv-001'] = PART_TITLE_OVERRIDES['sv-se'];
 PART_TITLE_OVERRIDES['zh-001'] = PART_TITLE_OVERRIDES['zh-cn'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
@@ -745,6 +787,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: '하나의 체계를 넘어선 건강: 행동, 세계 무역과 재원, 지구, 그리고 공론',
     5: '보건 기술의 경제학: 혁신, 디지털 보건, 인공지능, 소프트웨어, 로봇공학, 데이터'
   },
+  'sv-se': {
+    1: 'varför hälsa är ekonomiskt annorlunda, och modellerna som förklarar det',
+    2: 'analytikerns verktygslåda: värdera utfall, bygga modeller, pröva påståenden',
+    3: 'hur samhällen organiserar, finansierar och fördelar hälso- och sjukvård',
+    4: 'hälsa bortom ett enskilt system: beteende, global handel och finansiering, planeten och det offentliga samtalet',
+    5: 'hälsoteknikens ekonomi: innovation, digital vård, artificiell intelligens, mjukvara, robotik och data'
+  },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
     2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
@@ -774,6 +823,7 @@ PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
 PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
 PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
+PART_TAGLINE_OVERRIDES['sv-001'] = PART_TAGLINE_OVERRIDES['sv-se'];
 PART_TAGLINE_OVERRIDES['zh-001'] = PART_TAGLINE_OVERRIDES['zh-cn'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
