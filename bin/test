@@ -34,6 +34,8 @@ test_locales() {
         bn-001 \
         pt-001 \
         id-001 \
+        is-is \
+        is-001 \
         ur-001 \
         de-001 \
         ko-kr \

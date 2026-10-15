@@ -133,6 +133,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Jelajahi semua {n} topik",
   "translations": "Terjemahan: "
  },
+ "is-001": {
+  "tagline": "Hagnýt handbók um bestu starfsvenjur í heilsuhagfræði.",
+  "intro": "Þessi handbók er fyrir fólkið sem stýrir heilbrigðis- og umönnunarstofnunum: forstjóra og æðstu stjórnendur, stjórnendur stafrænnar þróunar og umbreytingar, vöru- og áætlunarstjóra, klínískt starfsfólk og umönnunarstarfsfólk og rekstrarstjóra. Forsendan: í heilbrigðismálum veitir hagfræðin rammana fyrir stefnu, auðlindir, jafnræði og almannatraust, ekki aðeins fyrir skilvirkni.",
+  "start": "Byrjaðu á formálanum",
+  "browse": "Skoða öll {n} viðfangsefnin",
+  "translations": "Þýðingar: "
+ },
+ "is-is": {
+  "tagline": "Hagnýt handbók um bestu starfsvenjur í heilsuhagfræði.",
+  "intro": "Þessi handbók er fyrir fólkið sem stýrir heilbrigðis- og umönnunarstofnunum: forstjóra og æðstu stjórnendur, stjórnendur stafrænnar þróunar og umbreytingar, vöru- og áætlunarstjóra, klínískt starfsfólk og umönnunarstarfsfólk og rekstrarstjóra. Forsendan: í heilbrigðismálum veitir hagfræðin rammana fyrir stefnu, auðlindir, jafnræði og almannatraust, ekki aðeins fyrir skilvirkni.",
+  "start": "Byrjaðu á formálanum",
+  "browse": "Skoða öll {n} viðfangsefnin",
+  "translations": "Þýðingar: "
+ },
  "ja-001": {
   "tagline": "医療経済学のベストプラクティスの実践ハンドブック。",
   "intro": "このガイドは、保健・ケア組織を運営する人々、すなわち最高経営責任者や幹部、デジタル・変革の責任者、プロダクトやプログラムのリード、臨床・ケアの専門職、現場の運営管理者のためのものです。前提は、保健分野において経済学が効率だけでなく、戦略・資源配分・公平性・社会的信頼の枠組みを与えるということです。",
@@ -253,6 +267,8 @@ export const ENDONYMS: Record<string, string> = {
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
+ "is-001": "Íslenska",
+ "is-is": "Íslenska (Ísland)",
  "ja-001": "日本語",
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",

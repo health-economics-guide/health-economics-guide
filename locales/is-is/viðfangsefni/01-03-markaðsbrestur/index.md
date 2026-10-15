@@ -1,0 +1,159 @@
+# Viðfangsefni 1.3 — Markaðsbrestur
+
+**Heilbrigðisþjónusta stenst ekki kennslubókarskilyrði velvirks markaðar í nánast neinu tilliti, sem er ástæða þess að sérhvert land grípur inn í – og hvers vegna skilningur á brestunum er forsenda þess að hanna nokkuð sem virkar.**
+
+## Hvers vegna þetta skiptir máli í heilsuhagfræði
+
+Samkeppnismarkaður, skilinn eftir einn, á að úthluta auðlindum á skilvirkan hátt: verð bera upplýsingar, kaupendur og seljendur vita hvað þeir eru að skiptast á og enginn utan viðskiptanna verður fyrir skaða eða ávinningi. Heilbrigðisþjónusta brýtur hverja þessara forsendna kerfisbundið, ekki tilfallandi. Veikindi eru óviss og oft skelfileg; sjúklingar geta ekki dæmt um umönnunina sem þeir kaupa; sá sem ráðleggur meðferð hagnast oft á henni; bólusetning eins verndar nágranna hans; og stór hluti reikningsins er greiddur af þriðja aðila. Niðurstaðan er ekki markaður sem er lítillega óskilvirkur heldur sá sem, án inngrips, myndi skilja hina veiku eftir ótryggða, hina fátæku ómeðhöndlaða og verð ótengd virði.
+
+Þetta er hugmyndafræðilegi grunnurinn sem restin af heilsuhagfræðinni er byggð á. Þegar [Kenneth Arrow](https://en.wikipedia.org/wiki/Kenneth_Arrow) birti greiningu sína á læknisþjónustu árið 1963 var hann ekki að setja fram pólitísk rök með eða á móti opinberri veitingu; hann sýndi að sértæku leiðirnar sem heilbrigðisþjónusta vikur frá samkeppnishugsjóninni eru fyrirsjáanlegar, og að stofnanirnar sem umlykja læknisfræði – starfsleyfisveitingar, sjálfseignarstofnanasjúkrahús, tryggingar, traustbyggð siðfræði – megi lesa sem viðbrögð við þessum frávikum. Fyrir stjórnanda skiptir þetta máli því það endurrammar inngrip. Regluverk, niðurgreiðsla og opinber veiting eru ekki hugmyndafræðilegar álögur á annars sjálfleiðréttandi markað; þau eru tilraunir til að laga bresti sem markaðurinn getur ekki lagað sjálfur.
+
+Að greina rétt er það sem sparar fé og mannslíf. Greiðandi sem meðhöndlar ofveitingu sem verðvandamál þegar hún er í raun umboðsvandamál mun halda áfram að skera gjaldskrár á meðan magn hækkar. Ríkisvald sem skyldar til trygginga án þess að takast á við óhagstætt val mun horfa á valkvæða hóp sinn hrynja. Brestirnir hafa samverkandi áhrif, og röng lausn á einum getur dýpkað annan. Þetta viðfangsefni skrásetur brestina og vélbúnað þeirra; stefnu- og regluverksviðbrögð við þeim eru viðfangsefni Viðfangsefnis 3.2 — Heilbrigðisstefna, og hvernig kerfi eru fjármögnuð til að hemja þá er viðfangsefni Viðfangsefnis 3.1 — Heilbrigðiskerfi.
+
+## Lykilhugtök
+
+[Markaðsbrestur](https://en.wikipedia.org/wiki/Market_failure) er sérhver aðstaða þar sem markaður, skilinn eftir einn, úthlutar auðlindum óskilvirkt – framleiðir of mikið af sumu, of lítið af öðru eða útilokar fólk sem ætti að þjóna. Heilbrigðisþjónusta er kennslubókardæmið, og grein Arrow er grundvallargreiningin; fagið heilsuhagfræði óx út frá henni (víðara kortið er teiknað í Viðfangsefni 1.1 — Inngangur að heilsuhagfræði).
+
+Fyrsta uppspretta bresta er **óvissa**. Eftirspurn eftir umönnun er óregluleg og óútreiknanleg – þú getur ekki skipulagt árið sem þú þarft aðgerð – og bæði tíðni veikinda og árangur meðferðar eru óviss. Þessi óvissa er það sem skapar eftirspurn eftir tryggingum (eftirspurnarhliðin er Viðfangsefni 1.2 — Eftirspurn eftir heilsu og heilbrigðisþjónustu), og tryggingar valda aftur nýjum brestum sem þetta viðfangsefni á.
+
+Annað er [upplýsingaójafnvægi](https://en.wikipedia.org/wiki/Information_asymmetry): tvær hliðar heilbrigðisviðskipta vita sjaldan sömu hlutina. Sjúklingur getur ekki auðveldlega dæmt hvort ráðlögð myndataka sé nauðsynleg, hvort aðgerðin gekk vel eða hvort lyfið var besti kosturinn. Læknirinn veit langtum meira. Þetta bil gerir klíníska sambandið að [umbjóðanda–umboðsmannsvanda](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem): sjúklingurinn (umbjóðandi) framselur ákvarðanir til læknisins (umboðsmanns), og treystir umboðsmanninum til að starfa í þágu sjúklingsins frekar en eigin. Þegar umboð er ófullkomið og umboðsmaðurinn er líka seljandinn opnast dyrnar að [birgðaframkallaðri eftirspurn](https://en.wikipedia.org/wiki/Supplier-induced_demand) – umönnun sem skapast af hagsmunum veitandans frekar en þörf sjúklingsins.
+
+Tryggingar, eðlileg viðbrögð við óvissu, fæða tvo bresti af sínum eigin. [Óhagstætt val](https://en.wikipedia.org/wiki/Adverse_selection) (adverse selection) kemur upp því einstaklingar vita meira um eigin heilsuáhættu en tryggingafélagið; þeir sem búast við að gera kröfu eru áhugasamastir um að kaupa, sem hækkar iðgjöld, sem hrekur hina heilbrigðu burt, sem hækkar iðgjöld aftur – „dauðaspíralinn“ sem getur leyst valkvæðan markað alveg upp. [Siðferðileg áhætta](https://en.wikipedia.org/wiki/Moral_hazard) (moral hazard) er breytingin á hegðun eftir að fólk er tryggt: þar sem einhver annar greiðir við notkun neyta sjúklingar og veitendur meiri umönnunar og veita meiri umönnun en þeir myndu gera ef þeir stæðu frammi fyrir fullu verði. [RAND-heilbrigðistryggingatilraunin](https://en.wikipedia.org/wiki/RAND_Health_Insurance_Experiment) – stór slembiröðuð rannsókn framkvæmd í Bandaríkjunum á áttunda og níunda áratug 20. aldar – er enn tímamótasönnunargagnið um að kostnaðarhlutdeild dragi úr magni umönnunar sem er notað, að mestu án mælanlegs skaða fyrir meðalheilsu, en með nokkrum skaða fyrir hina fátækustu og veikustu.
+
+Þriðja fjölskylda bresta varðar útstreymisáhrif. [Ytri áhrif](https://en.wikipedia.org/wiki/Externality) (externality) eru kostnaður eða ávinningur sem fellur á einhvern utan viðskiptanna. Bólusetning er klassíska jákvæða ytri áhrifin: að vera bólusettur verndar aðra með því að draga úr smitun, svo einstaklingar sem starfa eingöngu á grundvelli einkaávinnings munu bólusetja of lítið miðað við félagslegt ákjósanlegt. Sumar heilbrigðisvörur eru [almannagæði](https://en.wikipedia.org/wiki/Public_good_(economics)) í ströngum hagfræðilegum skilningi – ókeppnisleg og óútilokanleg – svo sem sjúkdómavöktun, loftgæðareglugerð og þekkingin sem rannsóknir framleiða. Og sumar auðlindir eru sameignir sem markaðir tæma: [sýklalyfjaónæmi](https://en.wikipedia.org/wiki/Antimicrobial_resistance) er hægfara harmleikur sameignarinnar þar sem skynsamleg notkun hvers ávísanda rýrir sameiginlega auðlind – áframhaldandi virkni sýklalyfja – fyrir alla.
+
+Að lokum eru heilbrigðisþjónustumarkaðir hneigðir til samþjöppunar og kostnaðarþrýstings. Sjúkrahús haga sér oft eins og staðbundin einokun; sérhæfð þjónusta getur verið náttúruleg einokun þar sem einn veitandi er skilvirkur en óheftur af samkeppni. Og [Baumol-áhrifin](https://en.wikipedia.org/wiki/Baumol_effect) – kostnaðarsýkin – útskýra hvers vegna vinnuaflsfrek þjónusta eins og heilbrigðis- og menntaþjónusta verður byggingarlega dýrari með tímanum: laun verða að fylgja víðara hagkerfinu jafnvel þar sem framleiðniaukning er erfið, svo hlutfallslegt verð umönnunar hækkar jafnvel þegar ekkert er gert rangt.
+
+## Bestu starfsvenjur
+
+1. **Greindu sértæka brestinn áður en þú grípur til lausnar.** „Markaðurinn virkar ekki“ er ekki greining. Spyrðu hvaða brest þú stendur frammi fyrir – ósamhverfar upplýsingar, óhagstætt val, siðferðilega áhættu, ytri áhrif eða einokun – því hver hefur ólíka lausn, og röng lausn getur dýpkað vandamálið. Greiðandi sem sker gjaldskrár til að stýra útgjöldum hefur misskilið birgðaframkallaða eftirspurn sem verðvandamál; magnið mun einfaldlega aukast til að verja tekjur.
+
+2. **Líttu á umboð sem miðlægt samband, og hannaðu til að vernda það.** Þar sem sjúklingar framselja ákvarðanir til lækna ræður heilindi þess umboðssambands hvort umönnun þjónar þörf eða tekjum. Aðgreindu, þar sem þú getur, þann sem mælir með umönnun frá þeim sem hagnast á að veita hana; notaðu annað álit, tilvísunarleiðbeiningar og klínískan ákvörðunarstuðning sem byggingarlegar varnir frekar en hvatningu til að hegða sér vel.
+
+3. **Fylgstu með hvernig greiðsla mótar hvata umboðsmannsins.** Þjónustugreiðsla umbunar magn og býður upp á framkallaða eftirspurn; höfðatölugreiðsla umbunar aðhald og býður upp á vanveitingu. Engin greiðsluaðferð er hlutlaus – hver og ein ýtir umboðsmanninum eitthvert – svo veldu brenglunina sem þú getur best vaktað og vegðu hana upp með gæðamælingum. Blönduð greiðsla er til einmitt því engin ein aðferð fær umboð rétt (greiðsluhönnun er þróuð í Viðfangsefni 3.1 — Heilbrigðiskerfi).
+
+4. **Gerðu ráð fyrir óhagstæðu vali í hverjum valkvæðum tryggingahópi, og verðleggðu eða sameinaðu gegn því.** Ef skráning er valkvæð og kaupendur þekkja eigin áhættu munu hinir heilbrigðu fara og hópurinn rekur í átt að veikum og dýrum. Samfélagsálagning, tryggð útgáfa, áhættujöfnun milli tryggingafélaga og – öflugast – víðtæk skyldubundin eða sjálfvirk skráning eru tækin sem halda hópi lífvænlegum; að taka upp eitt án hinna mistekst oft.
+
+5. **Búðu við siðferðilega áhættu, en aðgreindu tegundirnar tvær áður en þú leggur skatt á hana.** Sum framkölluð notkun er raunverulega sóun; sum er verðmæt umönnun sem fólk myndi láta ógert ef það greiddi fullt verð. Kostnaðarhlutdeild dempar hvort tveggja, og RAND-sönnunargögnin sýna að sjúklingar draga úr árangursríkri og árangurslausri umönnun jafnt, þar sem fátækustu og veikustu draga mest úr. Hannaðu kostnaðarhlutdeild þannig að hún bíti á lágvirðisumönnun og undanþægi langveika og fátæka, frekar en að beita flatri sjálfsábyrgð sem fælir röngu manneskjurnar.
+
+6. **Leiðréttu ytri áhrif á jaðrinum þar sem hegðun breytist í raun.** Fyrir jákvæð ytri áhrif eins og bólusetningu auka niðurgreiðsla, ókeypis veiting, sjálfgefin gildi og skylda þátttöku í átt að félagslegu ákjósanlegu; að skilja það eftir einkavali tryggir vanveitingu. Fyrir neikvæð ytri áhrif og sameignarvandamál er tækið að gera sameiginlega kostnaðinn sýnilegan ákvarðanataka – ráðsmennskureglur, endurgjöf um ávísanir og verðlagning sem endurspeglar skaðann sem er valdinn.
+
+7. **Líttu á sýklalyfjaónæmi sem sameign sem venjulegir markaðir munu tæma.** Enginn einstakur ávísandi, sjúklingur eða framleiðandi ber allan kostnað ónæmis, svo allir vanfjárfesta í að varðveita virkni og ofnota fyrirliggjandi lyf. Ráðsmennskuáætlanir skammta núverandi notkun; erfiðari bresturinn er að markaðurinn mun ekki fjármagna ný sýklalyf þar sem virði þeirra felst í að vera haldin í varasjóði, sem er ástæða þess að „togi“-hvatar sem greiða fyrir aðgengi frekar en magn eru reyndir (stefnuhönnunin tilheyrir Viðfangsefni 3.2 — Heilbrigðisstefna).
+
+8. **Nefndu einokunina og stýrðu verðinu sem ekki er hægt að keppa niður.** Þar sem eitt sjúkrahús þjónar svæði eða einn framleiðandi heldur einkaleyfi er enginn keppinautur til að aga verð eða gæði, og aðgangur er oft hindraður af umfangi, leyfisveitingum eða hugverkarétti. Samrunarýni, gjaldskrárreglugerð, viðmiðunarverðlagning og heilbrigðistæknimat koma í stað samkeppninnar sem er fjarverandi; að þykjast að samþjappaður markaður sé samkeppnishæfur er endurtekin stefnuvilla.
+
+9. **Lestu hækkandi kostnað gegnum Baumol-linsuna áður en þú kennir óskilvirkni.** Þegar hlutfallslegt verð umönnunar hækkar áratug eftir áratug er hluti ástæðunnar byggingarlegur: umönnun er vinnuaflsfrek, og laun fylgja heilu hagkerfi þar sem framleiðni vex hraðar en heilbrigðisþjónustu getur gert. Þetta þýðir að sumur kostnaðarvöxtur er hvorki sóun né vanstjórn, og kostnaðarstýringarmarkmið sem gera ráð fyrir öðru munu draga kjark úr góðri þjónustu og samt missa marks.
+
+10. **Notaðu upplýsingalausnir áður en þyngra inngrip, en ofmettu þær ekki.** Gæðaskýrslugjöf, verðgagnsæi, faggilding og óháðar leiðbeiningar draga úr ójafnvægi og geta breytt hegðun. En upplýsingar hjálpa aðeins þar sem notendur geta brugðist við þeim; skelfdur sjúklingur við umönnun getur ekki borið saman verð, svo gagnsæi fyllir upp í regluverk frekar en að koma í þess stað.
+
+11. **Samræmdu kostnað lausnarinnar við stærð bresta.** Sérhvert inngrip hefur sinn eigin bilun – hertaka eftirlitsaðila, stjórnsýslubyrði, sljóvgaða hvata, óviljandi svindl. Lausn sem kostar meira en brestinn sem hún leiðréttir er nettótap, svo vegðu ríkisbrestinn gegn markaðsbrestinum frekar en að gera ráð fyrir að inngrip sé ókeypis (þessi málamiðlun er kjarni Viðfangsefnis 3.2 — Heilbrigðisstefna).
+
+12. **Búðu við að brestirnir hafi samverkandi áhrif, og raðaðu lagfæringum.** Að skylda til trygginga án áhættujöfnunar, eða gagnsæi án getu til að skipta, getur versnað einmitt vandamálið sem þú ætlaðir að leysa. Kortleggðu brestina saman, lagfærðu þann sem opnar hina fyrst og vaktaðu nýju brenglunina sem hver lausn kynnir.
+
+## Spurningar til að ræða með teyminu
+
+1. **Hvar í kerfi okkar hagnast sá sem mælir með umönnun líka á að veita hana, og hvað verndar sjúklinginn þar?** Þessi spurning leiðir í ljós birgðaframkallaða eftirspurn, minnst skoðaða bresturinn í flestum skipulagsheildum því hann snertir virta lækna frekar en augljósa skúrka. Leitaðu að stöðum þar sem tilvísun, greining og veiting sitja innan sama tekjustraums – myndgreiningarstofa sem tilvísunarlæknirinn á hlut í, skurðaðgerðamarkmið tengt bónus, þjónusta greidd á hverja aðgerð. Heiðarlega svarið er ekki að samstarfsmenn séu spilltir; það er að uppbygging, ekki dyggð, er það sem á að vernda sjúklinga, og að treysta á fagmennsku eina og sér er hönnunarval með fyrirsjáanlegu bilunarhlutfalli. Aðgreindu eftirspurn sem þú getur réttlætt klínískt frá eftirspurn sem fylgir tekjum veitanda of náið til að vera tilviljun. Góð umræða endar með tveimur eða þremur sértækum stöðum þar sem þið mynduð aðgreina ráðgjöf frá sölu, eða bæta við óháðri athugun, og heiðarlegri viðurkenningu á hvar núverandi gögn ykkar geta ekki sagt þörf frá framkölluðu.
+
+2. **Ef skráning í tryggingar okkar yrði valkvæð á morgun, hverjir færu fyrst, og hversu langt þar til hópurinn brysti?** Óhagstætt val er auðveldast að sjá sem hugsunartilraun um hverjir hætta. Fólkið sem yfirgefur valkvæðan hóp er hið heilbrigða, unga og sjálfsörugga, því það niðurgreiðir alla aðra og veit það; fólkið sem verður eftir eru þeir sem búast við að gera kröfu. Rekið þá þróun gegnum eigin tölur: hvaða hlutar niðurgreiða hverja, og hversu þunnur er jaðarinn áður en hækkandi iðgjöld koma af stað næstu bylgju brottfara. Spennan er sú að allt sem verndar hópinn – skylda, sjálfvirk skráning, samfélagsálagning, áhættujöfnun – takmarkar einstaklingsval eða endurdreifir kostnaði, svo einhver mótmælir alltaf. Heiðarlegt svar nefnir sértæku vélbúnaðina sem halda hópnum saman í dag og hversu viðkvæm hver er, frekar en að gera ráð fyrir að samstaða sé sjálfbær.
+
+3. **Hver af hækkandi kostnaði okkar er raunveruleg óskilvirkni, og hver er byggingarleg kostnaðarsýki sem við getum ekki stýrt burt?** Þessi spurning knýr fram óþægilegan aðskilnað sem fjárlagaumræður ruglast venjulega yfir. Sumur kostnaðarvöxtur er sóun – tvítekin próf, afstýranlegar innlagnir, verð sem enginn samdi um – og er leyfilegt skotmark hagræðingaráætlana. En Baumol-áhrifin þýða að hluti kostnaðarvaxtar heilbrigðisþjónustu er byggingarlegur: vinnuaflsfrek þjónusta í hagkerfi þar sem laun hækka áfram verður hlutfallslega dýrari jafnvel þegar henni er vel stýrt. Að rugla þessu tvennu er dýrt í báðar áttir – þú eltist annaðhvort við sparnað sem er ekki til og brennir upp starfsfólk, eða afsakar sóun sem óumflýjanlega. Heiðarlegt svar reynir skiptinguna skýrt, samþykkir að hluti hækkunarinnar er ekki bilun sem á að laga heldur staðreynd sem á að fjármagna, og breytir því sem þú lofar fjármálastjóranum í samræmi við það.
+
+4. **Hvar fælir kostnaðarhlutdeild okkar frá umönnun sem við viljum að fólk noti, og hvar dempar hún aðeins sóun?** Siðferðileg áhætta er ástæða þess að kostnaðarhlutdeild er til, en RAND-sönnunargögnin eru óþægileg: sjúklingar draga úr árangursríkri og árangurslausri umönnun jafnt, og fátækustu og veikustu draga mest úr. Svo raunverulega spurningin er ekki hvort rukka eigi við notkun heldur hvar gjaldið lendir. Rekið sjálfsábyrgð og hlutdeild ykkar gegnum sértæku sjúklingana sem þau snerta – fellur flatt gjald á sykursjúklinginn sem sækir viðhaldslyfseðil jafn þungt og á einhvern sem biður um valkvæða myndatöku? Spennan er sú að gjald nógu nákvæmt til að bíta aðeins á lágvirðisumönnun er stjórnsýslulega erfiðara en bitlaus sjálfsábyrgð sem meðhöndlar alla notkun eins. Heiðarlegt svar greinir að minnsta kosti einn stað þar sem núverandi kostnaðarhlutdeild fælir rangt fólk, og samþykkir að undanþága langveikra og fátækra kostar tekjur sem þið reiknuðuð með.
+
+5. **Fyrir ytri áhrifin og sameiginlegu auðlindirnar sem ákvarðanir okkar snerta, hver ber kostnað sem hann skráði sig aldrei fyrir?** Ytri áhrif og sameignarvandamál eru brestirnir sem skipulagsheildir taka síðast eftir, því skaðinn fellur utan viðskiptanna og utan efnahagsreiknings. Spyrjið hvar þjónusta ykkar skapar ávinning eða kostnað fyrir fólk sem er ekki sjúklingurinn – bólusetningaráætlun sem verndar heilt samfélag, eða sýklalyfjaávísanamynstur sem rýrir sameiginlega virkni lyfsins fyrir alla. Óþægilegi sannleikurinn er að hver fyrir sig skynsamlegar ákvarðanir – eitt sýklalyf í viðbót til öryggis, að sleppa sprautu sem verndar aðallega aðra – safnast í verri niðurstöðu sem enginn einn aðili ætlaði. Aðgreindu jákvæðu ytri áhrifin sem þið ættuð að niðurgreiða eða gera að sjálfgefnu frá sameigninni sem þið ættuð að skammta og hafa ráðsmennsku með. Heiðarlegt svar nefnir eitt ytra áhrif sem þið skiljið nú eftir einkavali og spyr hvort niðurgreiðsla, sjálfgefið gildi eða ráðsmennskuregla myndi færa hegðun í átt að því sem samfélagið þarfnast í raun.
+
+6. **Hvar erum við eina leikurinn í bænum, og agar eitthvað verð okkar og gæði þegar samkeppni getur það ekki?** Samþjöppun er auðvelt að missa af innan frá, því ráðandi veitandi finnst sjaldan ráðandi fyrir eigin starfsfólki. Spyrjið heiðarlega hvar sjúklingar hafa engan raunhæfan valkost – eina sjúkrahús svæðis, eini birgir sérhæfðrar þjónustu, handhafi einkaleyfis án staðgengils – því þar er markaðsaga fjarverandi og verð og gæði reka óheft. Spennan er sú að umfang færir oft raunverulega skilvirkni, svo markmiðið er ekki að brjóta upp hverja samþjöppun heldur að setja í stað samkeppninnar sem getur ekki verið til vísvitandi athugun. Heiðarlegt svar nefnir hvar þið haldið markaðsvaldi, hafnar þægilegu skáldskapnum að þið séuð einfaldlega að keppa vel, og greinir hvað – regluverk, gagnsæi, utanaðkomandi viðmið eða kaupandi með tennur – heftir ykkur í raun í dag.
+
+## Í reynd: dæmi úr heilsuhagfræði
+
+Heilbrigðisráðuneyti hins skáldaða meðaltekjulýðveldis Maravia vill útvíkka heilbrigðisvernd. Helmingur þjóðarinnar er skráður gegnum launafjármagnað kerfi fyrir verkafólk í formlega geiranum; hinn helmingurinn – óformlegir kaupmenn, bændur, sjálfstætt starfandi – hefur enga vernd. Ráðuneytisteymi leggur til valkvæða tryggingarvöru: óformlegir launþegar mega kaupa aðild á föstu árlegu iðgjaldi, með ríflegum bótapakka sem samsvarar formlega kerfinu. Fjármálaráðuneytið líkar það því þátttaka er valkvæð og fjárlagakostnaðurinn lítur takmarkaður út. Hagfræðingur í teyminu biður teymið að hugsa um hverjir myndu í raun skrá sig.
+
+Svarið er kennslubókardauðaspírall. Á föstu iðgjaldi eru þeir sem kaup eru augljóslega skynsamleg fyrir þeir sem þegar eru veikir eða búast við að verða það – sykursjúki kaupmaðurinn, þungaða bóndakonan, fjölskyldan með langvinnt ástand. Heilbrigt ungt verkafólk, sem stendur frammi fyrir iðgjaldi sem er hærra en væntar kröfur þess, heldur sig utan. Skráði hópurinn er því veikari en þýðið, kröfur fara fram úr iðgjöldum og tryggingastærðfræðingar mæla með iðgjaldshækkun. Hækkunin hrekur næsta heilbrigðasta lagið burt og hringrásin endurtekur sig. Teymið líkanar þrjár skráningarbylgjur og finnur að iðgjaldið tvöfaldast innan fjögurra ára á meðan skráning fellur – valkvæða varan étur sjálfa sig upp gegnum óhagstætt val.
+
+Teymið bendir líka á annan brest sem leynist í bótahönnuninni. Kerfið greiðir þátttökustofum fyrir hverja þjónustu án tilvísunarhliðvörslu, og stofur í tilraunahéraðinu eru í eigu læknanna sem starfa þar. Í sambærilegri tilraun annars staðar höfðu myndgreiningar- og minniháttar aðgerðamagn verið langt umfram klíníska þörf – birgðaframkölluð eftirspurn, umboðssambandið sveigist að tekjum veitanda. Valkvætt kerfi með veikum áhættuhópi og magn-umbunandi greiðslu myndi sameina það versta úr óhagstæðu vali og framkallaðri eftirspurn: miklar kröfur á hvern félaga og mikla þjónustu á hverja kröfu.
+
+Endurhönnunin ræðst á báða bresti í einu. Skráning færist frá valkvæðri í sjálfvirka fyrir alla sem skrá sig fyrir viðskiptaleyfi eða landbúnaðarstyrk, með iðgjöldum niðurgreiddum á hlutfallslegum kvarða úr almennum sköttum svo hinir heilbrigðu geti ekki valið sig út og hinir fátæku séu ekki verðlagðir út – að víkka hópinn er eina varanlega svarið við óhagstæðu vali. Greiðsla færist í blandað líkan: höfðatölugrunn til að fjarlægja magnhvata, lítinn gæðatengdan þátt og tilvísunarleiðbeiningar með óháðri myndgreiningu til að vernda umboð. Teymið er hreinskilið um leifarnar: höfðatölugreiðsla á nú á hættu vanveitingu, svo þau bæta við vöktun á vantilvísunum. Lærdómurinn sem ráðuneytið tekur er lærdómur Arrow – brestirnir eru byggingarlegir, þeir hafa samverkandi áhrif og hönnunin verður að svara þeim saman frekar en einum í einu. Reglu- og lagavélbúnaðurinn til að framfylgja þessu situr í Viðfangsefni 3.2 — Heilbrigðisstefna.
+
+## Fjögur geirasjónarhorn
+
+### Sprotafyrirtæki
+
+Stafrænt heilbrigðissprotafyrirtæki mætir yfirleitt markaðsbresti sem ósamhverfum upplýsingum sem það lofar að draga úr – einkennagreiningarforrit, verðsamanburðartæki, gæðamælaborð. Tækifærið er raunverulegt en þröngt: upplýsingar hjálpa aðeins þar sem notendur geta brugðist við þeim, og sjúklingur í miðri kreppu getur ekki borið saman. Stofnendur ættu líka að taka eftir hvaða bresti viðskiptalíkan þeirra reiðir sig hljóðlega á; fjarlæknisþjónusta greidd á hverja ráðgjöf stendur frammi fyrir sömu framkölluðu eftirspurnarfreistingunni og hver annar þjónustugreiðsluveitandi, og fjárfestar og eftirlitsaðilar munu að lokum spyrja. Trúverðuga kynningin leiðréttir brest án þess að skapa nýjan.
+
+### Lítil fyrirtæki
+
+Lítill rótgróinn veitandi – heimilislæknasamstarf, ein heilsugæslustöð, samfélagsapótek, hjúkrunarheimili – lifir hverja daga á röngum enda umboðssambandsins, og heilindi hans eru aðaleign starfseminnar. Ólíkt sprotafyrirtæki í leit að vexti er slíkt fyrirtæki verðþegi sem stendur frammi fyrir greiðendum sem setja gjaldskrár og reglur sem það getur ekki endurskrifað, svo svigrúm þess liggur í hvernig það hagar sér, ekki hvað það getur byggt. Stöðuga freistingin er hin framkallaða eftirspurnar: þjónustugreiðslutekjustraumur umbunar hljóðlega aukaprófið eða endurkomuna, og lítill eigandi-rekstraraðili finnur þann tog beint í mánaðarreikningum. Varanlega svarið er að gera trúverðugleika sýnilegan – gagnsæ tilvísun, heiðarleg ráðlegging, aðhald sem sjúklingar og þjónustukaupendur sjá – því á staðbundnum markaði er orðspor eina form gæðamerkis sem lítill veitandi getur raunverulega átt.
+
+### Stórfyrirtæki
+
+Stórt tryggingafélag eða sjúkrahúsasamsteypa lifir innan þessara bresta sem kjarnarekstrarveruleika. Tryggingafélag stýrir óhagstæðu vali gegnum áhættusameiningu, áhættumatsreglur og áhættujöfnun, og stýrir siðferðilegri áhættu gegnum kostnaðarhlutdeild og fyrirfram heimild – hvert tæki með sínu bakslagi. Sjúkrahúskerfi sem hefur vaxið í svæðisráðandi stöðu er einokun hvort sem það notar orðið eða ekki, og mun sæta samrunarýni og verðreglugerð í samræmi við það. Á stórfyrirtækjamælikvarða er spurningin minna hvort brestir séu til en hvort skipulagsheildin er að nýta þá eða stýra þeim, því eftirlitsaðilar og almenningur greina í auknum mæli á milli.
+
+### Hið opinbera
+
+Ríkisvaldið er úrræðið til þrautavara fyrir bresti sem enginn markaðsþátttakandi getur lagað – ytri áhrif, almannagæði, sameignir og upplausn valkvæðra hópa. Verkfærakista þess er sú víðasta: skyldur og niðurgreiðslur fyrir bólusetningu, ráðsmennska og togahvatar fyrir sýklalyf, samkeppnislög og gjaldskrárreglugerð fyrir einokun, skyldubundin sameining fyrir tryggingar. Agi þess verður líka að vera sá víðasti, því sérhvert inngrip á á hættu eigin bilun – hertaka eftirlitsaðila, svindl, dauðatapskostnað – og lausn dýrari en sjúkdómurinn er enn tap. Hönnun þessara inngripa er viðfangsefni Viðfangsefnis 3.2 — Heilbrigðisstefna; atriðið hér er að brestirnir eru það sem gerir hlutverk ríkisvaldsins í heilbrigðismálum óumflýjanlegt í hverju kerfi á jörðinni.
+
+## Algeng mistök
+
+- **Að misgreina brestinn.** Að meðhöndla ofveitingu sem verðvandamál þegar hún er umboðsvandamál, eða meðhöndla hrynjandi hóp sem markaðssetningarvandamál þegar það er óhagstætt val. Lagfæring: nefndu sértæka brestinn áður en þú velur lausn, með skránni í þessu viðfangsefni.
+
+- **Að gera ráð fyrir að samstaða sé sjálfbær.** Að byggja valkvæðan hóp og búast við að hinir heilbrigðu haldi sig inni af velvilja. Lagfæring: sameinaðu víðtækt gegnum skyldur eða sjálfvirka skráningu, og jafnaðu áhættu milli tryggingafélaga.
+
+- **Að beita bitlausri kostnaðarhlutdeild.** Flöt sjálfsábyrgð sem fælir fátæka og langveika jafn mikið og hún fælir sóun. Lagfæring: beindu kostnaðarhlutdeild að lágvirðisumönnun og undanþægðu þá sem RAND-sönnunargögnin sýna að skaðast af henni.
+
+- **Að skilja ytri áhrif eftir einkavali.** Að búast við ákjósanlegri bólusetningu eða sýklalyfjaráðsmennsku frá einstaklingum sem bera aðeins einkakostnað og einkaávinning sinn. Lagfæring: niðurgreiddu, gerðu sjálfgefið eða skyldaðu jákvæðu ytri áhrifin; gerðu sameiginlegan kostnað neikvæðu sýnilegan ákvarðanataka.
+
+- **Að þykjast að einokun sé samkeppnishæf.** Að beita markaðsmálflutningi á svæði með einu sjúkrahúsi eða lyf með einum einkaleyfishafa. Lagfæring: stýrðu verði og gæðum og rýndu samruna þar sem samkeppni getur ekki verið til.
+
+- **Að kenna starfsfólki um Baumol-kostnaðarvöxt.** Að setja skilvirknimarkmið sem meðhöndla byggingarlega kostnaðarsýki sem vanstjórn. Lagfæring: aðgreindu raunverulega sóun frá byggingarlegu hækkuninni, og fjármagnaðu hið síðara heiðarlega.
+
+- **Að hunsa samverkandi áhrif.** Að laga einn brest og versna annan – skylda til trygginga án áhættujöfnunar, eða gagnsæi án getu til að skipta. Lagfæring: kortleggðu brestina saman og raðaðu lausnum, vaktaðu hverja nýja brenglun.
+
+## Þroskalíkan
+
+| Vídd | Upphaf | Þróun | Stöðlun | Stjórnun | Samhæfing |
+|---|---|---|---|---|---|
+| Greining bresta | „Markaðurinn virkar ekki“ fullyrt án greiningar; lausnir valdar af vana | Einstakir brestir nefndir eftir tilfellum þegar þeir koma fram | Sameiginleg skrá bresta beitt reglulega á vandamál | Greiningar raktar og prófaðar gegn niðurstöðum; rangar lausnir gripnar og leiðréttar | Brestir greindir saman, samverkandi áhrif líkönuð áður en gripið er inn í, og agi deilt milli samstarfsaðila |
+| Tryggingar og sameining | Valkvæðir hópar látnir reka; óhagstætt val óþekkt | Óhagstætt val viðurkennt; tilfallandi áhættumatsviðbrögð | Samfélagsálagning, áhættujöfnun eða skyldur til staðar | Sameining og áhættuaðlögun stillt með gögnum; stöðugleiki hóps vaktaður stöðugt | Hópahönnun samræmd milli tryggingafélaga og ríkisvalds svo val geti ekki flust á milli þeirra |
+| Umboð og greiðsla | Þjónustugreiðsla án athugunar á framkallaðri eftirspurn | Framkölluð eftirspurn grunuð; einhverjar tilvísunarleiðbeiningar teknar upp | Greiðsla blönduð af ásetningi; umboðsvarnir byggingarlegar | Greiðsla og vöktun samhönnuð; brenglanir mældar og vegnar upp | Hvatar samræmdir frá enda til enda yfir greiðendur, veitendur og tilvísendur svo umboð haldist kerfisvítt |
+| Ytri áhrif og sameignir | Bólusetning og ráðsmennska skilin eftir einkavali | Niðurgreiðslur eða herferðir til en beinast of lítið að jaðrinum | Ytri áhrif leiðrétt þar sem hegðun breytist; ráðsmennska virk | Virði ytri áhrifa og sameigna verðlagt inn; togahvatar og sjálfgefin gildi stillt með gögnum | Ráðsmennska og verðlagning ytri áhrifa samræmd yfir geira og landamæri þar sem auðlindin er sameiginleg |
+| Kostnaðarskilningur | Allur kostnaðarvöxtur meðhöndlaður sem óskilvirkni | Baumol-áhrif nefnd en ekki magngreind | Byggingarlegur og sóunarkenndur kostnaðarvöxtur aðgreindur í áætlanagerð | Kostnaðarsýkisþáttur fjármagnaður skýrt; hagræðingarátak beint aðeins að raunverulegri sóun | Byggingarlegur og afstýranlegur kostnaðarvöxtur stýrt í sameiningu með fjármálum og samstarfsaðilum yfir allt kerfið |
+
+## Gátlisti
+
+- [ ] Fyrir vandamálið fyrir framan þig, nefndu sértæka markaðsbrestinn – ósamhverfar upplýsingar, óhagstætt val, siðferðilega áhættu, ytri áhrif, sameign eða einokun – áður en þú velur lausn.
+- [ ] Greindu hvar sá sem mælir með umönnun hagnast líka á henni, og segðu hvað verndar sjúklinginn byggingarlega þar.
+- [ ] Athugaðu hvern valkvæðan tryggingahóp fyrir óhagstæðu vali: hverjir færu fyrst, og hvað heldur hópnum saman.
+- [ ] Staðfestu að kostnaðarhlutdeild bíti á lágvirðisumönnun og undanþægi fátæka og langveika.
+- [ ] Fyrir hver stór jákvæð ytri áhrif (t.d. bólusetningu), staðfestu að niðurgreiðsla, sjálfgefið gildi eða skylda ýti þátttöku í átt að félagslegu ákjósanlegu.
+- [ ] Líttu á sýklalyfjaónæmi sem sameign: athugaðu að bæði ráðsmennska núverandi lyfja og hvatar fyrir varasjóðslyf séu tekin fyrir.
+- [ ] Nefndu sérhverja einokun skýrt og staðfestu að verð og gæði séu stýrð þar sem samkeppni getur ekki verið til.
+- [ ] Aðgreindu byggingarlegan (Baumol) kostnaðarvöxt frá raunverulegri óskilvirkni í kostnaðaráætlunum þínum.
+- [ ] Vegðu eigin bilunaráhættu hvers inngrips gegn markaðsbrestinum sem það leiðréttir.
+- [ ] Kortleggðu hvernig brestirnir hafa samverkandi áhrif og raðaðu lausnum svo að lagfæring eins versni ekki annan.
+
+## Helstu heimildir
+
+- Kenneth J. Arrow, „Uncertainty and the Welfare Economics of Medical Care“ (*American Economic Review*, 1963) — grundvallargreining á markaðsbresti í heilbrigðisþjónustu.
+- Cam Donaldson & Karen Gerard, *Economics of Health Care Financing: The Visible Hand* — markaðsbrestur og rökin fyrir inngripi í fjármögnun heilbrigðisþjónustu.
+- Amy Finkelstein, „Moral Hazard in Health Insurance“ (Marshall Lecture / Columbia University Press) — nútímasönnunargögn um siðferðilega áhættu og val.
+- RAND Health Insurance Experiment — tímamótaslembiröðuðu sönnunargögnin um kostnaðarhlutdeild og siðferðilega áhættu.
+- Economics Network, *Health Economics for Teachers* — eining um markaðsbrest — https://economicsnetwork.ac.uk/health/teachers
+- Rit Alþjóðaheilbrigðismálastofnunarinnar um heilbrigðisfjármögnun — sameining, fyrirframgreiðsla og hönnun greiðsluþátttöku gegn vali og bresti sjálfsgreiðslu.
+
+## Tilvísanir
+
+1. Market failure — Wikipedia — https://en.wikipedia.org/wiki/Market_failure
+2. Kenneth Arrow — Wikipedia — https://en.wikipedia.org/wiki/Kenneth_Arrow
+3. Information asymmetry — Wikipedia — https://en.wikipedia.org/wiki/Information_asymmetry
+4. Principal–agent problem — Wikipedia — https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem
+5. Supplier-induced demand — Wikipedia — https://en.wikipedia.org/wiki/Supplier-induced_demand
+6. Adverse selection — Wikipedia — https://en.wikipedia.org/wiki/Adverse_selection
+7. Moral hazard — Wikipedia — https://en.wikipedia.org/wiki/Moral_hazard
+8. RAND Health Insurance Experiment — Wikipedia — https://en.wikipedia.org/wiki/RAND_Health_Insurance_Experiment
+9. Externality — Wikipedia — https://en.wikipedia.org/wiki/Externality
+10. Public good (economics) — Wikipedia — https://en.wikipedia.org/wiki/Public_good_(economics)
+11. Antimicrobial resistance — Wikipedia — https://en.wikipedia.org/wiki/Antimicrobial_resistance
+12. Baumol effect — Wikipedia — https://en.wikipedia.org/wiki/Baumol_effect
+13. Kenneth J. Arrow, "Uncertainty and the Welfare Economics of Medical Care" — American Economic Review, 53(5), 1963.
+14. Economics Network — Health Economics for Teachers — https://economicsnetwork.ac.uk/health/teachers
+15. Health economics — Wikipedia — https://en.wikipedia.org/wiki/Health_economics

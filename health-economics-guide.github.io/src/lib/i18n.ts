@@ -414,6 +414,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'Elk onderwerp staat op zichzelf. Lees het van begin tot eind als een cursus gezondheidseconomie, of ga rechtstreeks naar het onderwerp dat past bij de beslissing waarvoor u staat.',
     contentsDescription: 'De volledige inhoudsopgave van de Gids voor gezondheidseconomie.'
   },
+  'is-is': {
+    siteName: 'Handbók um heilsuhagfræði',
+    skipToContent: 'Fara beint í aðalefni',
+    home: 'Heim',
+    contents: 'Efnisyfirlit',
+    glossary: 'Orðalisti',
+    index: 'Atriðisorðaskrá',
+    source: 'Heimild',
+    ledBy: 'Undir forystu',
+    part: 'Hluti',
+    chapter: 'Viðfangsefni',
+    previous: 'Fyrra',
+    next: 'Næsta',
+    frontMatter: 'Inngangur',
+    reference: 'Uppflettiefni',
+    onThisPage: 'Á þessari síðu',
+    pickerTheme: 'Þema',
+    pickerLocale: 'Tungumál',
+    pickerLink: 'Tenglar',
+    pickerTextSize: 'Textastærð',
+    pickerShare: 'Deila',
+    pickerSearch: 'Leita á vefnum',
+    pickerSearchInput: 'Leitarorð',
+    pickerSearchSubmit: 'Leita',
+    copyLabel: 'Afrita tengil',
+    copiedLabel: 'Afritað!',
+    copyFailedLabel: 'Afritun mistókst – afritaðu vistfangið úr veffangastikunni í staðinn',
+    readingIn: 'Lestur á',
+    switchLanguageHint: 'Skiptu um tungumál með tungumálavalinu í haus síðunnar.',
+    contentsLead:
+      'Hvert viðfangsefni stendur sjálfstætt. Lestu allt frá upphafi til enda sem námskeið í heilsuhagfræði, eða farðu beint í viðfangsefnið sem á við ákvörðunina sem þú stendur frammi fyrir.',
+    contentsDescription: 'Heildarefnisyfirlit Handbókar um heilsuhagfræði.'
+  },
   'sv-se': {
     siteName: 'Guide till hälsoekonomi',
     skipToContent: 'Hoppa till huvudinnehållet',
@@ -587,6 +620,7 @@ OVERRIDES['de-001'] = OVERRIDES['de-de'];
 OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
 OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
 OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
+OVERRIDES['is-001'] = OVERRIDES['is-is'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
 OVERRIDES['nl-001'] = OVERRIDES['nl-nl'];
 OVERRIDES['sv-001'] = OVERRIDES['sv-se'];
@@ -692,6 +726,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Mondiale en maatschappelijke vraagstukken',
     5: 'Digitaal, software en technologie'
   },
+  'is-is': {
+    1: 'Undirstöður',
+    2: 'Mat og sönnunargögn',
+    3: 'Kerfi, stefna og forgangsröðun',
+    4: 'Hnattræn og samfélagsleg álitamál',
+    5: 'Stafrænt, hugbúnaður og tækni'
+  },
   'sv-se': {
     1: 'Grunder',
     2: 'Utvärdering och evidens',
@@ -727,6 +768,7 @@ PART_TITLE_OVERRIDES['de-001'] = PART_TITLE_OVERRIDES['de-de'];
 PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
 PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
 PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
+PART_TITLE_OVERRIDES['is-001'] = PART_TITLE_OVERRIDES['is-is'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
 PART_TITLE_OVERRIDES['nl-001'] = PART_TITLE_OVERRIDES['nl-nl'];
 PART_TITLE_OVERRIDES['sv-001'] = PART_TITLE_OVERRIDES['sv-se'];
@@ -836,6 +878,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'gezondheid voorbij één stelsel: gedrag, wereldhandel en -financiering, de planeet en het publieke gesprek',
     5: 'de economie van gezondheidstechnologie: innovatie, digitale zorg, kunstmatige intelligentie, software, robotica en data'
   },
+  'is-is': {
+    1: 'hvers vegna heilsa er hagfræðilega ólík, og líkönin sem skýra það',
+    2: 'verkfærakista greinandans: að verðmeta niðurstöður, smíða líkön, prófa fullyrðingar',
+    3: 'hvernig samfélög skipuleggja, fjármagna og úthluta heilbrigðisþjónustu',
+    4: 'heilsa handan eins kerfis: hegðun, hnattræn viðskipti og fjármögnun, plánetan og opinber umræða',
+    5: 'hagfræði heilbrigðistækni: nýsköpun, stafræn þjónusta, gervigreind, hugbúnaður, vélmennatækni og gögn'
+  },
   'sv-se': {
     1: 'varför hälsa är ekonomiskt annorlunda, och modellerna som förklarar det',
     2: 'analytikerns verktygslåda: värdera utfall, bygga modeller, pröva påståenden',
@@ -871,6 +920,7 @@ PART_TAGLINE_OVERRIDES['de-001'] = PART_TAGLINE_OVERRIDES['de-de'];
 PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
 PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
 PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
+PART_TAGLINE_OVERRIDES['is-001'] = PART_TAGLINE_OVERRIDES['is-is'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
 PART_TAGLINE_OVERRIDES['nl-001'] = PART_TAGLINE_OVERRIDES['nl-nl'];
 PART_TAGLINE_OVERRIDES['sv-001'] = PART_TAGLINE_OVERRIDES['sv-se'];
