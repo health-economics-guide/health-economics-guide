@@ -224,6 +224,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Bläddra bland alla {n} ämnen",
   "translations": "Översättningar: "
  },
+ "sw-001": {
+  "tagline": "Mwongozo wa vitendo wa mazoea bora ya uchumi wa afya.",
+  "intro": "Mwongozo huu ni kwa watu wanaoongoza mashirika ya afya na huduma: wakuu wa mashirika na viongozi waandamizi, wakurugenzi wa kidijitali na mabadiliko, viongozi wa bidhaa na programu, wataalamu wa kitabibu na wa huduma, na mameneja wa uendeshaji. Msingi wake: katika afya, uchumi unatoa mifumo ya mkakati, rasilimali, usawa, na imani ya umma, si ufanisi tu.",
+  "start": "Anza na dibaji",
+  "browse": "Vinjari mada zote {n}",
+  "translations": "Tafsiri: "
+ },
+ "sw-tz": {
+  "tagline": "Mwongozo wa vitendo wa mazoea bora ya uchumi wa afya.",
+  "intro": "Mwongozo huu ni kwa watu wanaoongoza mashirika ya afya na huduma: wakuu wa mashirika na viongozi waandamizi, wakurugenzi wa kidijitali na mabadiliko, viongozi wa bidhaa na programu, wataalamu wa kitabibu na wa huduma, na mameneja wa uendeshaji. Msingi wake: katika afya, uchumi unatoa mifumo ya mkakati, rasilimali, usawa, na imani ya umma, si ufanisi tu.",
+  "start": "Anza na dibaji",
+  "browse": "Vinjari mada zote {n}",
+  "translations": "Tafsiri: "
+ },
  "ur-001": {
   "tagline": "صحت کی معاشیات کے بہترین طریقوں کا ایک عملی دستی۔",
   "intro": "یہ رہنما ان لوگوں کے لیے ہے جو صحت اور نگہداشت کے اداروں کو چلاتے ہیں: چیف ایگزیکٹو اور سینئر قائدین، ڈیجیٹل اور تبدیلی کے ڈائریکٹر، مصنوعات اور پروگرام کے سربراہ، طبی اور نگہداشتی پیشہ ور افراد، اور آپریشنل مینیجر۔ اس کا بنیادی نکتہ: صحت میں معاشیات محض کارکردگی نہیں بلکہ حکمتِ عملی، وسائل، مساوات اور عوامی اعتماد کے لیے فریم ورک فراہم کرتی ہے۔",
@@ -280,6 +294,8 @@ export const ENDONYMS: Record<string, string> = {
  "ru-ru": "Русский (Россия)",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
+ "sw-001": "Kiswahili",
+ "sw-tz": "Kiswahili (Tanzania)",
  "ur-001": "اردو",
  "zh-001": "中文",
  "zh-cn": "简体中文"

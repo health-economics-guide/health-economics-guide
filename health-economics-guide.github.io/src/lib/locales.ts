@@ -44,6 +44,8 @@ export const LOCALE_LABELS: Record<string, string> = {
   'ru-001': 'Русский',
   'sv-001': 'Svenska',
   'sv-se': 'Svenska - Sverige',
+  'sw-001': 'Kiswahili',
+  'sw-tz': 'Kiswahili - Tanzania',
   'ur-001': 'اردو',
   'zh-001': '中文',
   'zh-cn': '中文 - 中国'

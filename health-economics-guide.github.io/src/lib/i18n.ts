@@ -480,6 +480,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'Varje ämne är fristående. Läs rakt igenom för en kurs i hälsoekonomi, eller gå direkt till det ämne som passar det beslut ni står inför.',
     contentsDescription: 'Hela innehållsförteckningen för Guide till hälsoekonomi.'
   },
+  'sw-tz': {
+    siteName: 'Mwongozo wa Uchumi wa Afya',
+    skipToContent: 'Ruka hadi maudhui makuu',
+    home: 'Mwanzo',
+    contents: 'Yaliyomo',
+    glossary: 'Kamusi ya istilahi',
+    index: 'Faharasa',
+    source: 'Chanzo',
+    ledBy: 'Inaongozwa na',
+    part: 'Sehemu',
+    chapter: 'Mada',
+    previous: 'Iliyotangulia',
+    next: 'Inayofuata',
+    frontMatter: 'Sehemu ya utangulizi',
+    reference: 'Marejeleo',
+    onThisPage: 'Katika ukurasa huu',
+    pickerTheme: 'Mandhari',
+    pickerLocale: 'Lugha',
+    pickerLink: 'Viungo',
+    pickerTextSize: 'Ukubwa wa maandishi',
+    pickerShare: 'Shiriki',
+    pickerSearch: 'Tafuta kwenye tovuti hii',
+    pickerSearchInput: 'Maneno ya kutafuta',
+    pickerSearchSubmit: 'Tafuta',
+    copyLabel: 'Nakili kiungo',
+    copiedLabel: 'Imenakiliwa!',
+    copyFailedLabel: 'Kunakili kumeshindwa — nakili anwani kutoka upau wa anwani',
+    readingIn: 'Unasoma kwa',
+    switchLanguageHint: 'Badilisha lugha kupitia kichagua lugha kilicho juu ya ukurasa.',
+    contentsLead:
+      'Kila mada inajitosheleza. Isome yote tangu mwanzo hadi mwisho kama kozi ya uchumi wa afya, au nenda moja kwa moja kwenye mada inayolingana na uamuzi ulio mbele yako.',
+    contentsDescription: 'Yaliyomo kamili ya Mwongozo wa Uchumi wa Afya.'
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -624,6 +657,7 @@ OVERRIDES['is-001'] = OVERRIDES['is-is'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
 OVERRIDES['nl-001'] = OVERRIDES['nl-nl'];
 OVERRIDES['sv-001'] = OVERRIDES['sv-se'];
+OVERRIDES['sw-001'] = OVERRIDES['sw-tz'];
 OVERRIDES['zh-001'] = OVERRIDES['zh-cn'];
 
 export function ui(locale: string): Ui {
@@ -740,6 +774,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Globala och samhälleliga frågor',
     5: 'Digitalt, mjukvara och teknik'
   },
+  'sw-tz': {
+    1: 'Misingi',
+    2: 'Tathmini na ushahidi',
+    3: 'Mifumo, sera na vipaumbele',
+    4: 'Masuala ya dunia na ya jamii',
+    5: 'Kidijitali, programu na teknolojia'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -772,6 +813,7 @@ PART_TITLE_OVERRIDES['is-001'] = PART_TITLE_OVERRIDES['is-is'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
 PART_TITLE_OVERRIDES['nl-001'] = PART_TITLE_OVERRIDES['nl-nl'];
 PART_TITLE_OVERRIDES['sv-001'] = PART_TITLE_OVERRIDES['sv-se'];
+PART_TITLE_OVERRIDES['sw-001'] = PART_TITLE_OVERRIDES['sw-tz'];
 PART_TITLE_OVERRIDES['zh-001'] = PART_TITLE_OVERRIDES['zh-cn'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
@@ -892,6 +934,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'hälsa bortom ett enskilt system: beteende, global handel och finansiering, planeten och det offentliga samtalet',
     5: 'hälsoteknikens ekonomi: innovation, digital vård, artificiell intelligens, mjukvara, robotik och data'
   },
+  'sw-tz': {
+    1: 'kwa nini afya ni tofauti kiuchumi, na mifano inayoeleza hilo',
+    2: 'sanduku la zana la mchambuzi: kuthamini matokeo, kujenga mifano, kujaribu madai',
+    3: 'jinsi jamii zinavyopanga, kufadhili, na kugawa huduma ya afya',
+    4: 'afya zaidi ya mfumo mmoja: tabia, biashara na ufadhili wa dunia, sayari, na mjadala wa umma',
+    5: 'uchumi wa teknolojia ya afya: ubunifu, huduma ya kidijitali, akili bandia, programu, roboti, na data'
+  },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
     2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
@@ -924,6 +973,7 @@ PART_TAGLINE_OVERRIDES['is-001'] = PART_TAGLINE_OVERRIDES['is-is'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
 PART_TAGLINE_OVERRIDES['nl-001'] = PART_TAGLINE_OVERRIDES['nl-nl'];
 PART_TAGLINE_OVERRIDES['sv-001'] = PART_TAGLINE_OVERRIDES['sv-se'];
+PART_TAGLINE_OVERRIDES['sw-001'] = PART_TAGLINE_OVERRIDES['sw-tz'];
 PART_TAGLINE_OVERRIDES['zh-001'] = PART_TAGLINE_OVERRIDES['zh-cn'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
