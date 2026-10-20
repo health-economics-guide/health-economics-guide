@@ -24,6 +24,7 @@ export const LOCALE_LABELS: Record<string, string> = {
   'bn-001': 'বাংলা',
   'cy-001': 'Cymraeg',
   'cy-gb': 'Cymraeg - Cymru',
+  'da-001': 'Dansk',
   'de-001': 'Deutsch',
   'de-de': 'Deutsch - Deutschland',
   'en-001': 'English',

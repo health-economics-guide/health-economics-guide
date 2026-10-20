@@ -480,6 +480,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'Varje ämne är fristående. Läs rakt igenom för en kurs i hälsoekonomi, eller gå direkt till det ämne som passar det beslut ni står inför.',
     contentsDescription: 'Hela innehållsförteckningen för Guide till hälsoekonomi.'
   },
+  'da-001': {
+    siteName: 'Guide til sundhedsøkonomi',
+    skipToContent: 'Gå til hovedindholdet',
+    home: 'Hjem',
+    contents: 'Indhold',
+    glossary: 'Ordliste',
+    index: 'Register',
+    source: 'Kilde',
+    ledBy: 'Ledet af',
+    part: 'Del',
+    chapter: 'Emne',
+    previous: 'Forrige',
+    next: 'Næste',
+    frontMatter: 'Indledende dele',
+    reference: 'Reference',
+    onThisPage: 'På denne side',
+    pickerTheme: 'Tema',
+    pickerLocale: 'Sprog',
+    pickerLink: 'Links',
+    pickerTextSize: 'Tekststørrelse',
+    pickerShare: 'Del',
+    pickerSearch: 'Søg på webstedet',
+    pickerSearchInput: 'Søgeord',
+    pickerSearchSubmit: 'Søg',
+    copyLabel: 'Kopiér link',
+    copiedLabel: 'Kopieret!',
+    copyFailedLabel: 'Kopieringen mislykkedes — kopiér adressen fra adresselinjen',
+    readingIn: 'Læser på',
+    switchLanguageHint: 'Skift sprog med sprogvælgeren øverst på siden.',
+    contentsLead:
+      'Hvert emne står for sig selv. Læs det hele igennem som et kursus i sundhedsøkonomi, eller gå direkte til det emne, der passer til den beslutning, I står over for.',
+    contentsDescription: 'Det fulde indhold af Guide til sundhedsøkonomi.'
+  },
   'sw-tz': {
     siteName: 'Mwongozo wa Uchumi wa Afya',
     skipToContent: 'Ruka hadi maudhui makuu',
@@ -774,6 +807,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Globala och samhälleliga frågor',
     5: 'Digitalt, mjukvara och teknik'
   },
+  'da-001': {
+    1: 'Grundlag',
+    2: 'Evaluering og evidens',
+    3: 'Systemer, politik og prioritering',
+    4: 'Globale og samfundsmæssige spørgsmål',
+    5: 'Digitalt, software og teknologi'
+  },
   'sw-tz': {
     1: 'Misingi',
     2: 'Tathmini na ushahidi',
@@ -933,6 +973,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     3: 'hur samhällen organiserar, finansierar och fördelar hälso- och sjukvård',
     4: 'hälsa bortom ett enskilt system: beteende, global handel och finansiering, planeten och det offentliga samtalet',
     5: 'hälsoteknikens ekonomi: innovation, digital vård, artificiell intelligens, mjukvara, robotik och data'
+  },
+  'da-001': {
+    1: 'hvorfor sundhed er økonomisk anderledes, og de modeller der forklarer det',
+    2: 'analytikerens værktøjskasse: værdisætning af udfald, modelbygning, test af påstande',
+    3: 'hvordan samfund organiserer, finansierer og fordeler sundhedsydelser',
+    4: 'sundhed ud over ét system: adfærd, global handel og finansiering, planeten og den offentlige samtale',
+    5: 'økonomien i sundhedsteknologi: innovation, digital sundhed, kunstig intelligens, software, robotteknologi og data'
   },
   'sw-tz': {
     1: 'kwa nini afya ni tofauti kiuchumi, na mifano inayoeleza hilo',

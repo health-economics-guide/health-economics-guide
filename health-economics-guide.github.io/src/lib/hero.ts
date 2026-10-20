@@ -35,6 +35,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Pori'r holl {n} pwnc",
   "translations": "Cyfieithiadau: "
  },
+ "da-001": {
+  "tagline": "En praktisk håndbog med bedste praksis for sundhedsøkonomi.",
+  "intro": "Denne guide er til de mennesker, der leder sundheds- og plejeorganisationer: administrerende direktører og øverste ledere, direktører for digitalisering og transformation, produkt- og programledere, kliniske og plejefaglige professionelle samt driftsledere. Dens præmis: i sundhed leverer økonomi rammerne for strategi, ressourcetildeling, lighed og offentlig tillid, ikke blot effektivitet.",
+  "start": "Start med forordet",
+  "browse": "Gennemse alle {n} emner",
+  "translations": "Oversættelser: "
+ },
  "de-001": {
   "tagline": "Ein praxisnahes Handbuch bewährter Verfahren der Gesundheitsökonomie.",
   "intro": "Dieser Leitfaden richtet sich an die Menschen, die Gesundheits- und Pflegeorganisationen leiten: Geschäftsführungen und Führungskräfte, Verantwortliche für Digitales und Transformation, Produkt- und Programmleitungen, klinische und pflegerische Fachkräfte sowie Betriebsleitungen. Seine Prämisse: Im Gesundheitswesen liefert die Ökonomie die Rahmen für Strategie, Ressourcen, Chancengleichheit und öffentliches Vertrauen, nicht bloß für Effizienz.",
@@ -267,6 +274,7 @@ export const ENDONYMS: Record<string, string> = {
  "bn-001": "বাংলা",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Y Deyrnas Unedig)",
+ "da-001": "Dansk",
  "de-001": "Deutsch",
  "de-de": "Deutsch (Deutschland)",
  "en-001": "English",
