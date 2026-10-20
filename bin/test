@@ -45,7 +45,9 @@ test_locales() {
         nl-001 \
         sw-tz \
         sw-001 \
-        da-001
+        da-001 \
+        vi-vn \
+        vi-001
     do
         echo "$x"
         directory_exists_or_err "$top/locales/$x"

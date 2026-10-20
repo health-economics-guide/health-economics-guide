@@ -89,6 +89,7 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | sv-se, sv-001 | ämnen (ämne) |
   | sw-tz, sw-001 | mada (mada) |
   | ur-001 | موضوعات (موضوع) |
+  | vi-vn, vi-001 | chủ đề (chủ đề) |
   | zh-001, zh-cn | 主题 |
 
   The site finds the directory by its numbered `NN-NN-<slug>` children, so the

@@ -48,6 +48,8 @@ export const LOCALE_LABELS: Record<string, string> = {
   'sw-001': 'Kiswahili',
   'sw-tz': 'Kiswahili - Tanzania',
   'ur-001': 'اردو',
+  'vi-001': 'Tiếng Việt',
+  'vi-vn': 'Tiếng Việt - Việt Nam',
   'zh-001': '中文',
   'zh-cn': '中文 - 中国'
 };

@@ -252,6 +252,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "تمام {n} موضوعات دیکھیں",
   "translations": "تراجم: "
  },
+ "vi-001": {
+  "tagline": "Cẩm nang thực hành về các thực hành tốt nhất trong kinh tế học sức khỏe.",
+  "intro": "Hướng dẫn này dành cho những người lãnh đạo các tổ chức y tế và chăm sóc: giám đốc điều hành và các nhà lãnh đạo cấp cao, giám đốc chuyển đổi số và thay đổi, người phụ trách sản phẩm và chương trình, các chuyên gia lâm sàng và chăm sóc, cùng các nhà quản lý vận hành. Tiền đề của nó: trong lĩnh vực sức khỏe, kinh tế học cung cấp khung cho chiến lược, nguồn lực, công bằng và niềm tin của công chúng, chứ không chỉ cho hiệu quả.",
+  "start": "Bắt đầu với lời nói đầu",
+  "browse": "Duyệt tất cả {n} chủ đề",
+  "translations": "Bản dịch: "
+ },
+ "vi-vn": {
+  "tagline": "Cẩm nang thực hành về các thực hành tốt nhất trong kinh tế học sức khỏe.",
+  "intro": "Hướng dẫn này dành cho những người lãnh đạo các tổ chức y tế và chăm sóc: giám đốc điều hành và các nhà lãnh đạo cấp cao, giám đốc chuyển đổi số và thay đổi, người phụ trách sản phẩm và chương trình, các chuyên gia lâm sàng và chăm sóc, cùng các nhà quản lý vận hành. Tiền đề của nó: trong lĩnh vực sức khỏe, kinh tế học cung cấp khung cho chiến lược, nguồn lực, công bằng và niềm tin của công chúng, chứ không chỉ cho hiệu quả.",
+  "start": "Bắt đầu với lời nói đầu",
+  "browse": "Duyệt tất cả {n} chủ đề",
+  "translations": "Bản dịch: "
+ },
  "zh-001": {
   "tagline": "一本卫生经济学最佳实践的实用手册。",
   "intro": "本指南面向运营卫生与照护机构的人士：首席执行官和高层领导、数字化与转型负责人、产品与项目负责人、临床和照护专业人员，以及运营管理者。其前提是：在卫生领域，经济学不仅提供效率，更为战略、资源配置、公平和公众信任提供框架。",
@@ -305,6 +319,8 @@ export const ENDONYMS: Record<string, string> = {
  "sw-001": "Kiswahili",
  "sw-tz": "Kiswahili (Tanzania)",
  "ur-001": "اردو",
+"vi-001": "Tiếng Việt",
+"vi-vn": "Tiếng Việt (Việt Nam)",
  "zh-001": "中文",
  "zh-cn": "简体中文"
 };

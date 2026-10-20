@@ -546,6 +546,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'Kila mada inajitosheleza. Isome yote tangu mwanzo hadi mwisho kama kozi ya uchumi wa afya, au nenda moja kwa moja kwenye mada inayolingana na uamuzi ulio mbele yako.',
     contentsDescription: 'Yaliyomo kamili ya Mwongozo wa Uchumi wa Afya.'
   },
+  'vi-vn': {
+    siteName: 'Hướng dẫn Kinh tế học Sức khỏe',
+    skipToContent: 'Chuyển đến nội dung chính',
+    home: 'Trang chủ',
+    contents: 'Mục lục',
+    glossary: 'Bảng thuật ngữ',
+    index: 'Chỉ mục',
+    source: 'Nguồn',
+    ledBy: 'Do dẫn dắt',
+    part: 'Phần',
+    chapter: 'Chủ đề',
+    previous: 'Trước',
+    next: 'Tiếp',
+    frontMatter: 'Phần mở đầu',
+    reference: 'Tham khảo',
+    onThisPage: 'Trên trang này',
+    pickerTheme: 'Giao diện',
+    pickerLocale: 'Ngôn ngữ',
+    pickerLink: 'Liên kết',
+    pickerTextSize: 'Cỡ chữ',
+    pickerShare: 'Chia sẻ',
+    pickerSearch: 'Tìm kiếm trên trang này',
+    pickerSearchInput: 'Từ khóa tìm kiếm',
+    pickerSearchSubmit: 'Tìm kiếm',
+    copyLabel: 'Sao chép liên kết',
+    copiedLabel: 'Đã sao chép!',
+    copyFailedLabel: 'Sao chép không thành công — hãy sao chép địa chỉ từ thanh địa chỉ',
+    readingIn: 'Đang đọc bằng',
+    switchLanguageHint: 'Đổi ngôn ngữ bằng bộ chọn ở đầu trang.',
+    contentsLead:
+      'Mỗi chủ đề tự đứng được một mình. Hãy đọc liền một mạch như một khóa học về kinh tế học sức khỏe, hoặc đi thẳng đến chủ đề phù hợp với quyết định đang đặt trước mặt bạn.',
+    contentsDescription: 'Mục lục đầy đủ của Hướng dẫn Kinh tế học Sức khỏe.'
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -691,6 +724,7 @@ OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
 OVERRIDES['nl-001'] = OVERRIDES['nl-nl'];
 OVERRIDES['sv-001'] = OVERRIDES['sv-se'];
 OVERRIDES['sw-001'] = OVERRIDES['sw-tz'];
+OVERRIDES['vi-001'] = OVERRIDES['vi-vn'];
 OVERRIDES['zh-001'] = OVERRIDES['zh-cn'];
 
 export function ui(locale: string): Ui {
@@ -821,6 +855,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Masuala ya dunia na ya jamii',
     5: 'Kidijitali, programu na teknolojia'
   },
+  'vi-vn': {
+    1: 'Nền tảng',
+    2: 'Đánh giá và bằng chứng',
+    3: 'Hệ thống, chính sách và ưu tiên',
+    4: 'Các vấn đề toàn cầu và xã hội',
+    5: 'Số hóa, phần mềm và công nghệ'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -854,6 +895,7 @@ PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
 PART_TITLE_OVERRIDES['nl-001'] = PART_TITLE_OVERRIDES['nl-nl'];
 PART_TITLE_OVERRIDES['sv-001'] = PART_TITLE_OVERRIDES['sv-se'];
 PART_TITLE_OVERRIDES['sw-001'] = PART_TITLE_OVERRIDES['sw-tz'];
+PART_TITLE_OVERRIDES['vi-001'] = PART_TITLE_OVERRIDES['vi-vn'];
 PART_TITLE_OVERRIDES['zh-001'] = PART_TITLE_OVERRIDES['zh-cn'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
@@ -988,6 +1030,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'afya zaidi ya mfumo mmoja: tabia, biashara na ufadhili wa dunia, sayari, na mjadala wa umma',
     5: 'uchumi wa teknolojia ya afya: ubunifu, huduma ya kidijitali, akili bandia, programu, roboti, na data'
   },
+  'vi-vn': {
+    1: 'vì sao sức khỏe khác biệt về kinh tế, và các mô hình giải thích điều đó',
+    2: 'bộ công cụ của nhà phân tích: định giá kết cục, xây mô hình, kiểm chứng các tuyên bố',
+    3: 'cách các xã hội tổ chức, tài trợ và phân bổ chăm sóc sức khỏe',
+    4: 'sức khỏe vượt ngoài một hệ thống: hành vi, thương mại và tài chính toàn cầu, hành tinh, và cuộc trò chuyện công chúng',
+    5: 'kinh tế học của công nghệ y tế: đổi mới sáng tạo, chăm sóc số, trí tuệ nhân tạo, phần mềm, robot và dữ liệu'
+  },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
     2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
@@ -1021,6 +1070,7 @@ PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
 PART_TAGLINE_OVERRIDES['nl-001'] = PART_TAGLINE_OVERRIDES['nl-nl'];
 PART_TAGLINE_OVERRIDES['sv-001'] = PART_TAGLINE_OVERRIDES['sv-se'];
 PART_TAGLINE_OVERRIDES['sw-001'] = PART_TAGLINE_OVERRIDES['sw-tz'];
+PART_TAGLINE_OVERRIDES['vi-001'] = PART_TAGLINE_OVERRIDES['vi-vn'];
 PART_TAGLINE_OVERRIDES['zh-001'] = PART_TAGLINE_OVERRIDES['zh-cn'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
