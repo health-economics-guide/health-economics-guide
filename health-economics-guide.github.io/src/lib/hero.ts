@@ -140,6 +140,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Jelajahi semua {n} topik",
   "translations": "Terjemahan: "
  },
+ "id-id": {
+  "tagline": "Buku pegangan praktis berisi praktik terbaik ekonomi kesehatan.",
+  "intro": "Panduan ini ditujukan bagi mereka yang menjalankan organisasi kesehatan dan perawatan: direktur utama dan pimpinan senior, direktur digital dan transformasi, pemimpin produk dan program, tenaga klinis dan perawatan, serta manajer operasional. Premisnya: di bidang kesehatan, ekonomi menyediakan kerangka strategi, sumber daya, kesetaraan, dan kepercayaan publik, bukan sekadar efisiensi.",
+  "start": "Mulai dari kata pengantar",
+  "browse": "Jelajahi semua {n} topik",
+  "translations": "Terjemahan: "
+ },
  "is-001": {
   "tagline": "Hagnýt handbók um bestu starfsvenjur í heilsuhagfræði.",
   "intro": "Þessi handbók er fyrir fólkið sem stýrir heilbrigðis- og umönnunarstofnunum: forstjóra og æðstu stjórnendur, stjórnendur stafrænnar þróunar og umbreytingar, vöru- og áætlunarstjóra, klínískt starfsfólk og umönnunarstarfsfólk og rekstrarstjóra. Forsendan: í heilbrigðismálum veitir hagfræðin rammana fyrir stefnu, auðlindir, jafnræði og almannatraust, ekki aðeins fyrir skilvirkni.",
@@ -303,6 +310,7 @@ export const ENDONYMS: Record<string, string> = {
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
+ "id-id": "Bahasa Indonesia (Indonesia)",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
  "ja-001": "日本語",

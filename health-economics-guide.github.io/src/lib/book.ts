@@ -70,6 +70,7 @@ export const LOCALES: Locale[] = [
   { slug: 'hi-001', label: localeLabel('hi-001') },
   { slug: 'hi-in', label: localeLabel('hi-in') },
   { slug: 'id-001', label: localeLabel('id-001') },
+  { slug: 'id-id', label: localeLabel('id-id') },
   { slug: 'is-001', label: localeLabel('is-001') },
   { slug: 'is-is', label: localeLabel('is-is') },
   { slug: 'ja-001', label: localeLabel('ja-001') },

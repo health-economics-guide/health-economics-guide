@@ -726,6 +726,7 @@ OVERRIDES['sv-001'] = OVERRIDES['sv-se'];
 OVERRIDES['sw-001'] = OVERRIDES['sw-tz'];
 OVERRIDES['vi-001'] = OVERRIDES['vi-vn'];
 OVERRIDES['zh-001'] = OVERRIDES['zh-cn'];
+OVERRIDES['id-id'] = OVERRIDES['id-001'];
 
 export function ui(locale: string): Ui {
   return { ...EN, ...(OVERRIDES[canonicalLocale(locale)] ?? {}) };
@@ -897,6 +898,7 @@ PART_TITLE_OVERRIDES['sv-001'] = PART_TITLE_OVERRIDES['sv-se'];
 PART_TITLE_OVERRIDES['sw-001'] = PART_TITLE_OVERRIDES['sw-tz'];
 PART_TITLE_OVERRIDES['vi-001'] = PART_TITLE_OVERRIDES['vi-vn'];
 PART_TITLE_OVERRIDES['zh-001'] = PART_TITLE_OVERRIDES['zh-cn'];
+PART_TITLE_OVERRIDES['id-id'] = PART_TITLE_OVERRIDES['id-001'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
 export function partTitle(locale: string, number: number): string {
@@ -1072,6 +1074,7 @@ PART_TAGLINE_OVERRIDES['sv-001'] = PART_TAGLINE_OVERRIDES['sv-se'];
 PART_TAGLINE_OVERRIDES['sw-001'] = PART_TAGLINE_OVERRIDES['sw-tz'];
 PART_TAGLINE_OVERRIDES['vi-001'] = PART_TAGLINE_OVERRIDES['vi-vn'];
 PART_TAGLINE_OVERRIDES['zh-001'] = PART_TAGLINE_OVERRIDES['zh-cn'];
+PART_TAGLINE_OVERRIDES['id-id'] = PART_TAGLINE_OVERRIDES['id-001'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
 export function partTagline(locale: string, number: number): string {
