@@ -2,6 +2,13 @@
 
 Guidance for AI agents working on this repository. Read `README.md` first for the layout and the commands.
 
+## Specification Driven Development
+
+**The `spec/` directory is the source of truth.** 
+- Before doing anything read all files inside the `spec/` directory using your file-reading tools.
+- Treat all files inside `spec/` as strict requirements. Where any file disagrees with the spec, the spec wins: fix the file, or change the spec on purpose and bring the other files into line in the same commit. 
+- Do not improvise structure, style, or citation practice.
+
 ## What this directory is, and is not
 
 This is the **website** for the Health Economics Guide. It is not the book.

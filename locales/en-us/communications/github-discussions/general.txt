@@ -1,0 +1,17 @@
+Say hello and tell us how you use Health Economics Guide
+
+Welcome to the Health Economics Guide Discussions. This is the place for introductions, opinions, and open conversation about the guide.
+
+I am a maintainer of the project. I wrote Health Economics Guide because I wanted a practical handbook of best practices for health economics, covering tax-funded, social-insurance, private-insurance, and mixed systems worldwide to be easy to find and use. I would like to hear who is reading it and why.
+
+**One question to start:** Which health economics idea do you use most often in your work, and where did you learn it?
+
+A sentence or two is plenty. Replies to other people are welcome too.
+
+## Where other topics belong
+
+- Questions with answers: Q&A
+- Suggestions for new or changed topics: Ideas
+- Errors or broken links: Issues (https://github.com/health-economics-guide/health-economics-guide/issues)
+
+Thank you for reading. I will reply to the first comments.

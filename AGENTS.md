@@ -1,6 +1,14 @@
 # AGENTS.md — Operating instructions for AI agents
 
-This repository is a book: the *Health Economics Guide*, 33 Markdown topics in 5 parts plus reference matter. Agents do most of the authoring and checking. This file tells any agent how to work here safely.
+This repository is a book: the *Health Economics Guide*, 33 Markdown topics in 5 parts plus reference 
+matter. Agents do most of the authoring and checking. This file tells any agent how to work here safely.
+
+## Specification Driven Development
+
+**The `spec/` directory is the source of truth.** 
+- Before doing anything read all files inside the `spec/` directory using your file-reading tools.
+- Treat all files inside `spec/` as strict requirements. Where any file disagrees with the spec, the spec wins: fix the file, or change the spec on purpose and bring the other files into line in the same commit. 
+- Do not improvise structure, style, or citation practice.
 
 ## The one rule that governs everything
 
