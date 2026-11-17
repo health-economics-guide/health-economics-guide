@@ -119,6 +119,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Parcourir les {n} sujets",
   "translations": "Traductions: "
  },
+ "fr-ca": {
+  "tagline": "Un manuel pratique de bonnes pratiques en économie de la santé.",
+  "intro": "Ce guide s'adresse à celles et ceux qui dirigent des organisations de santé et de soins : directeurs généraux et cadres dirigeants, responsables du numérique et de la transformation, responsables de produit et de programme, professionnels cliniques et soignants, et responsables opérationnels. Sa prémisse : en santé, l'économie fournit les cadres de la stratégie, des ressources, de l'équité et de la confiance du public, et pas seulement de l'efficience.",
+  "start": "Commencer par la préface",
+  "browse": "Parcourir les {n} sujets",
+  "translations": "Traductions: "
+ },
  "fr-fr": {
   "tagline": "Un manuel pratique de bonnes pratiques en économie de la santé.",
   "intro": "Ce guide s'adresse à celles et ceux qui dirigent des organisations de santé et de soins : directeurs généraux et cadres dirigeants, responsables du numérique et de la transformation, responsables de produit et de programme, professionnels cliniques et soignants, et responsables opérationnels. Sa prémisse : en santé, l'économie fournit les cadres de la stratégie, des ressources, de l'équité et de la confiance du public, et pas seulement de l'efficience.",
@@ -211,6 +218,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "Vertalingen: "
  },
  "pt-001": {
+  "tagline": "Um manual prático de boas práticas de economia da saúde.",
+  "intro": "Este guia é para quem dirige organizações de saúde e cuidados: diretores executivos e líderes seniores, diretores de digital e transformação, responsáveis por produtos e programas, profissionais clínicos e de cuidados e gestores operacionais. A premissa: na saúde, a economia fornece os quadros para a estratégia, os recursos, a equidade e a confiança pública, e não apenas a eficiência.",
+  "start": "Começar pelo prefácio",
+  "browse": "Explorar os {n} tópicos",
+  "translations": "Traduções: "
+ },
+ "pt-br": {
+  "tagline": "Um manual prático de boas práticas de economia da saúde.",
+  "intro": "Este guia é para quem dirige organizações de saúde e cuidados: diretores executivos e líderes seniores, diretores de digital e transformação, responsáveis por produtos e programas, profissionais clínicos e de cuidados e gestores operacionais. A premissa: na saúde, a economia fornece os quadros para a estratégia, os recursos, a equidade e a confiança pública, e não apenas a eficiência.",
+  "start": "Começar pelo prefácio",
+  "browse": "Explorar os {n} tópicos",
+  "translations": "Traduções: "
+ },
+ "pt-pt": {
   "tagline": "Um manual prático de boas práticas de economia da saúde.",
   "intro": "Este guia é para quem dirige organizações de saúde e cuidados: diretores executivos e líderes seniores, diretores de digital e transformação, responsáveis por produtos e programas, profissionais clínicos e de cuidados e gestores operacionais. A premissa: na saúde, a economia fornece os quadros para a estratégia, os recursos, a equidade e a confiança pública, e não apenas a eficiência.",
   "start": "Começar pelo prefácio",
@@ -314,6 +335,7 @@ export const ENDONYMS: Record<string, string> = {
  "es-mx": "Español (México)",
  "es-es": "Español (España)",
  "fr-001": "Français",
+ "fr-ca": "Français (Canada)",
  "fr-fr": "Français (France)",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
@@ -328,6 +350,8 @@ export const ENDONYMS: Record<string, string> = {
  "nl-001": "Nederlands",
  "nl-nl": "Nederlands (Nederland)",
  "pt-001": "Português",
+ "pt-br": "Português (Brasil)",
+ "pt-pt": "Português (Portugal)",
  "ru-001": "Русский",
  "ru-ru": "Русский (Россия)",
  "sv-001": "Svenska",

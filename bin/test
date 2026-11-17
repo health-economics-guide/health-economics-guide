@@ -36,6 +36,11 @@ test_locales() {
         id-001 \
         id-id \
         es-mx \
+        es-es \
+        fr-ca \
+        fr-fr \
+        pt-br \
+        pt-pt \
         is-is \
         is-001 \
         ur-001 \

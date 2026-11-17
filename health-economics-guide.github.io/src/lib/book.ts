@@ -46,10 +46,10 @@ export type Locale = {
  * codes here are exactly spec/locales-for-global-sharing-with-svelte/
  * locales.tsv's list. The book repo's `locales/` also has a few
  * ISO-3166-suffixed duplicates of these (`ar-eg`, `en-150`,
- * `es-es`, `fr-fr`, `ru-ru`) left over from before that spec
+ * `ru-ru`) left over from before that spec
  * settled on the `-001` "worldwide" convention; they are not listed here
  * and so never appear on the live site, even though `pnpm sync` still
- * vendors their content (harmless, just unused). `cy-gb`, `da-001`, `hi-in`, `is-001`, `ja-001`,
+ * vendors their content (harmless, just unused). `cy-gb`, `es-es`, `es-mx`, `da-001`, `hi-in`, `is-001`, `ja-001`,
  * `ko-001`, `nl-001`, `sv-001`, `sw-001`, `vi-001` and `zh-001` are listed alongside their regional or worldwide
  * counterparts so that every locale the book is translated into is served.
  */
@@ -66,8 +66,11 @@ export const LOCALES: Locale[] = [
   { slug: 'en-gb-oxendict', label: localeLabel('en-gb-oxendict') },
   { slug: 'en-us', label: localeLabel('en-us') },
   { slug: 'es-001', label: localeLabel('es-001') },
+  { slug: 'es-es', label: localeLabel('es-es') },
   { slug: 'es-mx', label: localeLabel('es-mx') },
   { slug: 'fr-001', label: localeLabel('fr-001') },
+  { slug: 'fr-ca', label: localeLabel('fr-ca') },
+  { slug: 'fr-fr', label: localeLabel('fr-fr') },
   { slug: 'hi-001', label: localeLabel('hi-001') },
   { slug: 'hi-in', label: localeLabel('hi-in') },
   { slug: 'id-001', label: localeLabel('id-001') },
@@ -81,6 +84,8 @@ export const LOCALES: Locale[] = [
   { slug: 'nl-001', label: localeLabel('nl-001') },
   { slug: 'nl-nl', label: localeLabel('nl-nl') },
   { slug: 'pt-001', label: localeLabel('pt-001') },
+  { slug: 'pt-br', label: localeLabel('pt-br') },
+  { slug: 'pt-pt', label: localeLabel('pt-pt') },
   { slug: 'ru-001', label: localeLabel('ru-001') },
   { slug: 'sv-001', label: localeLabel('sv-001') },
   { slug: 'sv-se', label: localeLabel('sv-se') },

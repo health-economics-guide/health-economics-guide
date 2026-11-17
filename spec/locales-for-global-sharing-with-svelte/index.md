@@ -77,14 +77,14 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | da-001 | emner (emne) |
   | de-001, de-de | themen (Thema) |
   | es-001, es-es, es-mx | temas (tema) |
-  | fr-001, fr-fr | sujets (sujet) |
+  | fr-001, fr-ca, fr-fr | sujets (sujet) |
   | hi-001 | विषय |
   | id-001, id-id | topik |
   | is-is, is-001 | viðfangsefni (viðfangsefni) |
   | ja-jp | トピック |
   | ko-kr | 주제 |
   | nl-nl, nl-001 | onderwerpen (onderwerp) |
-  | pt-001 | tópicos (tópico) |
+  | pt-001, pt-br, pt-pt | tópicos (tópico) |
   | ru-001, ru-ru | темы (тема) |
   | sv-se, sv-001 | ämnen (ämne) |
   | sw-tz, sw-001 | mada (mada) |
@@ -120,7 +120,7 @@ Every published locale code is a top-level route: `/<code>/`, with
 - **Published set.** The routes are exactly the codes in `locales.tsv`, in the
   same order as `LOCALES` in `book.ts`. A directory under `locales/` that is
   not in that list is vendored but never routed (`ar-eg`, `cy-gb`, `en-150`,
-  `es-es`, `fr-fr`, `ru-ru`, `zh-001`).
+  `ru-ru`, `zh-001`).
 - **Two-letter aliases.** Each published `-001` locale also answers at its bare
   language (`/en/` renders `en-001`, `/cy/` renders `cy-001`). The alias is
   derived from the `-001` code, never stored as a directory, and its page names
