@@ -27,11 +27,14 @@ Chief executives and senior leaders; directors of digital and transformation; pr
 |---|---|
 | `README.md` | Reader-facing front door + table of contents. Must list every topic with correct number, title, and filename. |
 | `STYLE_GUIDE.md` | The prose/formatting contract every topic author follows. Subordinate to this spec. |
-| `00-preface.md` | Front matter. |
-| `PP-CC-slug.md` | The topics. Filenames are **sortable zero-padded decimals** — a two-digit part number, a dash, a two-digit within-part number, then the slug (e.g. `01-00-introduction.md`, — so a plain lexical sort lists topics in reading order. See manifest, §4. |
+| `locales/<locale>/` | One complete copy of the book per locale (the README links topics from `en-gb-oxendict`). Each holds `index.md`, `README.md`, `sitemap.xml` and a `topics/` directory. |
+| `locales/<locale>/topics/PP-CC-slug/` | One directory per topic, holding `index.md`, `README.md` and a `.locale-peer-id` that is identical across every locale's copy of the same topic. `PP-CC-slug` is a **sortable zero-padded decimal**: a two-digit part number, a dash, a two-digit within-part number, then the slug (e.g. `01-01-introduction-to-health-economics`), so a plain lexical sort lists topics in reading order. The preface is `00-01-preface`. Non-English locales may translate the `topics` directory name and the slugs. See manifest, §4. |
 | `GLOSSARY.md` | A–Z definitions of key terms, Wikipedia-linked, each pointing to its home topic. |
 | `INDEX.md` | A–Z concepts/frameworks → topic numbers (numbers are **topic numbers, not pages**). |
 | `_sources/` | Raw source material used for grounding |
+| `AGENTS/`, `skills/` | Role prompts for authoring agents, and the maintainer and user skills. |
+| `bin/test` | The repository's structure and content test. |
+| `health-economics-guide.github.io/` | The published website. |
 | `spec/index.md` | **This file** — the source of truth. |
 | `spec/README.md` | Pointer to this file. |
 
@@ -160,7 +163,7 @@ Thirty-three topics in five parts. Topic numbers are `Part.Topic` (e.g. "Topic 2
 - **5.5 Robotics Health Economics** owns the economics of physical automation in health and care: surgical robotics (high fixed cost, learning curves, throughput and utilization economics), rehabilitation and assistive robots, care robots in ageing societies, and the automation of hospital logistics, pharmacy, and laboratories. The capital-appraisal machinery belongs to 2.1 Economic Evaluation and 2.5 Budget Impact and Affordability (cross-reference); production and capital economics to 1.4 Supply of Healthcare; workforce substitution and labour markets to 3.6 Health Workforce and Labour Markets; the software and AI inside robots to 5.4 and 5.3; long-term-care context to 3.8 Long-Term and Social Care Economics.
 - **5.6 Health Data Economics** owns the economics of health data as an asset: its peculiar cost structure (non-rival, curation-heavy, combinatorial value), data architecture as economic strategy (warehouse, data lake, data mesh and funded domain ownership), the economics of data access (friction as a cost, trusted research environments, single-front-door permit models), data quality at source, privacy techniques (de-identification, differential privacy, federated learning) as trade-offs, and the social licence for secondary and commercial use. Interoperability plumbing belongs to 5.4 Software Engineering Health Economics (cross-reference); models trained on the data to 5.3 AI Health Economics; what bad data does to causal claims to 2.3 Health Econometrics; public-trust communication to 4.4 Social Media and Health Communication Economics.
 
-**Front matter:** Preface — `00-preface.md`
+**Front matter:** Preface — `locales/<locale>/topics/00-01-preface/`
 **Reference:** Glossary — `GLOSSARY.md` · Index — `INDEX.md`
 
 ## 5. Voice, style & formatting rules
