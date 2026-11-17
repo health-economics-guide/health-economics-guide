@@ -80,7 +80,7 @@
   </div>
 
   <PaginationNav label={t.chapter} class="page-pagination">
-    <PaginationList>
+    <PaginationList label={t.chapter}>
       <PaginationListItem class="page-pagination-previous">
         {#if data.previous}
           <a href="/{data.locale}/topics/{data.previous.slug}/" rel="prev">

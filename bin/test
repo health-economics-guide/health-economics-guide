@@ -65,7 +65,7 @@ test_locales() {
 }
 
 test_locales_subdirectories() {
-    for dir in $(find "$top/locales" -type d); do
+    for dir in $(find "$top/locales" \( -name ".*" -o -name github-discussions \) -prune -o -type d -print); do
         file_exists_or_err "$dir/.locale-peer-id"
         file_size_or_err "$dir/index.md"
         symlink_exists_or_err "$dir/README.md"
