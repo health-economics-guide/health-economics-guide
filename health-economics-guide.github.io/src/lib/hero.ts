@@ -14,7 +14,28 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "تصفّح جميع المواضيع ({n})",
   "translations": "الترجمات: "
  },
+ "ar-dz": {
+  "tagline": "دليل عملي لأفضل الممارسات في اقتصاديات الصحة.",
+  "intro": "هذا الدليل موجّه إلى من يديرون مؤسسات الصحة والرعاية: الرؤساء التنفيذيون وكبار القادة ومديرو التحول الرقمي والتحول المؤسسي وقادة المنتجات والبرامج والمهنيون السريريون ومهنيو الرعاية والمديرون التشغيليون. فرضيته: في قطاع الصحة، يوفّر علم الاقتصاد أطر الاستراتيجية والموارد والإنصاف والثقة العامة، لا الكفاءة وحدها.",
+  "start": "ابدأ بالمقدمة",
+  "browse": "تصفّح جميع المواضيع ({n})",
+  "translations": "الترجمات: "
+ },
  "bn-001": {
+  "tagline": "স্বাস্থ্য অর্থনীতির সেরা অনুশীলনের একটি ব্যবহারিক নির্দেশিকা।",
+  "intro": "এই নির্দেশিকা তাঁদের জন্য যাঁরা স্বাস্থ্য ও যত্ন প্রতিষ্ঠান পরিচালনা করেন: প্রধান নির্বাহী ও জ্যেষ্ঠ নেতৃত্ব, ডিজিটাল ও রূপান্তর পরিচালক, পণ্য ও কর্মসূচির প্রধান, ক্লিনিক্যাল ও যত্নপেশাজীবী এবং পরিচালন ব্যবস্থাপক। এর মূল ধারণা: স্বাস্থ্যে অর্থনীতি কেবল দক্ষতা নয়, কৌশল, সম্পদ, সমতা ও জনআস্থার কাঠামো জোগায়।",
+  "start": "মুখবন্ধ দিয়ে শুরু করুন",
+  "browse": "সব {n}টি বিষয় দেখুন",
+  "translations": "অনুবাদ: "
+ },
+ "bn-bd": {
+  "tagline": "স্বাস্থ্য অর্থনীতির সেরা অনুশীলনের একটি ব্যবহারিক নির্দেশিকা।",
+  "intro": "এই নির্দেশিকা তাঁদের জন্য যাঁরা স্বাস্থ্য ও যত্ন প্রতিষ্ঠান পরিচালনা করেন: প্রধান নির্বাহী ও জ্যেষ্ঠ নেতৃত্ব, ডিজিটাল ও রূপান্তর পরিচালক, পণ্য ও কর্মসূচির প্রধান, ক্লিনিক্যাল ও যত্নপেশাজীবী এবং পরিচালন ব্যবস্থাপক। এর মূল ধারণা: স্বাস্থ্যে অর্থনীতি কেবল দক্ষতা নয়, কৌশল, সম্পদ, সমতা ও জনআস্থার কাঠামো জোগায়।",
+  "start": "মুখবন্ধ দিয়ে শুরু করুন",
+  "browse": "সব {n}টি বিষয় দেখুন",
+  "translations": "অনুবাদ: "
+ },
+ "bn-in": {
   "tagline": "স্বাস্থ্য অর্থনীতির সেরা অনুশীলনের একটি ব্যবহারিক নির্দেশিকা।",
   "intro": "এই নির্দেশিকা তাঁদের জন্য যাঁরা স্বাস্থ্য ও যত্ন প্রতিষ্ঠান পরিচালনা করেন: প্রধান নির্বাহী ও জ্যেষ্ঠ নেতৃত্ব, ডিজিটাল ও রূপান্তর পরিচালক, পণ্য ও কর্মসূচির প্রধান, ক্লিনিক্যাল ও যত্নপেশাজীবী এবং পরিচালন ব্যবস্থাপক। এর মূল ধারণা: স্বাস্থ্যে অর্থনীতি কেবল দক্ষতা নয়, কৌশল, সম্পদ, সমতা ও জনআস্থার কাঠামো জোগায়।",
   "start": "মুখবন্ধ দিয়ে শুরু করুন",
@@ -161,6 +182,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Jelajahi semua {n} topik",
   "translations": "Terjemahan: "
  },
+ "id-my": {
+  "tagline": "Buku pegangan praktis berisi praktik terbaik ekonomi kesehatan.",
+  "intro": "Panduan ini ditujukan bagi mereka yang menjalankan organisasi kesehatan dan perawatan: direktur utama dan pimpinan senior, direktur digital dan transformasi, pemimpin produk dan program, tenaga klinis dan perawatan, serta manajer operasional. Premisnya: di bidang kesehatan, ekonomi menyediakan kerangka strategi, sumber daya, kesetaraan, dan kepercayaan publik, bukan sekadar efisiensi.",
+  "start": "Mulai dari kata pengantar",
+  "browse": "Jelajahi semua {n} topik",
+  "translations": "Terjemahan: "
+ },
  "is-001": {
   "tagline": "Hagnýt handbók um bestu starfsvenjur í heilsuhagfræði.",
   "intro": "Þessi handbók er fyrir fólkið sem stýrir heilbrigðis- og umönnunarstofnunum: forstjóra og æðstu stjórnendur, stjórnendur stafrænnar þróunar og umbreytingar, vöru- og áætlunarstjóra, klínískt starfsfólk og umönnunarstarfsfólk og rekstrarstjóra. Forsendan: í heilbrigðismálum veitir hagfræðin rammana fyrir stefnu, auðlindir, jafnræði og almannatraust, ekki aðeins fyrir skilvirkni.",
@@ -252,6 +280,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Просмотреть все темы ({n})",
   "translations": "Переводы: "
  },
+ "ru-by": {
+  "tagline": "Практическое руководство по лучшим практикам экономики здравоохранения.",
+  "intro": "Это руководство предназначено для тех, кто управляет организациями здравоохранения и ухода: руководителей и топ-менеджеров, директоров по цифровым технологиям и трансформации, руководителей продуктов и программ, клинических специалистов и специалистов по уходу, а также операционных менеджеров. Его исходная идея: в здравоохранении экономика даёт рамки для стратегии, ресурсов, равенства и общественного доверия, а не только для эффективности.",
+  "start": "Начать с предисловия",
+  "browse": "Просмотреть все темы ({n})",
+  "translations": "Переводы: "
+ },
  "sv-001": {
   "tagline": "En praktisk handbok om bästa praxis inom hälsoekonomi.",
   "intro": "Den här guiden vänder sig till dem som leder hälso- och sjukvårds- och omsorgsorganisationer: vd:ar och högre chefer, digitaliserings- och förändringschefer, produkt- och programansvariga, kliniska yrkesutövare och omsorgspersonal samt verksamhetschefer. Utgångspunkten: inom hälsa ger ekonomin ramverken för strategi, resurser, jämlikhet och allmänhetens förtroende, inte bara för effektivitet.",
@@ -320,7 +355,10 @@ export const HERO: Record<string, Record<string, string>> = {
 export const ENDONYMS: Record<string, string> = {
  "ar-001": "العربية",
  "ar-eg": "العربية (مصر)",
+ "ar-dz": "العربية - الجزائر",
  "bn-001": "বাংলা",
+ "bn-bd": "বাংলা - বাংলাদেশ",
+ "bn-in": "বাংলা - ভারত",
  "cy-001": "Cymraeg",
  "cy-gb": "Cymraeg (Prydain Fawr)",
  "da-001": "Dansk",
@@ -341,6 +379,7 @@ export const ENDONYMS: Record<string, string> = {
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
  "id-id": "Bahasa Indonesia (Indonesia)",
+ "id-my": "Bahasa Indonesia - Malaysia",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
  "ja-001": "日本語",
@@ -354,6 +393,7 @@ export const ENDONYMS: Record<string, string> = {
  "pt-pt": "Português (Portugal)",
  "ru-001": "Русский",
  "ru-ru": "Русский (Россия)",
+ "ru-by": "Русский - Беларусь",
  "sv-001": "Svenska",
  "sv-se": "Svenska (Sverige)",
  "sw-001": "Kiswahili",

@@ -45,17 +45,20 @@ export type Locale = {
  * Kept in sync by hand with the source repo's `locales/` directory — the
  * codes here are exactly spec/locales-for-global-sharing-with-svelte/
  * locales.tsv's list. The book repo's `locales/` also has a few
- * ISO-3166-suffixed duplicates of these (`ar-eg`, `en-150`,
- * `ru-ru`) left over from before that spec
+ * ISO-3166-suffixed duplicates of these (`en-150`) left over from before that spec
  * settled on the `-001` "worldwide" convention; they are not listed here
  * and so never appear on the live site, even though `pnpm sync` still
- * vendors their content (harmless, just unused). `cy-gb`, `es-es`, `es-mx`, `da-001`, `hi-in`, `is-001`, `ja-001`,
+ * vendors their content (harmless, just unused). `ar-eg`, `ar-dz`, `ru-ru`, `ru-by`, `bn-bd`, `bn-in` and `id-my` are listed too. `cy-gb`, `es-es`, `es-mx`, `da-001`, `hi-in`, `is-001`, `ja-001`,
  * `ko-001`, `nl-001`, `sv-001`, `sw-001`, `vi-001` and `zh-001` are listed alongside their regional or worldwide
  * counterparts so that every locale the book is translated into is served.
  */
 export const LOCALES: Locale[] = [
   { slug: 'ar-001', label: localeLabel('ar-001') },
+  { slug: 'ar-eg', label: localeLabel('ar-eg') },
+  { slug: 'ar-dz', label: localeLabel('ar-dz') },
   { slug: 'bn-001', label: localeLabel('bn-001') },
+  { slug: 'bn-bd', label: localeLabel('bn-bd') },
+  { slug: 'bn-in', label: localeLabel('bn-in') },
   { slug: 'cy-001', label: localeLabel('cy-001') },
   { slug: 'cy-gb', label: localeLabel('cy-gb') },
   { slug: 'da-001', label: localeLabel('da-001') },
@@ -75,6 +78,7 @@ export const LOCALES: Locale[] = [
   { slug: 'hi-in', label: localeLabel('hi-in') },
   { slug: 'id-001', label: localeLabel('id-001') },
   { slug: 'id-id', label: localeLabel('id-id') },
+  { slug: 'id-my', label: localeLabel('id-my') },
   { slug: 'is-001', label: localeLabel('is-001') },
   { slug: 'is-is', label: localeLabel('is-is') },
   { slug: 'ja-001', label: localeLabel('ja-001') },
@@ -87,6 +91,8 @@ export const LOCALES: Locale[] = [
   { slug: 'pt-br', label: localeLabel('pt-br') },
   { slug: 'pt-pt', label: localeLabel('pt-pt') },
   { slug: 'ru-001', label: localeLabel('ru-001') },
+  { slug: 'ru-ru', label: localeLabel('ru-ru') },
+  { slug: 'ru-by', label: localeLabel('ru-by') },
   { slug: 'sv-001', label: localeLabel('sv-001') },
   { slug: 'sv-se', label: localeLabel('sv-se') },
   { slug: 'sw-001', label: localeLabel('sw-001') },

@@ -1,6 +1,8 @@
 slug_lowercase	endonym	exonym_en_001
 ar-001	العربية	Arabic
 bn-001	বাংলা	Bengali
+bn-bd	বাংলা - বাংলাদেশ	Bengali (Bangladesh)
+bn-in	বাংলা - ভারত	Bengali (India)
 cy-001	Cymraeg	Welsh
 da-001	Dansk	Danish
 de-001	Deutsch	German
@@ -18,6 +20,7 @@ fr-fr	Français - France	French (France)
 hi-001	हिन्दी	Hindi
 id-001	Bahasa Indonesia	Indonesian
 id-id	Bahasa Indonesia - Indonesia	Indonesian (Indonesia)
+id-my	Bahasa Indonesia - Malaysia	Indonesian (Malaysia)
 is-is	Íslenska - Ísland	Icelandic - Iceland
 ja-jp	日本語 - 日本	Japanese - Japan
 ko-kr	한국어 - 대한민국	Korean - Korea

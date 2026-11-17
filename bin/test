@@ -32,9 +32,12 @@ test_locales() {
         fr-001 \
         ru-001 \
         bn-001 \
+        bn-bd \
+        bn-in \
         pt-001 \
         id-001 \
         id-id \
+        id-my \
         es-mx \
         es-es \
         fr-ca \
