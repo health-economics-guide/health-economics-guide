@@ -98,6 +98,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Explorar los {n} temas",
   "translations": "Traducciones: "
  },
+ "es-mx": {
+  "tagline": "Un manual práctico de buenas prácticas de economía de la salud.",
+  "intro": "Esta guía es para quienes dirigen organizaciones de salud y cuidados: directores ejecutivos y altos responsables, directores de digital y transformación, responsables de producto y de programas, profesionales clínicos y asistenciales, y gerentes operativos. Su premisa: en salud, la economía aporta los marcos para la estrategia, los recursos, la equidad y la confianza pública, no solo la eficiencia.",
+  "start": "Empezar por el prefacio",
+  "browse": "Explorar los {n} temas",
+  "translations": "Traducciones: "
+ },
  "es-es": {
   "tagline": "Un manual práctico de buenas prácticas de economía de la salud.",
   "intro": "Esta guía es para quienes dirigen organizaciones de salud y cuidados: directores ejecutivos y altos responsables, directores de digital y transformación, responsables de producto y de programas, profesionales clínicos y asistenciales, y gerentes operativos. Su premisa: en salud, la economía aporta los marcos para la estrategia, los recursos, la equidad y la confianza pública, no solo la eficiencia.",
@@ -304,6 +311,7 @@ export const ENDONYMS: Record<string, string> = {
  "en-gb-oxendict": "English (Great Britain, Oxford spelling)",
  "en-us": "English (United States)",
  "es-001": "Español",
+ "es-mx": "Español (México)",
  "es-es": "Español (España)",
  "fr-001": "Français",
  "fr-fr": "Français (France)",

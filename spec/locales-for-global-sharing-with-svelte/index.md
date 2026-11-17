@@ -76,7 +76,7 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | cy-001, cy-gb | pynciau (pwnc) |
   | da-001 | emner (emne) |
   | de-001, de-de | themen (Thema) |
-  | es-001, es-es | temas (tema) |
+  | es-001, es-es, es-mx | temas (tema) |
   | fr-001, fr-fr | sujets (sujet) |
   | hi-001 | विषय |
   | id-001, id-id | topik |

@@ -35,6 +35,7 @@ test_locales() {
         pt-001 \
         id-001 \
         id-id \
+        es-mx \
         is-is \
         is-001 \
         ur-001 \

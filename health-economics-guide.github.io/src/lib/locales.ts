@@ -29,6 +29,7 @@ export const LOCALE_LABELS: Record<string, string> = {
   'de-de': 'Deutsch - Deutschland',
   'en-001': 'English',
   'es-001': 'Español',
+  'es-mx': 'Español - México',
   'fr-001': 'Français',
   'hi-001': 'हिन्दी',
   'hi-in': 'हिन्दी - भारत',
