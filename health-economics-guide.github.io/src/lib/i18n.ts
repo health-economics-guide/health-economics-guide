@@ -645,6 +645,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'แต่ละหัวข้อเป็นเอกเทศ จะอ่านตั้งแต่ต้นจนจบเหมือนหลักสูตรเศรษฐศาสตร์สุขภาพ หรือข้ามไปยังหัวข้อที่เกี่ยวกับการตัดสินใจที่อยู่ตรงหน้าคุณก็ได้',
     contentsDescription: 'สารบัญฉบับเต็มของคู่มือเศรษฐศาสตร์สุขภาพ'
   },
+  'tr-tr': {
+    siteName: 'Sağlık Ekonomisi Rehberi',
+    skipToContent: 'Ana içeriğe geç',
+    home: 'Ana sayfa',
+    contents: 'İçindekiler',
+    glossary: 'Sözlük',
+    index: 'Dizin',
+    source: 'Kaynak',
+    ledBy: 'Sorumlu',
+    part: 'Bölüm',
+    chapter: 'Konu',
+    previous: 'Önceki',
+    next: 'Sonraki',
+    frontMatter: 'Ön bölümler',
+    reference: 'Başvuru',
+    onThisPage: 'Bu sayfada',
+    pickerTheme: 'Tema',
+    pickerLocale: 'Dil',
+    pickerLink: 'Bağlantı',
+    pickerTextSize: 'Yazı boyutu',
+    pickerShare: 'Paylaş',
+    pickerSearch: 'Sitede ara',
+    pickerSearchInput: 'Arama terimleri',
+    pickerSearchSubmit: 'Ara',
+    copyLabel: 'Bağlantıyı kopyala',
+    copiedLabel: 'Kopyalandı!',
+    copyFailedLabel: 'Kopyalanamadı — bunun yerine adresi adres çubuğundan kopyalayın',
+    readingIn: 'Okunan dil:',
+    switchLanguageHint: 'Sayfa başlığındaki seçiciyle dili değiştirebilirsiniz.',
+    contentsLead:
+      'Her konu kendi içinde bütündür. Bir sağlık ekonomisi dersi gibi baştan sona okuyabilir ya da önünüzdeki karara ilişkin konuya doğrudan geçebilirsiniz.',
+    contentsDescription: 'Sağlık Ekonomisi Rehberi’nin tam içindekiler listesi.'
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -786,6 +819,7 @@ OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
 OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
 OVERRIDES['it-001'] = OVERRIDES['it-it'];
 OVERRIDES['th-001'] = OVERRIDES['th-th'];
+OVERRIDES['tr-001'] = OVERRIDES['tr-tr'];
 OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
 OVERRIDES['is-001'] = OVERRIDES['is-is'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
@@ -958,6 +992,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'ประเด็นระดับโลกและสังคม',
     5: 'ดิจิทัล ซอฟต์แวร์ และเทคโนโลยี'
   },
+  'tr-tr': {
+    1: 'Temeller',
+    2: 'Değerlendirme ve kanıt',
+    3: 'Sistemler, politikalar ve öncelikler',
+    4: 'Küresel ve toplumsal konular',
+    5: 'Dijital, yazılım ve teknoloji'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -987,6 +1028,7 @@ PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
 PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
 PART_TITLE_OVERRIDES['it-001'] = PART_TITLE_OVERRIDES['it-it'];
 PART_TITLE_OVERRIDES['th-001'] = PART_TITLE_OVERRIDES['th-th'];
+PART_TITLE_OVERRIDES['tr-001'] = PART_TITLE_OVERRIDES['tr-tr'];
 PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
 PART_TITLE_OVERRIDES['is-001'] = PART_TITLE_OVERRIDES['is-is'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
@@ -1163,6 +1205,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'สุขภาพที่เหนือกว่าระบบใดระบบหนึ่ง: พฤติกรรม การค้าและการเงินระดับโลก โลกของเรา และการอภิปรายสาธารณะ',
     5: 'เศรษฐศาสตร์ของเทคโนโลยีสุขภาพ: นวัตกรรม การดูแลสุขภาพดิจิทัล ปัญญาประดิษฐ์ ซอฟต์แวร์ หุ่นยนต์ และข้อมูล'
   },
+  'tr-tr': {
+    1: 'sağlık neden ekonomik olarak farklıdır ve bunu açıklayan modeller',
+    2: 'analistin araç çantası: sonuçları değerlendirmek, model kurmak, iddiaları sınamak',
+    3: 'toplumlar sağlık hizmetini nasıl örgütler, finanse eder ve paylaştırır',
+    4: 'tek bir sistemin ötesinde sağlık: davranış, küresel ticaret ve finans, gezegen ve kamusal tartışma',
+    5: 'sağlık teknolojisinin ekonomisi: yenilik, dijital bakım, yapay zekâ, yazılım, robotik ve veri'
+  },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
     2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
@@ -1192,6 +1241,7 @@ PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
 PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
 PART_TAGLINE_OVERRIDES['it-001'] = PART_TAGLINE_OVERRIDES['it-it'];
 PART_TAGLINE_OVERRIDES['th-001'] = PART_TAGLINE_OVERRIDES['th-th'];
+PART_TAGLINE_OVERRIDES['tr-001'] = PART_TAGLINE_OVERRIDES['tr-tr'];
 PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
 PART_TAGLINE_OVERRIDES['is-001'] = PART_TAGLINE_OVERRIDES['is-is'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];

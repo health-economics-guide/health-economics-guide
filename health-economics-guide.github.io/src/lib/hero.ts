@@ -343,6 +343,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "เรียกดูทั้ง {n} หัวข้อ",
   "translations": "ฉบับแปล: "
  },
+ "tr-001": {
+  "tagline": "Sağlık ekonomisinde iyi uygulamalara ilişkin pratik bir el kitabı.",
+  "intro": "Bu rehber, sağlık ve bakım kuruluşlarını yönetenler için yazıldı: üst düzey yöneticiler, dijital ve dönüşüm liderleri, ürün ve program liderleri, klinik ve bakım profesyonelleri ile operasyon yöneticileri. Temel varsayımı şudur: sağlıkta ekonomi, yalnızca verimlilik için değil; strateji, kaynaklar, hakkaniyet ve kamu güveni için de çerçeve sağlar.",
+  "start": "Önsözle başlayın",
+  "browse": "{n} konunun tümüne göz atın",
+  "translations": "Çeviriler: "
+ },
+ "tr-tr": {
+  "tagline": "Sağlık ekonomisinde iyi uygulamalara ilişkin pratik bir el kitabı.",
+  "intro": "Bu rehber, sağlık ve bakım kuruluşlarını yönetenler için yazıldı: üst düzey yöneticiler, dijital ve dönüşüm liderleri, ürün ve program liderleri, klinik ve bakım profesyonelleri ile operasyon yöneticileri. Temel varsayımı şudur: sağlıkta ekonomi, yalnızca verimlilik için değil; strateji, kaynaklar, hakkaniyet ve kamu güveni için de çerçeve sağlar.",
+  "start": "Önsözle başlayın",
+  "browse": "{n} konunun tümüne göz atın",
+  "translations": "Çeviriler: "
+ },
  "ur-001": {
   "tagline": "صحت کی معاشیات کے بہترین طریقوں کا ایک عملی دستی۔",
   "intro": "یہ رہنما ان لوگوں کے لیے ہے جو صحت اور نگہداشت کے اداروں کو چلاتے ہیں: چیف ایگزیکٹو اور سینئر قائدین، ڈیجیٹل اور تبدیلی کے ڈائریکٹر، مصنوعات اور پروگرام کے سربراہ، طبی اور نگہداشتی پیشہ ور افراد، اور آپریشنل مینیجر۔ اس کا بنیادی نکتہ: صحت میں معاشیات محض کارکردگی نہیں بلکہ حکمتِ عملی، وسائل، مساوات اور عوامی اعتماد کے لیے فریم ورک فراہم کرتی ہے۔",
@@ -430,6 +444,8 @@ export const ENDONYMS: Record<string, string> = {
  "sw-tz": "Kiswahili (Tanzania)",
  "th-001": "ไทย",
  "th-th": "ไทย (ไทย)",
+ "tr-001": "Türkçe",
+ "tr-tr": "Türkçe (Türkiye)",
  "ur-001": "اردو",
 "vi-001": "Tiếng Việt",
 "vi-vn": "Tiếng Việt (Việt Nam)",

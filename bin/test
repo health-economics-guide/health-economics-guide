@@ -48,6 +48,8 @@ test_locales() {
         is-001 \
         th-th \
         th-001 \
+        tr-tr \
+        tr-001 \
         ur-001 \
         de-001 \
         ko-kr \

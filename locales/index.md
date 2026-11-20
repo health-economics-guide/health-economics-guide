@@ -49,6 +49,8 @@
 - [Kiswahili - Tanzania](sw-tz/)
 - [ไทย](th-001/)
 - [ไทย - ไทย](th-th/)
+- [Türkçe](tr-001/)
+- [Türkçe - Türkiye](tr-tr/)
 - [اردو](ur-001/)
 - [vi-001](vi-001/)
 - [vi-vn](vi-vn/)
