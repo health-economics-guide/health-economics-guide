@@ -842,6 +842,10 @@ OVERRIDES['fr-ca'] = OVERRIDES['fr-001'];
 OVERRIDES['fr-fr'] = OVERRIDES['fr-001'];
 OVERRIDES['pt-br'] = OVERRIDES['pt-001'];
 OVERRIDES['pt-pt'] = OVERRIDES['pt-001'];
+OVERRIDES['zh-th'] = OVERRIDES['zh-cn'];
+OVERRIDES['hi-np'] = OVERRIDES['hi-in'];
+OVERRIDES['cy-ar'] = OVERRIDES['cy-gb'];
+OVERRIDES['de-at'] = OVERRIDES['de-de'];
 
 export function ui(locale: string): Ui {
   return { ...EN, ...(OVERRIDES[canonicalLocale(locale)] ?? {}) };
@@ -1051,6 +1055,10 @@ PART_TITLE_OVERRIDES['fr-ca'] = PART_TITLE_OVERRIDES['fr-001'];
 PART_TITLE_OVERRIDES['fr-fr'] = PART_TITLE_OVERRIDES['fr-001'];
 PART_TITLE_OVERRIDES['pt-br'] = PART_TITLE_OVERRIDES['pt-001'];
 PART_TITLE_OVERRIDES['pt-pt'] = PART_TITLE_OVERRIDES['pt-001'];
+PART_TITLE_OVERRIDES['zh-th'] = PART_TITLE_OVERRIDES['zh-cn'];
+PART_TITLE_OVERRIDES['hi-np'] = PART_TITLE_OVERRIDES['hi-in'];
+PART_TITLE_OVERRIDES['cy-ar'] = PART_TITLE_OVERRIDES['cy-gb'];
+PART_TITLE_OVERRIDES['de-at'] = PART_TITLE_OVERRIDES['de-de'];
 
 /** This locale's title for part `number`, falling back to the canonical English one. */
 export function partTitle(locale: string, number: number): string {
@@ -1264,6 +1272,10 @@ PART_TAGLINE_OVERRIDES['fr-ca'] = PART_TAGLINE_OVERRIDES['fr-001'];
 PART_TAGLINE_OVERRIDES['fr-fr'] = PART_TAGLINE_OVERRIDES['fr-001'];
 PART_TAGLINE_OVERRIDES['pt-br'] = PART_TAGLINE_OVERRIDES['pt-001'];
 PART_TAGLINE_OVERRIDES['pt-pt'] = PART_TAGLINE_OVERRIDES['pt-001'];
+PART_TAGLINE_OVERRIDES['zh-th'] = PART_TAGLINE_OVERRIDES['zh-cn'];
+PART_TAGLINE_OVERRIDES['hi-np'] = PART_TAGLINE_OVERRIDES['hi-in'];
+PART_TAGLINE_OVERRIDES['cy-ar'] = PART_TAGLINE_OVERRIDES['cy-gb'];
+PART_TAGLINE_OVERRIDES['de-at'] = PART_TAGLINE_OVERRIDES['de-de'];
 
 /** This locale's tagline for part `number`, falling back to the canonical English one. */
 export function partTagline(locale: string, number: number): string {

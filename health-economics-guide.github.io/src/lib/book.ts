@@ -107,7 +107,11 @@ export const LOCALES: Locale[] = [
   { slug: 'vi-001', label: localeLabel('vi-001') },
   { slug: 'vi-vn', label: localeLabel('vi-vn') },
   { slug: 'zh-001', label: localeLabel('zh-001') },
-  { slug: 'zh-cn', label: localeLabel('zh-cn') }
+  { slug: 'zh-cn', label: localeLabel('zh-cn') },
+  { slug: 'zh-th', label: localeLabel('zh-th') },
+  { slug: 'hi-np', label: localeLabel('hi-np') },
+  { slug: 'cy-ar', label: localeLabel('cy-ar') },
+  { slug: 'de-at', label: localeLabel('de-at') }
 ];
 
 /** Locale slugs only, for validating a route param against the known set. */

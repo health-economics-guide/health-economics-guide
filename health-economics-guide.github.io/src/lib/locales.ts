@@ -71,7 +71,11 @@ export const LOCALE_LABELS: Record<string, string> = {
   'vi-001': 'Tiếng Việt',
   'vi-vn': 'Tiếng Việt - Việt Nam',
   'zh-001': '中文',
-  'zh-cn': '中文 - 中国'
+  'zh-cn': '中文 - 中国',
+  'zh-th': '中文 - 泰国',
+  'hi-np': 'हिन्दी - नेपाल',
+  'cy-ar': 'Cymraeg - Ariannin',
+  'de-at': 'Deutsch - Österreich'
 };
 
 /**

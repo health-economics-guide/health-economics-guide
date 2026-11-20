@@ -56,6 +56,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Pori'r holl {n} pwnc",
   "translations": "Cyfieithiadau: "
  },
+ "cy-ar": {
+  "tagline": "Llawlyfr ymarferol o arferion gorau ar gyfer economeg iechyd.",
+  "intro": "Mae'r canllaw hwn ar gyfer y bobl sy'n rhedeg sefydliadau iechyd a gofal: prif weithredwyr ac uwch arweinwyr, cyfarwyddwyr digidol a thrawsnewid, arweinwyr cynnyrch a rhaglenni, gweithwyr proffesiynol clinigol a gofal, a rheolwyr gweithredol. Ei sail yw hyn: ym maes iechyd, mae economeg yn darparu'r fframweithiau ar gyfer strategaeth, adnoddau, tegwch ac ymddiriedaeth y cyhoedd, nid effeithlonrwydd yn unig.",
+  "start": "Dechreuwch gyda'r rhagair",
+  "browse": "Pori'r holl {n} pwnc",
+  "translations": "Cyfieithiadau: "
+ },
  "da-001": {
   "tagline": "En praktisk håndbog med bedste praksis for sundhedsøkonomi.",
   "intro": "Denne guide er til de mennesker, der leder sundheds- og plejeorganisationer: administrerende direktører og øverste ledere, direktører for digitalisering og transformation, produkt- og programledere, kliniske og plejefaglige professionelle samt driftsledere. Dens præmis: i sundhed leverer økonomi rammerne for strategi, ressourcetildeling, lighed og offentlig tillid, ikke blot effektivitet.",
@@ -71,6 +78,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "Übersetzungen: "
  },
  "de-de": {
+  "tagline": "Ein praxisnahes Handbuch bewährter Verfahren der Gesundheitsökonomie.",
+  "intro": "Dieser Leitfaden richtet sich an die Menschen, die Gesundheits- und Pflegeorganisationen leiten: Geschäftsführungen und Führungskräfte, Verantwortliche für Digitales und Transformation, Produkt- und Programmleitungen, klinische und pflegerische Fachkräfte sowie Betriebsleitungen. Seine Prämisse: Im Gesundheitswesen liefert die Ökonomie die Rahmen für Strategie, Ressourcen, Chancengleichheit und öffentliches Vertrauen, nicht bloß für Effizienz.",
+  "start": "Mit dem Vorwort beginnen",
+  "browse": "Alle {n} Themen durchsuchen",
+  "translations": "Übersetzungen: "
+ },
+ "de-at": {
   "tagline": "Ein praxisnahes Handbuch bewährter Verfahren der Gesundheitsökonomie.",
   "intro": "Dieser Leitfaden richtet sich an die Menschen, die Gesundheits- und Pflegeorganisationen leiten: Geschäftsführungen und Führungskräfte, Verantwortliche für Digitales und Transformation, Produkt- und Programmleitungen, klinische und pflegerische Fachkräfte sowie Betriebsleitungen. Seine Prämisse: Im Gesundheitswesen liefert die Ökonomie die Rahmen für Strategie, Ressourcen, Chancengleichheit und öffentliches Vertrauen, nicht bloß für Effizienz.",
   "start": "Mit dem Vorwort beginnen",
@@ -162,6 +176,13 @@ export const HERO: Record<string, Record<string, string>> = {
   "translations": "अनुवाद: "
  },
  "hi-in": {
+  "tagline": "स्वास्थ्य अर्थशास्त्र की सर्वोत्तम प्रथाओं की एक व्यावहारिक पुस्तिका।",
+  "intro": "यह मार्गदर्शिका उन लोगों के लिए है जो स्वास्थ्य और देखभाल संगठनों का संचालन करते हैं: मुख्य कार्यकारी और वरिष्ठ नेता, डिजिटल और रूपांतरण निदेशक, उत्पाद और कार्यक्रम प्रमुख, नैदानिक और देखभाल पेशेवर, और परिचालन प्रबंधक। इसकी धारणा: स्वास्थ्य में अर्थशास्त्र केवल दक्षता नहीं, बल्कि रणनीति, संसाधन, समानता और जन-विश्वास के ढाँचे देता है।",
+  "start": "प्राक्कथन से शुरू करें",
+  "browse": "सभी {n} विषय देखें",
+  "translations": "अनुवाद: "
+ },
+ "hi-np": {
   "tagline": "स्वास्थ्य अर्थशास्त्र की सर्वोत्तम प्रथाओं की एक व्यावहारिक पुस्तिका।",
   "intro": "यह मार्गदर्शिका उन लोगों के लिए है जो स्वास्थ्य और देखभाल संगठनों का संचालन करते हैं: मुख्य कार्यकारी और वरिष्ठ नेता, डिजिटल और रूपांतरण निदेशक, उत्पाद और कार्यक्रम प्रमुख, नैदानिक और देखभाल पेशेवर, और परिचालन प्रबंधक। इसकी धारणा: स्वास्थ्य में अर्थशास्त्र केवल दक्षता नहीं, बल्कि रणनीति, संसाधन, समानता और जन-विश्वास के ढाँचे देता है।",
   "start": "प्राक्कथन से शुरू करें",
@@ -391,7 +412,14 @@ export const HERO: Record<string, Record<string, string>> = {
   "start": "从前言开始",
   "browse": "浏览全部 {n} 个主题",
   "translations": "翻译： "
- }
+ },
+ "zh-th": {
+  "tagline": "一本卫生经济学最佳实践的实用手册。",
+  "intro": "本指南面向运营卫生与照护机构的人士：首席执行官和高层领导、数字化与转型负责人、产品与项目负责人、临床和照护专业人员，以及运营管理者。其前提是：在卫生领域，经济学不仅提供效率，更为战略、资源配置、公平和公众信任提供框架。",
+  "start": "从前言开始",
+  "browse": "浏览全部 {n} 个主题",
+  "translations": "翻译： "
+ },
 };
 
 export const ENDONYMS: Record<string, string> = {
@@ -450,5 +478,9 @@ export const ENDONYMS: Record<string, string> = {
 "vi-001": "Tiếng Việt",
 "vi-vn": "Tiếng Việt (Việt Nam)",
  "zh-001": "中文",
- "zh-cn": "简体中文"
+ "zh-cn": "简体中文",
+ "zh-th": "简体中文 (泰国)",
+ "hi-np": "हिन्दी (नेपाल)",
+ "cy-ar": "Cymraeg (Ariannin)",
+ "de-at": "Deutsch (Österreich)"
 };
