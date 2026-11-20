@@ -612,6 +612,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       "Ogni argomento è autonomo. Leggilo dall'inizio alla fine come un corso di economia sanitaria, oppure vai direttamente all'argomento che riguarda la decisione che hai davanti.",
     contentsDescription: "Indice completo della Guida all'economia sanitaria."
   },
+  'th-th': {
+    siteName: 'คู่มือเศรษฐศาสตร์สุขภาพ',
+    skipToContent: 'ข้ามไปยังเนื้อหาหลัก',
+    home: 'หน้าแรก',
+    contents: 'สารบัญ',
+    glossary: 'อภิธานศัพท์',
+    index: 'ดัชนี',
+    source: 'ต้นฉบับ',
+    ledBy: 'นำโดย',
+    part: 'ภาค',
+    chapter: 'หัวข้อ',
+    previous: 'ก่อนหน้า',
+    next: 'ถัดไป',
+    frontMatter: 'ส่วนนำ',
+    reference: 'อ้างอิง',
+    onThisPage: 'ในหน้านี้',
+    pickerTheme: 'ธีม',
+    pickerLocale: 'ภาษา',
+    pickerLink: 'ลิงก์',
+    pickerTextSize: 'ขนาดตัวอักษร',
+    pickerShare: 'แชร์',
+    pickerSearch: 'ค้นหาในเว็บไซต์',
+    pickerSearchInput: 'คำค้นหา',
+    pickerSearchSubmit: 'ค้นหา',
+    copyLabel: 'คัดลอกลิงก์',
+    copiedLabel: 'คัดลอกแล้ว!',
+    copyFailedLabel: 'คัดลอกไม่สำเร็จ — โปรดคัดลอกที่อยู่จากแถบที่อยู่แทน',
+    readingIn: 'กำลังอ่านใน',
+    switchLanguageHint: 'เปลี่ยนภาษาได้จากตัวเลือกในส่วนหัวของหน้า',
+    contentsLead:
+      'แต่ละหัวข้อเป็นเอกเทศ จะอ่านตั้งแต่ต้นจนจบเหมือนหลักสูตรเศรษฐศาสตร์สุขภาพ หรือข้ามไปยังหัวข้อที่เกี่ยวกับการตัดสินใจที่อยู่ตรงหน้าคุณก็ได้',
+    contentsDescription: 'สารบัญฉบับเต็มของคู่มือเศรษฐศาสตร์สุขภาพ'
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -752,6 +785,7 @@ OVERRIDES['de-001'] = OVERRIDES['de-de'];
 OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
 OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
 OVERRIDES['it-001'] = OVERRIDES['it-it'];
+OVERRIDES['th-001'] = OVERRIDES['th-th'];
 OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
 OVERRIDES['is-001'] = OVERRIDES['is-is'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
@@ -917,6 +951,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Questioni globali e sociali',
     5: 'Digitale, software e tecnologia'
   },
+  'th-th': {
+    1: 'พื้นฐาน',
+    2: 'การประเมินและหลักฐาน',
+    3: 'ระบบ นโยบาย และลำดับความสำคัญ',
+    4: 'ประเด็นระดับโลกและสังคม',
+    5: 'ดิจิทัล ซอฟต์แวร์ และเทคโนโลยี'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -945,6 +986,7 @@ PART_TITLE_OVERRIDES['de-001'] = PART_TITLE_OVERRIDES['de-de'];
 PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
 PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
 PART_TITLE_OVERRIDES['it-001'] = PART_TITLE_OVERRIDES['it-it'];
+PART_TITLE_OVERRIDES['th-001'] = PART_TITLE_OVERRIDES['th-th'];
 PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
 PART_TITLE_OVERRIDES['is-001'] = PART_TITLE_OVERRIDES['is-is'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
@@ -1114,6 +1156,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'la salute oltre il singolo sistema: comportamento, commercio e finanza globali, il pianeta e il dibattito pubblico',
     5: "l'economia delle tecnologie sanitarie: innovazione, assistenza digitale, intelligenza artificiale, software, robotica e dati"
   },
+  'th-th': {
+    1: 'ทำไมสุขภาพจึงมีลักษณะทางเศรษฐศาสตร์ที่แตกต่าง และแบบจำลองที่อธิบายเรื่องนี้',
+    2: 'ชุดเครื่องมือของนักวิเคราะห์: การประเมินผลลัพธ์ การสร้างแบบจำลอง และการทดสอบข้ออ้าง',
+    3: 'สังคมจัดระเบียบ จัดหาเงินทุน และกระจายการดูแลสุขภาพอย่างไร',
+    4: 'สุขภาพที่เหนือกว่าระบบใดระบบหนึ่ง: พฤติกรรม การค้าและการเงินระดับโลก โลกของเรา และการอภิปรายสาธารณะ',
+    5: 'เศรษฐศาสตร์ของเทคโนโลยีสุขภาพ: นวัตกรรม การดูแลสุขภาพดิจิทัล ปัญญาประดิษฐ์ ซอฟต์แวร์ หุ่นยนต์ และข้อมูล'
+  },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
     2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
@@ -1142,6 +1191,7 @@ PART_TAGLINE_OVERRIDES['de-001'] = PART_TAGLINE_OVERRIDES['de-de'];
 PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
 PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
 PART_TAGLINE_OVERRIDES['it-001'] = PART_TAGLINE_OVERRIDES['it-it'];
+PART_TAGLINE_OVERRIDES['th-001'] = PART_TAGLINE_OVERRIDES['th-th'];
 PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
 PART_TAGLINE_OVERRIDES['is-001'] = PART_TAGLINE_OVERRIDES['is-is'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];

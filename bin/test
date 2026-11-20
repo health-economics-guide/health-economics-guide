@@ -46,6 +46,8 @@ test_locales() {
         pt-pt \
         is-is \
         is-001 \
+        th-th \
+        th-001 \
         ur-001 \
         de-001 \
         ko-kr \

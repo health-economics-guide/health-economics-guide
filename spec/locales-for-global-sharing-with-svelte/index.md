@@ -82,6 +82,7 @@ Each locale is `locales/<code>/` in the book repo, containing:
   | id-001, id-id | topik |
   | is-is, is-001 | viðfangsefni (viðfangsefni) |
   | it-it, it-001 | argomenti (argomento) |
+  | th-th, th-001 | หัวข้อ |
   | ja-jp | トピック |
   | ko-kr | 주제 |
   | nl-nl, nl-001 | onderwerpen (onderwerp) |

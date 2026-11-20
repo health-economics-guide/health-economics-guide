@@ -47,6 +47,8 @@
 - [Svenska - Sverige](sv-se/)
 - [sw-001](sw-001/)
 - [Kiswahili - Tanzania](sw-tz/)
+- [ไทย](th-001/)
+- [ไทย - ไทย](th-th/)
 - [اردو](ur-001/)
 - [vi-001](vi-001/)
 - [vi-vn](vi-vn/)
