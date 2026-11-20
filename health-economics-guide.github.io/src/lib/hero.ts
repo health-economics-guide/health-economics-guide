@@ -203,6 +203,20 @@ export const HERO: Record<string, Record<string, string>> = {
   "browse": "Skoða öll {n} viðfangsefnin",
   "translations": "Þýðingar: "
  },
+ "it-001": {
+  "tagline": "Un manuale pratico di buone pratiche per l'economia sanitaria.",
+  "intro": "Questa guida è per chi dirige le organizzazioni sanitarie e di assistenza: amministratori delegati e alti dirigenti, direttori del digitale e della trasformazione, responsabili di prodotto e di programma, professionisti clinici e dell'assistenza, e responsabili operativi. Il suo presupposto: in sanità l'economia fornisce i quadri di riferimento per la strategia, le risorse, l'equità e la fiducia del pubblico, non soltanto per l'efficienza.",
+  "start": "Inizia dalla prefazione",
+  "browse": "Sfoglia tutti i {n} argomenti",
+  "translations": "Traduzioni: "
+ },
+ "it-it": {
+  "tagline": "Un manuale pratico di buone pratiche per l'economia sanitaria.",
+  "intro": "Questa guida è per chi dirige le organizzazioni sanitarie e di assistenza: amministratori delegati e alti dirigenti, direttori del digitale e della trasformazione, responsabili di prodotto e di programma, professionisti clinici e dell'assistenza, e responsabili operativi. Il suo presupposto: in sanità l'economia fornisce i quadri di riferimento per la strategia, le risorse, l'equità e la fiducia del pubblico, non soltanto per l'efficienza.",
+  "start": "Inizia dalla prefazione",
+  "browse": "Sfoglia tutti i {n} argomenti",
+  "translations": "Traduzioni: "
+ },
  "ja-001": {
   "tagline": "医療経済学のベストプラクティスの実践ハンドブック。",
   "intro": "このガイドは、保健・ケア組織を運営する人々、すなわち最高経営責任者や幹部、デジタル・変革の責任者、プロダクトやプログラムのリード、臨床・ケアの専門職、現場の運営管理者のためのものです。前提は、保健分野において経済学が効率だけでなく、戦略・資源配分・公平性・社会的信頼の枠組みを与えるということです。",
@@ -382,6 +396,8 @@ export const ENDONYMS: Record<string, string> = {
  "id-my": "Bahasa Indonesia - Malaysia",
  "is-001": "Íslenska",
  "is-is": "Íslenska (Ísland)",
+ "it-001": "Italiano",
+ "it-it": "Italiano (Italia)",
  "ja-001": "日本語",
  "ja-jp": "日本語 (日本)",
  "ko-001": "한국어",

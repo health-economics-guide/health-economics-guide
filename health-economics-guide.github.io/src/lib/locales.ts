@@ -47,6 +47,8 @@ export const LOCALE_LABELS: Record<string, string> = {
   'id-my': 'Bahasa Indonesia - Malaysia',
   'is-001': 'Íslenska',
   'is-is': 'Íslenska - Ísland',
+  'it-001': 'Italiano',
+  'it-it': 'Italiano - Italia',
   'ja-001': '日本語',
   'ja-jp': '日本語 - 日本',
   'ko-001': '한국어',

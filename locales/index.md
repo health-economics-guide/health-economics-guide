@@ -29,6 +29,8 @@
 - [id-my](id-my/)
 - [is-001](is-001/)
 - [Íslenska - Ísland](is-is/)
+- [Italiano](it-001/)
+- [Italiano - Italia](it-it/)
 - [ja-001](ja-001/)
 - [日本語 - 日本](ja-jp/)
 - [ko-001](ko-001/)

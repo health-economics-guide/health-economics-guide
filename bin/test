@@ -57,6 +57,8 @@ test_locales() {
         sw-001 \
         da-001 \
         vi-vn \
+        it-it \
+        it-001 \
         vi-001
     do
         echo "$x"

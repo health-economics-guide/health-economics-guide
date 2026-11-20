@@ -579,6 +579,39 @@ const OVERRIDES: Record<string, Partial<Ui>> = {
       'Mỗi chủ đề tự đứng được một mình. Hãy đọc liền một mạch như một khóa học về kinh tế học sức khỏe, hoặc đi thẳng đến chủ đề phù hợp với quyết định đang đặt trước mặt bạn.',
     contentsDescription: 'Mục lục đầy đủ của Hướng dẫn Kinh tế học Sức khỏe.'
   },
+  'it-it': {
+    siteName: "Guida all'economia sanitaria",
+    skipToContent: 'Vai al contenuto principale',
+    home: 'Home',
+    contents: 'Indice dei contenuti',
+    glossary: 'Glossario',
+    index: 'Indice analitico',
+    source: 'Fonte',
+    ledBy: 'Guidato da',
+    part: 'Parte',
+    chapter: 'Argomento',
+    previous: 'Precedente',
+    next: 'Successivo',
+    frontMatter: 'Parti introduttive',
+    reference: 'Riferimento',
+    onThisPage: 'In questa pagina',
+    pickerTheme: 'Tema',
+    pickerLocale: 'Lingua',
+    pickerLink: 'Link',
+    pickerTextSize: 'Dimensione del testo',
+    pickerShare: 'Condividi',
+    pickerSearch: 'Cerca nel sito',
+    pickerSearchInput: 'Termini di ricerca',
+    pickerSearchSubmit: 'Cerca',
+    copyLabel: 'Copia il link',
+    copiedLabel: 'Copiato!',
+    copyFailedLabel: "Copia non riuscita — copia invece l'indirizzo dalla barra degli indirizzi",
+    readingIn: 'Lettura in',
+    switchLanguageHint: 'Cambia lingua con il selettore nell\'intestazione della pagina.',
+    contentsLead:
+      "Ogni argomento è autonomo. Leggilo dall'inizio alla fine come un corso di economia sanitaria, oppure vai direttamente all'argomento che riguarda la decisione che hai davanti.",
+    contentsDescription: "Indice completo della Guida all'economia sanitaria."
+  },
   'ja-jp': {
     siteName: '健康経済学ガイド',
     skipToContent: 'メインコンテンツへスキップ',
@@ -718,6 +751,7 @@ OVERRIDES['de-001'] = OVERRIDES['de-de'];
 // Regional and worldwide variants of the same language share their sibling's chrome.
 OVERRIDES['cy-gb'] = OVERRIDES['cy-001'];
 OVERRIDES['hi-in'] = OVERRIDES['hi-001'];
+OVERRIDES['it-001'] = OVERRIDES['it-it'];
 OVERRIDES['ja-001'] = OVERRIDES['ja-jp'];
 OVERRIDES['is-001'] = OVERRIDES['is-is'];
 OVERRIDES['ko-001'] = OVERRIDES['ko-kr'];
@@ -876,6 +910,13 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'Các vấn đề toàn cầu và xã hội',
     5: 'Số hóa, phần mềm và công nghệ'
   },
+  'it-it': {
+    1: 'Fondamenti',
+    2: 'Valutazione ed evidenze',
+    3: 'Sistemi, politiche e priorità',
+    4: 'Questioni globali e sociali',
+    5: 'Digitale, software e tecnologia'
+  },
   'ja-jp': {
     1: '基礎',
     2: '評価とエビデンス',
@@ -903,6 +944,7 @@ const PART_TITLE_OVERRIDES: Record<string, Record<number, string>> = {
 PART_TITLE_OVERRIDES['de-001'] = PART_TITLE_OVERRIDES['de-de'];
 PART_TITLE_OVERRIDES['cy-gb'] = PART_TITLE_OVERRIDES['cy-001'];
 PART_TITLE_OVERRIDES['hi-in'] = PART_TITLE_OVERRIDES['hi-001'];
+PART_TITLE_OVERRIDES['it-001'] = PART_TITLE_OVERRIDES['it-it'];
 PART_TITLE_OVERRIDES['ja-001'] = PART_TITLE_OVERRIDES['ja-jp'];
 PART_TITLE_OVERRIDES['is-001'] = PART_TITLE_OVERRIDES['is-is'];
 PART_TITLE_OVERRIDES['ko-001'] = PART_TITLE_OVERRIDES['ko-kr'];
@@ -1065,6 +1107,13 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
     4: 'sức khỏe vượt ngoài một hệ thống: hành vi, thương mại và tài chính toàn cầu, hành tinh, và cuộc trò chuyện công chúng',
     5: 'kinh tế học của công nghệ y tế: đổi mới sáng tạo, chăm sóc số, trí tuệ nhân tạo, phần mềm, robot và dữ liệu'
   },
+  'it-it': {
+    1: 'perché la salute è economicamente diversa, e i modelli che lo spiegano',
+    2: "la cassetta degli attrezzi dell'analista: valutare gli esiti, costruire modelli, mettere alla prova le affermazioni",
+    3: "come le società organizzano, finanziano e ripartiscono l'assistenza sanitaria",
+    4: 'la salute oltre il singolo sistema: comportamento, commercio e finanza globali, il pianeta e il dibattito pubblico',
+    5: "l'economia delle tecnologie sanitarie: innovazione, assistenza digitale, intelligenza artificiale, software, robotica e dati"
+  },
   'ja-jp': {
     1: '健康がなぜ経済的に特異なのか、そしてそれを説明するモデル',
     2: 'アナリストの道具箱：アウトカムの評価、モデルの構築、主張の検証',
@@ -1092,6 +1141,7 @@ const PART_TAGLINE_OVERRIDES: Record<string, Record<number, string>> = {
 PART_TAGLINE_OVERRIDES['de-001'] = PART_TAGLINE_OVERRIDES['de-de'];
 PART_TAGLINE_OVERRIDES['cy-gb'] = PART_TAGLINE_OVERRIDES['cy-001'];
 PART_TAGLINE_OVERRIDES['hi-in'] = PART_TAGLINE_OVERRIDES['hi-001'];
+PART_TAGLINE_OVERRIDES['it-001'] = PART_TAGLINE_OVERRIDES['it-it'];
 PART_TAGLINE_OVERRIDES['ja-001'] = PART_TAGLINE_OVERRIDES['ja-jp'];
 PART_TAGLINE_OVERRIDES['is-001'] = PART_TAGLINE_OVERRIDES['is-is'];
 PART_TAGLINE_OVERRIDES['ko-001'] = PART_TAGLINE_OVERRIDES['ko-kr'];
